@@ -27,10 +27,12 @@ namespace ToolkitEditor
                 case Spawner.SpawnType.ObjectPool:
                     EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_pool"));
                     break;
-
+		    
+#if ADDRESSABLE_ASSETS
                 case Spawner.SpawnType.Addressable:
                     EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_assetReference"));
                     break;
+#endif
             }
             --EditorGUI.indentLevel;
 
@@ -44,7 +46,7 @@ namespace ToolkitEditor
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
-			var spawnTypeProp = property.FindPropertyRelative("m_spawnType");
+	    var spawnTypeProp = property.FindPropertyRelative("m_spawnType");
             float height = EditorGUI.GetPropertyHeight(spawnTypeProp)
                 + EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_showInHierarchy"))
                 + (EditorGUIUtility.standardVerticalSpacing * 2f);
@@ -70,15 +72,18 @@ namespace ToolkitEditor
 
                 case Spawner.SpawnType.ObjectPool:
                     height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_pool"))
-						+ EditorGUIUtility.standardVerticalSpacing;
-					break;
+		        + EditorGUIUtility.standardVerticalSpacing;
+		    break;
+      
+#if ADDRESSABLE_ASSETS
                 case Spawner.SpawnType.Addressable:
                     height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_assetReference"))
                         + EditorGUIUtility.standardVerticalSpacing;
-					break;
-			}
+		    break;
+#endif
+                }
 
             return height;
-		}
+        }
     }
 }
