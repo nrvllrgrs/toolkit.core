@@ -368,12 +368,13 @@ namespace ToolkitEngine
 			SpawnedObject_Destroyed(poolItem.gameObject);
 		}
 
+#if ADDRESSABLE_ASSETS
 		private void AddressableDestroyed(GameObject spawnedObject)
 		{
 			SpawnedObject_Destroyed(spawnedObject.gameObject);
 			Addressables.Release(spawnedObject);
 		}
-
+#endif
 		#endregion
 
 		#region Despawn Methods
