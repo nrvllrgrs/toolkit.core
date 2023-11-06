@@ -11,8 +11,7 @@
 	"dependencies": {},
 	"repository": {
 		"url": "https://github.com/nrvllrgrs/toolkit.core",
-		"type": "git",
-		"revision": "b72ad6beca34bf12828097cb8f003a5168375678"
+		"type": "git"
 	},
 	"samples": [
 		{
