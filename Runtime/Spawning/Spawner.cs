@@ -170,12 +170,13 @@ namespace ToolkitEngine
 			m_pool.template = poolItem;
 		}
 
+#if ADDRESSABLE_ASSETS
 		public void Set(AssetReferenceGameObject assetReference)
 		{
 			m_spawnType = SpawnType.Addressable;
 			m_assetReference = assetReference;
 		}
-
+#endif
 		#endregion
 
 		#region Spawn Methods
