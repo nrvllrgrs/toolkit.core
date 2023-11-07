@@ -1,0 +1,2187 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nrvllrgrs.github.io/toolkit.core/"
+  },
+  "source_base_path": "/home/runner/work/toolkit.core/toolkit.core/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseEventUnit-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseGenericSetAnimatorParameterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseGenericSetAnimatorParameterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseSetAnimatorParameter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseSetAnimatorParameter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseSetAnimatorParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseSetAnimatorParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseSetAnimatorParameterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseSetAnimatorParameterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseSetEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseSetEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ComponentExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ComponentExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HumanBodyTargets.Target.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HumanBodyTargets.Target.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HumanBodyTargets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HumanBodyTargets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LayerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LayerDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LayerDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ListExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ListExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MaxInfinityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MaxInfinityAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MaxInfinityDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MaxInfinityDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MinMaxAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MinMaxAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MinMaxDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MinMaxDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NavMeshAreaMaskAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NavMeshAreaMaskAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NavMeshAreaMaskDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NavMeshAreaMaskDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NavMeshPathExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NavMeshPathExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SerializedPropertyExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SerializedPropertyExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetAnimatorBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetAnimatorBool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetAnimatorFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetAnimatorFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetAnimatorInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetAnimatorInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetAnimatorTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetAnimatorTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TagAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TagDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TagDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.VectorLabelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VectorLabelAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.VectorLabelDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VectorLabelDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BaseEvaluableDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BaseEvaluableDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BaseEvaluatorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BaseEvaluatorDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BaseFilterDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BaseFilterDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BaseRemapperEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BaseRemapperEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BaseToolkitEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BaseToolkitEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.FacingEventsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.FacingEventsEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.FloatRemapperEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.FloatRemapperEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.LookAtCameraEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.LookAtCameraEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ObjectActivationDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ObjectActivationDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ObjectSpawnerControlEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ObjectSpawnerControlEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ObjectSpawnerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ObjectSpawnerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.PoolItemEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.PoolItemEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.PoolItemManagerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.PoolItemManagerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.PoolItemSpawnerDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.PoolItemSpawnerDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.SetEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.SetEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.SpawnerDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.SpawnerDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.TimedCurveEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.TimedCurveEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.TransformShakeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.TransformShakeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityConditionDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityConditionDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityElectorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityElectorDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityEvaluatorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityEvaluatorDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityFloatDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityFloatDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.UnityValueDrawer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.UnityValueDrawer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Vector3RemapperEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Vector3RemapperEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.WaveDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.WaveDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.WaveSpawnerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.WaveSpawnerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AngleEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AngleEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AnimatorStatePostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AnimatorStatePostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AttachmentPostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AttachmentPostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AttachmentRecycler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AttachmentRecycler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Axis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AxisUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AxisUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseCompareFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseCompareFilter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BasePostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BasePostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BasePreSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BasePreSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseRemapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseRemapper-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.CollisionPreSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.CollisionPreSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ConditionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ConditionFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.CoroutineUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.CoroutineUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.DestroyHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.DestroyHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.DistanceEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.DistanceEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.DistanceFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.DistanceFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.FacingEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.FacingEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.FloatRemapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.FloatRemapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GameObjectFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GameObjectFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GizmosUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GizmosUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IEvaluable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IEvaluable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IKillable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IKillable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IPoolItemRecyclable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IPoolItemRecyclable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LOSFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LOSFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LabelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LabelFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LabelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LabelType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Labels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Labels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Lifetime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LookAtCamera.LookStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LookAtCamera.LookStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LookAtCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LookAtCamera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.NavMeshPathDistanceEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.NavMeshPathDistanceEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.NavMeshPreSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.NavMeshPreSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectActivation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectActivation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectSpawner.OrderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectSpawner.OrderMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectSpawner.SpawnSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectSpawner.SpawnSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectSpawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectSpawnerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectSpawnerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ParentPostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ParentPostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ParticleSystemStoppedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ParticleSystemStoppedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PhysicsUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PhysicsUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemSpawner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemSpawner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.ColorMaterialModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.ColorMaterialModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.FloatMaterialModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.FloatMaterialModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.MaterialRecycler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.MaterialRecycler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.RangeMaterialModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.RangeMaterialModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ScriptMachinePostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ScriptMachinePostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SerializableDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Set.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Set.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShaderUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShaderUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShakeTransform.BaseSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShakeTransform.BaseSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShakeTransform.PositionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShakeTransform.PositionSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShakeTransform.RotationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShakeTransform.RotationSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShakeTransform.ScaleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShakeTransform.ScaleSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShakeTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShakeTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpawnedAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpawnedAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Spawner.SpawnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Spawner.SpawnType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpawnerEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpawnerEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SplineAnimatePostSpawnRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SplineAnimatePostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.TagFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.TagFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.TargetingPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.TargetingPoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.TimedCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.TimedCurve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ToolkitUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ToolkitUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityCondition.CompareOperatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityCondition.CompareOperatorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityCondition.ConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityCondition.ConditionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityElector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityElector-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityElector.RandomnessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityElector.RandomnessMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityElector.SelectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityElector.SelectionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityElector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityElector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityValue-1.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityValue-1.ValueType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityValue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Vector3Remapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Vector3Remapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BoolOnFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BoolOnFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.EventHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleased.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleased.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmpty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmpty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAdded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemove.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.SetMaterialColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.SetMaterialColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.WaveSpawner.NextMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.WaveSpawner.NextMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.WaveSpawner.Wave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.WaveSpawner.Wave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.WaveSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.WaveSpawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.VisualScripting.Count.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.VisualScripting.Count.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.VisualScripting.Count.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.VisualScripting.Count.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEditor.EditorGUILayoutUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.EditorGUILayoutUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEditor.EditorGUIRectLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.EditorGUIRectLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEditor.SerializedPropertyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.SerializedPropertyUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.AI.NavMeshAgentExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.AI.NavMeshAgentExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.AI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.AI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.DontDestroyOnLoad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.DontDestroyOnLoad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.GameObjectExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.GameObjectExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.IWeightedItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.IWeightedItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.InputSystem.InputActionPropertyExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.InputSystem.InputActionPropertyExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.InputSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.InputSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.MathUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.MathUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.RandomUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.RandomUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.Singleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.SingletonEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.SingletonEventHandler-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

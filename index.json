@@ -1,0 +1,1057 @@
+{
+  "api/Global.BaseEventUnit-1.html": {
+    "href": "api/Global.BaseEventUnit-1.html",
+    "title": "Class BaseEventUnit<TArgs> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseEventUnit<TArgs> Namespace Global public abstract class BaseEventUnit<TArgs> : GameObjectEventUnit<TArgs> Type Parameters TArgs Inheritance object BaseEventUnit<TArgs> Derived BaseSetEventUnit BasePoolItemEventUnit BaseTimedCurveEventUnit Fields eventArgs public ValueOutput eventArgs Field Value ValueOutput m_eventArgs protected TArgs m_eventArgs Field Value TArgs Properties hookName protected override string hookName { get; } Property Value string showEventArgs protected virtual bool showEventArgs { get; } Property Value bool Methods AssignArguments(Flow, TArgs) protected override void AssignArguments(Flow flow, TArgs args) Parameters flow Flow args TArgs Definition() protected override void Definition()"
+  },
+  "api/Global.BaseGenericSetAnimatorParameterEditor.html": {
+    "href": "api/Global.BaseGenericSetAnimatorParameterEditor.html",
+    "title": "Class BaseGenericSetAnimatorParameterEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseGenericSetAnimatorParameterEditor Namespace Global public class BaseGenericSetAnimatorParameterEditor : BaseSetAnimatorParameterEditor Inheritance object BaseSetAnimatorParameterEditor BaseGenericSetAnimatorParameterEditor Inherited Members BaseSetAnimatorParameterEditor.m_setter BaseSetAnimatorParameterEditor.m_animator BaseSetAnimatorParameterEditor.m_parameterName BaseSetAnimatorParameterEditor.OnInspectorGUI() Fields m_value protected SerializedProperty m_value Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/Global.BaseSetAnimatorParameter-1.html": {
+    "href": "api/Global.BaseSetAnimatorParameter-1.html",
+    "title": "Class BaseSetAnimatorParameter<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSetAnimatorParameter<T> Namespace Global public abstract class BaseSetAnimatorParameter<T> : BaseSetAnimatorParameter Type Parameters T Inheritance object BaseSetAnimatorParameter BaseSetAnimatorParameter<T> Derived SetAnimatorBool SetAnimatorFloat SetAnimatorInt Inherited Members BaseSetAnimatorParameter.m_animator BaseSetAnimatorParameter.m_parameterName BaseSetAnimatorParameter.m_animParamHash BaseSetAnimatorParameter.Awake() BaseSetAnimatorParameter.SetParameter() Fields m_value protected T m_value Field Value T Methods SetParameter(T) public abstract void SetParameter(T value) Parameters value T"
+  },
+  "api/Global.BaseSetAnimatorParameter.html": {
+    "href": "api/Global.BaseSetAnimatorParameter.html",
+    "title": "Class BaseSetAnimatorParameter | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSetAnimatorParameter Namespace Global public abstract class BaseSetAnimatorParameter : MonoBehaviour Inheritance object BaseSetAnimatorParameter Derived BaseSetAnimatorParameter<T> SetAnimatorTrigger Fields m_animParamHash protected int m_animParamHash Field Value int m_animator protected Animator m_animator Field Value Animator m_parameterName protected string m_parameterName Field Value string Methods Awake() protected virtual void Awake() SetParameter() public abstract void SetParameter()"
+  },
+  "api/Global.BaseSetAnimatorParameterEditor.html": {
+    "href": "api/Global.BaseSetAnimatorParameterEditor.html",
+    "title": "Class BaseSetAnimatorParameterEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSetAnimatorParameterEditor Namespace Global public class BaseSetAnimatorParameterEditor : Editor Inheritance object BaseSetAnimatorParameterEditor Derived BaseGenericSetAnimatorParameterEditor Fields m_animator protected SerializedProperty m_animator Field Value SerializedProperty m_parameterName protected SerializedProperty m_parameterName Field Value SerializedProperty m_setter protected BaseSetAnimatorParameter m_setter Field Value BaseSetAnimatorParameter Methods DrawProperties() protected virtual void DrawProperties() OnEnable() protected virtual void OnEnable() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/Global.BaseSetEventUnit.html": {
+    "href": "api/Global.BaseSetEventUnit.html",
+    "title": "Class BaseSetEventUnit | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSetEventUnit Namespace Global public abstract class BaseSetEventUnit : BaseEventUnit<GameObject> Inheritance object BaseEventUnit<GameObject> BaseSetEventUnit Derived OnSetEmpty OnSetItemAdded OnSetItemRemove Inherited Members BaseEventUnit<GameObject>.eventArgs BaseEventUnit<GameObject>.m_eventArgs BaseEventUnit<GameObject>.showEventArgs BaseEventUnit<GameObject>.hookName BaseEventUnit<GameObject>.Definition() BaseEventUnit<GameObject>.AssignArguments(Flow, GameObject)"
+  },
+  "api/Global.ComponentExt.html": {
+    "href": "api/Global.ComponentExt.html",
+    "title": "Class ComponentExt | Core Toolkit | 1.0.0",
+    "keywords": "Class ComponentExt Namespace Global public static class ComponentExt Inheritance object ComponentExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CancelCoroutine<T>(T, ref Coroutine) public static void CancelCoroutine<T>(this T component, ref Coroutine coroutine) where T : MonoBehaviour Parameters component T coroutine Coroutine Type Parameters T CopyTo<T>(T, GameObject) public static T CopyTo<T>(this T component, GameObject destination) where T : Component Parameters component T destination GameObject Returns T Type Parameters T GetComponentInParent<T>(Component, ref T) public static T GetComponentInParent<T>(this Component component, ref T value) where T : Component Parameters component Component value T Returns T Type Parameters T GetComponent<T>(Component, ref T) public static T GetComponent<T>(this Component component, ref T value) where T : Component Parameters component Component value T Returns T Type Parameters T GetComponentsInChildren<T>(Component, ref T[], bool) public static T[] GetComponentsInChildren<T>(this Component component, ref T[] value, bool includeInactive = false) where T : Component Parameters component Component value T[] includeInactive bool Returns T[] Type Parameters T ReadyComponent<T>(Component) public static T ReadyComponent<T>(this Component component) where T : Component Parameters component Component Returns T Type Parameters T RestartCoroutine<T>(T, IEnumerator, ref Coroutine) public static void RestartCoroutine<T>(this T component, IEnumerator routine, ref Coroutine coroutine) where T : MonoBehaviour Parameters component T routine IEnumerator coroutine Coroutine Type Parameters T"
+  },
+  "api/Global.HumanBodyTargets.Target.html": {
+    "href": "api/Global.HumanBodyTargets.Target.html",
+    "title": "Struct HumanBodyTargets.Target | Core Toolkit | 1.0.0",
+    "keywords": "Struct HumanBodyTargets.Target Namespace Global [Serializable] public struct HumanBodyTargets.Target Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields Bone public HumanBodyBones Bone Field Value HumanBodyBones Point public Transform Point Field Value Transform"
+  },
+  "api/Global.HumanBodyTargets.html": {
+    "href": "api/Global.HumanBodyTargets.html",
+    "title": "Class HumanBodyTargets | Core Toolkit | 1.0.0",
+    "keywords": "Class HumanBodyTargets Namespace Global public class HumanBodyTargets : MonoBehaviour Inheritance object HumanBodyTargets Methods TryGetTarget(HumanBodyBones, out Target) public bool TryGetTarget(HumanBodyBones bone, out HumanBodyTargets.Target target) Parameters bone HumanBodyBones target HumanBodyTargets.Target Returns bool"
+  },
+  "api/Global.LayerAttribute.html": {
+    "href": "api/Global.LayerAttribute.html",
+    "title": "Class LayerAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class LayerAttribute Namespace Global public class LayerAttribute : PropertyAttribute Inheritance object LayerAttribute"
+  },
+  "api/Global.LayerDrawer.html": {
+    "href": "api/Global.LayerDrawer.html",
+    "title": "Class LayerDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class LayerDrawer Namespace Global public class LayerDrawer : PropertyDrawer Inheritance object LayerDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.ListExt.html": {
+    "href": "api/Global.ListExt.html",
+    "title": "Class ListExt | Core Toolkit | 1.0.0",
+    "keywords": "Class ListExt Namespace Global public static class ListExt Inheritance object ListExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Random<T>(IList<T>, bool) public static T Random<T>(this IList<T> list, bool remove = false) Parameters list IList<T> remove bool Returns T Type Parameters T SetActive(IEnumerable<GameObject>, bool) public static void SetActive(this IEnumerable<GameObject> list, bool value) Parameters list IEnumerable<GameObject> value bool SetEnabled(IEnumerable<Behaviour>, bool) public static void SetEnabled(this IEnumerable<Behaviour> list, bool value) Parameters list IEnumerable<Behaviour> value bool Shuffle<T>(IList<T>) public static IList<T> Shuffle<T>(this IList<T> list) Parameters list IList<T> Returns IList<T> Type Parameters T"
+  },
+  "api/Global.MaxInfinityAttribute.html": {
+    "href": "api/Global.MaxInfinityAttribute.html",
+    "title": "Class MaxInfinityAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class MaxInfinityAttribute Namespace Global public class MaxInfinityAttribute : PropertyAttribute Inheritance object MaxInfinityAttribute"
+  },
+  "api/Global.MaxInfinityDrawer.html": {
+    "href": "api/Global.MaxInfinityDrawer.html",
+    "title": "Class MaxInfinityDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class MaxInfinityDrawer Namespace Global public class MaxInfinityDrawer : PropertyDrawer Inheritance object MaxInfinityDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.MinMaxAttribute.html": {
+    "href": "api/Global.MinMaxAttribute.html",
+    "title": "Class MinMaxAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class MinMaxAttribute Namespace Global public class MinMaxAttribute : PropertyAttribute Inheritance object MinMaxAttribute Constructors MinMaxAttribute() public MinMaxAttribute() MinMaxAttribute(float, float) public MinMaxAttribute(float minValue, float maxValue) Parameters minValue float maxValue float MinMaxAttribute(float, float, string, string) public MinMaxAttribute(float minValue, float maxValue, string minLabel, string maxLabel) Parameters minValue float maxValue float minLabel string maxLabel string Properties maxLabel public string maxLabel { get; } Property Value string maxValue public float maxValue { get; } Property Value float minLabel public string minLabel { get; } Property Value string minValue public float minValue { get; } Property Value float"
+  },
+  "api/Global.MinMaxDrawer.html": {
+    "href": "api/Global.MinMaxDrawer.html",
+    "title": "Class MinMaxDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class MinMaxDrawer Namespace Global public class MinMaxDrawer : PropertyDrawer Inheritance object MinMaxDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.NavMeshAreaMaskAttribute.html": {
+    "href": "api/Global.NavMeshAreaMaskAttribute.html",
+    "title": "Class NavMeshAreaMaskAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshAreaMaskAttribute Namespace Global public class NavMeshAreaMaskAttribute : PropertyAttribute Inheritance object NavMeshAreaMaskAttribute"
+  },
+  "api/Global.NavMeshAreaMaskDrawer.html": {
+    "href": "api/Global.NavMeshAreaMaskDrawer.html",
+    "title": "Class NavMeshAreaMaskDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshAreaMaskDrawer Namespace Global public class NavMeshAreaMaskDrawer : PropertyDrawer Inheritance object NavMeshAreaMaskDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.NavMeshPathExt.html": {
+    "href": "api/Global.NavMeshPathExt.html",
+    "title": "Class NavMeshPathExt | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshPathExt Namespace Global public static class NavMeshPathExt Inheritance object NavMeshPathExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetDistance(NavMeshPath) public static float GetDistance(this NavMeshPath path) Parameters path NavMeshPath Returns float"
+  },
+  "api/Global.SerializedPropertyExt.html": {
+    "href": "api/Global.SerializedPropertyExt.html",
+    "title": "Class SerializedPropertyExt | Core Toolkit | 1.0.0",
+    "keywords": "Class SerializedPropertyExt Namespace Global public static class SerializedPropertyExt Inheritance object SerializedPropertyExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetChildIndex<T>(SerializedProperty, string) public static int GetChildIndex<T>(this SerializedProperty property, string arrayName) Parameters property SerializedProperty arrayName string Returns int Type Parameters T GetValue(SerializedProperty) public static object GetValue(this SerializedProperty property) Parameters property SerializedProperty Returns object GetValue<T>(SerializedProperty) public static T GetValue<T>(this SerializedProperty property) Parameters property SerializedProperty Returns T Type Parameters T IsOfType<T>(SerializedProperty) public static bool IsOfType<T>(this SerializedProperty property) Parameters property SerializedProperty Returns bool Type Parameters T"
+  },
+  "api/Global.SetAnimatorBool.html": {
+    "href": "api/Global.SetAnimatorBool.html",
+    "title": "Class SetAnimatorBool | Core Toolkit | 1.0.0",
+    "keywords": "Class SetAnimatorBool Namespace Global public class SetAnimatorBool : BaseSetAnimatorParameter<bool> Inheritance object BaseSetAnimatorParameter BaseSetAnimatorParameter<bool> SetAnimatorBool Inherited Members BaseSetAnimatorParameter<bool>.m_value BaseSetAnimatorParameter.m_animator BaseSetAnimatorParameter.m_parameterName BaseSetAnimatorParameter.m_animParamHash BaseSetAnimatorParameter.Awake() Methods SetParameter() public override void SetParameter() SetParameter(bool) public override void SetParameter(bool value) Parameters value bool"
+  },
+  "api/Global.SetAnimatorFloat.html": {
+    "href": "api/Global.SetAnimatorFloat.html",
+    "title": "Class SetAnimatorFloat | Core Toolkit | 1.0.0",
+    "keywords": "Class SetAnimatorFloat Namespace Global public class SetAnimatorFloat : BaseSetAnimatorParameter<float> Inheritance object BaseSetAnimatorParameter BaseSetAnimatorParameter<float> SetAnimatorFloat Inherited Members BaseSetAnimatorParameter<float>.m_value BaseSetAnimatorParameter.m_animator BaseSetAnimatorParameter.m_parameterName BaseSetAnimatorParameter.m_animParamHash BaseSetAnimatorParameter.Awake() Methods SetParameter() public override void SetParameter() SetParameter(float) public override void SetParameter(float value) Parameters value float"
+  },
+  "api/Global.SetAnimatorInt.html": {
+    "href": "api/Global.SetAnimatorInt.html",
+    "title": "Class SetAnimatorInt | Core Toolkit | 1.0.0",
+    "keywords": "Class SetAnimatorInt Namespace Global public class SetAnimatorInt : BaseSetAnimatorParameter<int> Inheritance object BaseSetAnimatorParameter BaseSetAnimatorParameter<int> SetAnimatorInt Inherited Members BaseSetAnimatorParameter<int>.m_value BaseSetAnimatorParameter.m_animator BaseSetAnimatorParameter.m_parameterName BaseSetAnimatorParameter.m_animParamHash BaseSetAnimatorParameter.Awake() Methods SetParameter() public override void SetParameter() SetParameter(int) public override void SetParameter(int value) Parameters value int"
+  },
+  "api/Global.SetAnimatorTrigger.html": {
+    "href": "api/Global.SetAnimatorTrigger.html",
+    "title": "Class SetAnimatorTrigger | Core Toolkit | 1.0.0",
+    "keywords": "Class SetAnimatorTrigger Namespace Global public class SetAnimatorTrigger : BaseSetAnimatorParameter Inheritance object BaseSetAnimatorParameter SetAnimatorTrigger Inherited Members BaseSetAnimatorParameter.m_animator BaseSetAnimatorParameter.m_parameterName BaseSetAnimatorParameter.m_animParamHash BaseSetAnimatorParameter.Awake() Methods SetParameter() public override void SetParameter()"
+  },
+  "api/Global.TagAttribute.html": {
+    "href": "api/Global.TagAttribute.html",
+    "title": "Class TagAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class TagAttribute Namespace Global public class TagAttribute : PropertyAttribute Inheritance object TagAttribute"
+  },
+  "api/Global.TagDrawer.html": {
+    "href": "api/Global.TagDrawer.html",
+    "title": "Class TagDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class TagDrawer Namespace Global public class TagDrawer : PropertyDrawer Inheritance object TagDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.VectorLabelAttribute.html": {
+    "href": "api/Global.VectorLabelAttribute.html",
+    "title": "Class VectorLabelAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class VectorLabelAttribute Namespace Global public class VectorLabelAttribute : PropertyAttribute Inheritance object VectorLabelAttribute Constructors VectorLabelAttribute(params string[]) public VectorLabelAttribute(params string[] args) Parameters args string[] Properties labels public string[] labels { get; } Property Value string[]"
+  },
+  "api/Global.VectorLabelDrawer.html": {
+    "href": "api/Global.VectorLabelDrawer.html",
+    "title": "Class VectorLabelDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class VectorLabelDrawer Namespace Global public class VectorLabelDrawer : PropertyDrawer Inheritance object VectorLabelDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | Core Toolkit | 1.0.0",
+    "keywords": "Namespace Classes BaseEventUnit<TArgs> BaseGenericSetAnimatorParameterEditor BaseSetAnimatorParameter BaseSetAnimatorParameterEditor BaseSetAnimatorParameter<T> BaseSetEventUnit ComponentExt HumanBodyTargets LayerAttribute LayerDrawer ListExt MaxInfinityAttribute MaxInfinityDrawer MinMaxAttribute MinMaxDrawer NavMeshAreaMaskAttribute NavMeshAreaMaskDrawer NavMeshPathExt SerializedPropertyExt SetAnimatorBool SetAnimatorFloat SetAnimatorInt SetAnimatorTrigger TagAttribute TagDrawer VectorLabelAttribute VectorLabelDrawer Structs HumanBodyTargets.Target"
+  },
+  "api/ToolkitEditor.BaseEvaluableDrawer.html": {
+    "href": "api/ToolkitEditor.BaseEvaluableDrawer.html",
+    "title": "Class BaseEvaluableDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseEvaluableDrawer Namespace ToolkitEditor public abstract class BaseEvaluableDrawer : PropertyDrawer Inheritance object BaseEvaluableDrawer Derived BaseEvaluatorDrawer BaseFilterDrawer Properties knownPropertyNames protected abstract List<string> knownPropertyNames { get; } Property Value List<string> undrawnPropertyNames protected virtual HashSet<string> undrawnPropertyNames { get; } Property Value HashSet<string> Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent ShouldDrawKnownProperty(SerializedProperty, string) protected virtual bool ShouldDrawKnownProperty(SerializedProperty property, string propertyName) Parameters property SerializedProperty propertyName string Returns bool"
+  },
+  "api/ToolkitEditor.BaseEvaluatorDrawer.html": {
+    "href": "api/ToolkitEditor.BaseEvaluatorDrawer.html",
+    "title": "Class BaseEvaluatorDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseEvaluatorDrawer Namespace ToolkitEditor public class BaseEvaluatorDrawer : BaseEvaluableDrawer Inheritance object BaseEvaluableDrawer BaseEvaluatorDrawer Inherited Members BaseEvaluableDrawer.undrawnPropertyNames BaseEvaluableDrawer.OnGUI(Rect, SerializedProperty, GUIContent) BaseEvaluableDrawer.GetPropertyHeight(SerializedProperty, GUIContent) Properties knownPropertyNames protected override List<string> knownPropertyNames { get; } Property Value List<string> Methods ShouldDrawKnownProperty(SerializedProperty, string) protected override bool ShouldDrawKnownProperty(SerializedProperty property, string propertyName) Parameters property SerializedProperty propertyName string Returns bool"
+  },
+  "api/ToolkitEditor.BaseFilterDrawer.html": {
+    "href": "api/ToolkitEditor.BaseFilterDrawer.html",
+    "title": "Class BaseFilterDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseFilterDrawer Namespace ToolkitEditor public class BaseFilterDrawer : BaseEvaluableDrawer Inheritance object BaseEvaluableDrawer BaseFilterDrawer Inherited Members BaseEvaluableDrawer.undrawnPropertyNames BaseEvaluableDrawer.OnGUI(Rect, SerializedProperty, GUIContent) BaseEvaluableDrawer.ShouldDrawKnownProperty(SerializedProperty, string) BaseEvaluableDrawer.GetPropertyHeight(SerializedProperty, GUIContent) Properties knownPropertyNames protected override List<string> knownPropertyNames { get; } Property Value List<string>"
+  },
+  "api/ToolkitEditor.BaseRemapperEditor.html": {
+    "href": "api/ToolkitEditor.BaseRemapperEditor.html",
+    "title": "Class BaseRemapperEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseRemapperEditor Namespace ToolkitEditor public class BaseRemapperEditor : Editor Inheritance object BaseRemapperEditor Derived FloatRemapperEditor Vector3RemapperEditor Fields m_component protected SerializedProperty m_component Field Value SerializedProperty m_curve protected SerializedProperty m_curve Field Value SerializedProperty m_dstMaxValue protected SerializedProperty m_dstMaxValue Field Value SerializedProperty m_dstMinValue protected SerializedProperty m_dstMinValue Field Value SerializedProperty m_isProperty protected SerializedProperty m_isProperty Field Value SerializedProperty m_memberName protected SerializedProperty m_memberName Field Value SerializedProperty m_object protected SerializedProperty m_object Field Value SerializedProperty m_onRemapped protected SerializedProperty m_onRemapped Field Value SerializedProperty m_srcMaxValue protected SerializedProperty m_srcMaxValue Field Value SerializedProperty m_srcMinValue protected SerializedProperty m_srcMinValue Field Value SerializedProperty Methods DrawDestinationMinMax(SerializedProperty, SerializedProperty) protected virtual void DrawDestinationMinMax(SerializedProperty minProp, SerializedProperty maxProp) Parameters minProp SerializedProperty maxProp SerializedProperty DrawFloatMinMax(SerializedProperty, SerializedProperty) protected void DrawFloatMinMax(SerializedProperty minProp, SerializedProperty maxProp) Parameters minProp SerializedProperty maxProp SerializedProperty OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.BaseToolkitEditor.html": {
+    "href": "api/ToolkitEditor.BaseToolkitEditor.html",
+    "title": "Class BaseToolkitEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseToolkitEditor Namespace ToolkitEditor public abstract class BaseToolkitEditor : Editor Inheritance object BaseToolkitEditor Derived FacingEventsEditor LookAtCameraEditor PoolItemManagerEditor TransformShakeEditor WaveSpawnerEditor Properties knownSerializedPropertyNames The SerializeField names of all SerializedProperty fields defined in the Editor (including derived types). protected string[] knownSerializedPropertyNames { get; set; } Property Value string[] See Also InitializeKnownSerializedPropertyNames() Methods DrawEvents() protected virtual void DrawEvents() DrawInspector() protected virtual void DrawInspector() DrawNestedEvents() protected virtual void DrawNestedEvents() DrawProperties() protected virtual void DrawProperties() InitializeKnownSerializedPropertyNames() protected virtual void InitializeKnownSerializedPropertyNames() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.FacingEventsEditor.html": {
+    "href": "api/ToolkitEditor.FacingEventsEditor.html",
+    "title": "Class FacingEventsEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class FacingEventsEditor Namespace ToolkitEditor public class FacingEventsEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor FacingEventsEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawNestedEvents() Fields m_axis protected SerializedProperty m_axis Field Value SerializedProperty m_direction protected SerializedProperty m_direction Field Value SerializedProperty m_onFacingChanged protected SerializedProperty m_onFacingChanged Field Value SerializedProperty m_space protected SerializedProperty m_space Field Value SerializedProperty m_target protected SerializedProperty m_target Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.FloatRemapperEditor.html": {
+    "href": "api/ToolkitEditor.FloatRemapperEditor.html",
+    "title": "Class FloatRemapperEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class FloatRemapperEditor Namespace ToolkitEditor public class FloatRemapperEditor : BaseRemapperEditor Inheritance object BaseRemapperEditor FloatRemapperEditor Inherited Members BaseRemapperEditor.m_object BaseRemapperEditor.m_component BaseRemapperEditor.m_memberName BaseRemapperEditor.m_isProperty BaseRemapperEditor.m_curve BaseRemapperEditor.m_srcMinValue BaseRemapperEditor.m_srcMaxValue BaseRemapperEditor.m_dstMinValue BaseRemapperEditor.m_dstMaxValue BaseRemapperEditor.m_onRemapped BaseRemapperEditor.OnInspectorGUI() BaseRemapperEditor.DrawFloatMinMax(SerializedProperty, SerializedProperty) BaseRemapperEditor.DrawDestinationMinMax(SerializedProperty, SerializedProperty)"
+  },
+  "api/ToolkitEditor.LookAtCameraEditor.html": {
+    "href": "api/ToolkitEditor.LookAtCameraEditor.html",
+    "title": "Class LookAtCameraEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class LookAtCameraEditor Namespace ToolkitEditor public class LookAtCameraEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor LookAtCameraEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields axis protected SerializedProperty axis Field Value SerializedProperty lookStyle protected SerializedProperty lookStyle Field Value SerializedProperty reverse protected SerializedProperty reverse Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.ObjectActivationDrawer.html": {
+    "href": "api/ToolkitEditor.ObjectActivationDrawer.html",
+    "title": "Class ObjectActivationDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectActivationDrawer Namespace ToolkitEditor public class ObjectActivationDrawer : PropertyDrawer Inheritance object ObjectActivationDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.ObjectSpawnerControlEditor.html": {
+    "href": "api/ToolkitEditor.ObjectSpawnerControlEditor.html",
+    "title": "Class ObjectSpawnerControlEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectSpawnerControlEditor Namespace ToolkitEditor public class ObjectSpawnerControlEditor : Editor Inheritance object ObjectSpawnerControlEditor Fields m_autoSpawn protected SerializedProperty m_autoSpawn Field Value SerializedProperty m_blockers protected SerializedProperty m_blockers Field Value SerializedProperty m_delayTime protected SerializedProperty m_delayTime Field Value SerializedProperty m_isInfinite protected SerializedProperty m_isInfinite Field Value SerializedProperty m_isOn protected SerializedProperty m_isOn Field Value SerializedProperty m_isSimultaneousInfinite protected SerializedProperty m_isSimultaneousInfinite Field Value SerializedProperty m_maxCount protected SerializedProperty m_maxCount Field Value SerializedProperty m_maxDelayTime protected SerializedProperty m_maxDelayTime Field Value SerializedProperty m_maxSimultaneousCount protected SerializedProperty m_maxSimultaneousCount Field Value SerializedProperty m_minDelayTime protected SerializedProperty m_minDelayTime Field Value SerializedProperty m_objectSpawner protected SerializedProperty m_objectSpawner Field Value SerializedProperty m_queueable protected SerializedProperty m_queueable Field Value SerializedProperty m_useDelayForVacancy protected SerializedProperty m_useDelayForVacancy Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.ObjectSpawnerEditor.html": {
+    "href": "api/ToolkitEditor.ObjectSpawnerEditor.html",
+    "title": "Class ObjectSpawnerEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectSpawnerEditor Namespace ToolkitEditor public class ObjectSpawnerEditor : Editor Inheritance object ObjectSpawnerEditor Fields m_objectSpawner protected ObjectSpawner m_objectSpawner Field Value ObjectSpawner m_onDespawned protected SerializedProperty m_onDespawned Field Value SerializedProperty m_onSpawned protected SerializedProperty m_onSpawned Field Value SerializedProperty m_onSpawning protected SerializedProperty m_onSpawning Field Value SerializedProperty m_order protected SerializedProperty m_order Field Value SerializedProperty m_parent protected SerializedProperty m_parent Field Value SerializedProperty m_points protected SerializedProperty m_points Field Value SerializedProperty m_position protected SerializedProperty m_position Field Value SerializedProperty m_postSpawnRules protected SerializedProperty m_postSpawnRules Field Value SerializedProperty m_preSpawnRules protected SerializedProperty m_preSpawnRules Field Value SerializedProperty m_rotation protected SerializedProperty m_rotation Field Value SerializedProperty m_spawnOnStart protected SerializedProperty m_spawnOnStart Field Value SerializedProperty m_spawnSpace protected SerializedProperty m_spawnSpace Field Value SerializedProperty m_spawner protected SerializedProperty m_spawner Field Value SerializedProperty m_zeroRotation protected SerializedProperty m_zeroRotation Field Value SerializedProperty Methods OnEnable() protected virtual void OnEnable() OnInspectorGUI() public override void OnInspectorGUI() OnSceneGUI() protected virtual void OnSceneGUI()"
+  },
+  "api/ToolkitEditor.PoolItemEditor.html": {
+    "href": "api/ToolkitEditor.PoolItemEditor.html",
+    "title": "Class PoolItemEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItemEditor Namespace ToolkitEditor public class PoolItemEditor : Editor Inheritance object PoolItemEditor Fields OnGet protected SerializedProperty OnGet Field Value SerializedProperty OnReleased protected SerializedProperty OnReleased Field Value SerializedProperty OnSpawned protected SerializedProperty OnSpawned Field Value SerializedProperty Properties knownSerializedPropertyNames The SerializeField names of all SerializedProperty fields defined in the Editor (including derived types). protected string[] knownSerializedPropertyNames { get; set; } Property Value string[] See Also InitializeKnownSerializedPropertyNames() Methods DrawInspector() protected virtual void DrawInspector() DrawNestedEvents() protected virtual void DrawNestedEvents() InitializeKnownSerializedPropertyNames() protected virtual void InitializeKnownSerializedPropertyNames() OnEnable() protected virtual void OnEnable() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.PoolItemManagerEditor.html": {
+    "href": "api/ToolkitEditor.PoolItemManagerEditor.html",
+    "title": "Class PoolItemManagerEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItemManagerEditor Namespace ToolkitEditor public class PoolItemManagerEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor PoolItemManagerEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields m_dontDestroyOnLoad protected SerializedProperty m_dontDestroyOnLoad Field Value SerializedProperty m_spawners protected SerializedProperty m_spawners Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.PoolItemSpawnerDrawer.html": {
+    "href": "api/ToolkitEditor.PoolItemSpawnerDrawer.html",
+    "title": "Class PoolItemSpawnerDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItemSpawnerDrawer Namespace ToolkitEditor public class PoolItemSpawnerDrawer : PropertyDrawer Inheritance object PoolItemSpawnerDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.html": {
+    "href": "api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.html",
+    "title": "Class BaseMaterialModifierEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMaterialModifierEditor Namespace ToolkitEditor.Rendering public class BaseMaterialModifierEditor : Editor Inheritance object BaseMaterialModifierEditor Derived ColorMaterialModifierEditor Fields m_applyOnEnable protected SerializedProperty m_applyOnEnable Field Value SerializedProperty m_enableKeywords protected SerializedProperty m_enableKeywords Field Value SerializedProperty m_indices protected SerializedProperty m_indices Field Value SerializedProperty m_materialModifier protected BaseMaterialModifier m_materialModifier Field Value BaseMaterialModifier m_materials protected SerializedProperty m_materials Field Value SerializedProperty m_mode protected SerializedProperty m_mode Field Value SerializedProperty m_propertyName protected SerializedProperty m_propertyName Field Value SerializedProperty m_renderers protected SerializedProperty m_renderers Field Value SerializedProperty m_shared protected SerializedProperty m_shared Field Value SerializedProperty Methods DrawProperties() protected virtual void DrawProperties() OnEnable() protected virtual void OnEnable() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.html": {
+    "href": "api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.html",
+    "title": "Class ColorMaterialModifierEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class ColorMaterialModifierEditor Namespace ToolkitEditor.Rendering public class ColorMaterialModifierEditor : BaseMaterialModifierEditor Inheritance object BaseMaterialModifierEditor ColorMaterialModifierEditor Inherited Members BaseMaterialModifierEditor.m_materialModifier BaseMaterialModifierEditor.m_enableKeywords BaseMaterialModifierEditor.m_mode BaseMaterialModifierEditor.m_renderers BaseMaterialModifierEditor.m_shared BaseMaterialModifierEditor.m_indices BaseMaterialModifierEditor.m_materials BaseMaterialModifierEditor.m_propertyName BaseMaterialModifierEditor.m_applyOnEnable BaseMaterialModifierEditor.OnInspectorGUI() Fields m_destination protected SerializedProperty m_destination Field Value SerializedProperty m_hdr protected SerializedProperty m_hdr Field Value SerializedProperty m_hdrDestination protected SerializedProperty m_hdrDestination Field Value SerializedProperty m_hdrSource protected SerializedProperty m_hdrSource Field Value SerializedProperty m_source protected SerializedProperty m_source Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.Rendering.html": {
+    "href": "api/ToolkitEditor.Rendering.html",
+    "title": "Namespace ToolkitEditor.Rendering | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.Rendering Classes BaseMaterialModifierEditor ColorMaterialModifierEditor"
+  },
+  "api/ToolkitEditor.SetEditor.html": {
+    "href": "api/ToolkitEditor.SetEditor.html",
+    "title": "Class SetEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class SetEditor Namespace ToolkitEditor public class SetEditor : Editor Inheritance object SetEditor Fields m_delay protected SerializedProperty m_delay Field Value SerializedProperty m_items protected SerializedProperty m_items Field Value SerializedProperty m_onItemAdded protected SerializedProperty m_onItemAdded Field Value SerializedProperty m_onItemRemoved protected SerializedProperty m_onItemRemoved Field Value SerializedProperty m_releaseOnRemoved protected SerializedProperty m_releaseOnRemoved Field Value SerializedProperty m_removeOnDestroyed protected SerializedProperty m_removeOnDestroyed Field Value SerializedProperty m_removeOnKilled protected SerializedProperty m_removeOnKilled Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.SpawnerDrawer.html": {
+    "href": "api/ToolkitEditor.SpawnerDrawer.html",
+    "title": "Class SpawnerDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class SpawnerDrawer Namespace ToolkitEditor public class SpawnerDrawer : PropertyDrawer Inheritance object SpawnerDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.TimedCurveEditor.html": {
+    "href": "api/ToolkitEditor.TimedCurveEditor.html",
+    "title": "Class TimedCurveEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class TimedCurveEditor Namespace ToolkitEditor public class TimedCurveEditor : Editor Inheritance object TimedCurveEditor Fields m_amplitude protected SerializedProperty m_amplitude Field Value SerializedProperty m_curve protected SerializedProperty m_curve Field Value SerializedProperty m_duration protected SerializedProperty m_duration Field Value SerializedProperty m_onBeginCompleted protected SerializedProperty m_onBeginCompleted Field Value SerializedProperty m_onEndCompleted protected SerializedProperty m_onEndCompleted Field Value SerializedProperty m_onPaused protected SerializedProperty m_onPaused Field Value SerializedProperty m_onPlayed protected SerializedProperty m_onPlayed Field Value SerializedProperty m_onTimeChanged protected SerializedProperty m_onTimeChanged Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_playOnAwake protected SerializedProperty m_playOnAwake Field Value SerializedProperty m_time protected SerializedProperty m_time Field Value SerializedProperty m_timedCurve protected TimedCurve m_timedCurve Field Value TimedCurve m_verticalShift protected SerializedProperty m_verticalShift Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.html": {
+    "href": "api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.html",
+    "title": "Class TransformShakeEditor.ShakeSettingsEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class TransformShakeEditor.ShakeSettingsEditor Namespace ToolkitEditor protected class TransformShakeEditor.ShakeSettingsEditor Inheritance object TransformShakeEditor.ShakeSettingsEditor Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_duration public SerializedProperty m_duration Field Value SerializedProperty m_fadeOut public SerializedProperty m_fadeOut Field Value SerializedProperty m_randomness public SerializedProperty m_randomness Field Value SerializedProperty m_randomnessMode public SerializedProperty m_randomnessMode Field Value SerializedProperty m_shake public SerializedProperty m_shake Field Value SerializedProperty m_snapping public SerializedProperty m_snapping Field Value SerializedProperty m_strength public SerializedProperty m_strength Field Value SerializedProperty m_vibrato public SerializedProperty m_vibrato Field Value SerializedProperty Methods DrawProperties(string) public void DrawProperties(string label) Parameters label string Initialize(SerializedProperty, bool) public void Initialize(SerializedProperty property, bool includeSnapping) Parameters property SerializedProperty includeSnapping bool"
+  },
+  "api/ToolkitEditor.TransformShakeEditor.html": {
+    "href": "api/ToolkitEditor.TransformShakeEditor.html",
+    "title": "Class TransformShakeEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class TransformShakeEditor Namespace ToolkitEditor public class TransformShakeEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor TransformShakeEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields m_blockers protected SerializedProperty m_blockers Field Value SerializedProperty m_positionSettings protected TransformShakeEditor.ShakeSettingsEditor m_positionSettings Field Value TransformShakeEditor.ShakeSettingsEditor m_rotationSettings protected TransformShakeEditor.ShakeSettingsEditor m_rotationSettings Field Value TransformShakeEditor.ShakeSettingsEditor m_scaleSettings protected TransformShakeEditor.ShakeSettingsEditor m_scaleSettings Field Value TransformShakeEditor.ShakeSettingsEditor m_shakeOnStart protected SerializedProperty m_shakeOnStart Field Value SerializedProperty m_transform protected SerializedProperty m_transform Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties() InitializeKnownSerializedPropertyNames() protected override void InitializeKnownSerializedPropertyNames()"
+  },
+  "api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.html": {
+    "href": "api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.html",
+    "title": "Enum UnityConditionArgumenDrawer.MemberType | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityConditionArgumenDrawer.MemberType Namespace ToolkitEditor public enum UnityConditionArgumenDrawer.MemberType Fields Boolean = 0 Int32 = 1 Single = 2"
+  },
+  "api/ToolkitEditor.UnityConditionArgumenDrawer.html": {
+    "href": "api/ToolkitEditor.UnityConditionArgumenDrawer.html",
+    "title": "Class UnityConditionArgumenDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityConditionArgumenDrawer Namespace ToolkitEditor public class UnityConditionArgumenDrawer : PropertyDrawer Inheritance object UnityConditionArgumenDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent TryGetMemberType(Component, string, bool, out MemberType) public bool TryGetMemberType(Component component, string memberName, bool isProperty, out UnityConditionArgumenDrawer.MemberType memberType) Parameters component Component memberName string isProperty bool memberType UnityConditionArgumenDrawer.MemberType Returns bool"
+  },
+  "api/ToolkitEditor.UnityConditionDrawer.html": {
+    "href": "api/ToolkitEditor.UnityConditionDrawer.html",
+    "title": "Class UnityConditionDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityConditionDrawer Namespace ToolkitEditor public class UnityConditionDrawer : PropertyDrawer Inheritance object UnityConditionDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.UnityElectorDrawer.html": {
+    "href": "api/ToolkitEditor.UnityElectorDrawer.html",
+    "title": "Class UnityElectorDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityElectorDrawer Namespace ToolkitEditor public class UnityElectorDrawer : PropertyDrawer Inheritance object UnityElectorDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.UnityEvaluatorDrawer.html": {
+    "href": "api/ToolkitEditor.UnityEvaluatorDrawer.html",
+    "title": "Class UnityEvaluatorDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityEvaluatorDrawer Namespace ToolkitEditor public class UnityEvaluatorDrawer : PropertyDrawer Inheritance object UnityEvaluatorDrawer Methods CanCacheInspectorGUI(SerializedProperty) public override bool CanCacheInspectorGUI(SerializedProperty property) Parameters property SerializedProperty Returns bool GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.UnityFloatDrawer.html": {
+    "href": "api/ToolkitEditor.UnityFloatDrawer.html",
+    "title": "Class UnityFloatDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityFloatDrawer Namespace ToolkitEditor public class UnityFloatDrawer : UnityValueDrawer<float> Inheritance object UnityValueDrawer<float> UnityFloatDrawer Inherited Members UnityValueDrawer<float>.OnGUI(Rect, SerializedProperty, GUIContent) UnityValueDrawer<float>.GetPropertyHeight(SerializedProperty, GUIContent)"
+  },
+  "api/ToolkitEditor.UnityValueDrawer-1.html": {
+    "href": "api/ToolkitEditor.UnityValueDrawer-1.html",
+    "title": "Class UnityValueDrawer<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityValueDrawer<T> Namespace ToolkitEditor public class UnityValueDrawer<T> : PropertyDrawer Type Parameters T Inheritance object UnityValueDrawer<T> Derived UnityFloatDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Vector3RemapperEditor.html": {
+    "href": "api/ToolkitEditor.Vector3RemapperEditor.html",
+    "title": "Class Vector3RemapperEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class Vector3RemapperEditor Namespace ToolkitEditor public class Vector3RemapperEditor : BaseRemapperEditor Inheritance object BaseRemapperEditor Vector3RemapperEditor Inherited Members BaseRemapperEditor.m_object BaseRemapperEditor.m_component BaseRemapperEditor.m_memberName BaseRemapperEditor.m_isProperty BaseRemapperEditor.m_curve BaseRemapperEditor.m_srcMinValue BaseRemapperEditor.m_srcMaxValue BaseRemapperEditor.m_dstMinValue BaseRemapperEditor.m_dstMaxValue BaseRemapperEditor.m_onRemapped BaseRemapperEditor.OnInspectorGUI() BaseRemapperEditor.DrawFloatMinMax(SerializedProperty, SerializedProperty) BaseRemapperEditor.DrawDestinationMinMax(SerializedProperty, SerializedProperty)"
+  },
+  "api/ToolkitEditor.WaveDrawer.html": {
+    "href": "api/ToolkitEditor.WaveDrawer.html",
+    "title": "Class WaveDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class WaveDrawer Namespace ToolkitEditor public class WaveDrawer : PropertyDrawer Inheritance object WaveDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.WaveSpawnerEditor.html": {
+    "href": "api/ToolkitEditor.WaveSpawnerEditor.html",
+    "title": "Class WaveSpawnerEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class WaveSpawnerEditor Namespace ToolkitEditor public class WaveSpawnerEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor WaveSpawnerEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawNestedEvents() Fields m_despawnOnTimeout protected SerializedProperty m_despawnOnTimeout Field Value SerializedProperty m_onCompleted protected SerializedProperty m_onCompleted Field Value SerializedProperty m_onDespawned protected SerializedProperty m_onDespawned Field Value SerializedProperty m_onExhausted protected SerializedProperty m_onExhausted Field Value SerializedProperty m_onSpawned protected SerializedProperty m_onSpawned Field Value SerializedProperty m_onSpawning protected SerializedProperty m_onSpawning Field Value SerializedProperty m_onTimeout protected SerializedProperty m_onTimeout Field Value SerializedProperty m_points protected SerializedProperty m_points Field Value SerializedProperty m_spawnOnStart protected SerializedProperty m_spawnOnStart Field Value SerializedProperty m_spawner protected SerializedProperty m_spawner Field Value SerializedProperty m_thresholdSet protected SerializedProperty m_thresholdSet Field Value SerializedProperty m_waveSpawner protected WaveSpawner m_waveSpawner Field Value WaveSpawner m_waves protected SerializedProperty m_waves Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnSceneGUI() protected virtual void OnSceneGUI()"
+  },
+  "api/ToolkitEditor.html": {
+    "href": "api/ToolkitEditor.html",
+    "title": "Namespace ToolkitEditor | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor Classes BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Enums UnityConditionArgumenDrawer.MemberType"
+  },
+  "api/ToolkitEngine.AngleEvaluator.html": {
+    "href": "api/ToolkitEngine.AngleEvaluator.html",
+    "title": "Class AngleEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class AngleEvaluator Namespace ToolkitEngine public class AngleEvaluator : BaseEvaluator, IEvaluable Inheritance object BaseEvaluator AngleEvaluator Implements IEvaluable Inherited Members BaseEvaluator.m_enabled BaseEvaluator.m_curve BaseEvaluator.m_bonusWeight BaseEvaluator.enabled BaseEvaluator.curve BaseEvaluator.bonusWeight BaseEvaluator.Evaluate(GameObject, GameObject) BaseEvaluator.Evaluate(GameObject, GameObject, Vector3) BaseEvaluator.Dispose() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties maxAngle public float maxAngle { get; } Property Value float minAngle public float minAngle { get; } Property Value float Methods CalculateNormalizedScore(GameObject, GameObject, Vector3) protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.AnimatorStatePostSpawnRule.html": {
+    "href": "api/ToolkitEngine.AnimatorStatePostSpawnRule.html",
+    "title": "Class AnimatorStatePostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class AnimatorStatePostSpawnRule Namespace ToolkitEngine public class AnimatorStatePostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule AnimatorStatePostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.AttachmentPostSpawnRule.html": {
+    "href": "api/ToolkitEngine.AttachmentPostSpawnRule.html",
+    "title": "Class AttachmentPostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class AttachmentPostSpawnRule Namespace ToolkitEngine public class AttachmentPostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule AttachmentPostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.AttachmentRecycler.html": {
+    "href": "api/ToolkitEngine.AttachmentRecycler.html",
+    "title": "Class AttachmentRecycler | Core Toolkit | 1.0.0",
+    "keywords": "Class AttachmentRecycler Namespace ToolkitEngine public class AttachmentRecycler : MonoBehaviour, IPoolItemRecyclable Inheritance object AttachmentRecycler Implements IPoolItemRecyclable Properties attachments public GameObject[] attachments { get; } Property Value GameObject[] Methods Recycle() public void Recycle()"
+  },
+  "api/ToolkitEngine.Axis.html": {
+    "href": "api/ToolkitEngine.Axis.html",
+    "title": "Enum Axis | Core Toolkit | 1.0.0",
+    "keywords": "Enum Axis Namespace ToolkitEngine public enum Axis Fields Back = 5 Down = 3 Forward = 4 Left = 1 Right = 0 Up = 2"
+  },
+  "api/ToolkitEngine.AxisUtil.html": {
+    "href": "api/ToolkitEngine.AxisUtil.html",
+    "title": "Class AxisUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class AxisUtil Namespace ToolkitEngine public static class AxisUtil Inheritance object AxisUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetDirection(Axis) public static Vector3 GetDirection(Axis axis) Parameters axis Axis Returns Vector3 GetDirection(Transform, Axis) public static Vector3 GetDirection(this Transform transform, Axis axis) Parameters transform Transform axis Axis Returns Vector3"
+  },
+  "api/ToolkitEngine.BaseCompareFilter-1.html": {
+    "href": "api/ToolkitEngine.BaseCompareFilter-1.html",
+    "title": "Class BaseCompareFilter<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseCompareFilter<T> Namespace ToolkitEngine public abstract class BaseCompareFilter<T> : BaseFilter, IEvaluable where T : IComparable Type Parameters T Inheritance object BaseFilter BaseCompareFilter<T> Implements IEvaluable Derived DistanceFilter Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) BaseFilter.IsIncluded(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_compareTo protected T m_compareTo Field Value T m_compareType protected UnityCondition.CompareOperatorType m_compareType Field Value UnityCondition.CompareOperatorType Methods CompareTo(T) protected bool CompareTo(T value) Parameters value T Returns bool CompareTo(T, T) protected bool CompareTo(T value, T compareTo) Parameters value T compareTo T Returns bool"
+  },
+  "api/ToolkitEngine.BaseEvaluator.html": {
+    "href": "api/ToolkitEngine.BaseEvaluator.html",
+    "title": "Class BaseEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseEvaluator Namespace ToolkitEngine [Serializable] public abstract class BaseEvaluator : IEvaluable Inheritance object BaseEvaluator Implements IEvaluable Derived AngleEvaluator DistanceEvaluator NavMeshPathDistanceEvaluator ScriptMachineEvaluator Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_bonusWeight protected float m_bonusWeight Field Value float m_curve protected AnimationCurve m_curve Field Value AnimationCurve m_enabled protected bool m_enabled Field Value bool Properties bonusWeight public float bonusWeight { get; } Property Value float curve public AnimationCurve curve { get; } Property Value AnimationCurve enabled public bool enabled { get; } Property Value bool Methods CalculateNormalizedScore(GameObject, GameObject, Vector3) protected abstract float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float Dispose() public void Dispose() Evaluate(GameObject, GameObject) public float Evaluate(GameObject actor, GameObject target) Parameters actor GameObject target GameObject Returns float Evaluate(GameObject, GameObject, Vector3) public float Evaluate(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.BaseFilter.html": {
+    "href": "api/ToolkitEngine.BaseFilter.html",
+    "title": "Class BaseFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseFilter Namespace ToolkitEngine [Serializable] public abstract class BaseFilter : IEvaluable Inheritance object BaseFilter Implements IEvaluable Derived BaseCompareFilter<T> ConditionFilter GameObjectFilter LOSFilter LabelFilter TagFilter ScriptMachineFilter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_bonusWeight protected float m_bonusWeight Field Value float m_enabled protected bool m_enabled Field Value bool m_overrideOrSkip protected bool m_overrideOrSkip Field Value bool Properties bonusWeight public float bonusWeight { get; } Property Value float enabled public bool enabled { get; } Property Value bool overrideOrSkip public bool overrideOrSkip { get; } Property Value bool Methods Evaluate(GameObject, GameObject) public float Evaluate(GameObject actor, GameObject target) Parameters actor GameObject target GameObject Returns float Evaluate(GameObject, GameObject, Vector3) public float Evaluate(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float IsIncluded(GameObject, GameObject, Vector3) protected abstract bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.BasePostSpawnRule.html": {
+    "href": "api/ToolkitEngine.BasePostSpawnRule.html",
+    "title": "Class BasePostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class BasePostSpawnRule Namespace ToolkitEngine public abstract class BasePostSpawnRule : MonoBehaviour Inheritance object BasePostSpawnRule Derived AnimatorStatePostSpawnRule AttachmentPostSpawnRule OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ScriptMachinePostSpawnRule SplineAnimatePostSpawnRule Methods Process(Transform, Spawner, GameObject) public abstract void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.BasePreSpawnRule.html": {
+    "href": "api/ToolkitEngine.BasePreSpawnRule.html",
+    "title": "Class BasePreSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class BasePreSpawnRule Namespace ToolkitEngine public abstract class BasePreSpawnRule : MonoBehaviour Inheritance object BasePreSpawnRule Derived CollisionPreSpawnRule NavMeshPreSpawnRule Methods Process(ObjectSpawner, GameObject, ref Vector3, ref Quaternion) public abstract bool Process(ObjectSpawner spawner, GameObject template, ref Vector3 position, ref Quaternion rotation) Parameters spawner ObjectSpawner template GameObject position Vector3 rotation Quaternion Returns bool"
+  },
+  "api/ToolkitEngine.BaseRemapper-1.html": {
+    "href": "api/ToolkitEngine.BaseRemapper-1.html",
+    "title": "Class BaseRemapper<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseRemapper<T> Namespace ToolkitEngine public abstract class BaseRemapper<T> : MonoBehaviour Type Parameters T Inheritance object BaseRemapper<T> Derived FloatRemapper Vector3Remapper Fields m_dstMaxValue protected T m_dstMaxValue Field Value T m_dstMinValue protected T m_dstMinValue Field Value T Methods GetValue(float) protected abstract T GetValue(float t) Parameters t float Returns T Remap() public void Remap() Remap(float) public void Remap(float value) Parameters value float"
+  },
+  "api/ToolkitEngine.CollisionPreSpawnRule.html": {
+    "href": "api/ToolkitEngine.CollisionPreSpawnRule.html",
+    "title": "Class CollisionPreSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class CollisionPreSpawnRule Namespace ToolkitEngine public class CollisionPreSpawnRule : BasePreSpawnRule Inheritance object BasePreSpawnRule CollisionPreSpawnRule Methods Process(ObjectSpawner, GameObject, ref Vector3, ref Quaternion) public override bool Process(ObjectSpawner spawner, GameObject template, ref Vector3 position, ref Quaternion rotation) Parameters spawner ObjectSpawner template GameObject position Vector3 rotation Quaternion Returns bool"
+  },
+  "api/ToolkitEngine.ConditionFilter.html": {
+    "href": "api/ToolkitEngine.ConditionFilter.html",
+    "title": "Class ConditionFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class ConditionFilter Namespace ToolkitEngine public class ConditionFilter : BaseFilter, IEvaluable Inheritance object BaseFilter ConditionFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.CoroutineUtil.html": {
+    "href": "api/ToolkitEngine.CoroutineUtil.html",
+    "title": "Class CoroutineUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class CoroutineUtil Namespace ToolkitEngine public class CoroutineUtil : Singleton<CoroutineUtil> Inheritance object Singleton<CoroutineUtil> CoroutineUtil Inherited Members Singleton<CoroutineUtil>.Initialized Singleton<CoroutineUtil>.Terminated Singleton<CoroutineUtil>.Instance Singleton<CoroutineUtil>.Exists Singleton<CoroutineUtil>.Ready Singleton<CoroutineUtil>.Awake() Singleton<CoroutineUtil>.OnDestroy() Singleton<CoroutineUtil>.Initialize() Singleton<CoroutineUtil>.Terminate() Singleton<CoroutineUtil>.Refresh() Methods GlobalStartCoroutine(IEnumerator) public static Coroutine GlobalStartCoroutine(IEnumerator routine) Parameters routine IEnumerator Returns Coroutine GlobalStopCoroutine(Coroutine) public static void GlobalStopCoroutine(Coroutine routine) Parameters routine Coroutine"
+  },
+  "api/ToolkitEngine.DestroyHandler.html": {
+    "href": "api/ToolkitEngine.DestroyHandler.html",
+    "title": "Class DestroyHandler | Core Toolkit | 1.0.0",
+    "keywords": "Class DestroyHandler Namespace ToolkitEngine public class DestroyHandler : MonoBehaviour Inheritance object DestroyHandler Fields OnDestroyed public UnityEvent<GameObject> OnDestroyed Field Value UnityEvent<GameObject>"
+  },
+  "api/ToolkitEngine.DistanceEvaluator.html": {
+    "href": "api/ToolkitEngine.DistanceEvaluator.html",
+    "title": "Class DistanceEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class DistanceEvaluator Namespace ToolkitEngine public class DistanceEvaluator : BaseEvaluator, IEvaluable Inheritance object BaseEvaluator DistanceEvaluator Implements IEvaluable Inherited Members BaseEvaluator.m_enabled BaseEvaluator.m_curve BaseEvaluator.m_bonusWeight BaseEvaluator.enabled BaseEvaluator.curve BaseEvaluator.bonusWeight BaseEvaluator.Evaluate(GameObject, GameObject) BaseEvaluator.Evaluate(GameObject, GameObject, Vector3) BaseEvaluator.Dispose() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties maxDistance public float maxDistance { get; } Property Value float minDistance public float minDistance { get; } Property Value float Methods CalculateNormalizedScore(GameObject, GameObject, Vector3) protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.DistanceFilter.html": {
+    "href": "api/ToolkitEngine.DistanceFilter.html",
+    "title": "Class DistanceFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class DistanceFilter Namespace ToolkitEngine public class DistanceFilter : BaseCompareFilter<float>, IEvaluable Inheritance object BaseFilter BaseCompareFilter<float> DistanceFilter Implements IEvaluable Inherited Members BaseCompareFilter<float>.m_compareType BaseCompareFilter<float>.m_compareTo BaseCompareFilter<float>.CompareTo(float) BaseCompareFilter<float>.CompareTo(float, float) BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.FacingEvents.html": {
+    "href": "api/ToolkitEngine.FacingEvents.html",
+    "title": "Class FacingEvents | Core Toolkit | 1.0.0",
+    "keywords": "Class FacingEvents Namespace ToolkitEngine public class FacingEvents : MonoBehaviour Inheritance object FacingEvents Properties facing public bool facing { get; } Property Value bool onFacing public UnityEvent<bool> onFacing { get; } Property Value UnityEvent<bool>"
+  },
+  "api/ToolkitEngine.FloatRemapper.html": {
+    "href": "api/ToolkitEngine.FloatRemapper.html",
+    "title": "Class FloatRemapper | Core Toolkit | 1.0.0",
+    "keywords": "Class FloatRemapper Namespace ToolkitEngine public class FloatRemapper : BaseRemapper<float> Inheritance object BaseRemapper<float> FloatRemapper Inherited Members BaseRemapper<float>.m_dstMinValue BaseRemapper<float>.m_dstMaxValue BaseRemapper<float>.Remap() BaseRemapper<float>.Remap(float) Methods GetValue(float) protected override float GetValue(float t) Parameters t float Returns float"
+  },
+  "api/ToolkitEngine.GameObjectFilter.html": {
+    "href": "api/ToolkitEngine.GameObjectFilter.html",
+    "title": "Class GameObjectFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class GameObjectFilter Namespace ToolkitEngine public class GameObjectFilter : BaseFilter, IEvaluable Inheritance object BaseFilter GameObjectFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.GizmosUtil.html": {
+    "href": "api/ToolkitEngine.GizmosUtil.html",
+    "title": "Class GizmosUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class GizmosUtil Namespace ToolkitEngine public static class GizmosUtil Inheritance object GizmosUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods DrawArrow(Transform, Color, float) public static void DrawArrow(Transform transform, Color color, float scale = 1) Parameters transform Transform color Color scale float DrawArrow(Transform, float) public static void DrawArrow(Transform transform, float scale = 1) Parameters transform Transform scale float DrawCone(Vector3, float, float, Vector3) public static void DrawCone(Vector3 vertex, float angle, float height, Vector3 direction) Parameters vertex Vector3 angle float height float direction Vector3 DrawCone(Vector3, float, float, Vector3, Color) public static void DrawCone(Vector3 vertex, float angle, float height, Vector3 direction, Color color) Parameters vertex Vector3 angle float height float direction Vector3 color Color DrawEllipse(Transform, float, float, int) public static void DrawEllipse(Transform transform, float xRadius, float zRadius, int segments) Parameters transform Transform xRadius float zRadius float segments int"
+  },
+  "api/ToolkitEngine.IEvaluable.html": {
+    "href": "api/ToolkitEngine.IEvaluable.html",
+    "title": "Interface IEvaluable | Core Toolkit | 1.0.0",
+    "keywords": "Interface IEvaluable Namespace ToolkitEngine public interface IEvaluable Properties bonusWeight float bonusWeight { get; } Property Value float enabled bool enabled { get; } Property Value bool Methods Evaluate(GameObject, GameObject) float Evaluate(GameObject actor, GameObject target) Parameters actor GameObject target GameObject Returns float Evaluate(GameObject, GameObject, Vector3) float Evaluate(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.IKillable.html": {
+    "href": "api/ToolkitEngine.IKillable.html",
+    "title": "Interface IKillable | Core Toolkit | 1.0.0",
+    "keywords": "Interface IKillable Namespace ToolkitEngine public interface IKillable Properties isDead bool isDead { get; } Property Value bool Events Killed event EventHandler Killed Event Type EventHandler"
+  },
+  "api/ToolkitEngine.IPoolItemRecyclable.html": {
+    "href": "api/ToolkitEngine.IPoolItemRecyclable.html",
+    "title": "Interface IPoolItemRecyclable | Core Toolkit | 1.0.0",
+    "keywords": "Interface IPoolItemRecyclable Namespace ToolkitEngine public interface IPoolItemRecyclable Methods Recycle() void Recycle()"
+  },
+  "api/ToolkitEngine.LOSFilter.html": {
+    "href": "api/ToolkitEngine.LOSFilter.html",
+    "title": "Class LOSFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class LOSFilter Namespace ToolkitEngine public class LOSFilter : BaseFilter, IEvaluable Inheritance object BaseFilter LOSFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.LabelFilter.html": {
+    "href": "api/ToolkitEngine.LabelFilter.html",
+    "title": "Class LabelFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class LabelFilter Namespace ToolkitEngine public class LabelFilter : BaseFilter, IEvaluable Inheritance object BaseFilter LabelFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.LabelType.html": {
+    "href": "api/ToolkitEngine.LabelType.html",
+    "title": "Class LabelType | Core Toolkit | 1.0.0",
+    "keywords": "Class LabelType Namespace ToolkitEngine public class LabelType : ScriptableObject Inheritance object LabelType"
+  },
+  "api/ToolkitEngine.Labels.html": {
+    "href": "api/ToolkitEngine.Labels.html",
+    "title": "Class Labels | Core Toolkit | 1.0.0",
+    "keywords": "Class Labels Namespace ToolkitEngine public class Labels : MonoBehaviour, ISet<LabelType>, ICollection<LabelType>, IEnumerable<LabelType>, IEnumerable Inheritance object Labels Implements ISet<LabelType> ICollection<LabelType> IEnumerable<LabelType> IEnumerable Extension Methods RandomUtil.WeightedRandomIndex<T>(IEnumerable<T>, Func<T, float>) RandomUtil.WeightedRandom<T>(IEnumerable<T>, Func<T, float>) Properties Count Gets the number of elements contained in the ICollection<T>. public int Count { get; } Property Value int The number of elements contained in the ICollection<T>. IsReadOnly Gets a value indicating whether the ICollection<T> is read-only. public bool IsReadOnly { get; } Property Value bool true if the ICollection<T> is read-only; otherwise, false. Methods Add(LabelType) Adds an element to the current set and returns a value to indicate if the element was successfully added. public bool Add(LabelType item) Parameters item LabelType The element to add to the set. Returns bool true if the element is added to the set; false if the element is already in the set. Clear() Removes all items from the ICollection<T>. public void Clear() Exceptions NotSupportedException The ICollection<T> is read-only. Contains(LabelType) Determines whether the ICollection<T> contains a specific value. public bool Contains(LabelType item) Parameters item LabelType The object to locate in the ICollection<T>. Returns bool true if item is found in the ICollection<T>; otherwise, false. CopyTo(LabelType[], int) Copies the elements of the ICollection<T> to an Array, starting at a particular Array index. public void CopyTo(LabelType[] array, int arrayIndex) Parameters array LabelType[] The one-dimensional Array that is the destination of the elements copied from ICollection<T>. The Array must have zero-based indexing. arrayIndex int The zero-based index in array at which copying begins. Exceptions ArgumentNullException array is null. ArgumentOutOfRangeException arrayIndex is less than 0. ArgumentException The number of elements in the source ICollection<T> is greater than the available space from arrayIndex to the end of the destination array. ExceptWith(IEnumerable<LabelType>) Removes all elements in the specified collection from the current set. public void ExceptWith(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection of items to remove from the set. Exceptions ArgumentNullException other is null. GetEnumerator() Returns an enumerator that iterates through the collection. public IEnumerator<LabelType> GetEnumerator() Returns IEnumerator<LabelType> An enumerator that can be used to iterate through the collection. IntersectWith(IEnumerable<LabelType>) Modifies the current set so that it contains only elements that are also in a specified collection. public void IntersectWith(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Exceptions ArgumentNullException other is null. IsProperSubsetOf(IEnumerable<LabelType>) Determines whether the current set is a proper (strict) subset of a specified collection. public bool IsProperSubsetOf(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set is a proper subset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsProperSupersetOf(IEnumerable<LabelType>) Determines whether the current set is a proper (strict) superset of a specified collection. public bool IsProperSupersetOf(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set is a proper superset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsSubsetOf(IEnumerable<LabelType>) Determines whether a set is a subset of a specified collection. public bool IsSubsetOf(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set is a subset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsSupersetOf(IEnumerable<LabelType>) Determines whether the current set is a superset of a specified collection. public bool IsSupersetOf(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set is a superset of other; otherwise, false. Exceptions ArgumentNullException other is null. Overlaps(IEnumerable<LabelType>) Determines whether the current set overlaps with the specified collection. public bool Overlaps(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set and other share at least one common element; otherwise, false. Exceptions ArgumentNullException other is null. Remove(LabelType) Removes the first occurrence of a specific object from the ICollection<T>. public bool Remove(LabelType item) Parameters item LabelType The object to remove from the ICollection<T>. Returns bool true if item was successfully removed from the ICollection<T>; otherwise, false. This method also returns false if item is not found in the original ICollection<T>. Exceptions NotSupportedException The ICollection<T> is read-only. SetEquals(IEnumerable<LabelType>) Determines whether the current set and the specified collection contain the same elements. public bool SetEquals(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Returns bool true if the current set is equal to other; otherwise, false. Exceptions ArgumentNullException other is null. SymmetricExceptWith(IEnumerable<LabelType>) Modifies the current set so that it contains only elements that are present either in the current set or in the specified collection, but not both. public void SymmetricExceptWith(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Exceptions ArgumentNullException other is null. UnionWith(IEnumerable<LabelType>) Modifies the current set so that it contains all elements that are present in the current set, in the specified collection, or in both. public void UnionWith(IEnumerable<LabelType> other) Parameters other IEnumerable<LabelType> The collection to compare to the current set. Exceptions ArgumentNullException other is null."
+  },
+  "api/ToolkitEngine.Lifetime.html": {
+    "href": "api/ToolkitEngine.Lifetime.html",
+    "title": "Class Lifetime | Core Toolkit | 1.0.0",
+    "keywords": "Class Lifetime Namespace ToolkitEngine public class Lifetime : MonoBehaviour Inheritance object Lifetime"
+  },
+  "api/ToolkitEngine.LookAtCamera.LookStyle.html": {
+    "href": "api/ToolkitEngine.LookAtCamera.LookStyle.html",
+    "title": "Enum LookAtCamera.LookStyle | Core Toolkit | 1.0.0",
+    "keywords": "Enum LookAtCamera.LookStyle Namespace ToolkitEngine public enum LookAtCamera.LookStyle Fields Axis = 1 Default = 0 Parallel = 2"
+  },
+  "api/ToolkitEngine.LookAtCamera.html": {
+    "href": "api/ToolkitEngine.LookAtCamera.html",
+    "title": "Class LookAtCamera | Core Toolkit | 1.0.0",
+    "keywords": "Class LookAtCamera Namespace ToolkitEngine public class LookAtCamera : MonoBehaviour Inheritance object LookAtCamera Fields axis public Axis axis Field Value Axis lookStyle public LookAtCamera.LookStyle lookStyle Field Value LookAtCamera.LookStyle reverse public bool reverse Field Value bool"
+  },
+  "api/ToolkitEngine.NavMeshPathDistanceEvaluator.html": {
+    "href": "api/ToolkitEngine.NavMeshPathDistanceEvaluator.html",
+    "title": "Class NavMeshPathDistanceEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshPathDistanceEvaluator Namespace ToolkitEngine public class NavMeshPathDistanceEvaluator : BaseEvaluator, IEvaluable Inheritance object BaseEvaluator NavMeshPathDistanceEvaluator Implements IEvaluable Inherited Members BaseEvaluator.m_enabled BaseEvaluator.m_curve BaseEvaluator.m_bonusWeight BaseEvaluator.enabled BaseEvaluator.curve BaseEvaluator.bonusWeight BaseEvaluator.Evaluate(GameObject, GameObject) BaseEvaluator.Evaluate(GameObject, GameObject, Vector3) BaseEvaluator.Dispose() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties maxDistance public float maxDistance { get; } Property Value float minDistance public float minDistance { get; } Property Value float Methods CalculateNormalizedScore(GameObject, GameObject, Vector3) protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.NavMeshPreSpawnRule.html": {
+    "href": "api/ToolkitEngine.NavMeshPreSpawnRule.html",
+    "title": "Class NavMeshPreSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshPreSpawnRule Namespace ToolkitEngine public class NavMeshPreSpawnRule : BasePreSpawnRule Inheritance object BasePreSpawnRule NavMeshPreSpawnRule Methods Process(ObjectSpawner, GameObject, ref Vector3, ref Quaternion) public override bool Process(ObjectSpawner spawner, GameObject template, ref Vector3 position, ref Quaternion rotation) Parameters spawner ObjectSpawner template GameObject position Vector3 rotation Quaternion Returns bool"
+  },
+  "api/ToolkitEngine.ObjectActivation.html": {
+    "href": "api/ToolkitEngine.ObjectActivation.html",
+    "title": "Class ObjectActivation | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectActivation Namespace ToolkitEngine [Serializable] public class ObjectActivation Inheritance object ObjectActivation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Invert() public void Invert() Set() public void Set()"
+  },
+  "api/ToolkitEngine.ObjectSpawner.OrderMode.html": {
+    "href": "api/ToolkitEngine.ObjectSpawner.OrderMode.html",
+    "title": "Enum ObjectSpawner.OrderMode | Core Toolkit | 1.0.0",
+    "keywords": "Enum ObjectSpawner.OrderMode Namespace ToolkitEngine public enum ObjectSpawner.OrderMode Fields Indexed = 3 Random = 1 RandomWithoutRepeating = 2 Sequence = 0"
+  },
+  "api/ToolkitEngine.ObjectSpawner.SpawnSpace.html": {
+    "href": "api/ToolkitEngine.ObjectSpawner.SpawnSpace.html",
+    "title": "Enum ObjectSpawner.SpawnSpace | Core Toolkit | 1.0.0",
+    "keywords": "Enum ObjectSpawner.SpawnSpace Namespace ToolkitEngine public enum ObjectSpawner.SpawnSpace Fields PositionAndRotation = 3 SpawnAtPoint = 0 SpawnInLocalSpace = 1 SpawnInWorldSpace = 2"
+  },
+  "api/ToolkitEngine.ObjectSpawner.html": {
+    "href": "api/ToolkitEngine.ObjectSpawner.html",
+    "title": "Class ObjectSpawner | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectSpawner Namespace ToolkitEngine public class ObjectSpawner : MonoBehaviour Inheritance object ObjectSpawner Fields m_spawnOnStart protected bool m_spawnOnStart Field Value bool Properties count Number of objects currently spawned public int count { get; } Property Value int hasPoints public bool hasPoints { get; } Property Value bool isDefined Indicates whether template is defined public bool isDefined { get; } Property Value bool onDespawned public UnityEvent<SpawnerEventArgs> onDespawned { get; } Property Value UnityEvent<SpawnerEventArgs> onSpawned public UnityEvent<SpawnerEventArgs> onSpawned { get; } Property Value UnityEvent<SpawnerEventArgs> onSpawning public UnityEvent<SpawnerEventArgs> onSpawning { get; } Property Value UnityEvent<SpawnerEventArgs> points public Transform[] points { get; } Property Value Transform[] template Template to spawn public GameObject template { get; } Property Value GameObject Methods Awake() protected virtual void Awake() DestroyAll() public void DestroyAll() Instantiate() public bool Instantiate() Returns bool Instantiate(int) public bool Instantiate(int index) Parameters index int Returns bool Instantiate(int, SpawnedAction, params object[]) public bool Instantiate(int index, SpawnedAction spawnedAction, params object[] args) Parameters index int spawnedAction SpawnedAction args object[] Returns bool Instantiate(SpawnedAction, params object[]) public bool Instantiate(SpawnedAction spawnedAction, params object[] args) Parameters spawnedAction SpawnedAction args object[] Returns bool Instantiate(Transform) public bool Instantiate(Transform parent) Parameters parent Transform Returns bool Instantiate(Transform, bool) public bool Instantiate(Transform parent, bool spawnInWorldSpace) Parameters parent Transform spawnInWorldSpace bool Returns bool Instantiate(Transform, bool, SpawnedAction, params object[]) public bool Instantiate(Transform parent, bool spawnInWorldSpace, SpawnedAction spawnedAction, params object[] args) Parameters parent Transform spawnInWorldSpace bool spawnedAction SpawnedAction args object[] Returns bool Instantiate(Transform, SpawnedAction, params object[]) public bool Instantiate(Transform parent, SpawnedAction spawnedAction, params object[] args) Parameters parent Transform spawnedAction SpawnedAction args object[] Returns bool Instantiate(Vector3, Quaternion) public bool Instantiate(Vector3 position, Quaternion rotation) Parameters position Vector3 rotation Quaternion Returns bool Instantiate(Vector3, Quaternion, SpawnedAction, params object[]) public bool Instantiate(Vector3 position, Quaternion rotation, SpawnedAction spawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion spawnedAction SpawnedAction args object[] Returns bool Instantiate(Vector3, Quaternion, Transform) public bool Instantiate(Vector3 position, Quaternion rotation, Transform parent) Parameters position Vector3 rotation Quaternion parent Transform Returns bool Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Instantiate(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction spawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion parent Transform spawnedAction SpawnedAction args object[] Returns bool InstantiateNext(SpawnedAction, params object[]) public bool InstantiateNext(SpawnedAction spawnedAction, params object[] args) Parameters spawnedAction SpawnedAction args object[] Returns bool QuickSpawn() public void QuickSpawn() Set(GameObject) public void Set(GameObject template) Parameters template GameObject Set(PoolItem) public void Set(PoolItem poolItem) Parameters poolItem PoolItem Spawn() public bool Spawn() Returns bool Start() protected virtual void Start()"
+  },
+  "api/ToolkitEngine.ObjectSpawnerControl.html": {
+    "href": "api/ToolkitEngine.ObjectSpawnerControl.html",
+    "title": "Class ObjectSpawnerControl | Core Toolkit | 1.0.0",
+    "keywords": "Class ObjectSpawnerControl Namespace ToolkitEngine public class ObjectSpawnerControl : MonoBehaviour Inheritance object ObjectSpawnerControl Fields m_isInfinite protected bool m_isInfinite Field Value bool m_isSimultaneousInfinite protected bool m_isSimultaneousInfinite Field Value bool m_maxCount protected int m_maxCount Field Value int m_maxSimultaneousCount protected int m_maxSimultaneousCount Field Value int Properties canSpawn public bool canSpawn { get; } Property Value bool canSpawnByLimit public bool canSpawnByLimit { get; } Property Value bool canSpawnByTime public bool canSpawnByTime { get; } Property Value bool count Number of objects currently spawned public int count { get; } Property Value int isInfinite Indicates whether spawner will spawn until turned off public bool isInfinite { get; } Property Value bool isOn public bool isOn { get; set; } Property Value bool isRunning Indicates whether spawner is on OR has queued spawns public bool isRunning { get; } Property Value bool isSimultaneousInfinite Indicates whether spawner will spawn to it maximum limit public bool isSimultaneousInfinite { get; } Property Value bool maxDelayTime Maximum seconds to wait between spawns public float maxDelayTime { get; } Property Value float maxSimultaneousCount public int maxSimultaneousCount { get; set; } Property Value int minDelayTime Minimum seconds to wait between spawns public float minDelayTime { get; } Property Value float queuedCount Number of spawns queued public int queuedCount { get; } Property Value int Methods Dequeue() public void Dequeue() Dequeue(int) public void Dequeue(int count) Parameters count int DequeueAll() public void DequeueAll() Enqueue() public void Enqueue() Enqueue(int) public void Enqueue(int count) Parameters count int Enqueue(Vector3, Quaternion) public void Enqueue(Vector3 position, Quaternion rotation) Parameters position Vector3 rotation Quaternion ResetMaxLimit(int) public void ResetMaxLimit(int maxLimit) Parameters maxLimit int Spawn() public void Spawn()"
+  },
+  "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.html": {
+    "href": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.html",
+    "title": "Enum OverrideRigidbodyPostSpawnRule.OverrideMethod | Core Toolkit | 1.0.0",
+    "keywords": "Enum OverrideRigidbodyPostSpawnRule.OverrideMethod Namespace ToolkitEngine public enum OverrideRigidbodyPostSpawnRule.OverrideMethod Fields False = 2 Ignore = 0 True = 1"
+  },
+  "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.html": {
+    "href": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.html",
+    "title": "Class OverrideRigidbodyPostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class OverrideRigidbodyPostSpawnRule Namespace ToolkitEngine public class OverrideRigidbodyPostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule OverrideRigidbodyPostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.ParentPostSpawnRule.html": {
+    "href": "api/ToolkitEngine.ParentPostSpawnRule.html",
+    "title": "Class ParentPostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class ParentPostSpawnRule Namespace ToolkitEngine public class ParentPostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule ParentPostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.ParticleSystemStoppedHandler.html": {
+    "href": "api/ToolkitEngine.ParticleSystemStoppedHandler.html",
+    "title": "Class ParticleSystemStoppedHandler | Core Toolkit | 1.0.0",
+    "keywords": "Class ParticleSystemStoppedHandler Namespace ToolkitEngine public class ParticleSystemStoppedHandler : MonoBehaviour Inheritance object ParticleSystemStoppedHandler Fields ParticleSystemStopped public UnityEvent ParticleSystemStopped Field Value UnityEvent Methods OnParticleSystemStopped() public void OnParticleSystemStopped()"
+  },
+  "api/ToolkitEngine.PhysicsUtil.html": {
+    "href": "api/ToolkitEngine.PhysicsUtil.html",
+    "title": "Class PhysicsUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class PhysicsUtil Namespace ToolkitEngine public static class PhysicsUtil Inheritance object PhysicsUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CalculateForceToHitTarget(Rigidbody, Vector3) public static Vector3 CalculateForceToHitTarget(Rigidbody rigidbody, Vector3 target) Parameters rigidbody Rigidbody target Vector3 Returns Vector3"
+  },
+  "api/ToolkitEngine.PoolItem.html": {
+    "href": "api/ToolkitEngine.PoolItem.html",
+    "title": "Class PoolItem | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItem Namespace ToolkitEngine public class PoolItem : MonoBehaviour Inheritance object PoolItem Fields OnGet public UnityEvent<PoolItem> OnGet Field Value UnityEvent<PoolItem> OnReleased public UnityEvent<PoolItem> OnReleased Field Value UnityEvent<PoolItem> OnSpawned public UnityEvent<PoolItem> OnSpawned Field Value UnityEvent<PoolItem> Methods AttemptRelease() public void AttemptRelease() Destroy(GameObject) public static void Destroy(GameObject gameObject) Parameters gameObject GameObject Spawn() public void Spawn()"
+  },
+  "api/ToolkitEngine.PoolItemManager.html": {
+    "href": "api/ToolkitEngine.PoolItemManager.html",
+    "title": "Class PoolItemManager | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItemManager Namespace ToolkitEngine public class PoolItemManager : Singleton<PoolItemManager> Inheritance object Singleton<PoolItemManager> PoolItemManager Inherited Members Singleton<PoolItemManager>.Initialized Singleton<PoolItemManager>.Terminated Singleton<PoolItemManager>.Instance Singleton<PoolItemManager>.Exists Singleton<PoolItemManager>.Ready Singleton<PoolItemManager>.Awake() Singleton<PoolItemManager>.OnDestroy() Singleton<PoolItemManager>.Terminate() Singleton<PoolItemManager>.Refresh() Methods Initialize() protected override void Initialize() Release(PoolItem) public static bool Release(PoolItem item) Parameters item PoolItem Returns bool TryGet(PoolItem, out PoolItem) public static bool TryGet(PoolItem template, out PoolItem item) Parameters template PoolItem item PoolItem Returns bool"
+  },
+  "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.html": {
+    "href": "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.html",
+    "title": "Enum PoolItemSpawner<T>.CapacityMode | Core Toolkit | 1.0.0",
+    "keywords": "Enum PoolItemSpawner<T>.CapacityMode Namespace ToolkitEngine public enum PoolItemSpawner<T>.CapacityMode Fields AutoRelease = 1 Block = 2 Overflow = 0"
+  },
+  "api/ToolkitEngine.PoolItemSpawner-1.html": {
+    "href": "api/ToolkitEngine.PoolItemSpawner-1.html",
+    "title": "Class PoolItemSpawner<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class PoolItemSpawner<T> Namespace ToolkitEngine [Serializable] public sealed class PoolItemSpawner<T> where T : PoolItem Type Parameters T Inheritance object PoolItemSpawner<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties hasTemplate public bool hasTemplate { get; } Property Value bool onCreatePoolItem public Action<T> onCreatePoolItem { get; set; } Property Value Action<T> onDestroyPoolItem public Action<T> onDestroyPoolItem { get; set; } Property Value Action<T> onGetPoolItem public Action<T> onGetPoolItem { get; set; } Property Value Action<T> onReleasePoolItem public Action<T> onReleasePoolItem { get; set; } Property Value Action<T> template public T template { get; set; } Property Value T Methods Clear() public void Clear() Release(T) public void Release(T item) Parameters item T TryGet(out T) public bool TryGet(out T item) Parameters item T Returns bool"
+  },
+  "api/ToolkitEngine.Rendering.BaseMaterialModifier-1.html": {
+    "href": "api/ToolkitEngine.Rendering.BaseMaterialModifier-1.html",
+    "title": "Class BaseMaterialModifier<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMaterialModifier<T> Namespace ToolkitEngine.Rendering public abstract class BaseMaterialModifier<T> : BaseMaterialModifier Type Parameters T Inheritance object BaseMaterialModifier BaseMaterialModifier<T> Derived ColorMaterialModifier FloatMaterialModifier Inherited Members BaseMaterialModifier.m_propertyName BaseMaterialModifier.m_mode BaseMaterialModifier.m_renderers BaseMaterialModifier.m_shared BaseMaterialModifier.m_indices BaseMaterialModifier.m_materials BaseMaterialModifier.m_applyOnEnable BaseMaterialModifier.m_nameId Methods Awake() protected override void Awake() GetValue(float) protected abstract T GetValue(float t) Parameters t float Returns T OnDestroy() protected virtual void OnDestroy() OnEnable() protected virtual void OnEnable() Set(Material, T) protected abstract void Set(Material material, T value) Parameters material Material value T Set(float) public void Set(float t) Parameters t float"
+  },
+  "api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.html": {
+    "href": "api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.html",
+    "title": "Enum BaseMaterialModifier.Mode | Core Toolkit | 1.0.0",
+    "keywords": "Enum BaseMaterialModifier.Mode Namespace ToolkitEngine.Rendering public enum BaseMaterialModifier.Mode Fields Material = 1 Renderer = 0"
+  },
+  "api/ToolkitEngine.Rendering.BaseMaterialModifier.html": {
+    "href": "api/ToolkitEngine.Rendering.BaseMaterialModifier.html",
+    "title": "Class BaseMaterialModifier | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMaterialModifier Namespace ToolkitEngine.Rendering public abstract class BaseMaterialModifier : MonoBehaviour Inheritance object BaseMaterialModifier Derived BaseMaterialModifier<T> Fields m_applyOnEnable protected bool m_applyOnEnable Field Value bool m_indices protected int[] m_indices Field Value int[] m_materials protected Material[] m_materials Field Value Material[] m_mode protected BaseMaterialModifier.Mode m_mode Field Value BaseMaterialModifier.Mode m_nameId protected int m_nameId Field Value int m_propertyName protected string m_propertyName Field Value string m_renderers protected Renderer[] m_renderers Field Value Renderer[] m_shared protected bool m_shared Field Value bool Methods Awake() protected virtual void Awake()"
+  },
+  "api/ToolkitEngine.Rendering.ColorMaterialModifier.html": {
+    "href": "api/ToolkitEngine.Rendering.ColorMaterialModifier.html",
+    "title": "Class ColorMaterialModifier | Core Toolkit | 1.0.0",
+    "keywords": "Class ColorMaterialModifier Namespace ToolkitEngine.Rendering public class ColorMaterialModifier : BaseMaterialModifier<Color> Inheritance object BaseMaterialModifier BaseMaterialModifier<Color> ColorMaterialModifier Inherited Members BaseMaterialModifier<Color>.Awake() BaseMaterialModifier<Color>.OnEnable() BaseMaterialModifier<Color>.OnDestroy() BaseMaterialModifier<Color>.Set(float) BaseMaterialModifier.m_propertyName BaseMaterialModifier.m_mode BaseMaterialModifier.m_renderers BaseMaterialModifier.m_shared BaseMaterialModifier.m_indices BaseMaterialModifier.m_materials BaseMaterialModifier.m_applyOnEnable BaseMaterialModifier.m_nameId Methods GetValue(float) protected override Color GetValue(float t) Parameters t float Returns Color Set(Material, Color) protected override void Set(Material material, Color value) Parameters material Material value Color"
+  },
+  "api/ToolkitEngine.Rendering.FloatMaterialModifier.html": {
+    "href": "api/ToolkitEngine.Rendering.FloatMaterialModifier.html",
+    "title": "Class FloatMaterialModifier | Core Toolkit | 1.0.0",
+    "keywords": "Class FloatMaterialModifier Namespace ToolkitEngine.Rendering public class FloatMaterialModifier : BaseMaterialModifier<float> Inheritance object BaseMaterialModifier BaseMaterialModifier<float> FloatMaterialModifier Derived RangeMaterialModifier Inherited Members BaseMaterialModifier<float>.Awake() BaseMaterialModifier<float>.OnEnable() BaseMaterialModifier<float>.OnDestroy() BaseMaterialModifier<float>.Set(float) BaseMaterialModifier.m_propertyName BaseMaterialModifier.m_mode BaseMaterialModifier.m_renderers BaseMaterialModifier.m_shared BaseMaterialModifier.m_indices BaseMaterialModifier.m_materials BaseMaterialModifier.m_applyOnEnable BaseMaterialModifier.m_nameId Methods GetValue(float) protected override float GetValue(float t) Parameters t float Returns float Set(Material, float) protected override void Set(Material material, float value) Parameters material Material value float"
+  },
+  "api/ToolkitEngine.Rendering.MaterialRecycler.html": {
+    "href": "api/ToolkitEngine.Rendering.MaterialRecycler.html",
+    "title": "Class MaterialRecycler | Core Toolkit | 1.0.0",
+    "keywords": "Class MaterialRecycler Namespace ToolkitEngine.Rendering public class MaterialRecycler : MonoBehaviour, IPoolItemRecyclable Inheritance object MaterialRecycler Implements IPoolItemRecyclable Methods Recycle() public void Recycle()"
+  },
+  "api/ToolkitEngine.Rendering.RangeMaterialModifier.html": {
+    "href": "api/ToolkitEngine.Rendering.RangeMaterialModifier.html",
+    "title": "Class RangeMaterialModifier | Core Toolkit | 1.0.0",
+    "keywords": "Class RangeMaterialModifier Namespace ToolkitEngine.Rendering public class RangeMaterialModifier : FloatMaterialModifier Inheritance object BaseMaterialModifier BaseMaterialModifier<float> FloatMaterialModifier RangeMaterialModifier Inherited Members FloatMaterialModifier.GetValue(float) FloatMaterialModifier.Set(Material, float) BaseMaterialModifier<float>.Awake() BaseMaterialModifier<float>.OnEnable() BaseMaterialModifier<float>.OnDestroy() BaseMaterialModifier<float>.Set(float) BaseMaterialModifier.m_propertyName BaseMaterialModifier.m_mode BaseMaterialModifier.m_renderers BaseMaterialModifier.m_shared BaseMaterialModifier.m_indices BaseMaterialModifier.m_materials BaseMaterialModifier.m_applyOnEnable BaseMaterialModifier.m_nameId"
+  },
+  "api/ToolkitEngine.Rendering.html": {
+    "href": "api/ToolkitEngine.Rendering.html",
+    "title": "Namespace ToolkitEngine.Rendering | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Rendering Classes BaseMaterialModifier BaseMaterialModifier<T> ColorMaterialModifier FloatMaterialModifier MaterialRecycler RangeMaterialModifier Enums BaseMaterialModifier.Mode"
+  },
+  "api/ToolkitEngine.ScriptMachinePostSpawnRule.html": {
+    "href": "api/ToolkitEngine.ScriptMachinePostSpawnRule.html",
+    "title": "Class ScriptMachinePostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachinePostSpawnRule Namespace ToolkitEngine public class ScriptMachinePostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule ScriptMachinePostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.SerializableDictionary-2.html": {
+    "href": "api/ToolkitEngine.SerializableDictionary-2.html",
+    "title": "Class SerializableDictionary<TKey, TValue> | Core Toolkit | 1.0.0",
+    "keywords": "Class SerializableDictionary<TKey, TValue> Namespace ToolkitEngine public abstract class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable, ISerializationCallbackReceiver Type Parameters TKey TValue Inheritance object Dictionary<TKey, TValue> SerializableDictionary<TKey, TValue> Implements IDictionary<TKey, TValue> ICollection<KeyValuePair<TKey, TValue>> IReadOnlyDictionary<TKey, TValue> IReadOnlyCollection<KeyValuePair<TKey, TValue>> IEnumerable<KeyValuePair<TKey, TValue>> IDictionary ICollection IEnumerable IDeserializationCallback ISerializable ISerializationCallbackReceiver Inherited Members Dictionary<TKey, TValue>.Add(TKey, TValue) Dictionary<TKey, TValue>.Clear() Dictionary<TKey, TValue>.ContainsKey(TKey) Dictionary<TKey, TValue>.ContainsValue(TValue) Dictionary<TKey, TValue>.EnsureCapacity(int) Dictionary<TKey, TValue>.GetEnumerator() Dictionary<TKey, TValue>.GetObjectData(SerializationInfo, StreamingContext) Dictionary<TKey, TValue>.OnDeserialization(object) Dictionary<TKey, TValue>.Remove(TKey) Dictionary<TKey, TValue>.Remove(TKey, out TValue) Dictionary<TKey, TValue>.TrimExcess() Dictionary<TKey, TValue>.TrimExcess(int) Dictionary<TKey, TValue>.TryAdd(TKey, TValue) Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue) Dictionary<TKey, TValue>.Comparer Dictionary<TKey, TValue>.Count Dictionary<TKey, TValue>.this[TKey] Dictionary<TKey, TValue>.Keys Dictionary<TKey, TValue>.Values object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Extension Methods RandomUtil.WeightedRandomIndex<T>(IEnumerable<T>, Func<T, float>) RandomUtil.WeightedRandom<T>(IEnumerable<T>, Func<T, float>)"
+  },
+  "api/ToolkitEngine.Set.html": {
+    "href": "api/ToolkitEngine.Set.html",
+    "title": "Class Set | Core Toolkit | 1.0.0",
+    "keywords": "Class Set Namespace ToolkitEngine public class Set : MonoBehaviour, ISet<GameObject>, ICollection<GameObject>, IEnumerable<GameObject>, IEnumerable Inheritance object Set Implements ISet<GameObject> ICollection<GameObject> IEnumerable<GameObject> IEnumerable Extension Methods ListExt.SetActive(IEnumerable<GameObject>, bool) RandomUtil.WeightedRandomIndex<T>(IEnumerable<T>, Func<T, float>) RandomUtil.WeightedRandom<T>(IEnumerable<T>, Func<T, float>) Fields onItemAdded public UnityEvent<GameObject> onItemAdded Field Value UnityEvent<GameObject> onItemRemoved public UnityEvent<GameObject> onItemRemoved Field Value UnityEvent<GameObject> Properties Count Gets the number of elements contained in the ICollection<T>. public int Count { get; } Property Value int The number of elements contained in the ICollection<T>. IsEmpty Indicates whether set is currently empty public bool IsEmpty { get; } Property Value bool IsReadOnly Gets a value indicating whether the ICollection<T> is read-only. public bool IsReadOnly { get; } Property Value bool true if the ICollection<T> is read-only; otherwise, false. Items public GameObject[] Items { get; } Property Value GameObject[] Methods Add(GameObject) Adds an element to the current set and returns a value to indicate if the element was successfully added. public bool Add(GameObject item) Parameters item GameObject The element to add to the set. Returns bool true if the element is added to the set; false if the element is already in the set. Clear() Removes all items from the ICollection<T>. public void Clear() Exceptions NotSupportedException The ICollection<T> is read-only. Contains(GameObject) Determines whether the ICollection<T> contains a specific value. public bool Contains(GameObject item) Parameters item GameObject The object to locate in the ICollection<T>. Returns bool true if item is found in the ICollection<T>; otherwise, false. CopyTo(GameObject[], int) Copies the elements of the ICollection<T> to an Array, starting at a particular Array index. public void CopyTo(GameObject[] array, int arrayIndex) Parameters array GameObject[] The one-dimensional Array that is the destination of the elements copied from ICollection<T>. The Array must have zero-based indexing. arrayIndex int The zero-based index in array at which copying begins. Exceptions ArgumentNullException array is null. ArgumentOutOfRangeException arrayIndex is less than 0. ArgumentException The number of elements in the source ICollection<T> is greater than the available space from arrayIndex to the end of the destination array. ExceptWith(IEnumerable<GameObject>) Removes all elements in the specified collection from the current set. public void ExceptWith(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection of items to remove from the set. Exceptions ArgumentNullException other is null. GetEnumerator() Returns an enumerator that iterates through the collection. public IEnumerator<GameObject> GetEnumerator() Returns IEnumerator<GameObject> An enumerator that can be used to iterate through the collection. IntersectWith(IEnumerable<GameObject>) Modifies the current set so that it contains only elements that are also in a specified collection. public void IntersectWith(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Exceptions ArgumentNullException other is null. IsProperSubsetOf(IEnumerable<GameObject>) Determines whether the current set is a proper (strict) subset of a specified collection. public bool IsProperSubsetOf(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set is a proper subset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsProperSupersetOf(IEnumerable<GameObject>) Determines whether the current set is a proper (strict) superset of a specified collection. public bool IsProperSupersetOf(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set is a proper superset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsSubsetOf(IEnumerable<GameObject>) Determines whether a set is a subset of a specified collection. public bool IsSubsetOf(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set is a subset of other; otherwise, false. Exceptions ArgumentNullException other is null. IsSupersetOf(IEnumerable<GameObject>) Determines whether the current set is a superset of a specified collection. public bool IsSupersetOf(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set is a superset of other; otherwise, false. Exceptions ArgumentNullException other is null. Overlaps(IEnumerable<GameObject>) Determines whether the current set overlaps with the specified collection. public bool Overlaps(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set and other share at least one common element; otherwise, false. Exceptions ArgumentNullException other is null. Remove(GameObject) Removes the first occurrence of a specific object from the ICollection<T>. public bool Remove(GameObject item) Parameters item GameObject The object to remove from the ICollection<T>. Returns bool true if item was successfully removed from the ICollection<T>; otherwise, false. This method also returns false if item is not found in the original ICollection<T>. Exceptions NotSupportedException The ICollection<T> is read-only. SetEquals(IEnumerable<GameObject>) Determines whether the current set and the specified collection contain the same elements. public bool SetEquals(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Returns bool true if the current set is equal to other; otherwise, false. Exceptions ArgumentNullException other is null. SymmetricExceptWith(IEnumerable<GameObject>) Modifies the current set so that it contains only elements that are present either in the current set or in the specified collection, but not both. public void SymmetricExceptWith(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Exceptions ArgumentNullException other is null. UnionWith(IEnumerable<GameObject>) Modifies the current set so that it contains all elements that are present in the current set, in the specified collection, or in both. public void UnionWith(IEnumerable<GameObject> other) Parameters other IEnumerable<GameObject> The collection to compare to the current set. Exceptions ArgumentNullException other is null."
+  },
+  "api/ToolkitEngine.ShaderUtil.html": {
+    "href": "api/ToolkitEngine.ShaderUtil.html",
+    "title": "Class ShaderUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class ShaderUtil Namespace ToolkitEngine public static class ShaderUtil Inheritance object ShaderUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties defaultShader public static Shader defaultShader { get; } Property Value Shader"
+  },
+  "api/ToolkitEngine.ShakeTransform.BaseSettings.html": {
+    "href": "api/ToolkitEngine.ShakeTransform.BaseSettings.html",
+    "title": "Class ShakeTransform.BaseSettings | Core Toolkit | 1.0.0",
+    "keywords": "Class ShakeTransform.BaseSettings Namespace ToolkitEngine [Serializable] protected abstract class ShakeTransform.BaseSettings Inheritance object ShakeTransform.BaseSettings Derived ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_duration protected float m_duration Field Value float m_fadeOut protected bool m_fadeOut Field Value bool m_killed protected bool m_killed Field Value bool m_randomness protected float m_randomness Field Value float m_randomnessMode protected ShakeRandomnessMode m_randomnessMode Field Value ShakeRandomnessMode m_shake protected bool m_shake Field Value bool m_strength protected Vector3 m_strength Field Value Vector3 m_tweener protected Tweener m_tweener Field Value Tweener m_vibrato protected int m_vibrato Field Value int Properties shaking public bool shaking { get; } Property Value bool Methods AttemptShake(Transform) protected void AttemptShake(Transform transform) Parameters transform Transform Kill(bool) public void Kill(bool complete) Parameters complete bool Shake(Transform) public abstract bool Shake(Transform transform) Parameters transform Transform Returns bool"
+  },
+  "api/ToolkitEngine.ShakeTransform.PositionSettings.html": {
+    "href": "api/ToolkitEngine.ShakeTransform.PositionSettings.html",
+    "title": "Class ShakeTransform.PositionSettings | Core Toolkit | 1.0.0",
+    "keywords": "Class ShakeTransform.PositionSettings Namespace ToolkitEngine [Serializable] protected class ShakeTransform.PositionSettings : ShakeTransform.BaseSettings Inheritance object ShakeTransform.BaseSettings ShakeTransform.PositionSettings Inherited Members ShakeTransform.BaseSettings.m_shake ShakeTransform.BaseSettings.m_duration ShakeTransform.BaseSettings.m_strength ShakeTransform.BaseSettings.m_vibrato ShakeTransform.BaseSettings.m_randomness ShakeTransform.BaseSettings.m_fadeOut ShakeTransform.BaseSettings.m_randomnessMode ShakeTransform.BaseSettings.m_tweener ShakeTransform.BaseSettings.m_killed ShakeTransform.BaseSettings.shaking ShakeTransform.BaseSettings.Kill(bool) ShakeTransform.BaseSettings.AttemptShake(Transform) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_snapping protected bool m_snapping Field Value bool Methods Shake(Transform) public override bool Shake(Transform transform) Parameters transform Transform Returns bool"
+  },
+  "api/ToolkitEngine.ShakeTransform.RotationSettings.html": {
+    "href": "api/ToolkitEngine.ShakeTransform.RotationSettings.html",
+    "title": "Class ShakeTransform.RotationSettings | Core Toolkit | 1.0.0",
+    "keywords": "Class ShakeTransform.RotationSettings Namespace ToolkitEngine [Serializable] protected class ShakeTransform.RotationSettings : ShakeTransform.BaseSettings Inheritance object ShakeTransform.BaseSettings ShakeTransform.RotationSettings Inherited Members ShakeTransform.BaseSettings.m_shake ShakeTransform.BaseSettings.m_duration ShakeTransform.BaseSettings.m_strength ShakeTransform.BaseSettings.m_vibrato ShakeTransform.BaseSettings.m_randomness ShakeTransform.BaseSettings.m_fadeOut ShakeTransform.BaseSettings.m_randomnessMode ShakeTransform.BaseSettings.m_tweener ShakeTransform.BaseSettings.m_killed ShakeTransform.BaseSettings.shaking ShakeTransform.BaseSettings.Kill(bool) ShakeTransform.BaseSettings.AttemptShake(Transform) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Shake(Transform) public override bool Shake(Transform transform) Parameters transform Transform Returns bool"
+  },
+  "api/ToolkitEngine.ShakeTransform.ScaleSettings.html": {
+    "href": "api/ToolkitEngine.ShakeTransform.ScaleSettings.html",
+    "title": "Class ShakeTransform.ScaleSettings | Core Toolkit | 1.0.0",
+    "keywords": "Class ShakeTransform.ScaleSettings Namespace ToolkitEngine [Serializable] protected class ShakeTransform.ScaleSettings : ShakeTransform.BaseSettings Inheritance object ShakeTransform.BaseSettings ShakeTransform.ScaleSettings Inherited Members ShakeTransform.BaseSettings.m_shake ShakeTransform.BaseSettings.m_duration ShakeTransform.BaseSettings.m_strength ShakeTransform.BaseSettings.m_vibrato ShakeTransform.BaseSettings.m_randomness ShakeTransform.BaseSettings.m_fadeOut ShakeTransform.BaseSettings.m_randomnessMode ShakeTransform.BaseSettings.m_tweener ShakeTransform.BaseSettings.m_killed ShakeTransform.BaseSettings.shaking ShakeTransform.BaseSettings.Kill(bool) ShakeTransform.BaseSettings.AttemptShake(Transform) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Shake(Transform) public override bool Shake(Transform transform) Parameters transform Transform Returns bool"
+  },
+  "api/ToolkitEngine.ShakeTransform.html": {
+    "href": "api/ToolkitEngine.ShakeTransform.html",
+    "title": "Class ShakeTransform | Core Toolkit | 1.0.0",
+    "keywords": "Class ShakeTransform Namespace ToolkitEngine public class ShakeTransform : MonoBehaviour Inheritance object ShakeTransform Properties shaking public bool shaking { get; } Property Value bool Methods Kill() public void Kill() Kill(bool) public void Kill(bool complete) Parameters complete bool Shake() public void Shake()"
+  },
+  "api/ToolkitEngine.SpawnedAction.html": {
+    "href": "api/ToolkitEngine.SpawnedAction.html",
+    "title": "Delegate SpawnedAction | Core Toolkit | 1.0.0",
+    "keywords": "Delegate SpawnedAction Namespace ToolkitEngine public delegate void SpawnedAction(GameObject spawnedObject, params object[] args) Parameters spawnedObject GameObject args object[]"
+  },
+  "api/ToolkitEngine.Spawner.SpawnType.html": {
+    "href": "api/ToolkitEngine.Spawner.SpawnType.html",
+    "title": "Enum Spawner.SpawnType | Core Toolkit | 1.0.0",
+    "keywords": "Enum Spawner.SpawnType Namespace ToolkitEngine public enum Spawner.SpawnType Fields Addressable = 2 ObjectPool = 1 Template = 0"
+  },
+  "api/ToolkitEngine.Spawner.html": {
+    "href": "api/ToolkitEngine.Spawner.html",
+    "title": "Class Spawner | Core Toolkit | 1.0.0",
+    "keywords": "Class Spawner Namespace ToolkitEngine [Serializable] public class Spawner Inheritance object Spawner Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_pool protected PoolItemSpawner<PoolItem> m_pool Field Value PoolItemSpawner<PoolItem> m_spawnType protected Spawner.SpawnType m_spawnType Field Value Spawner.SpawnType m_template protected GameObject m_template Field Value GameObject Properties actionOnDespawned public Action<GameObject> actionOnDespawned { get; set; } Property Value Action<GameObject> actionOnSpawned public Action<GameObject> actionOnSpawned { get; set; } Property Value Action<GameObject> count Number of objects currently spawned public int count { get; } Property Value int isDefined public bool isDefined { get; } Property Value bool onDespawned public UnityEvent<SpawnerEventArgs> onDespawned { get; } Property Value UnityEvent<SpawnerEventArgs> onSpawned public UnityEvent<SpawnerEventArgs> onSpawned { get; } Property Value UnityEvent<SpawnerEventArgs> onSpawning public UnityEvent<SpawnerEventArgs> onSpawning { get; } Property Value UnityEvent<SpawnerEventArgs> sets public Set[] sets { get; } Property Value Set[] spawnType public Spawner.SpawnType spawnType { get; } Property Value Spawner.SpawnType spawningConditionFunc public Func<GameObject, Vector3, Quaternion, bool> spawningConditionFunc { get; set; } Property Value Func<GameObject, Vector3, Quaternion, bool> spawns public GameObject[] spawns { get; } Property Value GameObject[] template public GameObject template { get; } Property Value GameObject Methods DestroyAll() public void DestroyAll() Instantiate() public bool Instantiate() Returns bool Instantiate(SpawnedAction, params object[]) public bool Instantiate(SpawnedAction onSpawnedAction, params object[] args) Parameters onSpawnedAction SpawnedAction args object[] Returns bool Instantiate(Transform) public bool Instantiate(Transform parent) Parameters parent Transform Returns bool Instantiate(Transform, bool) public bool Instantiate(Transform parent, bool spawnInWorldSpace) Parameters parent Transform spawnInWorldSpace bool Returns bool Instantiate(Transform, bool, SpawnedAction, params object[]) public bool Instantiate(Transform parent, bool spawnInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform spawnInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Instantiate(Transform, SpawnedAction, params object[]) public bool Instantiate(Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Instantiate(Vector3, Quaternion) public bool Instantiate(Vector3 position, Quaternion rotation) Parameters position Vector3 rotation Quaternion Returns bool Instantiate(Vector3, Quaternion, SpawnedAction, params object[]) public bool Instantiate(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Instantiate(Vector3, Quaternion, Transform) public bool Instantiate(Vector3 position, Quaternion rotation, Transform parent) Parameters position Vector3 rotation Quaternion parent Transform Returns bool Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Instantiate(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool PostInstantiate(GameObject, Vector3, SpawnedAction, params object[]) protected virtual void PostInstantiate(GameObject spawnedObject, Vector3 position, SpawnedAction onSpawnedAction, params object[] args) Parameters spawnedObject GameObject position Vector3 onSpawnedAction SpawnedAction args object[] Set(GameObject) public void Set(GameObject template) Parameters template GameObject Set(PoolItem) public void Set(PoolItem poolItem) Parameters poolItem PoolItem"
+  },
+  "api/ToolkitEngine.SpawnerEventArgs.html": {
+    "href": "api/ToolkitEngine.SpawnerEventArgs.html",
+    "title": "Class SpawnerEventArgs | Core Toolkit | 1.0.0",
+    "keywords": "Class SpawnerEventArgs Namespace ToolkitEngine public class SpawnerEventArgs : EventArgs Inheritance object EventArgs SpawnerEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SpawnerEventArgs(Spawner) public SpawnerEventArgs(Spawner spawner) Parameters spawner Spawner SpawnerEventArgs(Spawner, GameObject) public SpawnerEventArgs(Spawner spawner, GameObject spawnedObject) Parameters spawner Spawner spawnedObject GameObject Properties spawnedObject public GameObject spawnedObject { get; } Property Value GameObject spawner public Spawner spawner { get; } Property Value Spawner"
+  },
+  "api/ToolkitEngine.SplineAnimatePostSpawnRule.html": {
+    "href": "api/ToolkitEngine.SplineAnimatePostSpawnRule.html",
+    "title": "Class SplineAnimatePostSpawnRule | Core Toolkit | 1.0.0",
+    "keywords": "Class SplineAnimatePostSpawnRule Namespace ToolkitEngine public class SplineAnimatePostSpawnRule : BasePostSpawnRule Inheritance object BasePostSpawnRule SplineAnimatePostSpawnRule Methods Process(Transform, Spawner, GameObject) public override void Process(Transform transform, Spawner spawner, GameObject spawnedObject) Parameters transform Transform spawner Spawner spawnedObject GameObject"
+  },
+  "api/ToolkitEngine.TagFilter.html": {
+    "href": "api/ToolkitEngine.TagFilter.html",
+    "title": "Class TagFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class TagFilter Namespace ToolkitEngine public class TagFilter : BaseFilter, IEvaluable Inheritance object BaseFilter TagFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.TargetingPoints.html": {
+    "href": "api/ToolkitEngine.TargetingPoints.html",
+    "title": "Class TargetingPoints | Core Toolkit | 1.0.0",
+    "keywords": "Class TargetingPoints Namespace ToolkitEngine public class TargetingPoints : MonoBehaviour, IEnumerable<Transform>, IEnumerable Inheritance object TargetingPoints Implements IEnumerable<Transform> IEnumerable Extension Methods RandomUtil.WeightedRandomIndex<T>(IEnumerable<T>, Func<T, float>) RandomUtil.WeightedRandom<T>(IEnumerable<T>, Func<T, float>) Methods GetEnumerator() Returns an enumerator that iterates through the collection. public IEnumerator<Transform> GetEnumerator() Returns IEnumerator<Transform> An enumerator that can be used to iterate through the collection."
+  },
+  "api/ToolkitEngine.TimedCurve.html": {
+    "href": "api/ToolkitEngine.TimedCurve.html",
+    "title": "Class TimedCurve | Core Toolkit | 1.0.0",
+    "keywords": "Class TimedCurve Namespace ToolkitEngine public sealed class TimedCurve : MonoBehaviour Inheritance object TimedCurve Fields OnBeginCompleted public UnityEvent<TimedCurve> OnBeginCompleted Field Value UnityEvent<TimedCurve> OnEndCompleted public UnityEvent<TimedCurve> OnEndCompleted Field Value UnityEvent<TimedCurve> OnPaused public UnityEvent<TimedCurve> OnPaused Field Value UnityEvent<TimedCurve> OnPlayed public UnityEvent<TimedCurve> OnPlayed Field Value UnityEvent<TimedCurve> OnTimeChanged public UnityEvent<TimedCurve> OnTimeChanged Field Value UnityEvent<TimedCurve> OnValueChanged public UnityEvent<float> OnValueChanged Field Value UnityEvent<float> Properties duration public float duration { get; set; } Property Value float isBackwards public bool isBackwards { get; } Property Value bool isPlaying public bool isPlaying { get; } Property Value bool normalizedTime public float normalizedTime { get; set; } Property Value float time public float time { get; set; } Property Value float value public float value { get; } Property Value float Methods Flip() public void Flip() Pause() public void Pause() Play() public void Play() Play(bool) public void Play(bool value) Parameters value bool PlayBackwards() public void PlayBackwards() PlayForward() public void PlayForward() Restart() public void Restart() Reverse() public void Reverse() Stop() public void Stop() StopAtBegin() public void StopAtBegin() StopAtEnd() public void StopAtEnd()"
+  },
+  "api/ToolkitEngine.ToolkitUtil.html": {
+    "href": "api/ToolkitEngine.ToolkitUtil.html",
+    "title": "Class ToolkitUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class ToolkitUtil Namespace ToolkitEngine public static class ToolkitUtil Inheritance object ToolkitUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods IsNull(object) public static bool IsNull(object value) Parameters value object Returns bool"
+  },
+  "api/ToolkitEngine.UnityCondition.CompareOperatorType.html": {
+    "href": "api/ToolkitEngine.UnityCondition.CompareOperatorType.html",
+    "title": "Enum UnityCondition.CompareOperatorType | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityCondition.CompareOperatorType Namespace ToolkitEngine public enum UnityCondition.CompareOperatorType Fields Equal = 0 GreaterOrEqual = 3 GreaterThan = 2 LessOrEqual = 5 LessThan = 4 NotEqual = 1"
+  },
+  "api/ToolkitEngine.UnityCondition.ConditionType.html": {
+    "href": "api/ToolkitEngine.UnityCondition.ConditionType.html",
+    "title": "Enum UnityCondition.ConditionType | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityCondition.ConditionType Namespace ToolkitEngine public enum UnityCondition.ConditionType Fields All = 0 Any = 1"
+  },
+  "api/ToolkitEngine.UnityCondition.html": {
+    "href": "api/ToolkitEngine.UnityCondition.html",
+    "title": "Class UnityCondition | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityCondition Namespace ToolkitEngine [Serializable] public class UnityCondition Inheritance object UnityCondition Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors UnityCondition() public UnityCondition() UnityCondition(ConditionType) public UnityCondition(UnityCondition.ConditionType conditionType) Parameters conditionType UnityCondition.ConditionType Properties isEmpty public bool isEmpty { get; } Property Value bool isTrue public bool isTrue { get; } Property Value bool isTrueAndEnabled public bool isTrueAndEnabled { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.UnityElector-1.html": {
+    "href": "api/ToolkitEngine.UnityElector-1.html",
+    "title": "Class UnityElector<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityElector<T> Namespace ToolkitEngine [Serializable] public class UnityElector<T> : UnityElector Type Parameters T Inheritance object UnityElector UnityElector<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods TryElect(IEnumerable<T>, GameObject, Func<T, GameObject>, Func<T, float>, out T, out float) public bool TryElect(IEnumerable<T> items, GameObject actor, Func<T, GameObject> getTarget, Func<T, float> getWeight, out T value, out float score) Parameters items IEnumerable<T> actor GameObject getTarget Func<T, GameObject> getWeight Func<T, float> value T score float Returns bool TryElect(IEnumerable<T>, GameObject, Func<T, GameObject>, out T, out float) public bool TryElect(IEnumerable<T> items, GameObject actor, Func<T, GameObject> getTarget, out T value, out float score) Parameters items IEnumerable<T> actor GameObject getTarget Func<T, GameObject> value T score float Returns bool"
+  },
+  "api/ToolkitEngine.UnityElector.RandomnessMode.html": {
+    "href": "api/ToolkitEngine.UnityElector.RandomnessMode.html",
+    "title": "Enum UnityElector.RandomnessMode | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityElector.RandomnessMode Namespace ToolkitEngine public enum UnityElector.RandomnessMode Fields Random = 0 Weighted = 1"
+  },
+  "api/ToolkitEngine.UnityElector.SelectionMode.html": {
+    "href": "api/ToolkitEngine.UnityElector.SelectionMode.html",
+    "title": "Enum UnityElector.SelectionMode | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityElector.SelectionMode Namespace ToolkitEngine public enum UnityElector.SelectionMode Fields Count = 1 Highest = 0 Percent = 2"
+  },
+  "api/ToolkitEngine.UnityElector.html": {
+    "href": "api/ToolkitEngine.UnityElector.html",
+    "title": "Class UnityElector | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityElector Namespace ToolkitEngine [Serializable] public abstract class UnityElector Inheritance object UnityElector Derived UnityElector<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/ToolkitEngine.UnityEvaluator.html": {
+    "href": "api/ToolkitEngine.UnityEvaluator.html",
+    "title": "Class UnityEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityEvaluator Namespace ToolkitEngine [Serializable] public class UnityEvaluator Inheritance object UnityEvaluator Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties weight public float weight { get; } Property Value float Methods Evaluate(GameObject, GameObject) public float Evaluate(GameObject actor, GameObject target) Parameters actor GameObject target GameObject Returns float Evaluate(GameObject, GameObject, Vector3) public float Evaluate(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float GetCompensatedScore(float, int) public static float GetCompensatedScore(float score, int count) Parameters score float count int Returns float"
+  },
+  "api/ToolkitEngine.UnityFloat.html": {
+    "href": "api/ToolkitEngine.UnityFloat.html",
+    "title": "Class UnityFloat | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityFloat Namespace ToolkitEngine [Serializable] public class UnityFloat : UnityValue<float> Inheritance object UnityValue<float> UnityFloat Inherited Members UnityValue<float>.value object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors UnityFloat(float) public UnityFloat(float value) Parameters value float"
+  },
+  "api/ToolkitEngine.UnityValue-1.ValueType.html": {
+    "href": "api/ToolkitEngine.UnityValue-1.ValueType.html",
+    "title": "Enum UnityValue<T>.ValueType | Core Toolkit | 1.0.0",
+    "keywords": "Enum UnityValue<T>.ValueType Namespace ToolkitEngine public enum UnityValue<T>.ValueType Fields Member = 1 Value = 0"
+  },
+  "api/ToolkitEngine.UnityValue-1.html": {
+    "href": "api/ToolkitEngine.UnityValue-1.html",
+    "title": "Class UnityValue<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class UnityValue<T> Namespace ToolkitEngine [Serializable] public abstract class UnityValue<T> Type Parameters T Inheritance object UnityValue<T> Derived UnityFloat Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors UnityValue(T) public UnityValue(T value) Parameters value T Properties value public T value { get; } Property Value T"
+  },
+  "api/ToolkitEngine.Vector3Remapper.html": {
+    "href": "api/ToolkitEngine.Vector3Remapper.html",
+    "title": "Class Vector3Remapper | Core Toolkit | 1.0.0",
+    "keywords": "Class Vector3Remapper Namespace ToolkitEngine public class Vector3Remapper : BaseRemapper<Vector3> Inheritance object BaseRemapper<Vector3> Vector3Remapper Inherited Members BaseRemapper<Vector3>.m_dstMinValue BaseRemapper<Vector3>.m_dstMaxValue BaseRemapper<Vector3>.Remap() BaseRemapper<Vector3>.Remap(float) Methods GetValue(float) protected override Vector3 GetValue(float t) Parameters t float Returns Vector3"
+  },
+  "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html",
+    "title": "Class BasePoolItemEventUnit | Core Toolkit | 1.0.0",
+    "keywords": "Class BasePoolItemEventUnit Namespace ToolkitEngine.VisualScripting public abstract class BasePoolItemEventUnit : BaseEventUnit<PoolItem> Inheritance object BaseEventUnit<PoolItem> BasePoolItemEventUnit Derived OnPoolItemGet OnPoolItemReleased OnPoolItemSpawned Inherited Members BaseEventUnit<PoolItem>.eventArgs BaseEventUnit<PoolItem>.m_eventArgs BaseEventUnit<PoolItem>.hookName BaseEventUnit<PoolItem>.Definition() BaseEventUnit<PoolItem>.AssignArguments(Flow, PoolItem) Properties showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.html",
+    "title": "Class BaseSetMaterialProperty<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSetMaterialProperty<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseSetMaterialProperty<T> : Unit Type Parameters T Inheritance object BaseSetMaterialProperty<T> Derived SetMaterialColor Fields materials public ValueInput materials Field Value ValueInput mode public BaseMaterialModifier.Mode mode Field Value BaseMaterialModifier.Mode propertyName public ValueInput propertyName Field Value ValueInput renderers public ValueInput renderers Field Value ValueInput shared public ValueInput shared Field Value ValueInput value public ValueInput value Field Value ValueInput Properties inputTrigger public ControlInput inputTrigger { get; } Property Value ControlInput outputTrigger public ControlOutput outputTrigger { get; } Property Value ControlOutput Methods DefineValue() protected virtual void DefineValue() Definition() protected override void Definition() Set(Material, string, T) protected abstract void Set(Material material, string propertyName, T value) Parameters material Material propertyName string value T Set(MaterialPropertyBlock, string, T) protected abstract void Set(MaterialPropertyBlock propertyBlock, string propertyName, T value) Parameters propertyBlock MaterialPropertyBlock propertyName string value T"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html",
+    "title": "Class BaseTimedCurveEventUnit | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseTimedCurveEventUnit Namespace ToolkitEngine.VisualScripting public abstract class BaseTimedCurveEventUnit : BaseEventUnit<TimedCurve> Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit Derived OnTimedCurveBeginCompleted OnTimedCurveEndCompleted OnTimedCurvePaused OnTimedCurvePlayed OnTimedCurveTimeChanged Inherited Members BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName BaseEventUnit<TimedCurve>.Definition() BaseEventUnit<TimedCurve>.AssignArguments(Flow, TimedCurve) Properties showEventArgs protected override bool showEventArgs { get; } Property Value bool"
+  },
+  "api/ToolkitEngine.VisualScripting.BoolOnFlow.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BoolOnFlow.html",
+    "title": "Class BoolOnFlow | Core Toolkit | 1.0.0",
+    "keywords": "Class BoolOnFlow Namespace ToolkitEngine.VisualScripting public class BoolOnFlow : Unit Inheritance object BoolOnFlow Fields value public ValueOutput value Field Value ValueOutput Properties falseTrigger public ControlInput falseTrigger { get; } Property Value ControlInput outputTrigger public ControlOutput outputTrigger { get; } Property Value ControlOutput trueTrigger public ControlInput trueTrigger { get; } Property Value ControlInput Methods Definition() protected override void Definition()"
+  },
+  "api/ToolkitEngine.VisualScripting.EventHooks.html": {
+    "href": "api/ToolkitEngine.VisualScripting.EventHooks.html",
+    "title": "Class EventHooks | Core Toolkit | 1.0.0",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnPoolItemGet public const string OnPoolItemGet = \"OnPoolItemGet\" Field Value string OnPoolItemReleased public const string OnPoolItemReleased = \"OnPoolItemReleased\" Field Value string OnPoolItemSpawned public const string OnPoolItemSpawned = \"OnPoolItemSpawned\" Field Value string OnSetEmpty public const string OnSetEmpty = \"OnSetEmpty\" Field Value string OnSetItemAdded public const string OnSetItemAdded = \"OnSetItemAdded\" Field Value string OnSetItemRemoved public const string OnSetItemRemoved = \"OnSetItemRemoved\" Field Value string OnTimedCurveBeginCompleted public const string OnTimedCurveBeginCompleted = \"OnTimedCurveBeginCompleted\" Field Value string OnTimedCurveEndCompleted public const string OnTimedCurveEndCompleted = \"OnTimedCurveEndCompleted\" Field Value string OnTimedCurvePaused public const string OnTimedCurvePaused = \"OnTimedCurvePaused\" Field Value string OnTimedCurvePlayed public const string OnTimedCurvePlayed = \"OnTimedCurvePlayed\" Field Value string OnTimedCurveTimeChanged public const string OnTimedCurveTimeChanged = \"OnTimedCurveTimeChanged\" Field Value string"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html",
+    "title": "Class OnPoolItemGet | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemGet Namespace ToolkitEngine.VisualScripting public class OnPoolItemGet : BasePoolItemEventUnit Inheritance object BaseEventUnit<PoolItem> BasePoolItemEventUnit OnPoolItemGet Inherited Members BasePoolItemEventUnit.showEventArgs BaseEventUnit<PoolItem>.eventArgs BaseEventUnit<PoolItem>.m_eventArgs BaseEventUnit<PoolItem>.hookName BaseEventUnit<PoolItem>.Definition() BaseEventUnit<PoolItem>.AssignArguments(Flow, PoolItem) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.html",
+    "title": "Class OnPoolItemGetMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemGetMessageListener Namespace ToolkitEngine.VisualScripting public class OnPoolItemGetMessageListener : MessageListener Inheritance object OnPoolItemGetMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemReleased.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemReleased.html",
+    "title": "Class OnPoolItemReleased | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemReleased Namespace ToolkitEngine.VisualScripting public class OnPoolItemReleased : BasePoolItemEventUnit Inheritance object BaseEventUnit<PoolItem> BasePoolItemEventUnit OnPoolItemReleased Inherited Members BasePoolItemEventUnit.showEventArgs BaseEventUnit<PoolItem>.eventArgs BaseEventUnit<PoolItem>.m_eventArgs BaseEventUnit<PoolItem>.hookName BaseEventUnit<PoolItem>.Definition() BaseEventUnit<PoolItem>.AssignArguments(Flow, PoolItem) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.html",
+    "title": "Class OnPoolItemReleasedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemReleasedMessageListener Namespace ToolkitEngine.VisualScripting public class OnPoolItemReleasedMessageListener : MessageListener Inheritance object OnPoolItemReleasedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.html",
+    "title": "Class OnPoolItemSpawned | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemSpawned Namespace ToolkitEngine.VisualScripting public class OnPoolItemSpawned : BasePoolItemEventUnit Inheritance object BaseEventUnit<PoolItem> BasePoolItemEventUnit OnPoolItemSpawned Inherited Members BasePoolItemEventUnit.showEventArgs BaseEventUnit<PoolItem>.eventArgs BaseEventUnit<PoolItem>.m_eventArgs BaseEventUnit<PoolItem>.hookName BaseEventUnit<PoolItem>.Definition() BaseEventUnit<PoolItem>.AssignArguments(Flow, PoolItem) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.html",
+    "title": "Class OnPoolItemSpawnedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnPoolItemSpawnedMessageListener Namespace ToolkitEngine.VisualScripting public class OnPoolItemSpawnedMessageListener : MessageListener Inheritance object OnPoolItemSpawnedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetEmpty.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetEmpty.html",
+    "title": "Class OnSetEmpty | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetEmpty Namespace ToolkitEngine.VisualScripting public class OnSetEmpty : BaseSetEventUnit Inheritance object BaseEventUnit<GameObject> BaseSetEventUnit OnSetEmpty Inherited Members BaseEventUnit<GameObject>.eventArgs BaseEventUnit<GameObject>.m_eventArgs BaseEventUnit<GameObject>.showEventArgs BaseEventUnit<GameObject>.hookName BaseEventUnit<GameObject>.Definition() BaseEventUnit<GameObject>.AssignArguments(Flow, GameObject) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.html",
+    "title": "Class OnSetEmptyMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetEmptyMessageListener Namespace ToolkitEngine.VisualScripting public class OnSetEmptyMessageListener : MessageListener Inheritance object OnSetEmptyMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetItemAdded.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetItemAdded.html",
+    "title": "Class OnSetItemAdded | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetItemAdded Namespace ToolkitEngine.VisualScripting public class OnSetItemAdded : BaseSetEventUnit Inheritance object BaseEventUnit<GameObject> BaseSetEventUnit OnSetItemAdded Inherited Members BaseEventUnit<GameObject>.eventArgs BaseEventUnit<GameObject>.m_eventArgs BaseEventUnit<GameObject>.showEventArgs BaseEventUnit<GameObject>.hookName BaseEventUnit<GameObject>.Definition() BaseEventUnit<GameObject>.AssignArguments(Flow, GameObject) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.html",
+    "title": "Class OnSetItemAddedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetItemAddedMessageListener Namespace ToolkitEngine.VisualScripting public class OnSetItemAddedMessageListener : MessageListener Inheritance object OnSetItemAddedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetItemRemove.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetItemRemove.html",
+    "title": "Class OnSetItemRemove | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetItemRemove Namespace ToolkitEngine.VisualScripting public class OnSetItemRemove : BaseSetEventUnit Inheritance object BaseEventUnit<GameObject> BaseSetEventUnit OnSetItemRemove Inherited Members BaseEventUnit<GameObject>.eventArgs BaseEventUnit<GameObject>.m_eventArgs BaseEventUnit<GameObject>.showEventArgs BaseEventUnit<GameObject>.hookName BaseEventUnit<GameObject>.Definition() BaseEventUnit<GameObject>.AssignArguments(Flow, GameObject) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html",
+    "title": "Class OnSetItemRemovedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSetItemRemovedMessageListener Namespace ToolkitEngine.VisualScripting public class OnSetItemRemovedMessageListener : MessageListener Inheritance object OnSetItemRemovedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html",
+    "title": "Class OnTimedCurveBeginCompleted | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveBeginCompleted Namespace ToolkitEngine.VisualScripting public class OnTimedCurveBeginCompleted : BaseTimedCurveEventUnit Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit OnTimedCurveBeginCompleted Inherited Members BaseTimedCurveEventUnit.showEventArgs BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName BaseEventUnit<TimedCurve>.Definition() BaseEventUnit<TimedCurve>.AssignArguments(Flow, TimedCurve) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.html",
+    "title": "Class OnTimedCurveBeginCompletedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveBeginCompletedMessageListener Namespace ToolkitEngine.VisualScripting public class OnTimedCurveBeginCompletedMessageListener : MessageListener Inheritance object OnTimedCurveBeginCompletedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.html",
+    "title": "Class OnTimedCurveEndCompleted | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveEndCompleted Namespace ToolkitEngine.VisualScripting public class OnTimedCurveEndCompleted : BaseTimedCurveEventUnit Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit OnTimedCurveEndCompleted Inherited Members BaseTimedCurveEventUnit.showEventArgs BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName BaseEventUnit<TimedCurve>.Definition() BaseEventUnit<TimedCurve>.AssignArguments(Flow, TimedCurve) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.html",
+    "title": "Class OnTimedCurveEndCompletedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveEndCompletedMessageListener Namespace ToolkitEngine.VisualScripting public class OnTimedCurveEndCompletedMessageListener : MessageListener Inheritance object OnTimedCurveEndCompletedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.html",
+    "title": "Class OnTimedCurvePaused | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurvePaused Namespace ToolkitEngine.VisualScripting public class OnTimedCurvePaused : BaseTimedCurveEventUnit Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit OnTimedCurvePaused Inherited Members BaseTimedCurveEventUnit.showEventArgs BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName BaseEventUnit<TimedCurve>.Definition() BaseEventUnit<TimedCurve>.AssignArguments(Flow, TimedCurve) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.html",
+    "title": "Class OnTimedCurvePausedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurvePausedMessageListener Namespace ToolkitEngine.VisualScripting public class OnTimedCurvePausedMessageListener : MessageListener Inheritance object OnTimedCurvePausedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.html",
+    "title": "Class OnTimedCurvePlayed | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurvePlayed Namespace ToolkitEngine.VisualScripting public class OnTimedCurvePlayed : BaseTimedCurveEventUnit Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit OnTimedCurvePlayed Inherited Members BaseTimedCurveEventUnit.showEventArgs BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName BaseEventUnit<TimedCurve>.Definition() BaseEventUnit<TimedCurve>.AssignArguments(Flow, TimedCurve) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.html",
+    "title": "Class OnTimedCurvePlayedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurvePlayedMessageListener Namespace ToolkitEngine.VisualScripting public class OnTimedCurvePlayedMessageListener : MessageListener Inheritance object OnTimedCurvePlayedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.html",
+    "title": "Class OnTimedCurveTimeChanged | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveTimeChanged Namespace ToolkitEngine.VisualScripting public class OnTimedCurveTimeChanged : BaseTimedCurveEventUnit Inheritance object BaseEventUnit<TimedCurve> BaseTimedCurveEventUnit OnTimedCurveTimeChanged Inherited Members BaseTimedCurveEventUnit.showEventArgs BaseEventUnit<TimedCurve>.eventArgs BaseEventUnit<TimedCurve>.m_eventArgs BaseEventUnit<TimedCurve>.hookName Fields m_normalizedTime protected float m_normalizedTime Field Value float m_time protected float m_time Field Value float m_value protected float m_value Field Value float normalizedTime public ValueOutput normalizedTime Field Value ValueOutput time public ValueOutput time Field Value ValueOutput value public ValueOutput value Field Value ValueOutput Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type Methods AssignArguments(Flow, TimedCurve) protected override void AssignArguments(Flow flow, TimedCurve args) Parameters flow Flow args TimedCurve Definition() protected override void Definition()"
+  },
+  "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.html",
+    "title": "Class OnTimedCurveTimeChangedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnTimedCurveTimeChangedMessageListener Namespace ToolkitEngine.VisualScripting public class OnTimedCurveTimeChangedMessageListener : MessageListener Inheritance object OnTimedCurveTimeChangedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.html",
+    "title": "Class ScriptMachineEvaluator.EventArgs | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineEvaluator.EventArgs Namespace ToolkitEngine.VisualScripting public class ScriptMachineEvaluator.EventArgs : EventArgs Inheritance object EventArgs ScriptMachineEvaluator.EventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors EventArgs(string, ScriptMachineEvaluator, GameObject, GameObject, Vector3) public EventArgs(string name, ScriptMachineEvaluator evaluator, GameObject actor, GameObject target, Vector3 position) Parameters name string evaluator ScriptMachineEvaluator actor GameObject target GameObject position Vector3 Properties actor public GameObject actor { get; } Property Value GameObject evaluator public ScriptMachineEvaluator evaluator { get; } Property Value ScriptMachineEvaluator name public string name { get; } Property Value string position public Vector3 position { get; } Property Value Vector3 target public GameObject target { get; } Property Value GameObject"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html",
+    "title": "Class ScriptMachineEvaluator | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineEvaluator Namespace ToolkitEngine.VisualScripting public class ScriptMachineEvaluator : BaseEvaluator, IEvaluable Inheritance object BaseEvaluator ScriptMachineEvaluator Implements IEvaluable Inherited Members BaseEvaluator.m_enabled BaseEvaluator.m_curve BaseEvaluator.m_bonusWeight BaseEvaluator.enabled BaseEvaluator.curve BaseEvaluator.bonusWeight BaseEvaluator.Evaluate(GameObject, GameObject) BaseEvaluator.Evaluate(GameObject, GameObject, Vector3) BaseEvaluator.Dispose() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties value public float value { get; set; } Property Value float Methods CalculateNormalizedScore(GameObject, GameObject, Vector3) protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns float"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.html",
+    "title": "Class ScriptMachineEvaluatorEvent | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineEvaluatorEvent Namespace ToolkitEngine.VisualScripting public class ScriptMachineEvaluatorEvent : EventUnit<ScriptMachineEvaluator.EventArgs> Inheritance object ScriptMachineEvaluatorEvent Properties _actor public ValueOutput _actor { get; } Property Value ValueOutput _evaluator public ValueOutput _evaluator { get; } Property Value ValueOutput _name public ValueInput _name { get; } Property Value ValueInput _position public ValueOutput _position { get; } Property Value ValueOutput _target public ValueOutput _target { get; } Property Value ValueOutput register protected override bool register { get; } Property Value bool Methods AssignArguments(Flow, EventArgs) protected override void AssignArguments(Flow flow, ScriptMachineEvaluator.EventArgs args) Parameters flow Flow args ScriptMachineEvaluator.EventArgs Definition() protected override void Definition() GetHook(GraphReference) public override EventHook GetHook(GraphReference reference) Parameters reference GraphReference Returns EventHook ShouldTrigger(Flow, EventArgs) protected override bool ShouldTrigger(Flow flow, ScriptMachineEvaluator.EventArgs args) Parameters flow Flow args ScriptMachineEvaluator.EventArgs Returns bool"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.html",
+    "title": "Class ScriptMachineFilter.EventArgs | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineFilter.EventArgs Namespace ToolkitEngine.VisualScripting public class ScriptMachineFilter.EventArgs : EventArgs Inheritance object EventArgs ScriptMachineFilter.EventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors EventArgs(string, ScriptMachineFilter, GameObject, GameObject, Vector3) public EventArgs(string name, ScriptMachineFilter filter, GameObject actor, GameObject target, Vector3 position) Parameters name string filter ScriptMachineFilter actor GameObject target GameObject position Vector3 Properties actor public GameObject actor { get; } Property Value GameObject filter public ScriptMachineFilter filter { get; } Property Value ScriptMachineFilter name public string name { get; } Property Value string position public Vector3 position { get; } Property Value Vector3 target public GameObject target { get; } Property Value GameObject"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.html",
+    "title": "Class ScriptMachineFilter | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineFilter Namespace ToolkitEngine.VisualScripting public class ScriptMachineFilter : BaseFilter, IEvaluable Inheritance object BaseFilter ScriptMachineFilter Implements IEvaluable Inherited Members BaseFilter.m_enabled BaseFilter.m_overrideOrSkip BaseFilter.m_bonusWeight BaseFilter.enabled BaseFilter.overrideOrSkip BaseFilter.bonusWeight BaseFilter.Evaluate(GameObject, GameObject) BaseFilter.Evaluate(GameObject, GameObject, Vector3) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties isIncluded public bool isIncluded { get; set; } Property Value bool Methods IsIncluded(GameObject, GameObject, Vector3) protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position) Parameters actor GameObject target GameObject position Vector3 Returns bool"
+  },
+  "api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.html": {
+    "href": "api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.html",
+    "title": "Class ScriptMachineFilterEvent | Core Toolkit | 1.0.0",
+    "keywords": "Class ScriptMachineFilterEvent Namespace ToolkitEngine.VisualScripting public class ScriptMachineFilterEvent : EventUnit<ScriptMachineFilter.EventArgs> Inheritance object ScriptMachineFilterEvent Properties _actor public ValueOutput _actor { get; } Property Value ValueOutput _filter public ValueOutput _filter { get; } Property Value ValueOutput _name public ValueInput _name { get; } Property Value ValueInput _position public ValueOutput _position { get; } Property Value ValueOutput _target public ValueOutput _target { get; } Property Value ValueOutput register protected override bool register { get; } Property Value bool Methods AssignArguments(Flow, EventArgs) protected override void AssignArguments(Flow flow, ScriptMachineFilter.EventArgs args) Parameters flow Flow args ScriptMachineFilter.EventArgs Definition() protected override void Definition() GetHook(GraphReference) public override EventHook GetHook(GraphReference reference) Parameters reference GraphReference Returns EventHook ShouldTrigger(Flow, EventArgs) protected override bool ShouldTrigger(Flow flow, ScriptMachineFilter.EventArgs args) Parameters flow Flow args ScriptMachineFilter.EventArgs Returns bool"
+  },
+  "api/ToolkitEngine.VisualScripting.SetMaterialColor.html": {
+    "href": "api/ToolkitEngine.VisualScripting.SetMaterialColor.html",
+    "title": "Class SetMaterialColor | Core Toolkit | 1.0.0",
+    "keywords": "Class SetMaterialColor Namespace ToolkitEngine.VisualScripting public class SetMaterialColor : BaseSetMaterialProperty<Color> Inheritance object BaseSetMaterialProperty<Color> SetMaterialColor Inherited Members BaseSetMaterialProperty<Color>.inputTrigger BaseSetMaterialProperty<Color>.propertyName BaseSetMaterialProperty<Color>.mode BaseSetMaterialProperty<Color>.renderers BaseSetMaterialProperty<Color>.shared BaseSetMaterialProperty<Color>.materials BaseSetMaterialProperty<Color>.value BaseSetMaterialProperty<Color>.outputTrigger BaseSetMaterialProperty<Color>.Definition() Methods DefineValue() protected override void DefineValue() Set(Material, string, Color) protected override void Set(Material material, string propertyName, Color color) Parameters material Material propertyName string color Color Set(MaterialPropertyBlock, string, Color) protected override void Set(MaterialPropertyBlock propertyBlock, string propertyName, Color value) Parameters propertyBlock MaterialPropertyBlock propertyName string value Color"
+  },
+  "api/ToolkitEngine.VisualScripting.html": {
+    "href": "api/ToolkitEngine.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.VisualScripting | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseTimedCurveEventUnit BoolOnFlow EventHooks OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemovedMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor"
+  },
+  "api/ToolkitEngine.WaveSpawner.NextMode.html": {
+    "href": "api/ToolkitEngine.WaveSpawner.NextMode.html",
+    "title": "Enum WaveSpawner.NextMode | Core Toolkit | 1.0.0",
+    "keywords": "Enum WaveSpawner.NextMode Namespace ToolkitEngine [Flags] public enum WaveSpawner.NextMode Fields Count = 2 Time = 4"
+  },
+  "api/ToolkitEngine.WaveSpawner.Wave.html": {
+    "href": "api/ToolkitEngine.WaveSpawner.Wave.html",
+    "title": "Class WaveSpawner.Wave | Core Toolkit | 1.0.0",
+    "keywords": "Class WaveSpawner.Wave Namespace ToolkitEngine [Serializable] public class WaveSpawner.Wave Inheritance object WaveSpawner.Wave Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_despawnOnTimeout protected bool m_despawnOnTimeout Field Value bool Properties count public int count { get; } Property Value int duration public float duration { get; } Property Value float nextMode public WaveSpawner.NextMode nextMode { get; } Property Value WaveSpawner.NextMode spawner public Spawner spawner { get; } Property Value Spawner threshold public int threshold { get; } Property Value int Methods End(WaveSpawner) public void End(WaveSpawner control) Parameters control WaveSpawner Start(WaveSpawner) public void Start(WaveSpawner control) Parameters control WaveSpawner"
+  },
+  "api/ToolkitEngine.WaveSpawner.html": {
+    "href": "api/ToolkitEngine.WaveSpawner.html",
+    "title": "Class WaveSpawner | Core Toolkit | 1.0.0",
+    "keywords": "Class WaveSpawner Namespace ToolkitEngine public class WaveSpawner : MonoBehaviour Inheritance object WaveSpawner Fields m_spawnOnStart protected bool m_spawnOnStart Field Value bool Properties activeWave public WaveSpawner.Wave activeWave { get; } Property Value WaveSpawner.Wave isOn public bool isOn { get; set; } Property Value bool points public Transform[] points { get; } Property Value Transform[] Methods Next(bool) public void Next(bool complete = true) Parameters complete bool"
+  },
+  "api/ToolkitEngine.html": {
+    "href": "api/ToolkitEngine.html",
+    "title": "Namespace ToolkitEngine | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine Classes AngleEvaluator AnimatorStatePostSpawnRule AttachmentPostSpawnRule AttachmentRecycler AxisUtil BaseCompareFilter<T> BaseEvaluator BaseFilter BasePostSpawnRule BasePreSpawnRule BaseRemapper<T> CollisionPreSpawnRule ConditionFilter CoroutineUtil DestroyHandler DistanceEvaluator DistanceFilter FacingEvents FloatRemapper GameObjectFilter GizmosUtil LOSFilter LabelFilter LabelType Labels Lifetime LookAtCamera NavMeshPathDistanceEvaluator NavMeshPreSpawnRule ObjectActivation ObjectSpawner ObjectSpawnerControl OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ParticleSystemStoppedHandler PhysicsUtil PoolItem PoolItemManager PoolItemSpawner<T> ScriptMachinePostSpawnRule SerializableDictionary<TKey, TValue> Set ShaderUtil ShakeTransform ShakeTransform.BaseSettings ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Spawner SpawnerEventArgs SplineAnimatePostSpawnRule TagFilter TargetingPoints TimedCurve ToolkitUtil UnityCondition UnityElector UnityElector<T> UnityEvaluator UnityFloat UnityValue<T> Vector3Remapper WaveSpawner WaveSpawner.Wave Interfaces IEvaluable IKillable IPoolItemRecyclable Enums Axis LookAtCamera.LookStyle ObjectSpawner.OrderMode ObjectSpawner.SpawnSpace OverrideRigidbodyPostSpawnRule.OverrideMethod PoolItemSpawner<T>.CapacityMode Spawner.SpawnType UnityCondition.CompareOperatorType UnityCondition.ConditionType UnityElector.RandomnessMode UnityElector.SelectionMode UnityValue<T>.ValueType WaveSpawner.NextMode Delegates SpawnedAction"
+  },
+  "api/Unity.VisualScripting.Count.Data.html": {
+    "href": "api/Unity.VisualScripting.Count.Data.html",
+    "title": "Class Count.Data | Core Toolkit | 1.0.0",
+    "keywords": "Class Count.Data Namespace Unity.VisualScripting public sealed class Count.Data : IGraphElementData Inheritance object Count.Data Fields executed public bool executed Field Value bool value public int value Field Value int"
+  },
+  "api/Unity.VisualScripting.Count.html": {
+    "href": "api/Unity.VisualScripting.Count.html",
+    "title": "Class Count | Core Toolkit | 1.0.0",
+    "keywords": "Class Count Namespace Unity.VisualScripting Executes an action only once, and a different action afterwards. public sealed class Count : Unit, IGraphElementWithData Inheritance object Count Implements IGraphElementWithData Properties after The action to execute subsequently. public ControlOutput after { get; } Property Value ControlOutput count The action to execute the once node is entered target times. public ControlOutput count { get; } Property Value ControlOutput enter The entry point for the action. public ControlInput enter { get; } Property Value ControlInput reset Trigger to reset the once check. public ControlInput reset { get; } Property Value ControlInput value public ValueInput value { get; } Property Value ValueInput Methods CreateData() public IGraphElementData CreateData() Returns IGraphElementData Definition() protected override void Definition() Enter(Flow) public ControlOutput Enter(Flow flow) Parameters flow Flow Returns ControlOutput Reset(Flow) public ControlOutput Reset(Flow flow) Parameters flow Flow Returns ControlOutput"
+  },
+  "api/Unity.VisualScripting.html": {
+    "href": "api/Unity.VisualScripting.html",
+    "title": "Namespace Unity.VisualScripting | Core Toolkit | 1.0.0",
+    "keywords": "Namespace Unity.VisualScripting Classes Count Executes an action only once, and a different action afterwards. Count.Data"
+  },
+  "api/UnityEditor.EditorGUILayoutUtility.html": {
+    "href": "api/UnityEditor.EditorGUILayoutUtility.html",
+    "title": "Class EditorGUILayoutUtility | Core Toolkit | 1.0.0",
+    "keywords": "Class EditorGUILayoutUtility Namespace UnityEditor public static class EditorGUILayoutUtility Inheritance object EditorGUILayoutUtility Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Foldout(SerializedProperty, string) public static bool Foldout(SerializedProperty property, string label) Parameters property SerializedProperty label string Returns bool MinMaxSlider(SerializedProperty, float, float) public static void MinMaxSlider(SerializedProperty property, float minValue, float maxValue) Parameters property SerializedProperty minValue float maxValue float"
+  },
+  "api/UnityEditor.EditorGUIRectLayout.html": {
+    "href": "api/UnityEditor.EditorGUIRectLayout.html",
+    "title": "Class EditorGUIRectLayout | Core Toolkit | 1.0.0",
+    "keywords": "Class EditorGUIRectLayout Namespace UnityEditor public static class EditorGUIRectLayout Inheritance object EditorGUIRectLayout Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BeginFieldOnly(ref Rect) public static void BeginFieldOnly(ref Rect rect) Parameters rect Rect CurveField(ref Rect, SerializedProperty, Color, GUIContent, int) public static void CurveField(ref Rect rect, SerializedProperty property, Color color, GUIContent label = null, int lineCount = 1) Parameters rect Rect property SerializedProperty color Color label GUIContent lineCount int CurveField(ref Rect, SerializedProperty, Color, string, int) public static void CurveField(ref Rect rect, SerializedProperty property, Color color, string label, int lineCount = 1) Parameters rect Rect property SerializedProperty color Color label string lineCount int CurveField(ref Rect, SerializedProperty, GUIContent, int) public static void CurveField(ref Rect rect, SerializedProperty property, GUIContent label = null, int lineCount = 1) Parameters rect Rect property SerializedProperty label GUIContent lineCount int CurveField(ref Rect, SerializedProperty, string, int) public static void CurveField(ref Rect rect, SerializedProperty property, string label, int lineCount = 1) Parameters rect Rect property SerializedProperty label string lineCount int EndFieldOnly(ref Rect) public static void EndFieldOnly(ref Rect rect) Parameters rect Rect EnumPopup<T>(ref Rect, SerializedProperty, GUIContent) public static void EnumPopup<T>(ref Rect rect, SerializedProperty property, GUIContent label) where T : Enum Parameters rect Rect property SerializedProperty label GUIContent Type Parameters T EnumPopup<T>(ref Rect, SerializedProperty, string) public static void EnumPopup<T>(ref Rect rect, SerializedProperty property, string label) where T : Enum Parameters rect Rect property SerializedProperty label string Type Parameters T FloatField(ref Rect, GUIContent, float) public static float FloatField(ref Rect rect, GUIContent label, float value) Parameters rect Rect label GUIContent value float Returns float FloatField(ref Rect, string, float) public static float FloatField(ref Rect rect, string label, float value) Parameters rect Rect label string value float Returns float Foldout(ref Rect, SerializedProperty, GUIContent, GUIStyle) public static bool Foldout(ref Rect rect, SerializedProperty property, GUIContent label, GUIStyle style = null) Parameters rect Rect property SerializedProperty label GUIContent style GUIStyle Returns bool Foldout(ref Rect, SerializedProperty, string, GUIStyle) public static bool Foldout(ref Rect rect, SerializedProperty property, string label, GUIStyle style = null) Parameters rect Rect property SerializedProperty label string style GUIStyle Returns bool GetFoldoutHeight(SerializedProperty) public static float GetFoldoutHeight(SerializedProperty property) Parameters property SerializedProperty Returns float GetHelpboxHeight(string) public static float GetHelpboxHeight(string message) Parameters message string Returns float GetSpaceHeight() public static float GetSpaceHeight() Returns float HelpBox(ref Rect, string, MessageType) public static void HelpBox(ref Rect rect, string message, MessageType messageType = null) Parameters rect Rect message string messageType MessageType IntField(ref Rect, GUIContent, int) public static int IntField(ref Rect rect, GUIContent label, int value) Parameters rect Rect label GUIContent value int Returns int IntField(ref Rect, string, int) public static int IntField(ref Rect rect, string label, int value) Parameters rect Rect label string value int Returns int IntSlider(ref Rect, SerializedProperty, int, int) public static void IntSlider(ref Rect rect, SerializedProperty property, int minValue, int maxValue) Parameters rect Rect property SerializedProperty minValue int maxValue int LabelField(ref Rect, GUIContent, GUIStyle) public static void LabelField(ref Rect rect, GUIContent label, GUIStyle style = null) Parameters rect Rect label GUIContent style GUIStyle LabelField(ref Rect, string, GUIStyle) public static void LabelField(ref Rect rect, string label, GUIStyle style = null) Parameters rect Rect label string style GUIStyle ProgressBar(ref Rect, float, string) public static void ProgressBar(ref Rect rect, float value, string label) Parameters rect Rect value float label string PropertyField(ref Rect, SerializedProperty, GUIContent) public static void PropertyField(ref Rect rect, SerializedProperty property, GUIContent label = null) Parameters rect Rect property SerializedProperty label GUIContent Slider(ref Rect, SerializedProperty, float, float) public static void Slider(ref Rect rect, SerializedProperty property, float minValue, float maxValue) Parameters rect Rect property SerializedProperty minValue float maxValue float Space(ref Rect) public static void Space(ref Rect rect) Parameters rect Rect"
+  },
+  "api/UnityEditor.SerializedPropertyUtility.html": {
+    "href": "api/UnityEditor.SerializedPropertyUtility.html",
+    "title": "Class SerializedPropertyUtility | Core Toolkit | 1.0.0",
+    "keywords": "Class SerializedPropertyUtility Namespace UnityEditor public static class SerializedPropertyUtility Inheritance object SerializedPropertyUtility Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetDerivedSerializedPropertyNames(Editor) public static List<string> GetDerivedSerializedPropertyNames(Editor editor) Parameters editor Editor Returns List<string>"
+  },
+  "api/UnityEditor.html": {
+    "href": "api/UnityEditor.html",
+    "title": "Namespace UnityEditor | Core Toolkit | 1.0.0",
+    "keywords": "Namespace UnityEditor Classes EditorGUILayoutUtility EditorGUIRectLayout SerializedPropertyUtility"
+  },
+  "api/UnityEngine.AI.NavMeshAgentExt.html": {
+    "href": "api/UnityEngine.AI.NavMeshAgentExt.html",
+    "title": "Class NavMeshAgentExt | Core Toolkit | 1.0.0",
+    "keywords": "Class NavMeshAgentExt Namespace UnityEngine.AI public static class NavMeshAgentExt Inheritance object NavMeshAgentExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods DestinationReached(NavMeshAgent) public static bool DestinationReached(this NavMeshAgent navMeshAgent) Parameters navMeshAgent NavMeshAgent Returns bool"
+  },
+  "api/UnityEngine.AI.html": {
+    "href": "api/UnityEngine.AI.html",
+    "title": "Namespace UnityEngine.AI | Core Toolkit | 1.0.0",
+    "keywords": "Namespace UnityEngine.AI Classes NavMeshAgentExt"
+  },
+  "api/UnityEngine.DontDestroyOnLoad.html": {
+    "href": "api/UnityEngine.DontDestroyOnLoad.html",
+    "title": "Class DontDestroyOnLoad | Core Toolkit | 1.0.0",
+    "keywords": "Class DontDestroyOnLoad Namespace UnityEngine public class DontDestroyOnLoad : MonoBehaviour Inheritance object DontDestroyOnLoad"
+  },
+  "api/UnityEngine.GameObjectExt.html": {
+    "href": "api/UnityEngine.GameObjectExt.html",
+    "title": "Class GameObjectExt | Core Toolkit | 1.0.0",
+    "keywords": "Class GameObjectExt Namespace UnityEngine public static class GameObjectExt Inheritance object GameObjectExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CompareTagInParent(GameObject, string) public static bool CompareTagInParent(this GameObject obj, string tag) Parameters obj GameObject tag string Returns bool CompareTagInParent(Transform, string) public static bool CompareTagInParent(this Transform transform, string tag) Parameters transform Transform tag string Returns bool GetColliderBounds(GameObject, bool) public static Bounds GetColliderBounds(this GameObject obj, bool ignoreTriggers = true) Parameters obj GameObject ignoreTriggers bool Returns Bounds GetComponentInParent<T>(GameObject, ref T) public static T GetComponentInParent<T>(this GameObject obj, ref T value) where T : Component Parameters obj GameObject value T Returns T Type Parameters T GetComponent<T>(GameObject, ref T) public static T GetComponent<T>(this GameObject obj, ref T value) where T : Component Parameters obj GameObject value T Returns T Type Parameters T GetComponentsInChildren<T>(GameObject, ref T[], bool) public static T[] GetComponentsInChildren<T>(this GameObject obj, ref T[] value, bool includeInactive = false) where T : Component Parameters obj GameObject value T[] includeInactive bool Returns T[] Type Parameters T GetLocalColliderBounds(GameObject, bool) public static Bounds GetLocalColliderBounds(this GameObject obj, bool ignoreTriggers = true) Parameters obj GameObject ignoreTriggers bool Returns Bounds GetLocalRendererBounds(GameObject) public static Bounds GetLocalRendererBounds(this GameObject obj) Parameters obj GameObject Returns Bounds IsAncestorOf(GameObject, GameObject) public static bool IsAncestorOf(this GameObject ancestor, GameObject obj) Parameters ancestor GameObject obj GameObject Returns bool IsDescendantOf(GameObject, GameObject) public static bool IsDescendantOf(this GameObject descendant, GameObject obj) Parameters descendant GameObject obj GameObject Returns bool IsNull(GameObject) public static bool IsNull(this GameObject obj) Parameters obj GameObject Returns bool ReadyComponent<T>(GameObject) public static T ReadyComponent<T>(this GameObject obj) where T : Component Parameters obj GameObject Returns T Type Parameters T ToggleActive(GameObject) public static void ToggleActive(this GameObject obj) Parameters obj GameObject"
+  },
+  "api/UnityEngine.IWeightedItem-1.html": {
+    "href": "api/UnityEngine.IWeightedItem-1.html",
+    "title": "Interface IWeightedItem<T> | Core Toolkit | 1.0.0",
+    "keywords": "Interface IWeightedItem<T> Namespace UnityEngine public interface IWeightedItem<T> Type Parameters T Properties item T item { get; } Property Value T weight float weight { get; } Property Value float"
+  },
+  "api/UnityEngine.InputSystem.InputActionPropertyExt.html": {
+    "href": "api/UnityEngine.InputSystem.InputActionPropertyExt.html",
+    "title": "Class InputActionPropertyExt | Core Toolkit | 1.0.0",
+    "keywords": "Class InputActionPropertyExt Namespace UnityEngine.InputSystem Extension methods for InputActionProperty. public static class InputActionPropertyExt Inheritance object InputActionPropertyExt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods DisableDirectAction(InputActionProperty) Disable the action held on to by the property only if it represents an InputAction directly. In other words, function will do nothing if the action has a non-null InputActionProperty.reference property. public static void DisableDirectAction(this InputActionProperty property) Parameters property InputActionProperty The property to operate on. Remarks This can make it easier to allow the enabled state of the InputAction serialized with a MonoBehaviour to be owned by the behavior itself, but let a reference type be managed elsewhere. EnableDirectAction(InputActionProperty) Enable the action held on to by the property only if it represents an InputAction directly. In other words, function will do nothing if the action has a non-null InputActionProperty.reference property. public static void EnableDirectAction(this InputActionProperty property) Parameters property InputActionProperty The property to operate on. Remarks This can make it easier to allow the enabled state of the InputAction serialized with a MonoBehaviour to be owned by the behavior itself, but let a reference type be managed elsewhere."
+  },
+  "api/UnityEngine.InputSystem.html": {
+    "href": "api/UnityEngine.InputSystem.html",
+    "title": "Namespace UnityEngine.InputSystem | Core Toolkit | 1.0.0",
+    "keywords": "Namespace UnityEngine.InputSystem Classes InputActionPropertyExt Extension methods for InputActionProperty."
+  },
+  "api/UnityEngine.MathUtil.html": {
+    "href": "api/UnityEngine.MathUtil.html",
+    "title": "Class MathUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class MathUtil Namespace UnityEngine public static class MathUtil Inheritance object MathUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Between(int, int, int) public static bool Between(this int value, int min, int max) Parameters value int min int max int Returns bool Between(float, float, float) public static bool Between(this float value, float min, float max) Parameters value float min float max float Returns bool GetPercent(float, float, float) public static float GetPercent(float value, float min, float max) Parameters value float min float max float Returns float Mod(int, int) public static int Mod(this int a, int b) Parameters a int b int Returns int Mod(float, float) public static float Mod(this float a, float b) Parameters a float b float Returns float NextGaussian() public static float NextGaussian() Returns float NextGaussian(float, float) public static float NextGaussian(float mean, float stdDeviation) Parameters mean float stdDeviation float Returns float Remap(float, float, float, float, float) public static float Remap(float value, float oldMin, float oldMax, float newMin, float newMax) Parameters value float oldMin float oldMax float newMin float newMax float Returns float Remap01(float, float, float) public static float Remap01(float value, float newMin, float newMax) Parameters value float newMin float newMax float Returns float Wrap(float, float) public static float Wrap(this float value, float maxDouble) Parameters value float maxDouble float Returns float WrapEulerAngle(float) public static float WrapEulerAngle(this float value) Parameters value float Returns float WrapEulerAngles(Vector3) public static Vector3 WrapEulerAngles(this Vector3 vector) Parameters vector Vector3 Returns Vector3"
+  },
+  "api/UnityEngine.RandomUtil.html": {
+    "href": "api/UnityEngine.RandomUtil.html",
+    "title": "Class RandomUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class RandomUtil Namespace UnityEngine public static class RandomUtil Inheritance object RandomUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Noise(Vector3) public static Vector3 Noise(Vector3 variance) Parameters variance Vector3 Returns Vector3 RandomInSector(float) public static Vector2 RandomInSector(float half) Parameters half float Returns Vector2 RandomInSphericalSector(float, float) public static Vector3 RandomInSphericalSector(float halfHorizonal, float halfVertical) Parameters halfHorizonal float halfVertical float Returns Vector3 WeightedRandomIndex(IEnumerable<float>) public static int WeightedRandomIndex(this IEnumerable<float> weights) Parameters weights IEnumerable<float> Returns int WeightedRandomIndex<T>(IEnumerable<T>, Func<T, float>) public static int WeightedRandomIndex<T>(this IEnumerable<T> items, Func<T, float> getWeight) Parameters items IEnumerable<T> getWeight Func<T, float> Returns int Type Parameters T WeightedRandom<T>(IEnumerable<IWeightedItem<T>>) public static T WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items) Parameters items IEnumerable<IWeightedItem<T>> Returns T Type Parameters T WeightedRandom<T>(IEnumerable<IWeightedItem<T>>, int) public static T[] WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items, int count) Parameters items IEnumerable<IWeightedItem<T>> count int Returns T[] Type Parameters T WeightedRandom<T>(IEnumerable<T>, Func<T, float>) public static T WeightedRandom<T>(this IEnumerable<T> items, Func<T, float> getWeight) Parameters items IEnumerable<T> getWeight Func<T, float> Returns T Type Parameters T"
+  },
+  "api/UnityEngine.Singleton-1.html": {
+    "href": "api/UnityEngine.Singleton-1.html",
+    "title": "Class Singleton<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class Singleton<T> Namespace UnityEngine public class Singleton<T> : MonoBehaviour where T : MonoBehaviour Type Parameters T Inheritance object Singleton<T> Derived CoroutineUtil PoolItemManager Fields Initialized public static SingletonEventHandler<T> Initialized Field Value SingletonEventHandler<T> Terminated public static SingletonEventHandler<T> Terminated Field Value SingletonEventHandler<T> Properties Exists public static bool Exists { get; } Property Value bool Instance public static T Instance { get; } Property Value T Ready public static bool Ready { get; } Property Value bool Methods Awake() protected virtual void Awake() Initialize() protected virtual void Initialize() OnDestroy() When Unity quits, it destroys objects in a random order. In principle, a Singleton is only destroyed when application quits. If any script calls Instance after it have been destroyed, it will create a buggy ghost object that will stay on the Editor scene even after stopping playing the Application. Really bad! So, this was made to be sure we're not creating that buggy ghost object. protected virtual void OnDestroy() Refresh() protected virtual void Refresh() Terminate() protected virtual void Terminate()"
+  },
+  "api/UnityEngine.SingletonEventHandler-1.html": {
+    "href": "api/UnityEngine.SingletonEventHandler-1.html",
+    "title": "Delegate SingletonEventHandler<T> | Core Toolkit | 1.0.0",
+    "keywords": "Delegate SingletonEventHandler<T> Namespace UnityEngine [Serializable] public delegate void SingletonEventHandler<T>(T obj) where T : MonoBehaviour Parameters obj T Type Parameters T"
+  },
+  "api/UnityEngine.html": {
+    "href": "api/UnityEngine.html",
+    "title": "Namespace UnityEngine | Core Toolkit | 1.0.0",
+    "keywords": "Namespace UnityEngine Classes DontDestroyOnLoad GameObjectExt MathUtil RandomUtil Singleton<T> Interfaces IWeightedItem<T> Delegates SingletonEventHandler<T>"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| Core Toolkit | 1.0.0",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "| Core Toolkit | 1.0.0",
+    "keywords": ""
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Core Toolkit | 1.0.0",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| Core Toolkit | 1.0.0",
+    "keywords": "MIT License Copyright (c) 2023 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "toolkit | Core Toolkit | 1.0.0",
+    "keywords": "toolkit"
+  }
+}
