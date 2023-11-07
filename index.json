@@ -1051,7 +1051,7 @@
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "toolkit | Core Toolkit | 1.0.0",
-    "keywords": "toolkit"
+    "title": "toolkit.core | Core Toolkit | 1.0.0",
+    "keywords": "toolkit.core"
   }
 }
