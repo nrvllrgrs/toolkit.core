@@ -605,6 +605,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.WaveDrawer.yml",
       "output": {
         ".html": {

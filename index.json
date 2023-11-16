@@ -294,6 +294,16 @@
     "title": "Class Vector3RemapperEditor | Core Toolkit | 1.0.0",
     "keywords": "Class Vector3RemapperEditor Namespace ToolkitEditor public class Vector3RemapperEditor : BaseRemapperEditor Inheritance object BaseRemapperEditor Vector3RemapperEditor Inherited Members BaseRemapperEditor.m_object BaseRemapperEditor.m_component BaseRemapperEditor.m_memberName BaseRemapperEditor.m_isProperty BaseRemapperEditor.m_curve BaseRemapperEditor.m_srcMinValue BaseRemapperEditor.m_srcMaxValue BaseRemapperEditor.m_dstMinValue BaseRemapperEditor.m_dstMaxValue BaseRemapperEditor.m_onRemapped BaseRemapperEditor.OnInspectorGUI() BaseRemapperEditor.DrawFloatMinMax(SerializedProperty, SerializedProperty) BaseRemapperEditor.DrawDestinationMinMax(SerializedProperty, SerializedProperty)"
   },
+  "api/ToolkitEditor.VisualScripting.Setup.html": {
+    "href": "api/ToolkitEditor.VisualScripting.Setup.html",
+    "title": "Class Setup | Core Toolkit | 1.0.0",
+    "keywords": "Class Setup Namespace ToolkitEditor.VisualScripting public static class Setup Inheritance object Setup Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/ToolkitEditor.VisualScripting.html": {
+    "href": "api/ToolkitEditor.VisualScripting.html",
+    "title": "Namespace ToolkitEditor.VisualScripting | Core Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.VisualScripting Classes Setup"
+  },
   "api/ToolkitEditor.WaveDrawer.html": {
     "href": "api/ToolkitEditor.WaveDrawer.html",
     "title": "Class WaveDrawer | Core Toolkit | 1.0.0",

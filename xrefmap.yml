@@ -2625,6 +2625,18 @@ references:
   commentId: T:ToolkitEditor.Vector3RemapperEditor
   fullName: ToolkitEditor.Vector3RemapperEditor
   nameWithType: Vector3RemapperEditor
+- uid: ToolkitEditor.VisualScripting
+  name: ToolkitEditor.VisualScripting
+  href: api/ToolkitEditor.VisualScripting.html
+  commentId: N:ToolkitEditor.VisualScripting
+  fullName: ToolkitEditor.VisualScripting
+  nameWithType: ToolkitEditor.VisualScripting
+- uid: ToolkitEditor.VisualScripting.Setup
+  name: Setup
+  href: api/ToolkitEditor.VisualScripting.Setup.html
+  commentId: T:ToolkitEditor.VisualScripting.Setup
+  fullName: ToolkitEditor.VisualScripting.Setup
+  nameWithType: Setup
 - uid: ToolkitEditor.WaveDrawer
   name: WaveDrawer
   href: api/ToolkitEditor.WaveDrawer.html
