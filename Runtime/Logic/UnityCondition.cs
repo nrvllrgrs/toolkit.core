@@ -189,7 +189,7 @@ namespace ToolkitEngine
 					if (m_component == null)
 						return false;
 
-					var behaviour = m_component as MonoBehaviour;
+					var behaviour = m_component as Behaviour;
 					if (behaviour == null)
 						return false;
 
