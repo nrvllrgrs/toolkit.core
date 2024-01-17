@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 namespace ToolkitEngine
@@ -12,33 +12,66 @@ namespace ToolkitEngine
     {
 		#region Fields
 
+		/// <summary>
+		/// Indicates whether spawns will automatically occur after triggered.
+		/// </summary>
 		[SerializeField, Tooltip("Indicates whether spawns will automatically occur after triggered.")]
 		private bool m_autoSpawn;
 
+		/// <summary>
+		/// Indicates whether spawner is spawning.
+		/// </summary>
 		[SerializeField, Tooltip("Indicates whether spawner is spawning.")]
 		private bool m_isOn;
 
+		/// <summary>
+		/// Indicates whether spawn requests can queue, allowing spawns to occur while spawner is off.
+		/// </summary>
 		[SerializeField, Tooltip("Indicates whether spawn requests can queue, allowing spawns to occur while spawner is off.")]
 		private bool m_queueable;
 
 		[SerializeField, MinMax(0f, float.MaxValue)]
 		private Vector2 m_delayTime;
 
+		/// <summary>
+		/// Indicates whether infinite spawns is permitted.
+		/// </summary>
 		[SerializeField]
 		protected bool m_isInfinite = true;
 
+		/// <summary>
+		/// Maximum number of total spawns.
+		/// </summary>
 		[SerializeField, Min(1)]
 		protected int m_maxCount = 1;
 
+		/// <summary>
+		/// Indicates whether infinite simultaneous spawns is permitted.
+		/// </summary>
 		[SerializeField]
 		protected bool m_isSimultaneousInfinite = true;
 
+		/// <summary>
+		/// Maximum number of simultaneous spawns.
+		/// </summary>
 		[SerializeField, Min(1)]
 		protected int m_maxSimultaneousCount = 1;
 
+		/// <summary>
+		/// Indicates whether delay should be used when simultaneous vacancy occurs.
+		/// </summary>
 		[SerializeField, Tooltip("Indicates whether delay should be used when simultaneous vacancy occurs.")]
 		private bool m_useDelayForVacancy = true;
 
+		/// <summary>
+		/// Indicates whether spawner is destroyed when exhausted.
+		/// </summary>
+		[SerializeField, Tooltip("Indicates whether spawner is destroyed when exhausted.")]
+		private bool m_destroyOnExhausted;
+
+		/// <summary>
+		/// Prevents spawner from spawning if ANY condition is true.
+		/// </summary>
 		[SerializeField, Tooltip("Prevents spawner from spawning if ANY condition is true.")]
 		private UnityCondition m_blockers = new UnityCondition(UnityCondition.ConditionType.Any);
 
@@ -61,6 +94,9 @@ namespace ToolkitEngine
 		#endregion
 
 		#region Events
+
+		[SerializeField]
+		private UnityEvent m_onExhausted;
 
 		#endregion
 
@@ -164,6 +200,11 @@ namespace ToolkitEngine
 		/// </summary>
 		public float maxDelayTime => m_delayTime.y;
 
+		/// <summary>
+		/// Invoked when spawner has spawned its maximum limit
+		/// </summary>
+		public UnityEvent onExhausted => m_onExhausted;
+
 		#endregion
 
 		#region Methods
@@ -214,6 +255,11 @@ namespace ToolkitEngine
 				|| m_objectSpawner.Spawn())
 			{
 				++m_totalCount;
+
+				if (!m_isInfinite && m_totalCount >= m_maxCount)
+				{
+					m_onExhausted?.Invoke();
+				}
 
 				// Decrement queued count, if queued
 				Dequeue();

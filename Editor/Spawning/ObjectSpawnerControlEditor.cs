@@ -24,8 +24,12 @@ namespace ToolkitEditor
 		protected SerializedProperty m_isSimultaneousInfinite;
 		protected SerializedProperty m_maxSimultaneousCount;
 		protected SerializedProperty m_useDelayForVacancy;
+		protected SerializedProperty m_destroyOnExhausted;
 
 		protected SerializedProperty m_blockers;
+
+		// Events
+		protected SerializedProperty m_onExhausted;
 
 		#endregion
 
@@ -45,8 +49,10 @@ namespace ToolkitEditor
 			m_isSimultaneousInfinite = serializedObject.FindProperty(nameof(m_isSimultaneousInfinite));
 			m_maxSimultaneousCount = serializedObject.FindProperty(nameof(m_maxSimultaneousCount));
 			m_useDelayForVacancy = serializedObject.FindProperty(nameof(m_useDelayForVacancy));
+			m_destroyOnExhausted = serializedObject.FindProperty(nameof(m_destroyOnExhausted));
 
 			m_blockers = serializedObject.FindProperty(nameof(m_blockers));
+			m_onExhausted = serializedObject.FindProperty(nameof(m_onExhausted));
 		}
 
 		public override void OnInspectorGUI()
@@ -94,6 +100,11 @@ namespace ToolkitEditor
 				--EditorGUI.indentLevel;
 			}
 
+			if (!m_isInfinite.boolValue)
+			{
+				EditorGUILayout.PropertyField(m_destroyOnExhausted);
+			}
+
 			if (!m_isSimultaneousInfinite.boolValue && (m_isInfinite.boolValue || m_maxCount.intValue != m_maxSimultaneousCount.intValue))
 			{
 				EditorGUILayout.PropertyField(m_useDelayForVacancy);
@@ -102,6 +113,13 @@ namespace ToolkitEditor
 			EditorGUILayout.Separator();
 
 			EditorGUILayout.PropertyField(m_blockers);
+
+			EditorGUILayout.Space();
+
+			if (!m_isInfinite.boolValue && EditorGUILayoutUtility.Foldout(m_onExhausted, "Events"))
+			{
+				EditorGUILayout.PropertyField(m_onExhausted);
+			}
 
 			serializedObject.ApplyModifiedProperties();
 		}
