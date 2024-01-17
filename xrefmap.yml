@@ -1505,6 +1505,12 @@ references:
   commentId: F:ToolkitEditor.ObjectSpawnerControlEditor.m_delayTime
   fullName: ToolkitEditor.ObjectSpawnerControlEditor.m_delayTime
   nameWithType: ObjectSpawnerControlEditor.m_delayTime
+- uid: ToolkitEditor.ObjectSpawnerControlEditor.m_destroyOnExhausted
+  name: m_destroyOnExhausted
+  href: api/ToolkitEditor.ObjectSpawnerControlEditor.html#ToolkitEditor_ObjectSpawnerControlEditor_m_destroyOnExhausted
+  commentId: F:ToolkitEditor.ObjectSpawnerControlEditor.m_destroyOnExhausted
+  fullName: ToolkitEditor.ObjectSpawnerControlEditor.m_destroyOnExhausted
+  nameWithType: ObjectSpawnerControlEditor.m_destroyOnExhausted
 - uid: ToolkitEditor.ObjectSpawnerControlEditor.m_isInfinite
   name: m_isInfinite
   href: api/ToolkitEditor.ObjectSpawnerControlEditor.html#ToolkitEditor_ObjectSpawnerControlEditor_m_isInfinite
@@ -1553,6 +1559,12 @@ references:
   commentId: F:ToolkitEditor.ObjectSpawnerControlEditor.m_objectSpawner
   fullName: ToolkitEditor.ObjectSpawnerControlEditor.m_objectSpawner
   nameWithType: ObjectSpawnerControlEditor.m_objectSpawner
+- uid: ToolkitEditor.ObjectSpawnerControlEditor.m_onExhausted
+  name: m_onExhausted
+  href: api/ToolkitEditor.ObjectSpawnerControlEditor.html#ToolkitEditor_ObjectSpawnerControlEditor_m_onExhausted
+  commentId: F:ToolkitEditor.ObjectSpawnerControlEditor.m_onExhausted
+  fullName: ToolkitEditor.ObjectSpawnerControlEditor.m_onExhausted
+  nameWithType: ObjectSpawnerControlEditor.m_onExhausted
 - uid: ToolkitEditor.ObjectSpawnerControlEditor.m_queueable
   name: m_queueable
   href: api/ToolkitEditor.ObjectSpawnerControlEditor.html#ToolkitEditor_ObjectSpawnerControlEditor_m_queueable
@@ -4846,6 +4858,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.ObjectSpawnerControl.minDelayTime
   nameWithType: ObjectSpawnerControl.minDelayTime
+- uid: ToolkitEngine.ObjectSpawnerControl.onExhausted
+  name: onExhausted
+  href: api/ToolkitEngine.ObjectSpawnerControl.html#ToolkitEngine_ObjectSpawnerControl_onExhausted
+  commentId: P:ToolkitEngine.ObjectSpawnerControl.onExhausted
+  fullName: ToolkitEngine.ObjectSpawnerControl.onExhausted
+  nameWithType: ObjectSpawnerControl.onExhausted
+- uid: ToolkitEngine.ObjectSpawnerControl.onExhausted*
+  name: onExhausted
+  href: api/ToolkitEngine.ObjectSpawnerControl.html#ToolkitEngine_ObjectSpawnerControl_onExhausted_
+  commentId: Overload:ToolkitEngine.ObjectSpawnerControl.onExhausted
+  isSpec: "True"
+  fullName: ToolkitEngine.ObjectSpawnerControl.onExhausted
+  nameWithType: ObjectSpawnerControl.onExhausted
 - uid: ToolkitEngine.ObjectSpawnerControl.queuedCount
   name: queuedCount
   href: api/ToolkitEngine.ObjectSpawnerControl.html#ToolkitEngine_ObjectSpawnerControl_queuedCount
