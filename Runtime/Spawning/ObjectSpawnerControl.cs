@@ -259,6 +259,11 @@ namespace ToolkitEngine
 				if (!m_isInfinite && m_totalCount >= m_maxCount)
 				{
 					m_onExhausted?.Invoke();
+
+					if (m_destroyOnExhausted)
+					{
+						Destroy(gameObject);
+					}
 				}
 
 				// Decrement queued count, if queued
