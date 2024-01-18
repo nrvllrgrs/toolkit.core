@@ -8538,6 +8538,50 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.VisualScripting.SetMaterialColor.Set
   nameWithType: SetMaterialColor.Set
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat
+  name: SetMaterialFloat
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html
+  commentId: T:ToolkitEngine.VisualScripting.SetMaterialFloat
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat
+  nameWithType: SetMaterialFloat
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue
+  name: DefineValue()
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html#ToolkitEngine_VisualScripting_SetMaterialFloat_DefineValue
+  commentId: M:ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue()
+  nameWithType: SetMaterialFloat.DefineValue()
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue*
+  name: DefineValue
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html#ToolkitEngine_VisualScripting_SetMaterialFloat_DefineValue_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.DefineValue
+  nameWithType: SetMaterialFloat.DefineValue
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(Material,System.String,System.Single)
+  name: Set(Material, string, float)
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html#ToolkitEngine_VisualScripting_SetMaterialFloat_Set_Material_System_String_System_Single_
+  commentId: M:ToolkitEngine.VisualScripting.SetMaterialFloat.Set(Material,System.String,System.Single)
+  name.vb: Set(Material, String, Single)
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(Material, string, float)
+  fullName.vb: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(Material, String, Single)
+  nameWithType: SetMaterialFloat.Set(Material, string, float)
+  nameWithType.vb: SetMaterialFloat.Set(Material, String, Single)
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(MaterialPropertyBlock,System.String,System.Single)
+  name: Set(MaterialPropertyBlock, string, float)
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html#ToolkitEngine_VisualScripting_SetMaterialFloat_Set_MaterialPropertyBlock_System_String_System_Single_
+  commentId: M:ToolkitEngine.VisualScripting.SetMaterialFloat.Set(MaterialPropertyBlock,System.String,System.Single)
+  name.vb: Set(MaterialPropertyBlock, String, Single)
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(MaterialPropertyBlock, string, float)
+  fullName.vb: ToolkitEngine.VisualScripting.SetMaterialFloat.Set(MaterialPropertyBlock, String, Single)
+  nameWithType: SetMaterialFloat.Set(MaterialPropertyBlock, string, float)
+  nameWithType.vb: SetMaterialFloat.Set(MaterialPropertyBlock, String, Single)
+- uid: ToolkitEngine.VisualScripting.SetMaterialFloat.Set*
+  name: Set
+  href: api/ToolkitEngine.VisualScripting.SetMaterialFloat.html#ToolkitEngine_VisualScripting_SetMaterialFloat_Set_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetMaterialFloat.Set
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.Set
+  nameWithType: SetMaterialFloat.Set
 - uid: ToolkitEngine.WaveSpawner
   name: WaveSpawner
   href: api/ToolkitEngine.WaveSpawner.html
