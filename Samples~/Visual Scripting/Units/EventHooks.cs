@@ -14,6 +14,11 @@ namespace ToolkitEngine.VisualScripting
         public const string OnSetItemAdded = nameof(OnSetItemAdded);
         public const string OnSetItemRemoved = nameof(OnSetItemRemoved);
 
+        // Spawning
+        public const string OnSpawnerSpawning = nameof(OnSpawnerSpawning);
+        public const string OnSpawnerSpawned = nameof(OnSpawnerSpawned);
+        public const string OnSpawnerDespawned = nameof(OnSpawnerDespawned);
+
         // PoolItem
         public const string OnPoolItemGet = nameof(OnPoolItemGet);
         public const string OnPoolItemSpawned = nameof(OnPoolItemSpawned);
