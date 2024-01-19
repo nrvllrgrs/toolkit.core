@@ -772,7 +772,17 @@
   "api/ToolkitEngine.VisualScripting.EventHooks.html": {
     "href": "api/ToolkitEngine.VisualScripting.EventHooks.html",
     "title": "Class EventHooks | Core Toolkit | 1.0.0",
-    "keywords": "Class EventHooks Namespace ToolkitEngine.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnPoolItemGet public const string OnPoolItemGet = \"OnPoolItemGet\" Field Value string OnPoolItemReleased public const string OnPoolItemReleased = \"OnPoolItemReleased\" Field Value string OnPoolItemSpawned public const string OnPoolItemSpawned = \"OnPoolItemSpawned\" Field Value string OnSetEmpty public const string OnSetEmpty = \"OnSetEmpty\" Field Value string OnSetItemAdded public const string OnSetItemAdded = \"OnSetItemAdded\" Field Value string OnSetItemRemoved public const string OnSetItemRemoved = \"OnSetItemRemoved\" Field Value string OnTimedCurveBeginCompleted public const string OnTimedCurveBeginCompleted = \"OnTimedCurveBeginCompleted\" Field Value string OnTimedCurveEndCompleted public const string OnTimedCurveEndCompleted = \"OnTimedCurveEndCompleted\" Field Value string OnTimedCurvePaused public const string OnTimedCurvePaused = \"OnTimedCurvePaused\" Field Value string OnTimedCurvePlayed public const string OnTimedCurvePlayed = \"OnTimedCurvePlayed\" Field Value string OnTimedCurveTimeChanged public const string OnTimedCurveTimeChanged = \"OnTimedCurveTimeChanged\" Field Value string"
+    "keywords": "Class EventHooks Namespace ToolkitEngine.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnPoolItemGet public const string OnPoolItemGet = \"OnPoolItemGet\" Field Value string OnPoolItemReleased public const string OnPoolItemReleased = \"OnPoolItemReleased\" Field Value string OnPoolItemSpawned public const string OnPoolItemSpawned = \"OnPoolItemSpawned\" Field Value string OnSetEmpty public const string OnSetEmpty = \"OnSetEmpty\" Field Value string OnSetItemAdded public const string OnSetItemAdded = \"OnSetItemAdded\" Field Value string OnSetItemRemoved public const string OnSetItemRemoved = \"OnSetItemRemoved\" Field Value string OnSpawnerDespawned public const string OnSpawnerDespawned = \"OnSpawnerDespawned\" Field Value string OnSpawnerSpawned public const string OnSpawnerSpawned = \"OnSpawnerSpawned\" Field Value string OnSpawnerSpawning public const string OnSpawnerSpawning = \"OnSpawnerSpawning\" Field Value string OnTimedCurveBeginCompleted public const string OnTimedCurveBeginCompleted = \"OnTimedCurveBeginCompleted\" Field Value string OnTimedCurveEndCompleted public const string OnTimedCurveEndCompleted = \"OnTimedCurveEndCompleted\" Field Value string OnTimedCurvePaused public const string OnTimedCurvePaused = \"OnTimedCurvePaused\" Field Value string OnTimedCurvePlayed public const string OnTimedCurvePlayed = \"OnTimedCurvePlayed\" Field Value string OnTimedCurveTimeChanged public const string OnTimedCurveTimeChanged = \"OnTimedCurveTimeChanged\" Field Value string"
+  },
+  "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html",
+    "title": "Class OnObjectSpawnerDespawned | Core Toolkit | 1.0.0",
+    "keywords": "Class OnObjectSpawnerDespawned Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerDespawned : BaseSpawnerEventUnit Inheritance object OnObjectSpawnerDespawned Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html",
+    "title": "Class OnObjectSpawnerSpawning | Core Toolkit | 1.0.0",
+    "keywords": "Class OnObjectSpawnerSpawning Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerSpawning : BaseSpawnerEventUnit Inheritance object OnObjectSpawnerSpawning Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html",
@@ -833,6 +843,26 @@
     "href": "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html",
     "title": "Class OnSetItemRemovedMessageListener | Core Toolkit | 1.0.0",
     "keywords": "Class OnSetItemRemovedMessageListener Namespace ToolkitEngine.VisualScripting public class OnSetItemRemovedMessageListener : MessageListener Inheritance object OnSetItemRemovedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener.html",
+    "title": "Class OnSpawnerDespawnedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSpawnerDespawnedMessageListener Namespace ToolkitEngine.VisualScripting public class OnSpawnerDespawnedMessageListener : MessageListener Inheritance object OnSpawnerDespawnedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html",
+    "title": "Class OnSpawnerSpawned | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSpawnerSpawned Namespace ToolkitEngine.VisualScripting public class OnSpawnerSpawned : BaseSpawnerEventUnit Inheritance object OnSpawnerSpawned Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html",
+    "title": "Class OnSpawnerSpawnedMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSpawnerSpawnedMessageListener Namespace ToolkitEngine.VisualScripting public class OnSpawnerSpawnedMessageListener : MessageListener Inheritance object OnSpawnerSpawnedMessageListener"
+  },
+  "api/ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener.html": {
+    "href": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener.html",
+    "title": "Class OnSpawnerSpawningMessageListener | Core Toolkit | 1.0.0",
+    "keywords": "Class OnSpawnerSpawningMessageListener Namespace ToolkitEngine.VisualScripting public class OnSpawnerSpawningMessageListener : MessageListener Inheritance object OnSpawnerSpawningMessageListener"
   },
   "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html",
@@ -927,7 +957,7 @@
   "api/ToolkitEngine.VisualScripting.html": {
     "href": "api/ToolkitEngine.VisualScripting.html",
     "title": "Namespace ToolkitEngine.VisualScripting | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseTimedCurveEventUnit BoolOnFlow EventHooks OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemovedMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat"
+    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseTimedCurveEventUnit BoolOnFlow EventHooks OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemovedMessageListener OnSpawnerDespawnedMessageListener OnSpawnerSpawned OnSpawnerSpawnedMessageListener OnSpawnerSpawningMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat"
   },
   "api/ToolkitEngine.WaveSpawner.NextMode.html": {
     "href": "api/ToolkitEngine.WaveSpawner.NextMode.html",

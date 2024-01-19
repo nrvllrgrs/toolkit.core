@@ -7611,6 +7611,24 @@ references:
   commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnSetItemRemoved
   fullName: ToolkitEngine.VisualScripting.EventHooks.OnSetItemRemoved
   nameWithType: EventHooks.OnSetItemRemoved
+- uid: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerDespawned
+  name: OnSpawnerDespawned
+  href: api/ToolkitEngine.VisualScripting.EventHooks.html#ToolkitEngine_VisualScripting_EventHooks_OnSpawnerDespawned
+  commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnSpawnerDespawned
+  fullName: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerDespawned
+  nameWithType: EventHooks.OnSpawnerDespawned
+- uid: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawned
+  name: OnSpawnerSpawned
+  href: api/ToolkitEngine.VisualScripting.EventHooks.html#ToolkitEngine_VisualScripting_EventHooks_OnSpawnerSpawned
+  commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawned
+  fullName: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawned
+  nameWithType: EventHooks.OnSpawnerSpawned
+- uid: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawning
+  name: OnSpawnerSpawning
+  href: api/ToolkitEngine.VisualScripting.EventHooks.html#ToolkitEngine_VisualScripting_EventHooks_OnSpawnerSpawning
+  commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawning
+  fullName: ToolkitEngine.VisualScripting.EventHooks.OnSpawnerSpawning
+  nameWithType: EventHooks.OnSpawnerSpawning
 - uid: ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveBeginCompleted
   name: OnTimedCurveBeginCompleted
   href: api/ToolkitEngine.VisualScripting.EventHooks.html#ToolkitEngine_VisualScripting_EventHooks_OnTimedCurveBeginCompleted
@@ -7641,6 +7659,44 @@ references:
   commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   fullName: ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   nameWithType: EventHooks.OnTimedCurveTimeChanged
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned
+  name: OnObjectSpawnerDespawned
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html
+  commentId: T:ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned
+  nameWithType: OnObjectSpawnerDespawned
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html#ToolkitEngine_VisualScripting_OnObjectSpawnerDespawned_MessageListenerType
+  commentId: P:ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType
+  nameWithType: OnObjectSpawnerDespawned.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html#ToolkitEngine_VisualScripting_OnObjectSpawnerDespawned_MessageListenerType_
+  commentId: Overload:ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.MessageListenerType
+  nameWithType: OnObjectSpawnerDespawned.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning
+  name: OnObjectSpawnerSpawning
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html
+  commentId: T:ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning
+  nameWithType: OnObjectSpawnerSpawning
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html#ToolkitEngine_VisualScripting_OnObjectSpawnerSpawning_MessageListenerType
+  commentId: P:ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType
+  nameWithType: OnObjectSpawnerSpawning.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html#ToolkitEngine_VisualScripting_OnObjectSpawnerSpawning_MessageListenerType_
+  commentId: Overload:ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.MessageListenerType
+  nameWithType: OnObjectSpawnerSpawning.MessageListenerType
 - uid: ToolkitEngine.VisualScripting.OnPoolItemGet
   name: OnPoolItemGet
   href: api/ToolkitEngine.VisualScripting.OnPoolItemGet.html
@@ -7791,6 +7847,43 @@ references:
   commentId: T:ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener
   fullName: ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener
   nameWithType: OnSetItemRemovedMessageListener
+- uid: ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener
+  name: OnSpawnerDespawnedMessageListener
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener.html
+  commentId: T:ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener
+  nameWithType: OnSpawnerDespawnedMessageListener
+- uid: ToolkitEngine.VisualScripting.OnSpawnerSpawned
+  name: OnSpawnerSpawned
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html
+  commentId: T:ToolkitEngine.VisualScripting.OnSpawnerSpawned
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerSpawned
+  nameWithType: OnSpawnerSpawned
+- uid: ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html#ToolkitEngine_VisualScripting_OnSpawnerSpawned_MessageListenerType
+  commentId: P:ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType
+  nameWithType: OnSpawnerSpawned.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html#ToolkitEngine_VisualScripting_OnSpawnerSpawned_MessageListenerType_
+  commentId: Overload:ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType
+  nameWithType: OnSpawnerSpawned.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener
+  name: OnSpawnerSpawnedMessageListener
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html
+  commentId: T:ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener
+  nameWithType: OnSpawnerSpawnedMessageListener
+- uid: ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener
+  name: OnSpawnerSpawningMessageListener
+  href: api/ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener.html
+  commentId: T:ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener
+  fullName: ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener
+  nameWithType: OnSpawnerSpawningMessageListener
 - uid: ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted
   name: OnTimedCurveBeginCompleted
   href: api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html
