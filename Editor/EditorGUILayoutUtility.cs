@@ -1,3 +1,5 @@
+using System;
+using System.Reflection;
 using UnityEngine;
 
 namespace UnityEditor
@@ -74,6 +76,18 @@ namespace UnityEditor
 			split[2].x += padding + space;
 
 			return split;
+		}
+
+		public static void ScriptableObjectField<T>(SerializedProperty property, ScriptableObject scriptableObject, GUIContent label = null)
+			where T : ScriptableObject
+		{
+			label = label ?? new GUIContent(property.displayName);
+
+			// Create faux label to get rect size
+			EditorGUILayout.LabelField(new GUIContent(string.Empty));
+
+			var rect = GUILayoutUtility.GetLastRect();
+			EditorGUIRectLayout.ScriptableObjectField<T>(ref rect, property, scriptableObject, label);
 		}
 	}
 }

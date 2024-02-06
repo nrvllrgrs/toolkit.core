@@ -5,6 +5,8 @@ namespace UnityEditor
 {
 	public static class EditorGUIRectLayout
     {
+		private const int BUTTON_WIDTH = 66;
+
 		public static void BeginFieldOnly(ref Rect rect)
 		{
 			rect.x += EditorGUIUtility.labelWidth + EditorGUIUtility.standardVerticalSpacing;
@@ -146,6 +148,16 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}
 
+		public static void ObjectField(ref Rect rect, SerializedProperty property, GUIContent label = null)
+		{
+			label = label ?? new GUIContent(property.displayName);
+
+			rect.height = EditorGUI.GetPropertyHeight(property);
+			EditorGUI.ObjectField(rect, property, label);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
 		public static void ProgressBar(ref Rect rect, float value, string label)
 		{
 			rect.height = EditorGUIUtility.singleLineHeight;
@@ -162,6 +174,58 @@ namespace UnityEditor
 			EditorGUI.PropertyField(rect, property, label);
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
+		public static void ScriptableObjectField<T>(ref Rect rect, SerializedProperty property, ScriptableObject scriptableObject, GUIContent label = null)
+			where T : ScriptableObject
+		{
+			label = label ?? new GUIContent(property.displayName);
+
+			if (property.objectReferenceValue == null)
+			{
+				var propertyRect = new Rect(rect.x, rect.y, rect.width - (BUTTON_WIDTH + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
+
+				EditorGUI.BeginDisabledGroup(true);
+				PropertyField(ref propertyRect, property, label);
+				EditorGUI.EndDisabledGroup();
+
+				var buttonRect = new Rect(rect.x + rect.width - BUTTON_WIDTH, rect.y, BUTTON_WIDTH, EditorGUIUtility.singleLineHeight);
+				if (GUI.Button(buttonRect, "Create"))
+				{
+					var asset = ScriptableObject.CreateInstance<T>();
+					asset.name = Guid.NewGuid().ToString();
+
+					AssetDatabase.AddObjectToAsset(asset, scriptableObject);
+
+					property.objectReferenceValue = asset;
+					property.serializedObject.ApplyModifiedProperties();
+					AssetDatabase.SaveAssets();
+				}
+
+				rect.y = propertyRect.y;
+			}
+			else
+			{
+				var propertyRect = new Rect(rect.x, rect.y, rect.width - (EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
+
+				EditorGUI.BeginDisabledGroup(true);
+				PropertyField(ref propertyRect, property, label);
+				EditorGUI.EndDisabledGroup();
+
+				var content = EditorGUIUtility.IconContent("TreeEditor.Trash");
+				var buttonRect = new Rect(rect.x + rect.width - EditorGUIUtility.singleLineHeight, rect.y, EditorGUIUtility.singleLineHeight, EditorGUIUtility.singleLineHeight);
+				if (GUI.Button(buttonRect, content, EditorStyles.iconButton))
+				{
+					var scriptGraph = property.objectReferenceValue;
+					AssetDatabase.RemoveObjectFromAsset(scriptGraph);
+
+					property.objectReferenceValue = null;
+					property.serializedObject.ApplyModifiedProperties();
+					AssetDatabase.SaveAssets();
+				}
+
+				rect.y = propertyRect.y;
+			}
 		}
 
 		public static void Slider(ref Rect rect, SerializedProperty property, float minValue, float maxValue)
