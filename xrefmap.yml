@@ -1014,6 +1014,28 @@ references:
   commentId: N:ToolkitEditor
   fullName: ToolkitEditor
   nameWithType: ToolkitEditor
+- uid: ToolkitEditor.AssetUtility
+  name: AssetUtility
+  href: api/ToolkitEditor.AssetUtility.html
+  commentId: T:ToolkitEditor.AssetUtility
+  fullName: ToolkitEditor.AssetUtility
+  nameWithType: AssetUtility
+- uid: ToolkitEditor.AssetUtility.GetAssetsOfType*
+  name: GetAssetsOfType
+  href: api/ToolkitEditor.AssetUtility.html#ToolkitEditor_AssetUtility_GetAssetsOfType_
+  commentId: Overload:ToolkitEditor.AssetUtility.GetAssetsOfType
+  isSpec: "True"
+  fullName: ToolkitEditor.AssetUtility.GetAssetsOfType
+  nameWithType: AssetUtility.GetAssetsOfType
+- uid: ToolkitEditor.AssetUtility.GetAssetsOfType``1
+  name: GetAssetsOfType<T>()
+  href: api/ToolkitEditor.AssetUtility.html#ToolkitEditor_AssetUtility_GetAssetsOfType__1
+  commentId: M:ToolkitEditor.AssetUtility.GetAssetsOfType``1
+  name.vb: GetAssetsOfType(Of T)()
+  fullName: ToolkitEditor.AssetUtility.GetAssetsOfType<T>()
+  fullName.vb: ToolkitEditor.AssetUtility.GetAssetsOfType(Of T)()
+  nameWithType: AssetUtility.GetAssetsOfType<T>()
+  nameWithType.vb: AssetUtility.GetAssetsOfType(Of T)()
 - uid: ToolkitEditor.BaseEvaluableDrawer
   name: BaseEvaluableDrawer
   href: api/ToolkitEditor.BaseEvaluableDrawer.html
@@ -9054,6 +9076,22 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUILayoutUtility.MinMaxSlider
   nameWithType: EditorGUILayoutUtility.MinMaxSlider
+- uid: UnityEditor.EditorGUILayoutUtility.ScriptableObjectField*
+  name: ScriptableObjectField
+  href: api/UnityEditor.EditorGUILayoutUtility.html#UnityEditor_EditorGUILayoutUtility_ScriptableObjectField_
+  commentId: Overload:UnityEditor.EditorGUILayoutUtility.ScriptableObjectField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUILayoutUtility.ScriptableObjectField
+  nameWithType: EditorGUILayoutUtility.ScriptableObjectField
+- uid: UnityEditor.EditorGUILayoutUtility.ScriptableObjectField``1(SerializedProperty,ScriptableObject,GUIContent)
+  name: ScriptableObjectField<T>(SerializedProperty, ScriptableObject, GUIContent)
+  href: api/UnityEditor.EditorGUILayoutUtility.html#UnityEditor_EditorGUILayoutUtility_ScriptableObjectField__1_SerializedProperty_ScriptableObject_GUIContent_
+  commentId: M:UnityEditor.EditorGUILayoutUtility.ScriptableObjectField``1(SerializedProperty,ScriptableObject,GUIContent)
+  name.vb: ScriptableObjectField(Of T)(SerializedProperty, ScriptableObject, GUIContent)
+  fullName: UnityEditor.EditorGUILayoutUtility.ScriptableObjectField<T>(SerializedProperty, ScriptableObject, GUIContent)
+  fullName.vb: UnityEditor.EditorGUILayoutUtility.ScriptableObjectField(Of T)(SerializedProperty, ScriptableObject, GUIContent)
+  nameWithType: EditorGUILayoutUtility.ScriptableObjectField<T>(SerializedProperty, ScriptableObject, GUIContent)
+  nameWithType.vb: EditorGUILayoutUtility.ScriptableObjectField(Of T)(SerializedProperty, ScriptableObject, GUIContent)
 - uid: UnityEditor.EditorGUIRectLayout
   name: EditorGUIRectLayout
   href: api/UnityEditor.EditorGUIRectLayout.html
@@ -9334,6 +9372,22 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.LabelField
   nameWithType: EditorGUIRectLayout.LabelField
+- uid: UnityEditor.EditorGUIRectLayout.ObjectField(Rect@,SerializedProperty,GUIContent)
+  name: ObjectField(ref Rect, SerializedProperty, GUIContent)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ObjectField_Rect__SerializedProperty_GUIContent_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ObjectField(Rect@,SerializedProperty,GUIContent)
+  name.vb: ObjectField(Rect, SerializedProperty, GUIContent)
+  fullName: UnityEditor.EditorGUIRectLayout.ObjectField(ref Rect, SerializedProperty, GUIContent)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ObjectField(Rect, SerializedProperty, GUIContent)
+  nameWithType: EditorGUIRectLayout.ObjectField(ref Rect, SerializedProperty, GUIContent)
+  nameWithType.vb: EditorGUIRectLayout.ObjectField(Rect, SerializedProperty, GUIContent)
+- uid: UnityEditor.EditorGUIRectLayout.ObjectField*
+  name: ObjectField
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ObjectField_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.ObjectField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.ObjectField
+  nameWithType: EditorGUIRectLayout.ObjectField
 - uid: UnityEditor.EditorGUIRectLayout.ProgressBar(Rect@,System.Single,System.String)
   name: ProgressBar(ref Rect, float, string)
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ProgressBar_Rect__System_Single_System_String_
@@ -9366,6 +9420,22 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.PropertyField
   nameWithType: EditorGUIRectLayout.PropertyField
+- uid: UnityEditor.EditorGUIRectLayout.ScriptableObjectField*
+  name: ScriptableObjectField
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ScriptableObjectField_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.ScriptableObjectField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.ScriptableObjectField
+  nameWithType: EditorGUIRectLayout.ScriptableObjectField
+- uid: UnityEditor.EditorGUIRectLayout.ScriptableObjectField``1(Rect@,SerializedProperty,ScriptableObject,GUIContent)
+  name: ScriptableObjectField<T>(ref Rect, SerializedProperty, ScriptableObject, GUIContent)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ScriptableObjectField__1_Rect__SerializedProperty_ScriptableObject_GUIContent_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ScriptableObjectField``1(Rect@,SerializedProperty,ScriptableObject,GUIContent)
+  name.vb: ScriptableObjectField(Of T)(Rect, SerializedProperty, ScriptableObject, GUIContent)
+  fullName: UnityEditor.EditorGUIRectLayout.ScriptableObjectField<T>(ref Rect, SerializedProperty, ScriptableObject, GUIContent)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ScriptableObjectField(Of T)(Rect, SerializedProperty, ScriptableObject, GUIContent)
+  nameWithType: EditorGUIRectLayout.ScriptableObjectField<T>(ref Rect, SerializedProperty, ScriptableObject, GUIContent)
+  nameWithType.vb: EditorGUIRectLayout.ScriptableObjectField(Of T)(Rect, SerializedProperty, ScriptableObject, GUIContent)
 - uid: UnityEditor.EditorGUIRectLayout.Slider(Rect@,SerializedProperty,System.Single,System.Single)
   name: Slider(ref Rect, SerializedProperty, float, float)
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Slider_Rect__SerializedProperty_System_Single_System_Single_
