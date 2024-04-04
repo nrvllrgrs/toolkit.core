@@ -4,7 +4,6 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 using ToolkitEngine;
-using Sirenix.Utilities;
 
 namespace ToolkitEditor
 {

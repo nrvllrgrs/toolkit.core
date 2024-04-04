@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEditor;
 using ToolkitEngine;
-using Sirenix.Utilities;
 using System.Linq;
 
 namespace ToolkitEditor
