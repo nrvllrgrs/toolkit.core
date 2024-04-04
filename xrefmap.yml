@@ -579,6 +579,102 @@ references:
   isSpec: "True"
   fullName: MaxInfinityDrawer.OnGUI
   nameWithType: MaxInfinityDrawer.OnGUI
+- uid: Global.MemberInfoExt
+  name: MemberInfoExt
+  href: api/Global.MemberInfoExt.html
+  commentId: T:Global.MemberInfoExt
+  fullName: MemberInfoExt
+  nameWithType: MemberInfoExt
+- uid: Global.MemberInfoExt.GetAttribute*
+  name: GetAttribute
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttribute_
+  commentId: Overload:Global.MemberInfoExt.GetAttribute
+  isSpec: "True"
+  fullName: MemberInfoExt.GetAttribute
+  nameWithType: MemberInfoExt.GetAttribute
+- uid: Global.MemberInfoExt.GetAttribute``1(System.Reflection.ICustomAttributeProvider)
+  name: GetAttribute<T>(ICustomAttributeProvider)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttribute__1_System_Reflection_ICustomAttributeProvider_
+  commentId: M:Global.MemberInfoExt.GetAttribute``1(System.Reflection.ICustomAttributeProvider)
+  name.vb: GetAttribute(Of T)(ICustomAttributeProvider)
+  fullName: MemberInfoExt.GetAttribute<T>(System.Reflection.ICustomAttributeProvider)
+  fullName.vb: MemberInfoExt.GetAttribute(Of T)(System.Reflection.ICustomAttributeProvider)
+  nameWithType: MemberInfoExt.GetAttribute<T>(ICustomAttributeProvider)
+  nameWithType.vb: MemberInfoExt.GetAttribute(Of T)(ICustomAttributeProvider)
+- uid: Global.MemberInfoExt.GetAttribute``1(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name: GetAttribute<T>(ICustomAttributeProvider, bool)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttribute__1_System_Reflection_ICustomAttributeProvider_System_Boolean_
+  commentId: M:Global.MemberInfoExt.GetAttribute``1(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name.vb: GetAttribute(Of T)(ICustomAttributeProvider, Boolean)
+  fullName: MemberInfoExt.GetAttribute<T>(System.Reflection.ICustomAttributeProvider, bool)
+  fullName.vb: MemberInfoExt.GetAttribute(Of T)(System.Reflection.ICustomAttributeProvider, Boolean)
+  nameWithType: MemberInfoExt.GetAttribute<T>(ICustomAttributeProvider, bool)
+  nameWithType.vb: MemberInfoExt.GetAttribute(Of T)(ICustomAttributeProvider, Boolean)
+- uid: Global.MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider)
+  name: GetAttributes(ICustomAttributeProvider)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttributes_System_Reflection_ICustomAttributeProvider_
+  commentId: M:Global.MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider)
+  fullName: MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider)
+  nameWithType: MemberInfoExt.GetAttributes(ICustomAttributeProvider)
+- uid: Global.MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name: GetAttributes(ICustomAttributeProvider, bool)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttributes_System_Reflection_ICustomAttributeProvider_System_Boolean_
+  commentId: M:Global.MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name.vb: GetAttributes(ICustomAttributeProvider, Boolean)
+  fullName: MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider, bool)
+  fullName.vb: MemberInfoExt.GetAttributes(System.Reflection.ICustomAttributeProvider, Boolean)
+  nameWithType: MemberInfoExt.GetAttributes(ICustomAttributeProvider, bool)
+  nameWithType.vb: MemberInfoExt.GetAttributes(ICustomAttributeProvider, Boolean)
+- uid: Global.MemberInfoExt.GetAttributes*
+  name: GetAttributes
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttributes_
+  commentId: Overload:Global.MemberInfoExt.GetAttributes
+  isSpec: "True"
+  fullName: MemberInfoExt.GetAttributes
+  nameWithType: MemberInfoExt.GetAttributes
+- uid: Global.MemberInfoExt.GetAttributes``1(System.Reflection.ICustomAttributeProvider)
+  name: GetAttributes<T>(ICustomAttributeProvider)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttributes__1_System_Reflection_ICustomAttributeProvider_
+  commentId: M:Global.MemberInfoExt.GetAttributes``1(System.Reflection.ICustomAttributeProvider)
+  name.vb: GetAttributes(Of T)(ICustomAttributeProvider)
+  fullName: MemberInfoExt.GetAttributes<T>(System.Reflection.ICustomAttributeProvider)
+  fullName.vb: MemberInfoExt.GetAttributes(Of T)(System.Reflection.ICustomAttributeProvider)
+  nameWithType: MemberInfoExt.GetAttributes<T>(ICustomAttributeProvider)
+  nameWithType.vb: MemberInfoExt.GetAttributes(Of T)(ICustomAttributeProvider)
+- uid: Global.MemberInfoExt.GetAttributes``1(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name: GetAttributes<T>(ICustomAttributeProvider, bool)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetAttributes__1_System_Reflection_ICustomAttributeProvider_System_Boolean_
+  commentId: M:Global.MemberInfoExt.GetAttributes``1(System.Reflection.ICustomAttributeProvider,System.Boolean)
+  name.vb: GetAttributes(Of T)(ICustomAttributeProvider, Boolean)
+  fullName: MemberInfoExt.GetAttributes<T>(System.Reflection.ICustomAttributeProvider, bool)
+  fullName.vb: MemberInfoExt.GetAttributes(Of T)(System.Reflection.ICustomAttributeProvider, Boolean)
+  nameWithType: MemberInfoExt.GetAttributes<T>(ICustomAttributeProvider, bool)
+  nameWithType.vb: MemberInfoExt.GetAttributes(Of T)(ICustomAttributeProvider, Boolean)
+- uid: Global.MemberInfoExt.GetMemberValue(System.Reflection.MemberInfo,System.Object)
+  name: GetMemberValue(MemberInfo, object)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetMemberValue_System_Reflection_MemberInfo_System_Object_
+  commentId: M:Global.MemberInfoExt.GetMemberValue(System.Reflection.MemberInfo,System.Object)
+  name.vb: GetMemberValue(MemberInfo, Object)
+  fullName: MemberInfoExt.GetMemberValue(System.Reflection.MemberInfo, object)
+  fullName.vb: MemberInfoExt.GetMemberValue(System.Reflection.MemberInfo, Object)
+  nameWithType: MemberInfoExt.GetMemberValue(MemberInfo, object)
+  nameWithType.vb: MemberInfoExt.GetMemberValue(MemberInfo, Object)
+- uid: Global.MemberInfoExt.GetMemberValue*
+  name: GetMemberValue
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetMemberValue_
+  commentId: Overload:Global.MemberInfoExt.GetMemberValue
+  isSpec: "True"
+  fullName: MemberInfoExt.GetMemberValue
+  nameWithType: MemberInfoExt.GetMemberValue
+- uid: Global.MemberInfoExt.GetMemberValue``1(System.Reflection.MemberInfo,System.Object)
+  name: GetMemberValue<T>(MemberInfo, object)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_GetMemberValue__1_System_Reflection_MemberInfo_System_Object_
+  commentId: M:Global.MemberInfoExt.GetMemberValue``1(System.Reflection.MemberInfo,System.Object)
+  name.vb: GetMemberValue(Of T)(MemberInfo, Object)
+  fullName: MemberInfoExt.GetMemberValue<T>(System.Reflection.MemberInfo, object)
+  fullName.vb: MemberInfoExt.GetMemberValue(Of T)(System.Reflection.MemberInfo, Object)
+  nameWithType: MemberInfoExt.GetMemberValue<T>(MemberInfo, object)
+  nameWithType.vb: MemberInfoExt.GetMemberValue(Of T)(MemberInfo, Object)
 - uid: Global.MinMaxAttribute
   name: MinMaxAttribute
   href: api/Global.MinMaxAttribute.html
