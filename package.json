@@ -8,9 +8,7 @@
 		"toolkit"
 	],
 	"category": "Toolkit",
-	"dependencies": {
-		"com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
-	},
+	"dependencies": {},
 	"repository": {
 		"url": "https://github.com/nrvllrgrs/toolkit.core",
 		"type": "git"
