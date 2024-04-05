@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class OnSpawnerSpawned | Core Toolkit | 1.0.0 </title>
+      <title>Class BaseSpawnerEventUnit | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class OnSpawnerSpawned | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class BaseSpawnerEventUnit | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_VisualScripting_OnSpawnerSpawned.md&amp;value=---%0Auid%3A%20ToolkitEngine.VisualScripting.OnSpawnerSpawned%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_VisualScripting_BaseSpawnerEventUnit.md&amp;value=---%0Auid%3A%20ToolkitEngine.VisualScripting.BaseSpawnerEventUnit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.VisualScripting.OnSpawnerSpawned">
+        <article data-uid="ToolkitEngine.VisualScripting.BaseSpawnerEventUnit">
 
 
 
-  <h1 id="ToolkitEngine_VisualScripting_OnSpawnerSpawned" data-uid="ToolkitEngine.VisualScripting.OnSpawnerSpawned" class="text-break">
-Class OnSpawnerSpawned  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Spawning/OnSpawnerSpawned.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_VisualScripting_BaseSpawnerEventUnit" data-uid="ToolkitEngine.VisualScripting.BaseSpawnerEventUnit" class="text-break">
+Class BaseSpawnerEventUnit  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Spawning/BaseSpawnerEventUnit.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class OnSpawnerSpawned  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OnSpawnerSpawned : BaseSpawnerEventUnit</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseSpawnerEventUnit : BaseEventUnit&lt;SpawnerEventArgs&gt;</code></pre>
   </div>
 
 
@@ -112,12 +112,19 @@ Class OnSpawnerSpawned  <a class="header-action link-secondary" title="View sour
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="BaseEventUnit-1.html">BaseEventUnit</a>&lt;<a class="xref" href="ToolkitEngine.SpawnerEventArgs.html">SpawnerEventArgs</a>&gt;</div>
-      <div><a class="xref" href="ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html">BaseSpawnerEventUnit</a></div>
-      <div><span class="xref">OnSpawnerSpawned</span></div>
+      <div><span class="xref">BaseSpawnerEventUnit</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html">OnObjectSpawnerDespawned</a></div>
+      <div><a class="xref" href="ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html">OnObjectSpawnerSpawning</a></div>
+      <div><a class="xref" href="ToolkitEngine.VisualScripting.OnSpawnerSpawned.html">OnSpawnerSpawned</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -141,41 +148,6 @@ Class OnSpawnerSpawned  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="Global.BaseEventUnit-1.html#Global_BaseEventUnit_1_AssignArguments_Flow__0_">BaseEventUnit&lt;SpawnerEventArgs&gt;.AssignArguments(Flow, SpawnerEventArgs)</a>
     </div>
   </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="ToolkitEngine_VisualScripting_OnSpawnerSpawned_MessageListenerType_" data-uid="ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType*"></a>
-
-  <h3 id="ToolkitEngine_VisualScripting_OnSpawnerSpawned_MessageListenerType" data-uid="ToolkitEngine.VisualScripting.OnSpawnerSpawned.MessageListenerType">
-  MessageListenerType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Spawning/OnSpawnerSpawned.cs/#L9"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Type MessageListenerType { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
-  </dl>
-
-
 
 
 

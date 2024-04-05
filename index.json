@@ -2,7 +2,7 @@
   "api/Global.BaseEventUnit-1.html": {
     "href": "api/Global.BaseEventUnit-1.html",
     "title": "Class BaseEventUnit<TArgs> | Core Toolkit | 1.0.0",
-    "keywords": "Class BaseEventUnit<TArgs> Namespace Global public abstract class BaseEventUnit<TArgs> : GameObjectEventUnit<TArgs> Type Parameters TArgs Inheritance object BaseEventUnit<TArgs> Derived BaseSetEventUnit BasePoolItemEventUnit BaseTimedCurveEventUnit Fields eventArgs public ValueOutput eventArgs Field Value ValueOutput m_eventArgs protected TArgs m_eventArgs Field Value TArgs Properties hookName protected override string hookName { get; } Property Value string showEventArgs protected virtual bool showEventArgs { get; } Property Value bool Methods AssignArguments(Flow, TArgs) protected override void AssignArguments(Flow flow, TArgs args) Parameters flow Flow args TArgs Definition() protected override void Definition()"
+    "keywords": "Class BaseEventUnit<TArgs> Namespace Global public abstract class BaseEventUnit<TArgs> : GameObjectEventUnit<TArgs> Type Parameters TArgs Inheritance object BaseEventUnit<TArgs> Derived BaseSetEventUnit BasePoolItemEventUnit BaseSpawnerEventUnit BaseTimedCurveEventUnit Fields eventArgs public ValueOutput eventArgs Field Value ValueOutput m_eventArgs protected TArgs m_eventArgs Field Value TArgs Properties hookName protected override string hookName { get; } Property Value string showEventArgs protected virtual bool showEventArgs { get; } Property Value bool Methods AssignArguments(Flow, TArgs) protected override void AssignArguments(Flow flow, TArgs args) Parameters flow Flow args TArgs Definition() protected override void Definition()"
   },
   "api/Global.BaseGenericSetAnimatorParameterEditor.html": {
     "href": "api/Global.BaseGenericSetAnimatorParameterEditor.html",
@@ -769,6 +769,11 @@
     "title": "Class BaseSetMaterialProperty<T> | Core Toolkit | 1.0.0",
     "keywords": "Class BaseSetMaterialProperty<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseSetMaterialProperty<T> : Unit Type Parameters T Inheritance object BaseSetMaterialProperty<T> Derived SetMaterialColor SetMaterialFloat Fields materials public ValueInput materials Field Value ValueInput mode public BaseMaterialModifier.Mode mode Field Value BaseMaterialModifier.Mode propertyName public ValueInput propertyName Field Value ValueInput renderers public ValueInput renderers Field Value ValueInput shared public ValueInput shared Field Value ValueInput value public ValueInput value Field Value ValueInput Properties inputTrigger public ControlInput inputTrigger { get; } Property Value ControlInput outputTrigger public ControlOutput outputTrigger { get; } Property Value ControlOutput Methods DefineValue() protected virtual void DefineValue() Definition() protected override void Definition() Set(Material, string, T) protected abstract void Set(Material material, string propertyName, T value) Parameters material Material propertyName string value T Set(MaterialPropertyBlock, string, T) protected abstract void Set(MaterialPropertyBlock propertyBlock, string propertyName, T value) Parameters propertyBlock MaterialPropertyBlock propertyName string value T"
   },
+  "api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html",
+    "title": "Class BaseSpawnerEventUnit | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseSpawnerEventUnit Namespace ToolkitEngine.VisualScripting public abstract class BaseSpawnerEventUnit : BaseEventUnit<SpawnerEventArgs> Inheritance object BaseEventUnit<SpawnerEventArgs> BaseSpawnerEventUnit Derived OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnSpawnerSpawned Inherited Members BaseEventUnit<SpawnerEventArgs>.eventArgs BaseEventUnit<SpawnerEventArgs>.m_eventArgs BaseEventUnit<SpawnerEventArgs>.showEventArgs BaseEventUnit<SpawnerEventArgs>.hookName BaseEventUnit<SpawnerEventArgs>.Definition() BaseEventUnit<SpawnerEventArgs>.AssignArguments(Flow, SpawnerEventArgs)"
+  },
   "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html": {
     "href": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html",
     "title": "Class BaseTimedCurveEventUnit | Core Toolkit | 1.0.0",
@@ -787,12 +792,12 @@
   "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html",
     "title": "Class OnObjectSpawnerDespawned | Core Toolkit | 1.0.0",
-    "keywords": "Class OnObjectSpawnerDespawned Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerDespawned : BaseSpawnerEventUnit Inheritance object OnObjectSpawnerDespawned Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+    "keywords": "Class OnObjectSpawnerDespawned Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerDespawned : BaseSpawnerEventUnit Inheritance object BaseEventUnit<SpawnerEventArgs> BaseSpawnerEventUnit OnObjectSpawnerDespawned Inherited Members BaseEventUnit<SpawnerEventArgs>.eventArgs BaseEventUnit<SpawnerEventArgs>.m_eventArgs BaseEventUnit<SpawnerEventArgs>.showEventArgs BaseEventUnit<SpawnerEventArgs>.hookName BaseEventUnit<SpawnerEventArgs>.Definition() BaseEventUnit<SpawnerEventArgs>.AssignArguments(Flow, SpawnerEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html",
     "title": "Class OnObjectSpawnerSpawning | Core Toolkit | 1.0.0",
-    "keywords": "Class OnObjectSpawnerSpawning Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerSpawning : BaseSpawnerEventUnit Inheritance object OnObjectSpawnerSpawning Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+    "keywords": "Class OnObjectSpawnerSpawning Namespace ToolkitEngine.VisualScripting public class OnObjectSpawnerSpawning : BaseSpawnerEventUnit Inheritance object BaseEventUnit<SpawnerEventArgs> BaseSpawnerEventUnit OnObjectSpawnerSpawning Inherited Members BaseEventUnit<SpawnerEventArgs>.eventArgs BaseEventUnit<SpawnerEventArgs>.m_eventArgs BaseEventUnit<SpawnerEventArgs>.showEventArgs BaseEventUnit<SpawnerEventArgs>.hookName BaseEventUnit<SpawnerEventArgs>.Definition() BaseEventUnit<SpawnerEventArgs>.AssignArguments(Flow, SpawnerEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html",
@@ -862,7 +867,7 @@
   "api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html",
     "title": "Class OnSpawnerSpawned | Core Toolkit | 1.0.0",
-    "keywords": "Class OnSpawnerSpawned Namespace ToolkitEngine.VisualScripting public class OnSpawnerSpawned : BaseSpawnerEventUnit Inheritance object OnSpawnerSpawned Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+    "keywords": "Class OnSpawnerSpawned Namespace ToolkitEngine.VisualScripting public class OnSpawnerSpawned : BaseSpawnerEventUnit Inheritance object BaseEventUnit<SpawnerEventArgs> BaseSpawnerEventUnit OnSpawnerSpawned Inherited Members BaseEventUnit<SpawnerEventArgs>.eventArgs BaseEventUnit<SpawnerEventArgs>.m_eventArgs BaseEventUnit<SpawnerEventArgs>.showEventArgs BaseEventUnit<SpawnerEventArgs>.hookName BaseEventUnit<SpawnerEventArgs>.Definition() BaseEventUnit<SpawnerEventArgs>.AssignArguments(Flow, SpawnerEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
   },
   "api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html",
@@ -967,7 +972,7 @@
   "api/ToolkitEngine.VisualScripting.html": {
     "href": "api/ToolkitEngine.VisualScripting.html",
     "title": "Namespace ToolkitEngine.VisualScripting | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseTimedCurveEventUnit BoolOnFlow EventHooks OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemovedMessageListener OnSpawnerDespawnedMessageListener OnSpawnerSpawned OnSpawnerSpawnedMessageListener OnSpawnerSpawningMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat"
+    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseSpawnerEventUnit BaseTimedCurveEventUnit BoolOnFlow EventHooks OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemovedMessageListener OnSpawnerDespawnedMessageListener OnSpawnerSpawned OnSpawnerSpawnedMessageListener OnSpawnerSpawningMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat"
   },
   "api/ToolkitEngine.WaveSpawner.NextMode.html": {
     "href": "api/ToolkitEngine.WaveSpawner.NextMode.html",

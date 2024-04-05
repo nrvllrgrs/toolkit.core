@@ -7604,6 +7604,12 @@ references:
   fullName.vb: ToolkitEngine.VisualScripting.BaseSetMaterialProperty(Of T).value
   nameWithType: BaseSetMaterialProperty<T>.value
   nameWithType.vb: BaseSetMaterialProperty(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseSpawnerEventUnit
+  name: BaseSpawnerEventUnit
+  href: api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseSpawnerEventUnit
+  fullName: ToolkitEngine.VisualScripting.BaseSpawnerEventUnit
+  nameWithType: BaseSpawnerEventUnit
 - uid: ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit
   name: BaseTimedCurveEventUnit
   href: api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html

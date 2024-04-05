@@ -1555,6 +1555,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.yml",
       "output": {
         ".html": {
