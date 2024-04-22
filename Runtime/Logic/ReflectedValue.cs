@@ -3,8 +3,7 @@ using UnityEngine;
 
 namespace ToolkitEngine
 {
-	[System.Serializable]
-	public abstract class UnityValue<T>
+	public abstract class UnityValue
 	{
 		#region Enumerators
 
@@ -19,7 +18,15 @@ namespace ToolkitEngine
 		#region Fields
 
 		[SerializeField]
-		private ValueType m_type;
+		protected ValueType m_type;
+
+		#endregion
+	}
+
+	[System.Serializable]
+	public abstract class UnityValue<T> : UnityValue
+	{
+		#region Fields
 
 		[SerializeField]
 		private T m_value;
@@ -52,19 +59,31 @@ namespace ToolkitEngine
 						return m_value;
 
 					case ValueType.Member:
-						if (m_memberInfo == null)
-						{
-							m_memberInfo = !m_isProperty
-								? m_component.GetType().GetField(m_memberName, BindingFlags.Public | BindingFlags.Instance)
-								: m_component.GetType().GetProperty(m_memberName, BindingFlags.Public | BindingFlags.Instance);
-						}
-
+						InitMemberInfo();
 						if (m_memberInfo != null)
-							return (T)m_memberInfo.GetMemberValue(m_component);
-
+						{
+							return m_memberInfo.GetMemberValue<T>(m_component);
+						}
 						break;
 				}
 				return default;
+			}
+			set
+			{
+				switch (m_type)
+				{
+					case ValueType.Value:
+						m_value = value;
+						return;
+
+					case ValueType.Member:
+						InitMemberInfo();
+						if (m_memberInfo != null)
+						{
+							m_memberInfo.SetMemberValue(m_component, value);
+						}
+						return;
+				}
 			}
 		}
 
@@ -75,6 +94,20 @@ namespace ToolkitEngine
 		public UnityValue(T value)
 		{
 			m_value = value;
+		}
+
+		#endregion
+
+		#region Methods
+
+		private void InitMemberInfo()
+		{
+			if (m_memberInfo == null)
+			{
+				m_memberInfo = !m_isProperty
+					? m_component.GetType().GetField(m_memberName, BindingFlags.Public | BindingFlags.Instance)
+					: m_component.GetType().GetProperty(m_memberName, BindingFlags.Public | BindingFlags.Instance);
+			}
 		}
 
 		#endregion

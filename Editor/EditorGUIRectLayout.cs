@@ -19,6 +19,14 @@ namespace UnityEditor
 			rect.width += EditorGUIUtility.labelWidth + EditorGUIUtility.standardVerticalSpacing;
 		}
 
+		public static bool Button(ref Rect rect, string label)
+		{
+			bool r = GUI.Button(rect, label);
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+
+			return r;
+		}
+
 		public static void CurveField(ref Rect rect, SerializedProperty property, string label, int lineCount = 1)
 		{
 			CurveField(ref rect, property, Color.green, label, lineCount);
@@ -232,6 +240,14 @@ namespace UnityEditor
 		{
 			rect.height = EditorGUI.GetPropertyHeight(property);
 			EditorGUI.Slider(rect, property, minValue, maxValue);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
+		public static void Slider(ref Rect rect, string label, float value, float minValue, float maxValue)
+		{
+			rect.height = EditorGUIUtility.singleLineHeight;
+			EditorGUI.Slider(rect, label, value, minValue, maxValue);
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}

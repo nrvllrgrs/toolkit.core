@@ -14,6 +14,15 @@ namespace ToolkitEngine
 
 		#endregion
 
+		#region Properties
+
+		public Transform this[int index]
+		{
+			get => m_points[index];
+		}
+
+		#endregion
+
 		#region Methods
 
 		#endregion

@@ -7,6 +7,20 @@ using UnityEngine.AI;
 
 public static class MemberInfoExt
 {
+	public static void SetMemberValue(this MemberInfo member, object obj, object value)
+	{
+		if (member is FieldInfo fieldInfo)
+		{
+			fieldInfo.SetValue(obj, value);
+		}
+		else if (member is PropertyInfo propertyInfo)
+		{
+			propertyInfo.SetValue(obj, value);
+		}
+
+		throw new ArgumentException("Can't set the value of a " + member.GetType().Name);
+	}
+
 	public static object GetMemberValue(this MemberInfo member, object obj)
 	{
 		if (member is FieldInfo fieldInfo)
