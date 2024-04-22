@@ -675,6 +675,22 @@ references:
   fullName.vb: MemberInfoExt.GetMemberValue(Of T)(System.Reflection.MemberInfo, Object)
   nameWithType: MemberInfoExt.GetMemberValue<T>(MemberInfo, object)
   nameWithType.vb: MemberInfoExt.GetMemberValue(Of T)(MemberInfo, Object)
+- uid: Global.MemberInfoExt.SetMemberValue(System.Reflection.MemberInfo,System.Object,System.Object)
+  name: SetMemberValue(MemberInfo, object, object)
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_SetMemberValue_System_Reflection_MemberInfo_System_Object_System_Object_
+  commentId: M:Global.MemberInfoExt.SetMemberValue(System.Reflection.MemberInfo,System.Object,System.Object)
+  name.vb: SetMemberValue(MemberInfo, Object, Object)
+  fullName: MemberInfoExt.SetMemberValue(System.Reflection.MemberInfo, object, object)
+  fullName.vb: MemberInfoExt.SetMemberValue(System.Reflection.MemberInfo, Object, Object)
+  nameWithType: MemberInfoExt.SetMemberValue(MemberInfo, object, object)
+  nameWithType.vb: MemberInfoExt.SetMemberValue(MemberInfo, Object, Object)
+- uid: Global.MemberInfoExt.SetMemberValue*
+  name: SetMemberValue
+  href: api/Global.MemberInfoExt.html#Global_MemberInfoExt_SetMemberValue_
+  commentId: Overload:Global.MemberInfoExt.SetMemberValue
+  isSpec: "True"
+  fullName: MemberInfoExt.SetMemberValue
+  nameWithType: MemberInfoExt.SetMemberValue
 - uid: Global.MinMaxAttribute
   name: MinMaxAttribute
   href: api/Global.MinMaxAttribute.html
@@ -2767,6 +2783,37 @@ references:
   commentId: T:ToolkitEditor.VisualScripting.Setup
   fullName: ToolkitEditor.VisualScripting.Setup
   nameWithType: Setup
+- uid: ToolkitEditor.VisualScripting.Setup.Initialize(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Type})
+  name: Initialize(IEnumerable<string>, IEnumerable<Type>)
+  href: api/ToolkitEditor.VisualScripting.Setup.html#ToolkitEditor_VisualScripting_Setup_Initialize_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:ToolkitEditor.VisualScripting.Setup.Initialize(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: Initialize(IEnumerable(Of String), IEnumerable(Of Type))
+  fullName: ToolkitEditor.VisualScripting.Setup.Initialize(System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: ToolkitEditor.VisualScripting.Setup.Initialize(System.Collections.Generic.IEnumerable(Of String), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: Setup.Initialize(IEnumerable<string>, IEnumerable<Type>)
+  nameWithType.vb: Setup.Initialize(IEnumerable(Of String), IEnumerable(Of Type))
+- uid: ToolkitEditor.VisualScripting.Setup.Initialize(System.String,System.Collections.Generic.IEnumerable{System.Type})
+  name: Initialize(string, IEnumerable<Type>)
+  href: api/ToolkitEditor.VisualScripting.Setup.html#ToolkitEditor_VisualScripting_Setup_Initialize_System_String_System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:ToolkitEditor.VisualScripting.Setup.Initialize(System.String,System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: Initialize(String, IEnumerable(Of Type))
+  fullName: ToolkitEditor.VisualScripting.Setup.Initialize(string, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: ToolkitEditor.VisualScripting.Setup.Initialize(String, System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: Setup.Initialize(string, IEnumerable<Type>)
+  nameWithType.vb: Setup.Initialize(String, IEnumerable(Of Type))
+- uid: ToolkitEditor.VisualScripting.Setup.Initialize*
+  name: Initialize
+  href: api/ToolkitEditor.VisualScripting.Setup.html#ToolkitEditor_VisualScripting_Setup_Initialize_
+  commentId: Overload:ToolkitEditor.VisualScripting.Setup.Initialize
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.Setup.Initialize
+  nameWithType: Setup.Initialize
+- uid: ToolkitEditor.VisualScripting.VisualScriptToolbar
+  name: VisualScriptToolbar
+  href: api/ToolkitEditor.VisualScripting.VisualScriptToolbar.html
+  commentId: T:ToolkitEditor.VisualScripting.VisualScriptToolbar
+  fullName: ToolkitEditor.VisualScripting.VisualScriptToolbar
+  nameWithType: VisualScriptToolbar
 - uid: ToolkitEditor.WaveDrawer
   name: WaveDrawer
   href: api/ToolkitEditor.WaveDrawer.html
@@ -6758,6 +6805,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.TargetingPoints.GetEnumerator
   nameWithType: TargetingPoints.GetEnumerator
+- uid: ToolkitEngine.TargetingPoints.Item(System.Int32)
+  name: this[int]
+  href: api/ToolkitEngine.TargetingPoints.html#ToolkitEngine_TargetingPoints_Item_System_Int32_
+  commentId: P:ToolkitEngine.TargetingPoints.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: ToolkitEngine.TargetingPoints.this[int]
+  fullName.vb: ToolkitEngine.TargetingPoints.this[](Integer)
+  nameWithType: TargetingPoints.this[int]
+  nameWithType.vb: TargetingPoints.this[](Integer)
+- uid: ToolkitEngine.TargetingPoints.Item*
+  name: this
+  href: api/ToolkitEngine.TargetingPoints.html#ToolkitEngine_TargetingPoints_Item_
+  commentId: Overload:ToolkitEngine.TargetingPoints.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: ToolkitEngine.TargetingPoints.this
+  fullName.vb: ToolkitEngine.TargetingPoints.this[]
+  nameWithType: TargetingPoints.this
+  nameWithType.vb: TargetingPoints.this[]
 - uid: ToolkitEngine.TimedCurve
   name: TimedCurve
   href: api/ToolkitEngine.TimedCurve.html
@@ -7335,6 +7401,36 @@ references:
   fullName.vb: ToolkitEngine.UnityFloat.New
   nameWithType: UnityFloat.UnityFloat
   nameWithType.vb: UnityFloat.New
+- uid: ToolkitEngine.UnityValue
+  name: UnityValue
+  href: api/ToolkitEngine.UnityValue.html
+  commentId: T:ToolkitEngine.UnityValue
+  fullName: ToolkitEngine.UnityValue
+  nameWithType: UnityValue
+- uid: ToolkitEngine.UnityValue.ValueType
+  name: UnityValue.ValueType
+  href: api/ToolkitEngine.UnityValue.ValueType.html
+  commentId: T:ToolkitEngine.UnityValue.ValueType
+  fullName: ToolkitEngine.UnityValue.ValueType
+  nameWithType: UnityValue.ValueType
+- uid: ToolkitEngine.UnityValue.ValueType.Member
+  name: Member
+  href: api/ToolkitEngine.UnityValue.ValueType.html#ToolkitEngine_UnityValue_ValueType_Member
+  commentId: F:ToolkitEngine.UnityValue.ValueType.Member
+  fullName: ToolkitEngine.UnityValue.ValueType.Member
+  nameWithType: UnityValue.ValueType.Member
+- uid: ToolkitEngine.UnityValue.ValueType.Value
+  name: Value
+  href: api/ToolkitEngine.UnityValue.ValueType.html#ToolkitEngine_UnityValue_ValueType_Value
+  commentId: F:ToolkitEngine.UnityValue.ValueType.Value
+  fullName: ToolkitEngine.UnityValue.ValueType.Value
+  nameWithType: UnityValue.ValueType.Value
+- uid: ToolkitEngine.UnityValue.m_type
+  name: m_type
+  href: api/ToolkitEngine.UnityValue.html#ToolkitEngine_UnityValue_m_type
+  commentId: F:ToolkitEngine.UnityValue.m_type
+  fullName: ToolkitEngine.UnityValue.m_type
+  nameWithType: UnityValue.m_type
 - uid: ToolkitEngine.UnityValue`1
   name: UnityValue<T>
   href: api/ToolkitEngine.UnityValue-1.html
@@ -7363,31 +7459,6 @@ references:
   fullName.vb: ToolkitEngine.UnityValue(Of T).New
   nameWithType: UnityValue<T>.UnityValue
   nameWithType.vb: UnityValue(Of T).New
-- uid: ToolkitEngine.UnityValue`1.ValueType
-  name: UnityValue<T>.ValueType
-  href: api/ToolkitEngine.UnityValue-1.ValueType.html
-  commentId: T:ToolkitEngine.UnityValue`1.ValueType
-  name.vb: UnityValue(Of T).ValueType
-  fullName: ToolkitEngine.UnityValue<T>.ValueType
-  fullName.vb: ToolkitEngine.UnityValue(Of T).ValueType
-  nameWithType: UnityValue<T>.ValueType
-  nameWithType.vb: UnityValue(Of T).ValueType
-- uid: ToolkitEngine.UnityValue`1.ValueType.Member
-  name: Member
-  href: api/ToolkitEngine.UnityValue-1.ValueType.html#ToolkitEngine_UnityValue_1_ValueType_Member
-  commentId: F:ToolkitEngine.UnityValue`1.ValueType.Member
-  fullName: ToolkitEngine.UnityValue<T>.ValueType.Member
-  fullName.vb: ToolkitEngine.UnityValue(Of T).ValueType.Member
-  nameWithType: UnityValue<T>.ValueType.Member
-  nameWithType.vb: UnityValue(Of T).ValueType.Member
-- uid: ToolkitEngine.UnityValue`1.ValueType.Value
-  name: Value
-  href: api/ToolkitEngine.UnityValue-1.ValueType.html#ToolkitEngine_UnityValue_1_ValueType_Value
-  commentId: F:ToolkitEngine.UnityValue`1.ValueType.Value
-  fullName: ToolkitEngine.UnityValue<T>.ValueType.Value
-  fullName.vb: ToolkitEngine.UnityValue(Of T).ValueType.Value
-  nameWithType: UnityValue<T>.ValueType.Value
-  nameWithType.vb: UnityValue(Of T).ValueType.Value
 - uid: ToolkitEngine.UnityValue`1.value
   name: value
   href: api/ToolkitEngine.UnityValue-1.html#ToolkitEngine_UnityValue_1_value
@@ -9216,6 +9287,22 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.BeginFieldOnly
   nameWithType: EditorGUIRectLayout.BeginFieldOnly
+- uid: UnityEditor.EditorGUIRectLayout.Button(Rect@,System.String)
+  name: Button(ref Rect, string)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Button_Rect__System_String_
+  commentId: M:UnityEditor.EditorGUIRectLayout.Button(Rect@,System.String)
+  name.vb: Button(Rect, String)
+  fullName: UnityEditor.EditorGUIRectLayout.Button(ref Rect, string)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.Button(Rect, String)
+  nameWithType: EditorGUIRectLayout.Button(ref Rect, string)
+  nameWithType.vb: EditorGUIRectLayout.Button(Rect, String)
+- uid: UnityEditor.EditorGUIRectLayout.Button*
+  name: Button
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Button_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.Button
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.Button
+  nameWithType: EditorGUIRectLayout.Button
 - uid: UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,Color,GUIContent,System.Int32)
   name: CurveField(ref Rect, SerializedProperty, Color, GUIContent, int)
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_Color_GUIContent_System_Int32_
@@ -9547,6 +9634,15 @@ references:
   fullName.vb: UnityEditor.EditorGUIRectLayout.Slider(Rect, SerializedProperty, Single, Single)
   nameWithType: EditorGUIRectLayout.Slider(ref Rect, SerializedProperty, float, float)
   nameWithType.vb: EditorGUIRectLayout.Slider(Rect, SerializedProperty, Single, Single)
+- uid: UnityEditor.EditorGUIRectLayout.Slider(Rect@,System.String,System.Single,System.Single,System.Single)
+  name: Slider(ref Rect, string, float, float, float)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Slider_Rect__System_String_System_Single_System_Single_System_Single_
+  commentId: M:UnityEditor.EditorGUIRectLayout.Slider(Rect@,System.String,System.Single,System.Single,System.Single)
+  name.vb: Slider(Rect, String, Single, Single, Single)
+  fullName: UnityEditor.EditorGUIRectLayout.Slider(ref Rect, string, float, float, float)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.Slider(Rect, String, Single, Single, Single)
+  nameWithType: EditorGUIRectLayout.Slider(ref Rect, string, float, float, float)
+  nameWithType.vb: EditorGUIRectLayout.Slider(Rect, String, Single, Single, Single)
 - uid: UnityEditor.EditorGUIRectLayout.Slider*
   name: Slider
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Slider_

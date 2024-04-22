@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -335,6 +335,10 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.UnityValue.html">UnityValue</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.UnityValue-1.html">UnityValue&lt;T&gt;</a></dt>
       <dd></dd>
     </dl>
@@ -413,7 +417,7 @@ Enums
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="ToolkitEngine.UnityValue-1.ValueType.html">UnityValue&lt;T&gt;.ValueType</a></dt>
+      <dt><a class="xref" href="ToolkitEngine.UnityValue.ValueType.html">UnityValue.ValueType</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">

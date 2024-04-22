@@ -635,6 +635,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptToolbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptToolbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.VisualScripting.yml",
       "output": {
         ".html": {
@@ -1505,20 +1515,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityValue-1.ValueType.yml",
+      "source_relative_path": "api/ToolkitEngine.UnityValue-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityValue-1.ValueType.html"
+          "relative_path": "api/ToolkitEngine.UnityValue-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityValue-1.yml",
+      "source_relative_path": "api/ToolkitEngine.UnityValue.ValueType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityValue-1.html"
+          "relative_path": "api/ToolkitEngine.UnityValue.ValueType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UnityValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UnityValue.html"
         }
       },
       "version": ""

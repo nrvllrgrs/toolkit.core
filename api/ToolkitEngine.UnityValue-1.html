@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_UnityValue_1" data-uid="ToolkitEngine.UnityValue`1" class="text-break">
-Class UnityValue&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class UnityValue&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class UnityValue&lt;T&gt;  <a class="header-action link-secondary" title="View s
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public abstract class UnityValue&lt;T&gt;</code></pre>
+public abstract class UnityValue&lt;T&gt; : UnityValue</code></pre>
   </div>
 
 
@@ -117,6 +117,7 @@ public abstract class UnityValue&lt;T&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="ToolkitEngine.UnityValue.html">UnityValue</a></div>
       <div><span class="xref">UnityValue&lt;T&gt;</span></div>
     </dd>
   </dl>
@@ -132,6 +133,9 @@ public abstract class UnityValue&lt;T&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="ToolkitEngine.UnityValue.html#ToolkitEngine_UnityValue_m_type">UnityValue.m_type</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -168,7 +172,7 @@ public abstract class UnityValue&lt;T&gt;</code></pre>
 
   <h3 id="ToolkitEngine_UnityValue_1__ctor__0_" data-uid="ToolkitEngine.UnityValue`1.#ctor(`0)">
   UnityValue(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -203,14 +207,14 @@ public abstract class UnityValue&lt;T&gt;</code></pre>
 
   <h3 id="ToolkitEngine_UnityValue_1_value" data-uid="ToolkitEngine.UnityValue`1.value">
   value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Logic/ReflectedValue.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T value { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T value { get; set; }</code></pre>
   </div>
 
 

@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -183,11 +183,49 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
 
 
+  <a id="UnityEditor_EditorGUIRectLayout_Button_" data-uid="UnityEditor.EditorGUIRectLayout.Button*"></a>
+
+  <h3 id="UnityEditor_EditorGUIRectLayout_Button_Rect__System_String_" data-uid="UnityEditor.EditorGUIRectLayout.Button(Rect@,System.String)">
+  Button(ref Rect, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Button(ref Rect rect, string label)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <span class="xref">Rect</span></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="UnityEditor_EditorGUIRectLayout_CurveField_" data-uid="UnityEditor.EditorGUIRectLayout.CurveField*"></a>
 
   <h3 id="UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_Color_GUIContent_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,Color,GUIContent,System.Int32)">
   CurveField(ref Rect, SerializedProperty, Color, GUIContent, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -226,7 +264,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_Color_System_String_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,Color,System.String,System.Int32)">
   CurveField(ref Rect, SerializedProperty, Color, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -265,7 +303,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_GUIContent_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,GUIContent,System.Int32)">
   CurveField(ref Rect, SerializedProperty, GUIContent, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -302,7 +340,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_System_String_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,System.String,System.Int32)">
   CurveField(ref Rect, SerializedProperty, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -370,7 +408,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_EnumPopup__1_Rect__SerializedProperty_GUIContent_" data-uid="UnityEditor.EditorGUIRectLayout.EnumPopup``1(Rect@,SerializedProperty,GUIContent)">
   EnumPopup&lt;T&gt;(ref Rect, SerializedProperty, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -410,7 +448,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_EnumPopup__1_Rect__SerializedProperty_System_String_" data-uid="UnityEditor.EditorGUIRectLayout.EnumPopup``1(Rect@,SerializedProperty,System.String)">
   EnumPopup&lt;T&gt;(ref Rect, SerializedProperty, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -450,7 +488,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_FloatField_Rect__GUIContent_System_Single_" data-uid="UnityEditor.EditorGUIRectLayout.FloatField(Rect@,GUIContent,System.Single)">
   FloatField(ref Rect, GUIContent, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -490,7 +528,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_FloatField_Rect__System_String_System_Single_" data-uid="UnityEditor.EditorGUIRectLayout.FloatField(Rect@,System.String,System.Single)">
   FloatField(ref Rect, string, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -530,7 +568,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_Foldout_Rect__SerializedProperty_GUIContent_GUIStyle_" data-uid="UnityEditor.EditorGUIRectLayout.Foldout(Rect@,SerializedProperty,GUIContent,GUIStyle)">
   Foldout(ref Rect, SerializedProperty, GUIContent, GUIStyle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -572,7 +610,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_Foldout_Rect__SerializedProperty_System_String_GUIStyle_" data-uid="UnityEditor.EditorGUIRectLayout.Foldout(Rect@,SerializedProperty,System.String,GUIStyle)">
   Foldout(ref Rect, SerializedProperty, string, GUIStyle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -614,7 +652,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_GetFoldoutHeight_SerializedProperty_" data-uid="UnityEditor.EditorGUIRectLayout.GetFoldoutHeight(SerializedProperty)">
   GetFoldoutHeight(SerializedProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -650,7 +688,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_GetHelpboxHeight_System_String_" data-uid="UnityEditor.EditorGUIRectLayout.GetHelpboxHeight(System.String)">
   GetHelpboxHeight(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -686,7 +724,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_GetSpaceHeight" data-uid="UnityEditor.EditorGUIRectLayout.GetSpaceHeight">
   GetSpaceHeight()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -717,7 +755,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_HelpBox_Rect__System_String_MessageType_" data-uid="UnityEditor.EditorGUIRectLayout.HelpBox(Rect@,System.String,MessageType)">
   HelpBox(ref Rect, string, MessageType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -752,7 +790,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_IntField_Rect__GUIContent_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.IntField(Rect@,GUIContent,System.Int32)">
   IntField(ref Rect, GUIContent, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -792,7 +830,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_IntField_Rect__System_String_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.IntField(Rect@,System.String,System.Int32)">
   IntField(ref Rect, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -832,7 +870,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_IntSlider_Rect__SerializedProperty_System_Int32_System_Int32_" data-uid="UnityEditor.EditorGUIRectLayout.IntSlider(Rect@,SerializedProperty,System.Int32,System.Int32)">
   IntSlider(ref Rect, SerializedProperty, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -869,7 +907,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_LabelField_Rect__GUIContent_GUIStyle_" data-uid="UnityEditor.EditorGUIRectLayout.LabelField(Rect@,GUIContent,GUIStyle)">
   LabelField(ref Rect, GUIContent, GUIStyle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -904,7 +942,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_LabelField_Rect__System_String_GUIStyle_" data-uid="UnityEditor.EditorGUIRectLayout.LabelField(Rect@,System.String,GUIStyle)">
   LabelField(ref Rect, string, GUIStyle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -939,7 +977,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_ObjectField_Rect__SerializedProperty_GUIContent_" data-uid="UnityEditor.EditorGUIRectLayout.ObjectField(Rect@,SerializedProperty,GUIContent)">
   ObjectField(ref Rect, SerializedProperty, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -974,7 +1012,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_ProgressBar_Rect__System_Single_System_String_" data-uid="UnityEditor.EditorGUIRectLayout.ProgressBar(Rect@,System.Single,System.String)">
   ProgressBar(ref Rect, float, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1009,7 +1047,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_PropertyField_Rect__SerializedProperty_GUIContent_" data-uid="UnityEditor.EditorGUIRectLayout.PropertyField(Rect@,SerializedProperty,GUIContent)">
   PropertyField(ref Rect, SerializedProperty, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1044,7 +1082,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_ScriptableObjectField__1_Rect__SerializedProperty_ScriptableObject_GUIContent_" data-uid="UnityEditor.EditorGUIRectLayout.ScriptableObjectField``1(Rect@,SerializedProperty,ScriptableObject,GUIContent)">
   ScriptableObjectField&lt;T&gt;(ref Rect, SerializedProperty, ScriptableObject, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1086,7 +1124,7 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
   <h3 id="UnityEditor_EditorGUIRectLayout_Slider_Rect__SerializedProperty_System_Single_System_Single_" data-uid="UnityEditor.EditorGUIRectLayout.Slider(Rect@,SerializedProperty,System.Single,System.Single)">
   Slider(ref Rect, SerializedProperty, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1119,11 +1157,50 @@ Class EditorGUIRectLayout  <a class="header-action link-secondary" title="View s
 
 
 
+  <a id="UnityEditor_EditorGUIRectLayout_Slider_" data-uid="UnityEditor.EditorGUIRectLayout.Slider*"></a>
+
+  <h3 id="UnityEditor_EditorGUIRectLayout_Slider_Rect__System_String_System_Single_System_Single_System_Single_" data-uid="UnityEditor.EditorGUIRectLayout.Slider(Rect@,System.String,System.Single,System.Single,System.Single)">
+  Slider(ref Rect, string, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Slider(ref Rect rect, string label, float value, float minValue, float maxValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <span class="xref">Rect</span></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>minValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>maxValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UnityEditor_EditorGUIRectLayout_Space_" data-uid="UnityEditor.EditorGUIRectLayout.Space*"></a>
 
   <h3 id="UnityEditor_EditorGUIRectLayout_Space_Rect__" data-uid="UnityEditor.EditorGUIRectLayout.Space(Rect@)">
   Space(ref Rect)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/EditorGUIRectLayout.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

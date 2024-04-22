@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_VisualScripting_OnSetItemAddedMessageListener" data-uid="ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener" class="text-break">
-Class OnSetItemAddedMessageListener  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/System/MessageListeners/OnSetItemAddedMessageListener.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class OnSetItemAddedMessageListener  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/System/MessageListeners/OnSetItemAddedMessageListener.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class OnSetItemAddedMessageListener  <a class="header-action link-secondary" tit
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OnSetItemAddedMessageListener : MessageListener</code></pre>
+    <pre><code class="lang-csharp hljs">public class OnSetItemAddedMessageListener : MessageListener, MessageListener</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class OnSetItemAddedMessageListener  <a class="header-action link-secondary" tit
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">MessageListener</span></div>
+    </dd>
+  </dl>
 
 
 

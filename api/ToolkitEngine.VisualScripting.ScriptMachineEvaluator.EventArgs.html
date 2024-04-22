@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs" class="text-break">
-Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L39"><i class="bi bi-code-slash"></i></a>
+Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -160,7 +160,46 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs__ctor_System_String_ToolkitEngine_VisualScripting_ScriptMachineEvaluator_GameObject_GameObject_Vector3_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.#ctor(System.String,ToolkitEngine.VisualScripting.ScriptMachineEvaluator,GameObject,GameObject,Vector3)">
   EventArgs(string, ScriptMachineEvaluator, GameObject, GameObject, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventArgs(string name, ScriptMachineEvaluator evaluator, GameObject actor, GameObject target, Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>evaluator</code> <a class="xref" href="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html">ScriptMachineEvaluator</a></dt>
+    <dd></dd>
+    <dt><code>actor</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs__ctor_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs__ctor_System_String_ToolkitEngine_VisualScripting_ScriptMachineEvaluator_GameObject_GameObject_Vector3_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.#ctor(System.String,ToolkitEngine.VisualScripting.ScriptMachineEvaluator,GameObject,GameObject,Vector3)">
+  EventArgs(string, ScriptMachineEvaluator, GameObject, GameObject, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -203,7 +242,38 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_actor" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.actor">
   actor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject actor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_actor_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.actor*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_actor" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.actor">
+  actor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -234,7 +304,38 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_evaluator" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.evaluator">
   evaluator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptMachineEvaluator evaluator { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html">ScriptMachineEvaluator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_evaluator_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.evaluator*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_evaluator" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.evaluator">
+  evaluator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -265,7 +366,38 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_name" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.name">
   name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_name_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.name*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_name" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.name">
+  name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -296,7 +428,38 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_position" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.position">
   position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 position { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_position_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.position*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_position" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.position">
+  position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -327,7 +490,38 @@ Class ScriptMachineEvaluator.EventArgs  <a class="header-action link-secondary" 
 
   <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_target" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.target">
   target
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Units/Scoring/ScriptMachineEvaluator.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject target { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_target_" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.target*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_ScriptMachineEvaluator_EventArgs_target" data-uid="ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.target">
+  target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/Scoring/ScriptMachineEvaluator.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
