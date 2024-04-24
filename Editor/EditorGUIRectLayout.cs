@@ -236,20 +236,23 @@ namespace UnityEditor
 			}
 		}
 
-		public static void Slider(ref Rect rect, SerializedProperty property, float minValue, float maxValue)
+		public static float Slider(ref Rect rect, SerializedProperty property, float minValue, float maxValue)
 		{
-			rect.height = EditorGUI.GetPropertyHeight(property);
-			EditorGUI.Slider(rect, property, minValue, maxValue);
-
-			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return Slider(ref rect, property.displayName, property.floatValue, minValue, maxValue, EditorGUI.GetPropertyHeight(property));
 		}
 
-		public static void Slider(ref Rect rect, string label, float value, float minValue, float maxValue)
+		public static float Slider(ref Rect rect, string label, float value, float minValue, float maxValue)
 		{
-			rect.height = EditorGUIUtility.singleLineHeight;
-			EditorGUI.Slider(rect, label, value, minValue, maxValue);
+			return Slider(ref rect, label, value, minValue, maxValue, EditorGUIUtility.singleLineHeight);
+		}
+
+		private static float Slider(ref Rect rect, string label, float value, float minValue, float maxValue, float height)
+		{
+			rect.height = height;
+			float r = EditorGUI.Slider(rect, label, value, minValue, maxValue);
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return r;
 		}
 
 		public static void Space(ref Rect rect)
