@@ -126,6 +126,14 @@ namespace ToolkitEditor
 					if (selectedEvaluatorProp != null)
 					{
 						EditorGUIRectLayout.Space(ref position);
+
+						//float boxHeight = EditorGUIUtility.singleLineHeight
+						//	+ EditorGUI.GetPropertyHeight(selectedEvaluatorProp)
+						//	+ EditorGUIUtility.standardVerticalSpacing;
+
+						//var boxRect = new Rect(position.x, position.y, position.width, boxHeight);
+						//EditorGUI.HelpBox(boxRect, string.Empty, MessageType.None);
+
 						EditorGUIRectLayout.LabelField(ref position, selectedEvaluatorProp.GetValue().GetType().Name, EditorStyles.boldLabel);
 						EditorGUIRectLayout.PropertyField(ref position, selectedEvaluatorProp);
 					}
@@ -138,7 +146,7 @@ namespace ToolkitEditor
 			float height = EditorGUIUtility.singleLineHeight; // Property label
 
 			var evaluator = property.GetValue<UnityEvaluator>();
-			if (s_dataLookup.TryGetValue(evaluator, out CachedData data))
+			if (evaluator != null && s_dataLookup.TryGetValue(evaluator, out CachedData data))
 			{
 				try
 				{
@@ -183,8 +191,14 @@ namespace ToolkitEditor
 
 		private void OnAddDropdownCallback(Rect buttonRect, ReorderableList list)
 		{
+			var orderedTypes = from type in s_cachedEvaluableTypes
+							   let attr = type.GetAttribute<EvaluableCategoryAttribute>()
+							   // Order types with categories at top of list
+							   orderby attr == null, (attr?.category ?? string.Empty), type.Name
+							   select type;
+
 			var addMenu = new GenericMenu();
-			foreach (var evaluableType in s_cachedEvaluableTypes.OrderBy(x => x.Name))
+			foreach (var evaluableType in orderedTypes)
 			{
 				string category = string.Empty;
 				if (typeof(BaseEvaluator).IsAssignableFrom(evaluableType))
@@ -194,6 +208,12 @@ namespace ToolkitEditor
 				else if (typeof(BaseFilter).IsAssignableFrom(evaluableType))
 				{
 					category = "Filters/";
+				}
+
+				var attr = evaluableType.GetAttribute<EvaluableCategoryAttribute>();
+				if (attr != null)
+				{
+					category += attr.category + "/";
 				}
 
 				addMenu.AddItem(new GUIContent(category + evaluableType.Name), false, OnAddEvaluable, new MenuEventArgs()

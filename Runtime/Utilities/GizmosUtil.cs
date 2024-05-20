@@ -5,30 +5,40 @@ namespace ToolkitEngine
 {
 	public static class GizmosUtil
     {
-		public static void DrawArrow(Transform transform, float scale = 1f)
+		public static void DrawArrow(Vector3 position, Quaternion rotation, float scale = 1f)
 		{
-			DrawArrow(transform, Color.green, scale);
+			DrawArrow(position, rotation, Color.green, scale);
 		}
 
-		public static void DrawArrow(Transform transform, Color color, float scale = 1f)
+		public static void DrawArrow(Vector3 position, Quaternion rotation, Color color, float scale = 1f)
 		{
 #if UNITY_EDITOR
 			Handles.color = color;
 			Handles.DrawLines(new[]
 			{
-				transform.position + transform.rotation * (new Vector3(0f, 0f, 0.5f) * scale),
-				transform.position + transform.rotation * (new Vector3(0.5f, 0f, 0.1667f) * scale),
-				transform.position + transform.rotation * (new Vector3(0.25f, 0f, 0.1667f) * scale),
-				transform.position + transform.rotation * (new Vector3(0.25f, 0f, -0.5f) * scale),
-				transform.position + transform.rotation * (new Vector3(-0.25f, 0f, -0.5f) * scale),
-				transform.position + transform.rotation * (new Vector3(-0.25f, 0f, 0.1667f) * scale),
-				transform.position + transform.rotation * (new Vector3(-0.5f, 0f, 0.1667f) * scale),
+				position + rotation * (new Vector3(0f, 0f, 0.5f) * scale),
+				position + rotation * (new Vector3(0.5f, 0f, 0.1667f) * scale),
+				position + rotation * (new Vector3(0.25f, 0f, 0.1667f) * scale),
+				position + rotation * (new Vector3(0.25f, 0f, -0.5f) * scale),
+				position + rotation * (new Vector3(-0.25f, 0f, -0.5f) * scale),
+				position + rotation * (new Vector3(-0.25f, 0f, 0.1667f) * scale),
+				position + rotation * (new Vector3(-0.5f, 0f, 0.1667f) * scale),
 			},
 			new[] { 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 0 });
 
 			// Draw UP vector
-			Handles.DrawLine(transform.position, transform.position + transform.up * 0.25f * scale);
+			Handles.DrawLine(position, position + rotation * Vector3.up * 0.25f * scale);
 #endif
+		}
+
+		public static void DrawArrow(Transform transform, float scale = 1f)
+		{
+			DrawArrow(transform.position, transform.rotation, scale);
+		}
+
+		public static void DrawArrow(Transform transform, Color color, float scale = 1f)
+		{
+			DrawArrow(transform.position, transform.rotation, color, scale);
 		}
 
 		public static void DrawCone(Vector3 vertex, float angle, float height, Vector3 direction)

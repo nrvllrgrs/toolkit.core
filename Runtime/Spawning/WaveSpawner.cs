@@ -27,7 +27,7 @@ namespace ToolkitEngine
 		private Wave[] m_waves;
 
 		[SerializeField]
-		private Transform[] m_points;
+		private Transform[] m_points = new Transform[] { };
 
 		[SerializeField]
 		private Set m_thresholdSet;
@@ -135,6 +135,7 @@ namespace ToolkitEngine
 		{
 			if (m_spawnOnStart)
 			{
+				m_isOn = true;
 				Next();
 			}
 		}
@@ -229,6 +230,17 @@ namespace ToolkitEngine
 
 		#region Editor-Only
 #if UNITY_EDITOR
+
+		private void OnValidate()
+		{
+			if (UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode)
+				return;
+
+			UnityEditor.EditorApplication.delayCall += () =>
+			{
+				Spawner.RefreshProxies(GetInstanceID(), m_spawner, points);
+			};
+		}
 
 		private void OnDrawGizmos()
 		{

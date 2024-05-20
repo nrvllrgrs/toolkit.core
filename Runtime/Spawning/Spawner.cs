@@ -10,6 +10,10 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 #endif
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 namespace ToolkitEngine
 {
 	public class SpawnerEventArgs : EventArgs
@@ -95,6 +99,8 @@ namespace ToolkitEngine
 		#endregion
 
 		#region Properties
+
+		public int id { get; private set; }
 
 		public SpawnType spawnType => m_spawnType;
 
@@ -401,5 +407,157 @@ namespace ToolkitEngine
 		}
 
 		#endregion
+
+		#region Editor-Only
+#if UNITY_EDITOR
+
+		public static void RefreshProxies(int instanceId, Spawner spawner, Transform point, Action<GameObject> postSpawnAction = null)
+		{
+			RefreshProxies(instanceId, spawner, new[] { point }, postSpawnAction);
+		}
+
+		public static void RefreshProxies(int instanceId, Spawner spawner, Transform[] points, Action<GameObject> postSpawnAction = null)
+		{
+			DestroyProxies(instanceId);
+
+			foreach (var point in points)
+			{
+				SpawnProxy(instanceId, spawner, point, postSpawnAction); 
+			}
+		}
+
+		public static void DestroyProxies(int instanceId)
+		{
+			if (!SpawnerProxyManager.instance.map.TryGetValue(instanceId, out var data))
+				return;
+
+			// Destroy all proxy objects
+			foreach (var proxy in data.proxies)
+			{
+				if (!proxy.IsNull())
+				{
+					if (!data.addressableProxies)
+					{
+						UnityEngine.Object.DestroyImmediate(proxy);
+					}
+#if ADDRESSABLE_ASSETS
+					else
+					{
+						Addressables.Release(proxy);
+					}
+#endif
+				}
+			}
+			data.proxies.Clear();
+		}
+
+		public static void SpawnProxy(int instanceId, Spawner spawner, Transform point, Action<GameObject> postSpawnAction = null)
+		{
+			if (point == null)
+				return;
+
+			if (!SpawnerProxyManager.instance.map.TryGetValue(instanceId, out var data))
+			{
+				data = new SpawnerProxyManager.Data(); 
+				SpawnerProxyManager.instance.map.Add(instanceId, data);
+			}
+
+			switch (spawner.spawnType)
+			{
+				case Spawner.SpawnType.Template:
+				case Spawner.SpawnType.ObjectPool:
+					var template = spawner.template;
+					if (template == null)
+						return;
+
+					var obj = UnityEngine.Object.Instantiate(template, point.position, point.rotation, point);
+
+					// Scale so proxy ignores parent's scale
+					obj.transform.localScale = new Vector3(
+						obj.transform.localScale.x / point.lossyScale.x,
+						obj.transform.localScale.y / point.lossyScale.y,
+						obj.transform.localScale.z / point.lossyScale.z);
+
+					obj.SetActive(true);
+					PostSpawnProxy(obj, data, postSpawnAction);
+
+					data.addressableProxies = false;
+					break;
+
+				case Spawner.SpawnType.Addressable:
+#if ADDRESSABLE_ASSETS
+					if (!spawner.m_assetReference.RuntimeKeyIsValid())
+						return;
+
+					spawner.m_assetReference.InstantiateAsync(point.position, point.rotation, point).Completed += (op) =>
+					{
+						if (op.Result == null)
+							return;
+
+						// Scale so proxy ignores parent's scale
+						op.Result.transform.localScale = new Vector3(
+							op.Result.transform.localScale.x / point.lossyScale.x,
+							op.Result.transform.localScale.y / point.lossyScale.y,
+							op.Result.transform.localScale.z / point.lossyScale.z);
+
+						op.Result.SetActive(true);
+						PostSpawnProxy(op.Result, data, postSpawnAction);
+					};
+					data.addressableProxies = true;
+#endif
+					break;
+			}
+		}
+
+		private static void PostSpawnProxy(GameObject proxy, SpawnerProxyManager.Data data, Action<GameObject> postSpawnAction)
+		{
+			data.proxies.Add(proxy);
+
+			// Make sure children of proxy cannot be selected from scene
+			foreach (var child in proxy.GetComponentsInChildren<Transform>())
+			{
+				child.gameObject.hideFlags |= HideFlags.NotEditable | HideFlags.DontSave | HideFlags.HideInHierarchy;
+			}
+
+			postSpawnAction?.Invoke(proxy);
+		}
+
+#endif
+		#endregion
 	}
+
+	//#if UNITY_EDITOR
+
+	public class SpawnerProxyManager : ScriptableSingleton<SpawnerProxyManager>
+	{
+		#region Fields
+
+		[SerializeField]
+		private SpawnerDataMap m_map = new();
+
+		#endregion
+
+		#region Properties
+
+		public SpawnerDataMap map => m_map;
+
+		#endregion
+
+		#region Structures
+
+		[Serializable]
+		public class Data
+		{
+			public List<GameObject> proxies = new();
+			public bool addressableProxies = false;
+		}
+
+		[Serializable]
+		public class SpawnerDataMap : SerializableDictionary<int, Data>
+		{ }
+
+		#endregion
+	}
+
+	//#endif
 }

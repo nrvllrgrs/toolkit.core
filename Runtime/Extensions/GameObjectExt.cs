@@ -129,7 +129,12 @@ namespace UnityEngine
 			Bounds bounds = new Bounds(Vector3.zero, Vector3.zero);
 			foreach (var renderer in obj.GetComponentsInChildren<Renderer>())
 			{
-				bounds.Encapsulate(renderer.localBounds);
+				var localBounds = renderer.localBounds;
+				var size = localBounds.size;
+				size.Scale(renderer.transform.lossyScale);
+				localBounds.size = size;
+
+				bounds.Encapsulate(localBounds);
 			}
 
 			// Restore previous position / rotation

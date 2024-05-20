@@ -36,7 +36,7 @@ namespace ToolkitEngine
 		private Spawner m_spawner;
 
 		[SerializeField]
-		private Transform[] m_points;
+		private Transform[] m_points = new Transform[] { };
 
 		[SerializeField]
 		private bool m_zeroRotation;
@@ -96,7 +96,7 @@ namespace ToolkitEngine
 				if (m_spawnSpace != SpawnSpace.SpawnAtPoint)
 					return new Transform[] { };
 
-				return m_points.Length > 0
+				return m_points != null && m_points.Length > 0
 					? m_points
 					: new Transform[] { transform };
 			}
@@ -163,7 +163,7 @@ namespace ToolkitEngine
 			m_spawner.Set(assetReference);
 		}
 #endif
-		#endregion
+#endregion
 
 		#region Spawn Methods
 
@@ -318,24 +318,56 @@ namespace ToolkitEngine
 		#region Editor-Only
 #if UNITY_EDITOR
 
+		private void OnValidate()
+		{
+			if (UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode)
+				return;
+
+			UnityEditor.EditorApplication.delayCall += () =>
+			{
+				switch (m_spawnSpace)
+				{
+					case SpawnSpace.SpawnAtPoint:
+						Spawner.RefreshProxies(GetInstanceID(), m_spawner, points);
+						break;
+
+					case SpawnSpace.SpawnInLocalSpace when m_parent != null:
+					case SpawnSpace.SpawnInWorldSpace when m_parent != null:
+						Spawner.RefreshProxies(GetInstanceID(), m_spawner, m_parent);
+						break;
+
+					case SpawnSpace.PositionAndRotation:
+						Spawner.DestroyProxies(GetInstanceID());
+						break;
+				}
+			};
+		}
+
 		private void OnDrawGizmos()
 		{
 			if (Application.isPlaying)
 				return;
 
-			if (!hasPoints)
+			switch (m_spawnSpace)
 			{
-				GizmosUtil.DrawArrow(transform);
-			}
-			else
-			{
-				foreach (var point in m_points)
-				{
-					if (point != null)
+				case SpawnSpace.SpawnAtPoint:
+					foreach (var point in points)
 					{
 						GizmosUtil.DrawArrow(point);
 					}
-				}
+					break;
+
+				case SpawnSpace.SpawnInLocalSpace:
+				case SpawnSpace.SpawnInWorldSpace:
+					if (m_parent != null)
+					{
+						GizmosUtil.DrawArrow(m_parent);
+					}
+					break;
+
+				case SpawnSpace.PositionAndRotation:
+					GizmosUtil.DrawArrow(m_position, Quaternion.Euler(m_rotation));
+					break;
 			}
 		}
 

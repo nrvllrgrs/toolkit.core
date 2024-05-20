@@ -35,7 +35,11 @@ public static class SerializedPropertyExt
 
     public static T GetValue<T>(this SerializedProperty property)
     {
-        return (T)property.GetValue();
+        object value = property.GetValue();
+        if (value == null)
+            return default(T);
+
+		return (T)value;
     }
 
     private static object GetValue(object source, string name)

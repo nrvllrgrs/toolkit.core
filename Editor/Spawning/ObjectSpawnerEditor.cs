@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using ToolkitEngine;
@@ -13,6 +14,7 @@ namespace ToolkitEditor
 		protected ObjectSpawner m_objectSpawner;
 
 		protected SerializedProperty m_spawner;
+		protected SerializedProperty m_proxySet;
 
 		protected SerializedProperty m_spawnOnStart;
 
@@ -63,11 +65,17 @@ namespace ToolkitEditor
 		{
 			serializedObject.Update();
 
+			bool refreshProxies = false;
+			List<Transform> proxyPoints = new();
+
+			EditorGUI.BeginChangeCheck();
 			EditorGUILayout.PropertyField(m_spawner);
 
 			EditorGUILayout.Separator();
 
 			EditorGUILayout.PropertyField(m_spawnOnStart);
+
+			EditorGUI.BeginChangeCheck();
 			EditorGUILayout.PropertyField(m_spawnSpace);
 
 			++EditorGUI.indentLevel;
@@ -78,7 +86,9 @@ namespace ToolkitEditor
 					{
 						EditorGUILayout.HelpBox("\"Points\" are undefined. Using local transform.", MessageType.Info);
 					}
+
 					EditorGUILayout.PropertyField(m_points);
+					proxyPoints.AddRange(m_objectSpawner.points);
 
 					if (m_points.arraySize > 1)
 					{
@@ -93,7 +103,12 @@ namespace ToolkitEditor
 					{
 						EditorGUILayout.HelpBox("Parent is required!", MessageType.Error);
 					}
+
 					EditorGUILayout.PropertyField(m_parent);
+					if (m_parent.objectReferenceValue != null)
+					{
+						proxyPoints.Add(m_parent.objectReferenceValue as Transform);
+					}
 					break;
 
 				case SpawnSpace.PositionAndRotation:
@@ -102,6 +117,11 @@ namespace ToolkitEditor
 					break;
 			}
 			--EditorGUI.indentLevel;
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				refreshProxies = true;
+			}
 
 			EditorGUILayout.Separator();
 
