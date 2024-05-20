@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SerializedPropertyExt | Core Toolkit | 1.0.0 </title>
+      <title>Class Vector3Ext | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SerializedPropertyExt | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class Vector3Ext | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=Global_SerializedPropertyExt.md&amp;value=---%0Auid%3A%20Global.SerializedPropertyExt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=UnityEngine_Vector3Ext.md&amp;value=---%0Auid%3A%20UnityEngine.Vector3Ext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Global.SerializedPropertyExt">
+        <article data-uid="UnityEngine.Vector3Ext">
 
 
 
-  <h1 id="Global_SerializedPropertyExt" data-uid="Global.SerializedPropertyExt" class="text-break">
-Class SerializedPropertyExt  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Extensions/SerializedPropertyExt.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="UnityEngine_Vector3Ext" data-uid="UnityEngine.Vector3Ext" class="text-break">
+Class Vector3Ext  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/Vector3Ext.cs/#L3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UnityEngine.html">UnityEngine</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class SerializedPropertyExt  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SerializedPropertyExt</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Vector3Ext</code></pre>
   </div>
 
 
@@ -111,7 +111,7 @@ Class SerializedPropertyExt  <a class="header-action link-secondary" title="View
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">SerializedPropertyExt</span></div>
+      <div><span class="xref">Vector3Ext</span></div>
     </dd>
   </dl>
 
@@ -152,37 +152,30 @@ Class SerializedPropertyExt  <a class="header-action link-secondary" title="View
 </h2>
 
 
-  <a id="Global_SerializedPropertyExt_GetChildIndex_" data-uid="Global.SerializedPropertyExt.GetChildIndex*"></a>
+  <a id="UnityEngine_Vector3Ext_Inverse_" data-uid="UnityEngine.Vector3Ext.Inverse*"></a>
 
-  <h3 id="Global_SerializedPropertyExt_GetChildIndex__1_SerializedProperty_System_String_" data-uid="Global.SerializedPropertyExt.GetChildIndex``1(SerializedProperty,System.String)">
-  GetChildIndex&lt;T&gt;(SerializedProperty, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Extensions/SerializedPropertyExt.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <h3 id="UnityEngine_Vector3Ext_Inverse_Vector3_" data-uid="UnityEngine.Vector3Ext.Inverse(Vector3)">
+  Inverse(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/Vector3Ext.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Inverts a scale vector by dividing 1 by each component</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetChildIndex&lt;T&gt;(this SerializedProperty property, string arrayName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 Inverse(this Vector3 v)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-    <dt><code>arrayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>v</code> <span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
+    <dt><span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
 
@@ -195,114 +188,36 @@ Class SerializedPropertyExt  <a class="header-action link-secondary" title="View
 
 
 
-  <a id="Global_SerializedPropertyExt_GetValue_" data-uid="Global.SerializedPropertyExt.GetValue*"></a>
 
-  <h3 id="Global_SerializedPropertyExt_GetValue_SerializedProperty_" data-uid="Global.SerializedPropertyExt.GetValue(SerializedProperty)">
-  GetValue(SerializedProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Extensions/SerializedPropertyExt.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a id="UnityEngine_Vector3Ext_InverseScale_" data-uid="UnityEngine.Vector3Ext.InverseScale*"></a>
+
+  <h3 id="UnityEngine_Vector3Ext_InverseScale_Vector3_Vector3_" data-uid="UnityEngine.Vector3Ext.InverseScale(Vector3,Vector3)">
+  InverseScale(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/Vector3Ext.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Divides two vectors component-wise</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static object GetValue(this SerializedProperty property)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 InverseScale(this Vector3 a, Vector3 b)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
+    <dt><code>a</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>b</code> <span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-
-
-
-  <a id="Global_SerializedPropertyExt_GetValue_" data-uid="Global.SerializedPropertyExt.GetValue*"></a>
-
-  <h3 id="Global_SerializedPropertyExt_GetValue__1_SerializedProperty_" data-uid="Global.SerializedPropertyExt.GetValue``1(SerializedProperty)">
-  GetValue&lt;T&gt;(SerializedProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Extensions/SerializedPropertyExt.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T GetValue&lt;T&gt;(this SerializedProperty property)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <a id="Global_SerializedPropertyExt_IsOfType_" data-uid="Global.SerializedPropertyExt.IsOfType*"></a>
-
-  <h3 id="Global_SerializedPropertyExt_IsOfType__1_SerializedProperty_" data-uid="Global.SerializedPropertyExt.IsOfType``1(SerializedProperty)">
-  IsOfType&lt;T&gt;(SerializedProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Extensions/SerializedPropertyExt.cs/#L9"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsOfType&lt;T&gt;(this SerializedProperty property)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
 
 

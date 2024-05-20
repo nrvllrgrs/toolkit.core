@@ -1816,6 +1816,12 @@ references:
   commentId: F:ToolkitEditor.ObjectSpawnerEditor.m_preSpawnRules
   fullName: ToolkitEditor.ObjectSpawnerEditor.m_preSpawnRules
   nameWithType: ObjectSpawnerEditor.m_preSpawnRules
+- uid: ToolkitEditor.ObjectSpawnerEditor.m_proxySet
+  name: m_proxySet
+  href: api/ToolkitEditor.ObjectSpawnerEditor.html#ToolkitEditor_ObjectSpawnerEditor_m_proxySet
+  commentId: F:ToolkitEditor.ObjectSpawnerEditor.m_proxySet
+  fullName: ToolkitEditor.ObjectSpawnerEditor.m_proxySet
+  nameWithType: ObjectSpawnerEditor.m_proxySet
 - uid: ToolkitEditor.ObjectSpawnerEditor.m_rotation
   name: m_rotation
   href: api/ToolkitEditor.ObjectSpawnerEditor.html#ToolkitEditor_ObjectSpawnerEditor_m_rotation
@@ -3669,6 +3675,44 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.DistanceFilter.IsIncluded
   nameWithType: DistanceFilter.IsIncluded
+- uid: ToolkitEngine.EvaluableCategoryAttribute
+  name: EvaluableCategoryAttribute
+  href: api/ToolkitEngine.EvaluableCategoryAttribute.html
+  commentId: T:ToolkitEngine.EvaluableCategoryAttribute
+  fullName: ToolkitEngine.EvaluableCategoryAttribute
+  nameWithType: EvaluableCategoryAttribute
+- uid: ToolkitEngine.EvaluableCategoryAttribute.#ctor(System.String)
+  name: EvaluableCategoryAttribute(string)
+  href: api/ToolkitEngine.EvaluableCategoryAttribute.html#ToolkitEngine_EvaluableCategoryAttribute__ctor_System_String_
+  commentId: M:ToolkitEngine.EvaluableCategoryAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ToolkitEngine.EvaluableCategoryAttribute.EvaluableCategoryAttribute(string)
+  fullName.vb: ToolkitEngine.EvaluableCategoryAttribute.New(String)
+  nameWithType: EvaluableCategoryAttribute.EvaluableCategoryAttribute(string)
+  nameWithType.vb: EvaluableCategoryAttribute.New(String)
+- uid: ToolkitEngine.EvaluableCategoryAttribute.#ctor*
+  name: EvaluableCategoryAttribute
+  href: api/ToolkitEngine.EvaluableCategoryAttribute.html#ToolkitEngine_EvaluableCategoryAttribute__ctor_
+  commentId: Overload:ToolkitEngine.EvaluableCategoryAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.EvaluableCategoryAttribute.EvaluableCategoryAttribute
+  fullName.vb: ToolkitEngine.EvaluableCategoryAttribute.New
+  nameWithType: EvaluableCategoryAttribute.EvaluableCategoryAttribute
+  nameWithType.vb: EvaluableCategoryAttribute.New
+- uid: ToolkitEngine.EvaluableCategoryAttribute.category
+  name: category
+  href: api/ToolkitEngine.EvaluableCategoryAttribute.html#ToolkitEngine_EvaluableCategoryAttribute_category
+  commentId: P:ToolkitEngine.EvaluableCategoryAttribute.category
+  fullName: ToolkitEngine.EvaluableCategoryAttribute.category
+  nameWithType: EvaluableCategoryAttribute.category
+- uid: ToolkitEngine.EvaluableCategoryAttribute.category*
+  name: category
+  href: api/ToolkitEngine.EvaluableCategoryAttribute.html#ToolkitEngine_EvaluableCategoryAttribute_category_
+  commentId: Overload:ToolkitEngine.EvaluableCategoryAttribute.category
+  isSpec: "True"
+  fullName: ToolkitEngine.EvaluableCategoryAttribute.category
+  nameWithType: EvaluableCategoryAttribute.category
 - uid: ToolkitEngine.FacingEvents
   name: FacingEvents
   href: api/ToolkitEngine.FacingEvents.html
@@ -3766,6 +3810,24 @@ references:
   fullName.vb: ToolkitEngine.GizmosUtil.DrawArrow(Transform, Single)
   nameWithType: GizmosUtil.DrawArrow(Transform, float)
   nameWithType.vb: GizmosUtil.DrawArrow(Transform, Single)
+- uid: ToolkitEngine.GizmosUtil.DrawArrow(Vector3,Quaternion,Color,System.Single)
+  name: DrawArrow(Vector3, Quaternion, Color, float)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawArrow_Vector3_Quaternion_Color_System_Single_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawArrow(Vector3,Quaternion,Color,System.Single)
+  name.vb: DrawArrow(Vector3, Quaternion, Color, Single)
+  fullName: ToolkitEngine.GizmosUtil.DrawArrow(Vector3, Quaternion, Color, float)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawArrow(Vector3, Quaternion, Color, Single)
+  nameWithType: GizmosUtil.DrawArrow(Vector3, Quaternion, Color, float)
+  nameWithType.vb: GizmosUtil.DrawArrow(Vector3, Quaternion, Color, Single)
+- uid: ToolkitEngine.GizmosUtil.DrawArrow(Vector3,Quaternion,System.Single)
+  name: DrawArrow(Vector3, Quaternion, float)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawArrow_Vector3_Quaternion_System_Single_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawArrow(Vector3,Quaternion,System.Single)
+  name.vb: DrawArrow(Vector3, Quaternion, Single)
+  fullName: ToolkitEngine.GizmosUtil.DrawArrow(Vector3, Quaternion, float)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawArrow(Vector3, Quaternion, Single)
+  nameWithType: GizmosUtil.DrawArrow(Vector3, Quaternion, float)
+  nameWithType.vb: GizmosUtil.DrawArrow(Vector3, Quaternion, Single)
 - uid: ToolkitEngine.GizmosUtil.DrawArrow*
   name: DrawArrow
   href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawArrow_
@@ -6553,6 +6615,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Spawner.count
   nameWithType: Spawner.count
+- uid: ToolkitEngine.Spawner.id
+  name: id
+  href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_id
+  commentId: P:ToolkitEngine.Spawner.id
+  fullName: ToolkitEngine.Spawner.id
+  nameWithType: Spawner.id
+- uid: ToolkitEngine.Spawner.id*
+  name: id
+  href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_id_
+  commentId: Overload:ToolkitEngine.Spawner.id
+  isSpec: "True"
+  fullName: ToolkitEngine.Spawner.id
+  nameWithType: Spawner.id
 - uid: ToolkitEngine.Spawner.isDefined
   name: isDefined
   href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_isDefined
@@ -6748,6 +6823,49 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.SpawnerEventArgs.spawner
   nameWithType: SpawnerEventArgs.spawner
+- uid: ToolkitEngine.SpawnerProxyManager
+  name: SpawnerProxyManager
+  href: api/ToolkitEngine.SpawnerProxyManager.html
+  commentId: T:ToolkitEngine.SpawnerProxyManager
+  fullName: ToolkitEngine.SpawnerProxyManager
+  nameWithType: SpawnerProxyManager
+- uid: ToolkitEngine.SpawnerProxyManager.Data
+  name: SpawnerProxyManager.Data
+  href: api/ToolkitEngine.SpawnerProxyManager.Data.html
+  commentId: T:ToolkitEngine.SpawnerProxyManager.Data
+  fullName: ToolkitEngine.SpawnerProxyManager.Data
+  nameWithType: SpawnerProxyManager.Data
+- uid: ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
+  name: addressableProxies
+  href: api/ToolkitEngine.SpawnerProxyManager.Data.html#ToolkitEngine_SpawnerProxyManager_Data_addressableProxies
+  commentId: F:ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
+  fullName: ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
+  nameWithType: SpawnerProxyManager.Data.addressableProxies
+- uid: ToolkitEngine.SpawnerProxyManager.Data.proxies
+  name: proxies
+  href: api/ToolkitEngine.SpawnerProxyManager.Data.html#ToolkitEngine_SpawnerProxyManager_Data_proxies
+  commentId: F:ToolkitEngine.SpawnerProxyManager.Data.proxies
+  fullName: ToolkitEngine.SpawnerProxyManager.Data.proxies
+  nameWithType: SpawnerProxyManager.Data.proxies
+- uid: ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
+  name: SpawnerProxyManager.SpawnerDataMap
+  href: api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.html
+  commentId: T:ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
+  fullName: ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
+  nameWithType: SpawnerProxyManager.SpawnerDataMap
+- uid: ToolkitEngine.SpawnerProxyManager.map
+  name: map
+  href: api/ToolkitEngine.SpawnerProxyManager.html#ToolkitEngine_SpawnerProxyManager_map
+  commentId: P:ToolkitEngine.SpawnerProxyManager.map
+  fullName: ToolkitEngine.SpawnerProxyManager.map
+  nameWithType: SpawnerProxyManager.map
+- uid: ToolkitEngine.SpawnerProxyManager.map*
+  name: map
+  href: api/ToolkitEngine.SpawnerProxyManager.html#ToolkitEngine_SpawnerProxyManager_map_
+  commentId: Overload:ToolkitEngine.SpawnerProxyManager.map
+  isSpec: "True"
+  fullName: ToolkitEngine.SpawnerProxyManager.map
+  nameWithType: SpawnerProxyManager.map
 - uid: ToolkitEngine.SplineAnimatePostSpawnRule
   name: SplineAnimatePostSpawnRule
   href: api/ToolkitEngine.SplineAnimatePostSpawnRule.html
@@ -10446,3 +10564,35 @@ references:
   fullName.vb: UnityEngine.Singleton(Of T).Terminated
   nameWithType: Singleton<T>.Terminated
   nameWithType.vb: Singleton(Of T).Terminated
+- uid: UnityEngine.Vector3Ext
+  name: Vector3Ext
+  href: api/UnityEngine.Vector3Ext.html
+  commentId: T:UnityEngine.Vector3Ext
+  fullName: UnityEngine.Vector3Ext
+  nameWithType: Vector3Ext
+- uid: UnityEngine.Vector3Ext.Inverse(Vector3)
+  name: Inverse(Vector3)
+  href: api/UnityEngine.Vector3Ext.html#UnityEngine_Vector3Ext_Inverse_Vector3_
+  commentId: M:UnityEngine.Vector3Ext.Inverse(Vector3)
+  fullName: UnityEngine.Vector3Ext.Inverse(Vector3)
+  nameWithType: Vector3Ext.Inverse(Vector3)
+- uid: UnityEngine.Vector3Ext.Inverse*
+  name: Inverse
+  href: api/UnityEngine.Vector3Ext.html#UnityEngine_Vector3Ext_Inverse_
+  commentId: Overload:UnityEngine.Vector3Ext.Inverse
+  isSpec: "True"
+  fullName: UnityEngine.Vector3Ext.Inverse
+  nameWithType: Vector3Ext.Inverse
+- uid: UnityEngine.Vector3Ext.InverseScale(Vector3,Vector3)
+  name: InverseScale(Vector3, Vector3)
+  href: api/UnityEngine.Vector3Ext.html#UnityEngine_Vector3Ext_InverseScale_Vector3_Vector3_
+  commentId: M:UnityEngine.Vector3Ext.InverseScale(Vector3,Vector3)
+  fullName: UnityEngine.Vector3Ext.InverseScale(Vector3, Vector3)
+  nameWithType: Vector3Ext.InverseScale(Vector3, Vector3)
+- uid: UnityEngine.Vector3Ext.InverseScale*
+  name: InverseScale
+  href: api/UnityEngine.Vector3Ext.html#UnityEngine_Vector3Ext_InverseScale_
+  commentId: Overload:UnityEngine.Vector3Ext.InverseScale
+  isSpec: "True"
+  fullName: UnityEngine.Vector3Ext.InverseScale
+  nameWithType: Vector3Ext.InverseScale

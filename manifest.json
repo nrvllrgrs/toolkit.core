@@ -865,6 +865,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.EvaluableCategoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.EvaluableCategoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.FacingEvents.yml",
       "output": {
         ".html": {
@@ -1369,6 +1379,36 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.SpawnerEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.html"
         }
       },
       "version": ""
@@ -2199,6 +2239,16 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityEngine.SingletonEventHandler-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.Vector3Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.Vector3Ext.html"
         }
       },
       "version": ""
