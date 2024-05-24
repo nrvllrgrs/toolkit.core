@@ -3713,6 +3713,38 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.EvaluableCategoryAttribute.category
   nameWithType: EvaluableCategoryAttribute.category
+- uid: ToolkitEngine.EvaluatorValue
+  name: EvaluatorValue
+  href: api/ToolkitEngine.EvaluatorValue.html
+  commentId: T:ToolkitEngine.EvaluatorValue
+  fullName: ToolkitEngine.EvaluatorValue
+  nameWithType: EvaluatorValue
+- uid: ToolkitEngine.EvaluatorValue.isTrue
+  name: isTrue
+  href: api/ToolkitEngine.EvaluatorValue.html#ToolkitEngine_EvaluatorValue_isTrue
+  commentId: P:ToolkitEngine.EvaluatorValue.isTrue
+  fullName: ToolkitEngine.EvaluatorValue.isTrue
+  nameWithType: EvaluatorValue.isTrue
+- uid: ToolkitEngine.EvaluatorValue.isTrue*
+  name: isTrue
+  href: api/ToolkitEngine.EvaluatorValue.html#ToolkitEngine_EvaluatorValue_isTrue_
+  commentId: Overload:ToolkitEngine.EvaluatorValue.isTrue
+  isSpec: "True"
+  fullName: ToolkitEngine.EvaluatorValue.isTrue
+  nameWithType: EvaluatorValue.isTrue
+- uid: ToolkitEngine.EvaluatorValue.value
+  name: value
+  href: api/ToolkitEngine.EvaluatorValue.html#ToolkitEngine_EvaluatorValue_value
+  commentId: P:ToolkitEngine.EvaluatorValue.value
+  fullName: ToolkitEngine.EvaluatorValue.value
+  nameWithType: EvaluatorValue.value
+- uid: ToolkitEngine.EvaluatorValue.value*
+  name: value
+  href: api/ToolkitEngine.EvaluatorValue.html#ToolkitEngine_EvaluatorValue_value_
+  commentId: Overload:ToolkitEngine.EvaluatorValue.value
+  isSpec: "True"
+  fullName: ToolkitEngine.EvaluatorValue.value
+  nameWithType: EvaluatorValue.value
 - uid: ToolkitEngine.FacingEvents
   name: FacingEvents
   href: api/ToolkitEngine.FacingEvents.html
@@ -6823,49 +6855,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.SpawnerEventArgs.spawner
   nameWithType: SpawnerEventArgs.spawner
-- uid: ToolkitEngine.SpawnerProxyManager
-  name: SpawnerProxyManager
-  href: api/ToolkitEngine.SpawnerProxyManager.html
-  commentId: T:ToolkitEngine.SpawnerProxyManager
-  fullName: ToolkitEngine.SpawnerProxyManager
-  nameWithType: SpawnerProxyManager
-- uid: ToolkitEngine.SpawnerProxyManager.Data
-  name: SpawnerProxyManager.Data
-  href: api/ToolkitEngine.SpawnerProxyManager.Data.html
-  commentId: T:ToolkitEngine.SpawnerProxyManager.Data
-  fullName: ToolkitEngine.SpawnerProxyManager.Data
-  nameWithType: SpawnerProxyManager.Data
-- uid: ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
-  name: addressableProxies
-  href: api/ToolkitEngine.SpawnerProxyManager.Data.html#ToolkitEngine_SpawnerProxyManager_Data_addressableProxies
-  commentId: F:ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
-  fullName: ToolkitEngine.SpawnerProxyManager.Data.addressableProxies
-  nameWithType: SpawnerProxyManager.Data.addressableProxies
-- uid: ToolkitEngine.SpawnerProxyManager.Data.proxies
-  name: proxies
-  href: api/ToolkitEngine.SpawnerProxyManager.Data.html#ToolkitEngine_SpawnerProxyManager_Data_proxies
-  commentId: F:ToolkitEngine.SpawnerProxyManager.Data.proxies
-  fullName: ToolkitEngine.SpawnerProxyManager.Data.proxies
-  nameWithType: SpawnerProxyManager.Data.proxies
-- uid: ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
-  name: SpawnerProxyManager.SpawnerDataMap
-  href: api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.html
-  commentId: T:ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
-  fullName: ToolkitEngine.SpawnerProxyManager.SpawnerDataMap
-  nameWithType: SpawnerProxyManager.SpawnerDataMap
-- uid: ToolkitEngine.SpawnerProxyManager.map
-  name: map
-  href: api/ToolkitEngine.SpawnerProxyManager.html#ToolkitEngine_SpawnerProxyManager_map
-  commentId: P:ToolkitEngine.SpawnerProxyManager.map
-  fullName: ToolkitEngine.SpawnerProxyManager.map
-  nameWithType: SpawnerProxyManager.map
-- uid: ToolkitEngine.SpawnerProxyManager.map*
-  name: map
-  href: api/ToolkitEngine.SpawnerProxyManager.html#ToolkitEngine_SpawnerProxyManager_map_
-  commentId: Overload:ToolkitEngine.SpawnerProxyManager.map
-  isSpec: "True"
-  fullName: ToolkitEngine.SpawnerProxyManager.map
-  nameWithType: SpawnerProxyManager.map
 - uid: ToolkitEngine.SplineAnimatePostSpawnRule
   name: SplineAnimatePostSpawnRule
   href: api/ToolkitEngine.SplineAnimatePostSpawnRule.html
@@ -8154,6 +8143,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
   nameWithType: OnSetItemRemove.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnSetItemRemoved
+  name: OnSetItemRemoved
+  href: api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html
+  commentId: T:ToolkitEngine.VisualScripting.OnSetItemRemoved
+  fullName: ToolkitEngine.VisualScripting.OnSetItemRemoved
+  nameWithType: OnSetItemRemoved
+- uid: ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html#ToolkitEngine_VisualScripting_OnSetItemRemoved_MessageListenerType
+  commentId: P:ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType
+  fullName: ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType
+  nameWithType: OnSetItemRemoved.MessageListenerType
+- uid: ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html#ToolkitEngine_VisualScripting_OnSetItemRemoved_MessageListenerType_
+  commentId: Overload:ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.OnSetItemRemoved.MessageListenerType
+  nameWithType: OnSetItemRemoved.MessageListenerType
 - uid: ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener
   name: OnSetItemRemovedMessageListener
   href: api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html

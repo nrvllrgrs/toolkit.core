@@ -875,6 +875,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.EvaluatorValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.EvaluatorValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.FacingEvents.yml",
       "output": {
         ".html": {
@@ -1385,36 +1395,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.Data.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.Data.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.SpawnerDataMap.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.SpawnerProxyManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.SpawnerProxyManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.SplineAnimatePostSpawnRule.yml",
       "output": {
         ".html": {
@@ -1779,6 +1759,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemove.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemoved.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html"
         }
       },
       "version": ""
