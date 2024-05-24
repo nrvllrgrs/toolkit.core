@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 
 namespace ToolkitEngine.VisualScripting
 {
+	[System.Serializable]
 	public class ScriptMachineEvaluator : BaseEvaluator
     {
 		#region Fields

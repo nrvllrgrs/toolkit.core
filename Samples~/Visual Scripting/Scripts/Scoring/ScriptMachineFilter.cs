@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 
 namespace ToolkitEngine.VisualScripting
 {
+	[System.Serializable]
 	public class ScriptMachineFilter : BaseFilter
     {
 		#region Fields

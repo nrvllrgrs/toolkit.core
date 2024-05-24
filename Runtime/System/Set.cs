@@ -182,8 +182,9 @@ namespace ToolkitEngine
                     }
                 }
 
+				// Invoke AFTER possibility of being destroyed (or released)
 				onItemRemoved.Invoke(item);
-                return true;
+				return true;
             }
             return false;
         }

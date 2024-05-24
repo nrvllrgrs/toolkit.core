@@ -526,7 +526,7 @@ namespace ToolkitEngine
 		#endregion
 	}
 
-	//#if UNITY_EDITOR
+#if UNITY_EDITOR
 
 	public class SpawnerProxyManager : ScriptableSingleton<SpawnerProxyManager>
 	{
@@ -559,5 +559,5 @@ namespace ToolkitEngine
 		#endregion
 	}
 
-	//#endif
+#endif
 }

@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEditor;
 using UnityToolbarExtender;
+using ToolkitEngine.VisualScripting;
 
 namespace ToolkitEditor.VisualScripting
 {
@@ -33,9 +34,15 @@ namespace ToolkitEditor.VisualScripting
 				typeof(PhysicsUtil),
 				typeof(RandomUtil),
 				typeof(ToolkitEngine.ShaderUtil),
+				typeof(ScriptMachineFilter),
+				typeof(ScriptMachineEvaluator),
 			};
 
-			Initialize("ToolkitEngine", types);
+			Initialize(new[]
+			{
+				"ToolkitEngine",
+				"ToolkitEngine.VisualScripting"
+			}, types);
 		}
 
 		public static void Initialize(string assemblyName, IEnumerable<Type> types)
