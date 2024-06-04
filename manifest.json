@@ -215,6 +215,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReflectionUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReflectionUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.SerializedPropertyExt.yml",
       "output": {
         ".html": {
@@ -259,6 +269,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SetAnimatorTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StringExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StringExt.html"
         }
       },
       "version": ""
@@ -639,6 +659,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptToolbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html"
         }
       },
       "version": ""
@@ -2229,6 +2259,26 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityEngine.SingletonEventHandler-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.UI.CameraImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.UI.CameraImage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.UI.html"
         }
       },
       "version": ""

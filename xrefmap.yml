@@ -862,6 +862,108 @@ references:
   isSpec: "True"
   fullName: NavMeshPathExt.GetDistance
   nameWithType: NavMeshPathExt.GetDistance
+- uid: Global.ReflectionUtil
+  name: ReflectionUtil
+  href: api/Global.ReflectionUtil.html
+  commentId: T:Global.ReflectionUtil
+  fullName: ReflectionUtil
+  nameWithType: ReflectionUtil
+- uid: Global.ReflectionUtil.TryGetField(System.Object,System.String,System.Reflection.FieldInfo@)
+  name: TryGetField(object, string, out FieldInfo)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetField_System_Object_System_String_System_Reflection_FieldInfo__
+  commentId: M:Global.ReflectionUtil.TryGetField(System.Object,System.String,System.Reflection.FieldInfo@)
+  name.vb: TryGetField(Object, String, FieldInfo)
+  fullName: ReflectionUtil.TryGetField(object, string, out System.Reflection.FieldInfo)
+  fullName.vb: ReflectionUtil.TryGetField(Object, String, System.Reflection.FieldInfo)
+  nameWithType: ReflectionUtil.TryGetField(object, string, out FieldInfo)
+  nameWithType.vb: ReflectionUtil.TryGetField(Object, String, FieldInfo)
+- uid: Global.ReflectionUtil.TryGetField*
+  name: TryGetField
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetField_
+  commentId: Overload:Global.ReflectionUtil.TryGetField
+  isSpec: "True"
+  fullName: ReflectionUtil.TryGetField
+  nameWithType: ReflectionUtil.TryGetField
+- uid: Global.ReflectionUtil.TryGetFieldValue*
+  name: TryGetFieldValue
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetFieldValue_
+  commentId: Overload:Global.ReflectionUtil.TryGetFieldValue
+  isSpec: "True"
+  fullName: ReflectionUtil.TryGetFieldValue
+  nameWithType: ReflectionUtil.TryGetFieldValue
+- uid: Global.ReflectionUtil.TryGetFieldValue``1(System.Object,System.String,System.Reflection.FieldInfo@,``0@)
+  name: TryGetFieldValue<T>(object, string, out FieldInfo, out T)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetFieldValue__1_System_Object_System_String_System_Reflection_FieldInfo____0__
+  commentId: M:Global.ReflectionUtil.TryGetFieldValue``1(System.Object,System.String,System.Reflection.FieldInfo@,``0@)
+  name.vb: TryGetFieldValue(Of T)(Object, String, FieldInfo, T)
+  fullName: ReflectionUtil.TryGetFieldValue<T>(object, string, out System.Reflection.FieldInfo, out T)
+  fullName.vb: ReflectionUtil.TryGetFieldValue(Of T)(Object, String, System.Reflection.FieldInfo, T)
+  nameWithType: ReflectionUtil.TryGetFieldValue<T>(object, string, out FieldInfo, out T)
+  nameWithType.vb: ReflectionUtil.TryGetFieldValue(Of T)(Object, String, FieldInfo, T)
+- uid: Global.ReflectionUtil.TryGetProperty(System.Object,System.String,System.Reflection.PropertyInfo@)
+  name: TryGetProperty(object, string, out PropertyInfo)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetProperty_System_Object_System_String_System_Reflection_PropertyInfo__
+  commentId: M:Global.ReflectionUtil.TryGetProperty(System.Object,System.String,System.Reflection.PropertyInfo@)
+  name.vb: TryGetProperty(Object, String, PropertyInfo)
+  fullName: ReflectionUtil.TryGetProperty(object, string, out System.Reflection.PropertyInfo)
+  fullName.vb: ReflectionUtil.TryGetProperty(Object, String, System.Reflection.PropertyInfo)
+  nameWithType: ReflectionUtil.TryGetProperty(object, string, out PropertyInfo)
+  nameWithType.vb: ReflectionUtil.TryGetProperty(Object, String, PropertyInfo)
+- uid: Global.ReflectionUtil.TryGetProperty*
+  name: TryGetProperty
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetProperty_
+  commentId: Overload:Global.ReflectionUtil.TryGetProperty
+  isSpec: "True"
+  fullName: ReflectionUtil.TryGetProperty
+  nameWithType: ReflectionUtil.TryGetProperty
+- uid: Global.ReflectionUtil.TryGetPropertyValue*
+  name: TryGetPropertyValue
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetPropertyValue_
+  commentId: Overload:Global.ReflectionUtil.TryGetPropertyValue
+  isSpec: "True"
+  fullName: ReflectionUtil.TryGetPropertyValue
+  nameWithType: ReflectionUtil.TryGetPropertyValue
+- uid: Global.ReflectionUtil.TryGetPropertyValue``1(System.Object,System.String,System.Reflection.PropertyInfo@,``0@)
+  name: TryGetPropertyValue<T>(object, string, out PropertyInfo, out T)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TryGetPropertyValue__1_System_Object_System_String_System_Reflection_PropertyInfo____0__
+  commentId: M:Global.ReflectionUtil.TryGetPropertyValue``1(System.Object,System.String,System.Reflection.PropertyInfo@,``0@)
+  name.vb: TryGetPropertyValue(Of T)(Object, String, PropertyInfo, T)
+  fullName: ReflectionUtil.TryGetPropertyValue<T>(object, string, out System.Reflection.PropertyInfo, out T)
+  fullName.vb: ReflectionUtil.TryGetPropertyValue(Of T)(Object, String, System.Reflection.PropertyInfo, T)
+  nameWithType: ReflectionUtil.TryGetPropertyValue<T>(object, string, out PropertyInfo, out T)
+  nameWithType.vb: ReflectionUtil.TryGetPropertyValue(Of T)(Object, String, PropertyInfo, T)
+- uid: Global.ReflectionUtil.TrySetFieldValue(System.Object,System.String,System.Object)
+  name: TrySetFieldValue(object, string, object)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TrySetFieldValue_System_Object_System_String_System_Object_
+  commentId: M:Global.ReflectionUtil.TrySetFieldValue(System.Object,System.String,System.Object)
+  name.vb: TrySetFieldValue(Object, String, Object)
+  fullName: ReflectionUtil.TrySetFieldValue(object, string, object)
+  fullName.vb: ReflectionUtil.TrySetFieldValue(Object, String, Object)
+  nameWithType: ReflectionUtil.TrySetFieldValue(object, string, object)
+  nameWithType.vb: ReflectionUtil.TrySetFieldValue(Object, String, Object)
+- uid: Global.ReflectionUtil.TrySetFieldValue*
+  name: TrySetFieldValue
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TrySetFieldValue_
+  commentId: Overload:Global.ReflectionUtil.TrySetFieldValue
+  isSpec: "True"
+  fullName: ReflectionUtil.TrySetFieldValue
+  nameWithType: ReflectionUtil.TrySetFieldValue
+- uid: Global.ReflectionUtil.TrySetPropertyValue(System.Object,System.String,System.Object)
+  name: TrySetPropertyValue(object, string, object)
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TrySetPropertyValue_System_Object_System_String_System_Object_
+  commentId: M:Global.ReflectionUtil.TrySetPropertyValue(System.Object,System.String,System.Object)
+  name.vb: TrySetPropertyValue(Object, String, Object)
+  fullName: ReflectionUtil.TrySetPropertyValue(object, string, object)
+  fullName.vb: ReflectionUtil.TrySetPropertyValue(Object, String, Object)
+  nameWithType: ReflectionUtil.TrySetPropertyValue(object, string, object)
+  nameWithType.vb: ReflectionUtil.TrySetPropertyValue(Object, String, Object)
+- uid: Global.ReflectionUtil.TrySetPropertyValue*
+  name: TrySetPropertyValue
+  href: api/Global.ReflectionUtil.html#Global_ReflectionUtil_TrySetPropertyValue_
+  commentId: Overload:Global.ReflectionUtil.TrySetPropertyValue
+  isSpec: "True"
+  fullName: ReflectionUtil.TrySetPropertyValue
+  nameWithType: ReflectionUtil.TrySetPropertyValue
 - uid: Global.SerializedPropertyExt
   name: SerializedPropertyExt
   href: api/Global.SerializedPropertyExt.html
@@ -1025,6 +1127,44 @@ references:
   isSpec: "True"
   fullName: SetAnimatorTrigger.SetParameter
   nameWithType: SetAnimatorTrigger.SetParameter
+- uid: Global.StringExt
+  name: StringExt
+  href: api/Global.StringExt.html
+  commentId: T:Global.StringExt
+  fullName: StringExt
+  nameWithType: StringExt
+- uid: Global.StringExt.CamelCaseToTitleCase(System.String)
+  name: CamelCaseToTitleCase(string)
+  href: api/Global.StringExt.html#Global_StringExt_CamelCaseToTitleCase_System_String_
+  commentId: M:Global.StringExt.CamelCaseToTitleCase(System.String)
+  name.vb: CamelCaseToTitleCase(String)
+  fullName: StringExt.CamelCaseToTitleCase(string)
+  fullName.vb: StringExt.CamelCaseToTitleCase(String)
+  nameWithType: StringExt.CamelCaseToTitleCase(string)
+  nameWithType.vb: StringExt.CamelCaseToTitleCase(String)
+- uid: Global.StringExt.CamelCaseToTitleCase*
+  name: CamelCaseToTitleCase
+  href: api/Global.StringExt.html#Global_StringExt_CamelCaseToTitleCase_
+  commentId: Overload:Global.StringExt.CamelCaseToTitleCase
+  isSpec: "True"
+  fullName: StringExt.CamelCaseToTitleCase
+  nameWithType: StringExt.CamelCaseToTitleCase
+- uid: Global.StringExt.InsertSpacesToCamelCase(System.String)
+  name: InsertSpacesToCamelCase(string)
+  href: api/Global.StringExt.html#Global_StringExt_InsertSpacesToCamelCase_System_String_
+  commentId: M:Global.StringExt.InsertSpacesToCamelCase(System.String)
+  name.vb: InsertSpacesToCamelCase(String)
+  fullName: StringExt.InsertSpacesToCamelCase(string)
+  fullName.vb: StringExt.InsertSpacesToCamelCase(String)
+  nameWithType: StringExt.InsertSpacesToCamelCase(string)
+  nameWithType.vb: StringExt.InsertSpacesToCamelCase(String)
+- uid: Global.StringExt.InsertSpacesToCamelCase*
+  name: InsertSpacesToCamelCase
+  href: api/Global.StringExt.html#Global_StringExt_InsertSpacesToCamelCase_
+  commentId: Overload:Global.StringExt.InsertSpacesToCamelCase
+  isSpec: "True"
+  fullName: StringExt.InsertSpacesToCamelCase
+  nameWithType: StringExt.InsertSpacesToCamelCase
 - uid: Global.TagAttribute
   name: TagAttribute
   href: api/Global.TagAttribute.html
@@ -2820,6 +2960,25 @@ references:
   commentId: T:ToolkitEditor.VisualScripting.VisualScriptToolbar
   fullName: ToolkitEditor.VisualScripting.VisualScriptToolbar
   nameWithType: VisualScriptToolbar
+- uid: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil
+  name: VisualScriptingVariablesUtil
+  href: api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html
+  commentId: T:ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil
+  fullName: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil
+  nameWithType: VisualScriptingVariablesUtil
+- uid: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables(MenuCommand)
+  name: InitializeVariables(MenuCommand)
+  href: api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html#ToolkitEditor_VisualScripting_VisualScriptingVariablesUtil_InitializeVariables_MenuCommand_
+  commentId: M:ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables(MenuCommand)
+  fullName: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables(MenuCommand)
+  nameWithType: VisualScriptingVariablesUtil.InitializeVariables(MenuCommand)
+- uid: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables*
+  name: InitializeVariables
+  href: api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html#ToolkitEditor_VisualScripting_VisualScriptingVariablesUtil_InitializeVariables_
+  commentId: Overload:ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.InitializeVariables
+  nameWithType: VisualScriptingVariablesUtil.InitializeVariables
 - uid: ToolkitEditor.WaveDrawer
   name: WaveDrawer
   href: api/ToolkitEditor.WaveDrawer.html
@@ -6549,6 +6708,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Spawner.Instantiate
   nameWithType: Spawner.Instantiate
+- uid: ToolkitEngine.Spawner.InstantiateTemplate(GameObject,Vector3,Quaternion,Transform)
+  name: InstantiateTemplate(GameObject, Vector3, Quaternion, Transform)
+  href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_InstantiateTemplate_GameObject_Vector3_Quaternion_Transform_
+  commentId: M:ToolkitEngine.Spawner.InstantiateTemplate(GameObject,Vector3,Quaternion,Transform)
+  fullName: ToolkitEngine.Spawner.InstantiateTemplate(GameObject, Vector3, Quaternion, Transform)
+  nameWithType: Spawner.InstantiateTemplate(GameObject, Vector3, Quaternion, Transform)
+- uid: ToolkitEngine.Spawner.InstantiateTemplate*
+  name: InstantiateTemplate
+  href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_InstantiateTemplate_
+  commentId: Overload:ToolkitEngine.Spawner.InstantiateTemplate
+  isSpec: "True"
+  fullName: ToolkitEngine.Spawner.InstantiateTemplate
+  nameWithType: Spawner.InstantiateTemplate
 - uid: ToolkitEngine.Spawner.PostInstantiate(GameObject,Vector3,ToolkitEngine.SpawnedAction,System.Object[])
   name: PostInstantiate(GameObject, Vector3, SpawnedAction, params object[])
   href: api/ToolkitEngine.Spawner.html#ToolkitEngine_Spawner_PostInstantiate_GameObject_Vector3_ToolkitEngine_SpawnedAction_System_Object___
@@ -9959,19 +10131,6 @@ references:
   isSpec: "True"
   fullName: UnityEngine.GameObjectExt.GetLocalColliderBounds
   nameWithType: GameObjectExt.GetLocalColliderBounds
-- uid: UnityEngine.GameObjectExt.GetLocalRendererBounds(GameObject)
-  name: GetLocalRendererBounds(GameObject)
-  href: api/UnityEngine.GameObjectExt.html#UnityEngine_GameObjectExt_GetLocalRendererBounds_GameObject_
-  commentId: M:UnityEngine.GameObjectExt.GetLocalRendererBounds(GameObject)
-  fullName: UnityEngine.GameObjectExt.GetLocalRendererBounds(GameObject)
-  nameWithType: GameObjectExt.GetLocalRendererBounds(GameObject)
-- uid: UnityEngine.GameObjectExt.GetLocalRendererBounds*
-  name: GetLocalRendererBounds
-  href: api/UnityEngine.GameObjectExt.html#UnityEngine_GameObjectExt_GetLocalRendererBounds_
-  commentId: Overload:UnityEngine.GameObjectExt.GetLocalRendererBounds
-  isSpec: "True"
-  fullName: UnityEngine.GameObjectExt.GetLocalRendererBounds
-  nameWithType: GameObjectExt.GetLocalRendererBounds
 - uid: UnityEngine.GameObjectExt.IsAncestorOf(GameObject,GameObject)
   name: IsAncestorOf(GameObject, GameObject)
   href: api/UnityEngine.GameObjectExt.html#UnityEngine_GameObjectExt_IsAncestorOf_GameObject_GameObject_
@@ -10040,6 +10199,22 @@ references:
   isSpec: "True"
   fullName: UnityEngine.GameObjectExt.ToggleActive
   nameWithType: GameObjectExt.ToggleActive
+- uid: UnityEngine.GameObjectExt.TryGetRendererBounds(GameObject,Bounds@)
+  name: TryGetRendererBounds(GameObject, out Bounds)
+  href: api/UnityEngine.GameObjectExt.html#UnityEngine_GameObjectExt_TryGetRendererBounds_GameObject_Bounds__
+  commentId: M:UnityEngine.GameObjectExt.TryGetRendererBounds(GameObject,Bounds@)
+  name.vb: TryGetRendererBounds(GameObject, Bounds)
+  fullName: UnityEngine.GameObjectExt.TryGetRendererBounds(GameObject, out Bounds)
+  fullName.vb: UnityEngine.GameObjectExt.TryGetRendererBounds(GameObject, Bounds)
+  nameWithType: GameObjectExt.TryGetRendererBounds(GameObject, out Bounds)
+  nameWithType.vb: GameObjectExt.TryGetRendererBounds(GameObject, Bounds)
+- uid: UnityEngine.GameObjectExt.TryGetRendererBounds*
+  name: TryGetRendererBounds
+  href: api/UnityEngine.GameObjectExt.html#UnityEngine_GameObjectExt_TryGetRendererBounds_
+  commentId: Overload:UnityEngine.GameObjectExt.TryGetRendererBounds
+  isSpec: "True"
+  fullName: UnityEngine.GameObjectExt.TryGetRendererBounds
+  nameWithType: GameObjectExt.TryGetRendererBounds
 - uid: UnityEngine.IWeightedItem`1
   name: IWeightedItem<T>
   href: api/UnityEngine.IWeightedItem-1.html
@@ -10572,6 +10747,57 @@ references:
   fullName.vb: UnityEngine.Singleton(Of T).Terminated
   nameWithType: Singleton<T>.Terminated
   nameWithType.vb: Singleton(Of T).Terminated
+- uid: UnityEngine.UI
+  name: UnityEngine.UI
+  href: api/UnityEngine.UI.html
+  commentId: N:UnityEngine.UI
+  fullName: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+- uid: UnityEngine.UI.CameraImage
+  name: CameraImage
+  href: api/UnityEngine.UI.CameraImage.html
+  commentId: T:UnityEngine.UI.CameraImage
+  fullName: UnityEngine.UI.CameraImage
+  nameWithType: CameraImage
+- uid: UnityEngine.UI.CameraImage.Camera
+  name: Camera
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_Camera
+  commentId: P:UnityEngine.UI.CameraImage.Camera
+  fullName: UnityEngine.UI.CameraImage.Camera
+  nameWithType: CameraImage.Camera
+- uid: UnityEngine.UI.CameraImage.Camera*
+  name: Camera
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_Camera_
+  commentId: Overload:UnityEngine.UI.CameraImage.Camera
+  isSpec: "True"
+  fullName: UnityEngine.UI.CameraImage.Camera
+  nameWithType: CameraImage.Camera
+- uid: UnityEngine.UI.CameraImage.RawImage
+  name: RawImage
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_RawImage
+  commentId: P:UnityEngine.UI.CameraImage.RawImage
+  fullName: UnityEngine.UI.CameraImage.RawImage
+  nameWithType: CameraImage.RawImage
+- uid: UnityEngine.UI.CameraImage.RawImage*
+  name: RawImage
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_RawImage_
+  commentId: Overload:UnityEngine.UI.CameraImage.RawImage
+  isSpec: "True"
+  fullName: UnityEngine.UI.CameraImage.RawImage
+  nameWithType: CameraImage.RawImage
+- uid: UnityEngine.UI.CameraImage.UpdateRenderTexture
+  name: UpdateRenderTexture()
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_UpdateRenderTexture
+  commentId: M:UnityEngine.UI.CameraImage.UpdateRenderTexture
+  fullName: UnityEngine.UI.CameraImage.UpdateRenderTexture()
+  nameWithType: CameraImage.UpdateRenderTexture()
+- uid: UnityEngine.UI.CameraImage.UpdateRenderTexture*
+  name: UpdateRenderTexture
+  href: api/UnityEngine.UI.CameraImage.html#UnityEngine_UI_CameraImage_UpdateRenderTexture_
+  commentId: Overload:UnityEngine.UI.CameraImage.UpdateRenderTexture
+  isSpec: "True"
+  fullName: UnityEngine.UI.CameraImage.UpdateRenderTexture
+  nameWithType: CameraImage.UpdateRenderTexture
 - uid: UnityEngine.Vector3Ext
   name: Vector3Ext
   href: api/UnityEngine.Vector3Ext.html

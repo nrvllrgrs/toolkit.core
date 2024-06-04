@@ -232,7 +232,7 @@ Class GameObjectExt  <a class="header-action link-secondary" title="View source"
 
   <h3 id="UnityEngine_GameObjectExt_GetColliderBounds_GameObject_System_Boolean_" data-uid="UnityEngine.GameObjectExt.GetColliderBounds(GameObject,System.Boolean)">
   GetColliderBounds(GameObject, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -401,7 +401,7 @@ Class GameObjectExt  <a class="header-action link-secondary" title="View source"
 
   <h3 id="UnityEngine_GameObjectExt_GetLocalColliderBounds_GameObject_System_Boolean_" data-uid="UnityEngine.GameObjectExt.GetLocalColliderBounds(GameObject,System.Boolean)">
   GetLocalColliderBounds(GameObject, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -416,42 +416,6 @@ Class GameObjectExt  <a class="header-action link-secondary" title="View source"
     <dt><code>obj</code> <span class="xref">GameObject</span></dt>
     <dd></dd>
     <dt><code>ignoreTriggers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Bounds</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UnityEngine_GameObjectExt_GetLocalRendererBounds_" data-uid="UnityEngine.GameObjectExt.GetLocalRendererBounds*"></a>
-
-  <h3 id="UnityEngine_GameObjectExt_GetLocalRendererBounds_GameObject_" data-uid="UnityEngine.GameObjectExt.GetLocalRendererBounds(GameObject)">
-  GetLocalRendererBounds(GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L122"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Bounds GetLocalRendererBounds(this GameObject obj)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>obj</code> <span class="xref">GameObject</span></dt>
     <dd></dd>
   </dl>
 
@@ -644,6 +608,44 @@ Class GameObjectExt  <a class="header-action link-secondary" title="View source"
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UnityEngine_GameObjectExt_TryGetRendererBounds_" data-uid="UnityEngine.GameObjectExt.TryGetRendererBounds*"></a>
+
+  <h3 id="UnityEngine_GameObjectExt_TryGetRendererBounds_GameObject_Bounds__" data-uid="UnityEngine.GameObjectExt.TryGetRendererBounds(GameObject,Bounds@)">
+  TryGetRendererBounds(GameObject, out Bounds)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/GameObjectExt.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetRendererBounds(this GameObject obj, out Bounds bounds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>bounds</code> <span class="xref">Bounds</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
