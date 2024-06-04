@@ -24,9 +24,9 @@ namespace ToolkitEditor.VisualScripting
 				typeof(UnityElector),
 				typeof(ObjectSpawner),
 				typeof(ObjectSpawnerControl),
-				typeof(PoolItem),
 				typeof(WaveSpawner),
 				typeof(WaveSpawner.Wave),
+				typeof(PoolItem),
 				typeof(Labels),
 				typeof(LabelType),
 				typeof(Set),
@@ -41,7 +41,7 @@ namespace ToolkitEditor.VisualScripting
 			Initialize(new[]
 			{
 				"ToolkitEngine",
-				"ToolkitEngine.VisualScripting"
+				"ToolkitEngine.VisualScripting",
 			}, types);
 		}
 

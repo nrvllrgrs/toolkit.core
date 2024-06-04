@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting.YamlDotNet.Core;
 using UnityEngine;
 
 namespace ToolkitEngine
@@ -22,18 +21,19 @@ namespace ToolkitEngine
 
 		protected override bool IsIncluded(GameObject actor, GameObject target, Vector3 position)
 		{
-			if (!target.TryGetComponent(out Labels labels))
-				return false;
+			if (target.TryGetComponent(out Labels labels))
+			{
+				var list = labels.Select(x => x);
+				if (m_excludedLabels.Intersect(list).Any())
+					return false;
 
-			var list = labels.Select(x => x);
+				if (m_includedLabels.Count > 0)
+					return m_includedLabels.Intersect(list).Any();
 
-			if (m_excludedLabels.Intersect(list).Any())
-				return false;
+				return true;
+			}
 
-			if (m_includedLabels.Count > 0)
-				return m_includedLabels.Intersect(list).Any();
-
-			return true;
+			return m_includedLabels.Count == 0;
 		}
 
 		#endregion

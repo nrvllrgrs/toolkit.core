@@ -119,27 +119,33 @@ namespace UnityEngine
 			obj.SetActive(!obj.activeInHierarchy);
 		}
 
-		public static Bounds GetLocalRendererBounds(this GameObject obj)
+		public static bool TryGetRendererBounds(this GameObject obj, out Bounds bounds)
 		{
 			// Remember rotation to be restored after finding bounds
 			var position = obj.transform.position;
 			var rotation = obj.transform.rotation;
 			obj.transform.SetPositionAndRotation(Vector3.zero, Quaternion.identity);
 
-			Bounds bounds = new Bounds(Vector3.zero, Vector3.zero);
+			bounds = default;
+			bool hasBounds = false;
+
 			foreach (var renderer in obj.GetComponentsInChildren<Renderer>())
 			{
-				var localBounds = renderer.localBounds;
-				var size = localBounds.size;
-				size.Scale(renderer.transform.lossyScale);
-				localBounds.size = size;
-
-				bounds.Encapsulate(localBounds);
+				var b = renderer.bounds;
+				if (!hasBounds)
+				{
+					bounds = b;
+					hasBounds = true;
+				}
+				else
+				{
+					bounds.Encapsulate(b);
+				}
 			}
 
 			// Restore previous position / rotation
 			obj.transform.SetPositionAndRotation(position, rotation);
-			return bounds;
+			return hasBounds;
 		}
 
 		public static Bounds GetColliderBounds(this GameObject obj, bool ignoreTriggers = true)

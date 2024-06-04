@@ -408,6 +408,35 @@ namespace ToolkitEngine
 
 		#endregion
 
+		#region Static Methods
+
+		public static void InstantiateTemplate(GameObject template, Vector3 position, Quaternion rotation, Transform parent)
+		{
+			if (template == null)
+				return;
+
+			var poolItem = template.GetComponent<PoolItem>();
+			if (poolItem != null && PoolItemManager.TryGet(poolItem, out var item))
+			{
+				// Instantiation handled by TryGet
+			}
+			else
+			{
+				UnityEngine.Object.Instantiate(template, position, rotation, parent);
+			}
+		}
+
+#if ADDRESSABLE_ASSETS
+		public static void InstantiateAssetReference(AssetReferenceGameObject assetReference, Vector3 position, Quaternion rotation, Transform parent)
+		{
+			if (assetReference == null || !assetReference.RuntimeKeyIsValid())
+				return;
+
+			assetReference.InstantiateAsync(position, rotation, parent);
+		}
+#endif
+		#endregion
+
 		#region Editor-Only
 #if UNITY_EDITOR
 

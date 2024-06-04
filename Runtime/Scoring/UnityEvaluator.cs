@@ -38,7 +38,7 @@ namespace ToolkitEngine
 			float score = m_weight;
 			foreach (var evaluable in m_evaluables)
 			{
-				if (!evaluable.enabled)
+  				if (!evaluable.enabled)
 					continue;
 
 				float s = evaluable.Evaluate(actor, target, position);
