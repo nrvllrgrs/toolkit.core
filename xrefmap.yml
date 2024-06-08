@@ -4,6 +4,12 @@ references:
 - uid: Global
   name: ''
   href: api/Global.html
+- uid: Global.AddressableUtil
+  name: AddressableUtil
+  href: api/Global.AddressableUtil.html
+  commentId: T:Global.AddressableUtil
+  fullName: AddressableUtil
+  nameWithType: AddressableUtil
 - uid: Global.BaseEventUnit`1
   name: BaseEventUnit<TArgs>
   href: api/Global.BaseEventUnit-1.html

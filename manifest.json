@@ -15,6 +15,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.AddressableUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AddressableUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.BaseEventUnit-1.yml",
       "output": {
         ".html": {

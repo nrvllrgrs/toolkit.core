@@ -1,4 +1,9 @@
 {
+  "api/Global.AddressableUtil.html": {
+    "href": "api/Global.AddressableUtil.html",
+    "title": "Class AddressableUtil | Core Toolkit | 1.0.0",
+    "keywords": "Class AddressableUtil Namespace Global public static class AddressableUtil Inheritance object AddressableUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
   "api/Global.BaseEventUnit-1.html": {
     "href": "api/Global.BaseEventUnit-1.html",
     "title": "Class BaseEventUnit<TArgs> | Core Toolkit | 1.0.0",
@@ -157,7 +162,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace | Core Toolkit | 1.0.0",
-    "keywords": "Namespace Classes BaseEventUnit<TArgs> BaseGenericSetAnimatorParameterEditor BaseSetAnimatorParameter BaseSetAnimatorParameterEditor BaseSetAnimatorParameter<T> BaseSetEventUnit ComponentExt HumanBodyTargets LayerAttribute LayerDrawer ListExt MaxInfinityAttribute MaxInfinityDrawer MemberInfoExt MinMaxAttribute MinMaxDrawer NavMeshAreaMaskAttribute NavMeshAreaMaskDrawer NavMeshPathExt ReflectionUtil SerializedPropertyExt SetAnimatorBool SetAnimatorFloat SetAnimatorInt SetAnimatorTrigger StringExt TagAttribute TagDrawer VectorLabelAttribute VectorLabelDrawer Structs HumanBodyTargets.Target"
+    "keywords": "Namespace Classes AddressableUtil BaseEventUnit<TArgs> BaseGenericSetAnimatorParameterEditor BaseSetAnimatorParameter BaseSetAnimatorParameterEditor BaseSetAnimatorParameter<T> BaseSetEventUnit ComponentExt HumanBodyTargets LayerAttribute LayerDrawer ListExt MaxInfinityAttribute MaxInfinityDrawer MemberInfoExt MinMaxAttribute MinMaxDrawer NavMeshAreaMaskAttribute NavMeshAreaMaskDrawer NavMeshPathExt ReflectionUtil SerializedPropertyExt SetAnimatorBool SetAnimatorFloat SetAnimatorInt SetAnimatorTrigger StringExt TagAttribute TagDrawer VectorLabelAttribute VectorLabelDrawer Structs HumanBodyTargets.Target"
   },
   "api/ToolkitEditor.AssetUtility.html": {
     "href": "api/ToolkitEditor.AssetUtility.html",
