@@ -32,6 +32,16 @@ namespace ToolkitEngine
 
 		public bool shaking => m_positionSettings.shaking || m_rotationSettings.shaking || m_scaleSettings.shaking;
 
+		public float minDuration => Mathf.Min(
+			GetDuration(m_positionSettings, float.PositiveInfinity),
+			GetDuration(m_rotationSettings, float.PositiveInfinity),
+			GetDuration(m_scaleSettings, float.PositiveInfinity));
+
+		public float maxDuration => Mathf.Max(
+			GetDuration(m_positionSettings, float.NegativeInfinity),
+			GetDuration(m_rotationSettings, float.NegativeInfinity),
+			GetDuration(m_scaleSettings, float.NegativeInfinity));
+
 		#endregion
 
 		#region Methods
@@ -81,6 +91,8 @@ namespace ToolkitEngine
 			m_scaleSettings.Kill(complete);
 		}
 
+		private float GetDuration(BaseSettings settings, float fallback) => settings.shake ? settings.duration : fallback;
+
 		#endregion
 
 		#region Structures
@@ -117,6 +129,9 @@ namespace ToolkitEngine
 			#endregion
 
 			#region Properties
+
+			public bool shake => m_shake;
+			public float duration => m_duration;
 
 			public bool shaking => m_tweener?.IsPlaying() ?? false;
 
