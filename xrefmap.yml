@@ -6426,6 +6426,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.ShakeTransform.BaseSettings.Shake
   nameWithType: ShakeTransform.BaseSettings.Shake
+- uid: ToolkitEngine.ShakeTransform.BaseSettings.duration
+  name: duration
+  href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_duration
+  commentId: P:ToolkitEngine.ShakeTransform.BaseSettings.duration
+  fullName: ToolkitEngine.ShakeTransform.BaseSettings.duration
+  nameWithType: ShakeTransform.BaseSettings.duration
+- uid: ToolkitEngine.ShakeTransform.BaseSettings.duration*
+  name: duration
+  href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_duration_
+  commentId: Overload:ToolkitEngine.ShakeTransform.BaseSettings.duration
+  isSpec: "True"
+  fullName: ToolkitEngine.ShakeTransform.BaseSettings.duration
+  nameWithType: ShakeTransform.BaseSettings.duration
 - uid: ToolkitEngine.ShakeTransform.BaseSettings.m_duration
   name: m_duration
   href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_m_duration
@@ -6480,6 +6493,19 @@ references:
   commentId: F:ToolkitEngine.ShakeTransform.BaseSettings.m_vibrato
   fullName: ToolkitEngine.ShakeTransform.BaseSettings.m_vibrato
   nameWithType: ShakeTransform.BaseSettings.m_vibrato
+- uid: ToolkitEngine.ShakeTransform.BaseSettings.shake
+  name: shake
+  href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_shake
+  commentId: P:ToolkitEngine.ShakeTransform.BaseSettings.shake
+  fullName: ToolkitEngine.ShakeTransform.BaseSettings.shake
+  nameWithType: ShakeTransform.BaseSettings.shake
+- uid: ToolkitEngine.ShakeTransform.BaseSettings.shake*
+  name: shake
+  href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_shake_
+  commentId: Overload:ToolkitEngine.ShakeTransform.BaseSettings.shake
+  isSpec: "True"
+  fullName: ToolkitEngine.ShakeTransform.BaseSettings.shake
+  nameWithType: ShakeTransform.BaseSettings.shake
 - uid: ToolkitEngine.ShakeTransform.BaseSettings.shaking
   name: shaking
   href: api/ToolkitEngine.ShakeTransform.BaseSettings.html#ToolkitEngine_ShakeTransform_BaseSettings_shaking
@@ -6591,6 +6617,32 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.ShakeTransform.Shake
   nameWithType: ShakeTransform.Shake
+- uid: ToolkitEngine.ShakeTransform.maxDuration
+  name: maxDuration
+  href: api/ToolkitEngine.ShakeTransform.html#ToolkitEngine_ShakeTransform_maxDuration
+  commentId: P:ToolkitEngine.ShakeTransform.maxDuration
+  fullName: ToolkitEngine.ShakeTransform.maxDuration
+  nameWithType: ShakeTransform.maxDuration
+- uid: ToolkitEngine.ShakeTransform.maxDuration*
+  name: maxDuration
+  href: api/ToolkitEngine.ShakeTransform.html#ToolkitEngine_ShakeTransform_maxDuration_
+  commentId: Overload:ToolkitEngine.ShakeTransform.maxDuration
+  isSpec: "True"
+  fullName: ToolkitEngine.ShakeTransform.maxDuration
+  nameWithType: ShakeTransform.maxDuration
+- uid: ToolkitEngine.ShakeTransform.minDuration
+  name: minDuration
+  href: api/ToolkitEngine.ShakeTransform.html#ToolkitEngine_ShakeTransform_minDuration
+  commentId: P:ToolkitEngine.ShakeTransform.minDuration
+  fullName: ToolkitEngine.ShakeTransform.minDuration
+  nameWithType: ShakeTransform.minDuration
+- uid: ToolkitEngine.ShakeTransform.minDuration*
+  name: minDuration
+  href: api/ToolkitEngine.ShakeTransform.html#ToolkitEngine_ShakeTransform_minDuration_
+  commentId: Overload:ToolkitEngine.ShakeTransform.minDuration
+  isSpec: "True"
+  fullName: ToolkitEngine.ShakeTransform.minDuration
+  nameWithType: ShakeTransform.minDuration
 - uid: ToolkitEngine.ShakeTransform.shaking
   name: shaking
   href: api/ToolkitEngine.ShakeTransform.html#ToolkitEngine_ShakeTransform_shaking
