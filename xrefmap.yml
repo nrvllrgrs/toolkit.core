@@ -6033,6 +6033,38 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.ScriptMachinePostSpawnRule.Process
   nameWithType: ScriptMachinePostSpawnRule.Process
+- uid: ToolkitEngine.SerializableDictionaryDrawer
+  name: SerializableDictionaryDrawer
+  href: api/ToolkitEngine.SerializableDictionaryDrawer.html
+  commentId: T:ToolkitEngine.SerializableDictionaryDrawer
+  fullName: ToolkitEngine.SerializableDictionaryDrawer
+  nameWithType: SerializableDictionaryDrawer
+- uid: ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.SerializableDictionaryDrawer.html#ToolkitEngine_SerializableDictionaryDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: SerializableDictionaryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEngine.SerializableDictionaryDrawer.html#ToolkitEngine_SerializableDictionaryDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEngine.SerializableDictionaryDrawer.GetPropertyHeight
+  nameWithType: SerializableDictionaryDrawer.GetPropertyHeight
+- uid: ToolkitEngine.SerializableDictionaryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.SerializableDictionaryDrawer.html#ToolkitEngine_SerializableDictionaryDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.SerializableDictionaryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.SerializableDictionaryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SerializableDictionaryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEngine.SerializableDictionaryDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEngine.SerializableDictionaryDrawer.html#ToolkitEngine_SerializableDictionaryDrawer_OnGUI_
+  commentId: Overload:ToolkitEngine.SerializableDictionaryDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEngine.SerializableDictionaryDrawer.OnGUI
+  nameWithType: SerializableDictionaryDrawer.OnGUI
 - uid: ToolkitEngine.SerializableDictionary`2
   name: SerializableDictionary<TKey, TValue>
   href: api/ToolkitEngine.SerializableDictionary-2.html
@@ -9643,6 +9675,15 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.BeginFieldOnly
   nameWithType: EditorGUIRectLayout.BeginFieldOnly
+- uid: UnityEditor.EditorGUIRectLayout.Button(Rect@,GUIContent)
+  name: Button(ref Rect, GUIContent)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Button_Rect__GUIContent_
+  commentId: M:UnityEditor.EditorGUIRectLayout.Button(Rect@,GUIContent)
+  name.vb: Button(Rect, GUIContent)
+  fullName: UnityEditor.EditorGUIRectLayout.Button(ref Rect, GUIContent)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.Button(Rect, GUIContent)
+  nameWithType: EditorGUIRectLayout.Button(ref Rect, GUIContent)
+  nameWithType.vb: EditorGUIRectLayout.Button(Rect, GUIContent)
 - uid: UnityEditor.EditorGUIRectLayout.Button(Rect@,System.String)
   name: Button(ref Rect, string)
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_Button_Rect__System_String_
@@ -10022,6 +10063,31 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.Space
   nameWithType: EditorGUIRectLayout.Space
+- uid: UnityEditor.EditorGUIRectLayout.TextField(Rect@,GUIContent,System.String,GUIStyle)
+  name: TextField(ref Rect, GUIContent, string, GUIStyle)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_TextField_Rect__GUIContent_System_String_GUIStyle_
+  commentId: M:UnityEditor.EditorGUIRectLayout.TextField(Rect@,GUIContent,System.String,GUIStyle)
+  name.vb: TextField(Rect, GUIContent, String, GUIStyle)
+  fullName: UnityEditor.EditorGUIRectLayout.TextField(ref Rect, GUIContent, string, GUIStyle)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.TextField(Rect, GUIContent, String, GUIStyle)
+  nameWithType: EditorGUIRectLayout.TextField(ref Rect, GUIContent, string, GUIStyle)
+  nameWithType.vb: EditorGUIRectLayout.TextField(Rect, GUIContent, String, GUIStyle)
+- uid: UnityEditor.EditorGUIRectLayout.TextField(Rect@,System.String,System.String,GUIStyle)
+  name: TextField(ref Rect, string, string, GUIStyle)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_TextField_Rect__System_String_System_String_GUIStyle_
+  commentId: M:UnityEditor.EditorGUIRectLayout.TextField(Rect@,System.String,System.String,GUIStyle)
+  name.vb: TextField(Rect, String, String, GUIStyle)
+  fullName: UnityEditor.EditorGUIRectLayout.TextField(ref Rect, string, string, GUIStyle)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.TextField(Rect, String, String, GUIStyle)
+  nameWithType: EditorGUIRectLayout.TextField(ref Rect, string, string, GUIStyle)
+  nameWithType.vb: EditorGUIRectLayout.TextField(Rect, String, String, GUIStyle)
+- uid: UnityEditor.EditorGUIRectLayout.TextField*
+  name: TextField
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_TextField_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.TextField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.TextField
+  nameWithType: EditorGUIRectLayout.TextField
 - uid: UnityEditor.SerializedPropertyUtility
   name: SerializedPropertyUtility
   href: api/UnityEditor.SerializedPropertyUtility.html

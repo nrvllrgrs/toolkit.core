@@ -1325,6 +1325,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SerializableDictionaryDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SerializableDictionaryDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Set.yml",
       "output": {
         ".html": {
