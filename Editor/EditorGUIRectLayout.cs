@@ -21,6 +21,11 @@ namespace UnityEditor
 
 		public static bool Button(ref Rect rect, string label)
 		{
+			return Button(ref rect, new GUIContent(label));
+		}
+
+		public static bool Button(ref Rect rect, GUIContent label)
+		{
 			bool r = GUI.Button(rect, label);
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 
@@ -258,6 +263,22 @@ namespace UnityEditor
 		public static void Space(ref Rect rect)
 		{
 			rect.y += GetSpaceHeight();
+		}
+
+		public static string TextField(ref Rect rect, string label, string value, GUIStyle style = null)
+		{
+			return TextField(ref rect, new GUIContent(label), value, style);
+		}
+
+		public static string TextField(ref Rect rect, GUIContent label, string value, GUIStyle style = null)
+		{
+			style ??= EditorStyles.textField;
+
+			rect.height = EditorGUIUtility.singleLineHeight;
+			string s = EditorGUI.TextField(rect, label, value, style);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return s;
 		}
 	}
 }
