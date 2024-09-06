@@ -6,13 +6,18 @@ public class MaxInfinityDrawer : PropertyDrawer
 {
 	public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 	{
-		var value = property.floatValue;
-		if (value < 0f)
+		float value = 0f;
+		switch (property.propertyType)
 		{
-			value = float.PositiveInfinity;
+			case SerializedPropertyType.Float:
+				value = property.floatValue;
+				if (value < 0f)
+				{
+					value = float.PositiveInfinity;
+				}
+				property.floatValue = EditorGUIRectLayout.FloatField(ref position, label, value);
+				break;
 		}
-
-		property.floatValue = EditorGUIRectLayout.FloatField(ref position, label, value);
 	}
 
 	public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
