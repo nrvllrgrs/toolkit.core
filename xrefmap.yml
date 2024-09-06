@@ -1729,6 +1729,38 @@ references:
   commentId: F:ToolkitEditor.LookAtCameraEditor.reverse
   fullName: ToolkitEditor.LookAtCameraEditor.reverse
   nameWithType: LookAtCameraEditor.reverse
+- uid: ToolkitEditor.NestedDrawer
+  name: NestedDrawer
+  href: api/ToolkitEditor.NestedDrawer.html
+  commentId: T:ToolkitEditor.NestedDrawer
+  fullName: ToolkitEditor.NestedDrawer
+  nameWithType: NestedDrawer
+- uid: ToolkitEditor.NestedDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.NestedDrawer.html#ToolkitEditor_NestedDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.NestedDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.NestedDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: NestedDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.NestedDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.NestedDrawer.html#ToolkitEditor_NestedDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.NestedDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.NestedDrawer.GetPropertyHeight
+  nameWithType: NestedDrawer.GetPropertyHeight
+- uid: ToolkitEditor.NestedDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.NestedDrawer.html#ToolkitEditor_NestedDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.NestedDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.NestedDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: NestedDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.NestedDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.NestedDrawer.html#ToolkitEditor_NestedDrawer_OnGUI_
+  commentId: Overload:ToolkitEditor.NestedDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.NestedDrawer.OnGUI
+  nameWithType: NestedDrawer.OnGUI
 - uid: ToolkitEditor.ObjectActivationDrawer
   name: ObjectActivationDrawer
   href: api/ToolkitEditor.ObjectActivationDrawer.html
@@ -4606,6 +4638,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.NavMeshPreSpawnRule.Process
   nameWithType: NavMeshPreSpawnRule.Process
+- uid: ToolkitEngine.NestedAttribute
+  name: NestedAttribute
+  href: api/ToolkitEngine.NestedAttribute.html
+  commentId: T:ToolkitEngine.NestedAttribute
+  fullName: ToolkitEngine.NestedAttribute
+  nameWithType: NestedAttribute
 - uid: ToolkitEngine.ObjectActivation
   name: ObjectActivation
   href: api/ToolkitEngine.ObjectActivation.html

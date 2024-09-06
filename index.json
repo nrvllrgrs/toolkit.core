@@ -209,6 +209,11 @@
     "title": "Class LookAtCameraEditor | Core Toolkit | 1.0.0",
     "keywords": "Class LookAtCameraEditor Namespace ToolkitEditor public class LookAtCameraEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor LookAtCameraEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields axis protected SerializedProperty axis Field Value SerializedProperty lookStyle protected SerializedProperty lookStyle Field Value SerializedProperty reverse protected SerializedProperty reverse Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
   },
+  "api/ToolkitEditor.NestedDrawer.html": {
+    "href": "api/ToolkitEditor.NestedDrawer.html",
+    "title": "Class NestedDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class NestedDrawer Namespace ToolkitEditor public class NestedDrawer : PropertyDrawer Inheritance object NestedDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
   "api/ToolkitEditor.ObjectActivationDrawer.html": {
     "href": "api/ToolkitEditor.ObjectActivationDrawer.html",
     "title": "Class ObjectActivationDrawer | Core Toolkit | 1.0.0",
@@ -352,7 +357,7 @@
   "api/ToolkitEditor.html": {
     "href": "api/ToolkitEditor.html",
     "title": "Namespace ToolkitEditor | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Enums UnityConditionArgumenDrawer.MemberType"
+    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor NestedDrawer ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Enums UnityConditionArgumenDrawer.MemberType"
   },
   "api/ToolkitEngine.AngleEvaluator.html": {
     "href": "api/ToolkitEngine.AngleEvaluator.html",
@@ -533,6 +538,11 @@
     "href": "api/ToolkitEngine.NavMeshPreSpawnRule.html",
     "title": "Class NavMeshPreSpawnRule | Core Toolkit | 1.0.0",
     "keywords": "Class NavMeshPreSpawnRule Namespace ToolkitEngine public class NavMeshPreSpawnRule : BasePreSpawnRule Inheritance object BasePreSpawnRule NavMeshPreSpawnRule Methods Process(ObjectSpawner, GameObject, ref Vector3, ref Quaternion) public override bool Process(ObjectSpawner spawner, GameObject template, ref Vector3 position, ref Quaternion rotation) Parameters spawner ObjectSpawner template GameObject position Vector3 rotation Quaternion Returns bool"
+  },
+  "api/ToolkitEngine.NestedAttribute.html": {
+    "href": "api/ToolkitEngine.NestedAttribute.html",
+    "title": "Class NestedAttribute | Core Toolkit | 1.0.0",
+    "keywords": "Class NestedAttribute Namespace ToolkitEngine public class NestedAttribute : PropertyAttribute Inheritance object NestedAttribute"
   },
   "api/ToolkitEngine.ObjectActivation.html": {
     "href": "api/ToolkitEngine.ObjectActivation.html",
@@ -1042,7 +1052,7 @@
   "api/ToolkitEngine.html": {
     "href": "api/ToolkitEngine.html",
     "title": "Namespace ToolkitEngine | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine Classes AngleEvaluator AnimatorStatePostSpawnRule AttachmentPostSpawnRule AttachmentRecycler AxisUtil BaseCompareFilter<T> BaseEvaluator BaseFilter BasePostSpawnRule BasePreSpawnRule BaseRemapper<T> CollisionPreSpawnRule ConditionFilter CoroutineUtil DestroyHandler DistanceEvaluator DistanceFilter EvaluableCategoryAttribute EvaluatorValue FacingEvents FloatRemapper GameObjectFilter GizmosUtil LOSFilter LabelFilter LabelType Labels Lifetime LookAtCamera NavMeshPathDistanceEvaluator NavMeshPreSpawnRule ObjectActivation ObjectSpawner ObjectSpawnerControl OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ParticleSystemStoppedHandler PhysicsUtil PoolItem PoolItemManager PoolItemSpawner<T> ScriptMachinePostSpawnRule SerializableDictionaryDrawer SerializableDictionary<TKey, TValue> Set ShaderUtil ShakeTransform ShakeTransform.BaseSettings ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Spawner SpawnerEventArgs SplineAnimatePostSpawnRule TagFilter TargetingPoints TimedCurve ToolkitUtil UnityCondition UnityElector UnityElector<T> UnityEvaluator UnityFloat UnityValue UnityValue<T> Vector3Remapper WaveSpawner WaveSpawner.Wave Interfaces IEvaluable IKillable IPoolItemRecyclable Enums Axis LookAtCamera.LookStyle ObjectSpawner.OrderMode ObjectSpawner.SpawnSpace OverrideRigidbodyPostSpawnRule.OverrideMethod PoolItemSpawner<T>.CapacityMode Spawner.SpawnType UnityCondition.CompareOperatorType UnityCondition.ConditionType UnityElector.RandomnessMode UnityElector.SelectionMode UnityValue.ValueType WaveSpawner.NextMode Delegates SpawnedAction"
+    "keywords": "Namespace ToolkitEngine Classes AngleEvaluator AnimatorStatePostSpawnRule AttachmentPostSpawnRule AttachmentRecycler AxisUtil BaseCompareFilter<T> BaseEvaluator BaseFilter BasePostSpawnRule BasePreSpawnRule BaseRemapper<T> CollisionPreSpawnRule ConditionFilter CoroutineUtil DestroyHandler DistanceEvaluator DistanceFilter EvaluableCategoryAttribute EvaluatorValue FacingEvents FloatRemapper GameObjectFilter GizmosUtil LOSFilter LabelFilter LabelType Labels Lifetime LookAtCamera NavMeshPathDistanceEvaluator NavMeshPreSpawnRule NestedAttribute ObjectActivation ObjectSpawner ObjectSpawnerControl OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ParticleSystemStoppedHandler PhysicsUtil PoolItem PoolItemManager PoolItemSpawner<T> ScriptMachinePostSpawnRule SerializableDictionaryDrawer SerializableDictionary<TKey, TValue> Set ShaderUtil ShakeTransform ShakeTransform.BaseSettings ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Spawner SpawnerEventArgs SplineAnimatePostSpawnRule TagFilter TargetingPoints TimedCurve ToolkitUtil UnityCondition UnityElector UnityElector<T> UnityEvaluator UnityFloat UnityValue UnityValue<T> Vector3Remapper WaveSpawner WaveSpawner.Wave Interfaces IEvaluable IKillable IPoolItemRecyclable Enums Axis LookAtCamera.LookStyle ObjectSpawner.OrderMode ObjectSpawner.SpawnSpace OverrideRigidbodyPostSpawnRule.OverrideMethod PoolItemSpawner<T>.CapacityMode Spawner.SpawnType UnityCondition.CompareOperatorType UnityCondition.ConditionType UnityElector.RandomnessMode UnityElector.SelectionMode UnityValue.ValueType WaveSpawner.NextMode Delegates SpawnedAction"
   },
   "api/Unity.VisualScripting.Count.Data.html": {
     "href": "api/Unity.VisualScripting.Count.Data.html",
