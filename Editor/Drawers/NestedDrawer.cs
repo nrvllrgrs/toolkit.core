@@ -31,29 +31,16 @@ namespace ToolkitEditor
 
 				if (data != null)
 				{
-					SerializedObject serializedObject = new SerializedObject(data);
-
-					// Iterate over all the values and draw them
-					SerializedProperty nestedProp = serializedObject.GetIterator();
-					if (nestedProp.NextVisible(true))
+					var editor = Editor.CreateEditor(data);
+					if (editor is INestableEditor nestableEditor)
 					{
-						do
+						nestableEditor.OnNestedGUI(ref position);
+
+						if (GUI.changed)
 						{
-							// Don't bother drawing the class file
-							if (nestedProp.name == "m_Script")
-								continue;
-
-							EditorGUIRectLayout.PropertyField(ref position, nestedProp);
+							editor.serializedObject.ApplyModifiedProperties();
 						}
-						while (nestedProp.NextVisible(false));
 					}
-
-					if (GUI.changed)
-					{
-						serializedObject.ApplyModifiedProperties();
-					}
-
-					serializedObject.Dispose();
 				}
 			}
 
@@ -70,23 +57,11 @@ namespace ToolkitEditor
 				var data = property.objectReferenceValue as ScriptableObject;
 				if (data != null)
 				{
-					SerializedObject serializedObject = new SerializedObject(data);
-
-					// Iterate over all the values and draw them
-					SerializedProperty nestedProp = serializedObject.GetIterator();
-					if (nestedProp.NextVisible(true))
+					var editor = Editor.CreateEditor(data);
+					if (editor is INestableEditor nestableEditor)
 					{
-						do
-						{
-							if (nestedProp.name == "m_Script")
-								continue;
-
-							height += EditorGUI.GetPropertyHeight(serializedObject.FindProperty(nestedProp.name), null, true) + EditorGUIUtility.standardVerticalSpacing;
-						}
-						while (nestedProp.NextVisible(false));
+						height += nestableEditor.GetNestedHeight();
 					}
-
-					serializedObject.Dispose();
 				}
 			}
 

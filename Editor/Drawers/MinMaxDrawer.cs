@@ -8,30 +8,60 @@ public class MinMaxDrawer : PropertyDrawer
 	{
 		var minMaxAttr = attribute as MinMaxAttribute;
 
-		var value = property.vector2Value;
-		EditorGUIRectLayout.LabelField(ref position, property.displayName);
-
-		++EditorGUI.indentLevel;
-
-		EditorGUI.BeginChangeCheck();
-		value.x = EditorGUIRectLayout.FloatField(ref position, minMaxAttr.minLabel, value.x);
-
-		if (EditorGUI.EndChangeCheck())
+		if (property.propertyType == SerializedPropertyType.Vector2)
 		{
-			value.x = Mathf.Max(Mathf.Min(value.x, value.y), minMaxAttr.minValue);
+			Vector2 value = property.vector2Value;
+			EditorGUIRectLayout.LabelField(ref position, property.displayName);
+
+			++EditorGUI.indentLevel;
+
+			EditorGUI.BeginChangeCheck();
+			value.x = EditorGUIRectLayout.FloatField(ref position, minMaxAttr.minLabel, value.x);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				value.x = Mathf.Max(Mathf.Min(value.x, value.y), minMaxAttr.minValue);
+			}
+
+			EditorGUI.BeginChangeCheck();
+			value.y = EditorGUIRectLayout.FloatField(ref position, minMaxAttr.maxLabel, value.y);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				value.y = Mathf.Min(Mathf.Max(value.x, value.y), minMaxAttr.maxValue);
+			}
+
+			--EditorGUI.indentLevel;
+
+			property.vector2Value = value;
 		}
-
-		EditorGUI.BeginChangeCheck();
-		value.y = EditorGUIRectLayout.FloatField(ref position, minMaxAttr.maxLabel, value.y);
-
-		if (EditorGUI.EndChangeCheck())
+		else if (property.propertyType == SerializedPropertyType.Vector2Int)
 		{
-			value.y = Mathf.Min(Mathf.Max(value.x, value.y), minMaxAttr.maxValue);
+			Vector2Int value = property.vector2IntValue;
+			EditorGUIRectLayout.LabelField(ref position, property.displayName);
+
+			++EditorGUI.indentLevel;
+
+			EditorGUI.BeginChangeCheck();
+			value.x = EditorGUIRectLayout.IntField(ref position, minMaxAttr.minLabel, value.x);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				value.x = (int)Mathf.Max(Mathf.Min(value.x, value.y), minMaxAttr.minValue);
+			}
+
+			EditorGUI.BeginChangeCheck();
+			value.y = EditorGUIRectLayout.IntField(ref position, minMaxAttr.maxLabel, value.y);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				value.y = (int)Mathf.Min(Mathf.Max(value.x, value.y), minMaxAttr.maxValue);
+			}
+
+			--EditorGUI.indentLevel;
+
+			property.vector2IntValue = value;
 		}
-
-		--EditorGUI.indentLevel;
-
-		property.vector2Value = value;
 	}
 
 	public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
