@@ -1692,6 +1692,41 @@ references:
   commentId: T:ToolkitEditor.FloatRemapperEditor
   fullName: ToolkitEditor.FloatRemapperEditor
   nameWithType: FloatRemapperEditor
+- uid: ToolkitEditor.INestableEditor
+  name: INestableEditor
+  href: api/ToolkitEditor.INestableEditor.html
+  commentId: T:ToolkitEditor.INestableEditor
+  fullName: ToolkitEditor.INestableEditor
+  nameWithType: INestableEditor
+- uid: ToolkitEditor.INestableEditor.GetNestedHeight
+  name: GetNestedHeight()
+  href: api/ToolkitEditor.INestableEditor.html#ToolkitEditor_INestableEditor_GetNestedHeight
+  commentId: M:ToolkitEditor.INestableEditor.GetNestedHeight
+  fullName: ToolkitEditor.INestableEditor.GetNestedHeight()
+  nameWithType: INestableEditor.GetNestedHeight()
+- uid: ToolkitEditor.INestableEditor.GetNestedHeight*
+  name: GetNestedHeight
+  href: api/ToolkitEditor.INestableEditor.html#ToolkitEditor_INestableEditor_GetNestedHeight_
+  commentId: Overload:ToolkitEditor.INestableEditor.GetNestedHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.INestableEditor.GetNestedHeight
+  nameWithType: INestableEditor.GetNestedHeight
+- uid: ToolkitEditor.INestableEditor.OnNestedGUI(Rect@)
+  name: OnNestedGUI(ref Rect)
+  href: api/ToolkitEditor.INestableEditor.html#ToolkitEditor_INestableEditor_OnNestedGUI_Rect__
+  commentId: M:ToolkitEditor.INestableEditor.OnNestedGUI(Rect@)
+  name.vb: OnNestedGUI(Rect)
+  fullName: ToolkitEditor.INestableEditor.OnNestedGUI(ref Rect)
+  fullName.vb: ToolkitEditor.INestableEditor.OnNestedGUI(Rect)
+  nameWithType: INestableEditor.OnNestedGUI(ref Rect)
+  nameWithType.vb: INestableEditor.OnNestedGUI(Rect)
+- uid: ToolkitEditor.INestableEditor.OnNestedGUI*
+  name: OnNestedGUI
+  href: api/ToolkitEditor.INestableEditor.html#ToolkitEditor_INestableEditor_OnNestedGUI_
+  commentId: Overload:ToolkitEditor.INestableEditor.OnNestedGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.INestableEditor.OnNestedGUI
+  nameWithType: INestableEditor.OnNestedGUI
 - uid: ToolkitEditor.LookAtCameraEditor
   name: LookAtCameraEditor
   href: api/ToolkitEditor.LookAtCameraEditor.html

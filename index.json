@@ -204,6 +204,11 @@
     "title": "Class FloatRemapperEditor | Core Toolkit | 1.0.0",
     "keywords": "Class FloatRemapperEditor Namespace ToolkitEditor public class FloatRemapperEditor : BaseRemapperEditor Inheritance object BaseRemapperEditor FloatRemapperEditor Inherited Members BaseRemapperEditor.m_object BaseRemapperEditor.m_component BaseRemapperEditor.m_memberName BaseRemapperEditor.m_isProperty BaseRemapperEditor.m_curve BaseRemapperEditor.m_srcMinValue BaseRemapperEditor.m_srcMaxValue BaseRemapperEditor.m_dstMinValue BaseRemapperEditor.m_dstMaxValue BaseRemapperEditor.m_onRemapped BaseRemapperEditor.OnInspectorGUI() BaseRemapperEditor.DrawFloatMinMax(SerializedProperty, SerializedProperty) BaseRemapperEditor.DrawDestinationMinMax(SerializedProperty, SerializedProperty)"
   },
+  "api/ToolkitEditor.INestableEditor.html": {
+    "href": "api/ToolkitEditor.INestableEditor.html",
+    "title": "Interface INestableEditor | Core Toolkit | 1.0.0",
+    "keywords": "Interface INestableEditor Namespace ToolkitEditor public interface INestableEditor Methods GetNestedHeight() float GetNestedHeight() Returns float OnNestedGUI(ref Rect) void OnNestedGUI(ref Rect position) Parameters position Rect"
+  },
   "api/ToolkitEditor.LookAtCameraEditor.html": {
     "href": "api/ToolkitEditor.LookAtCameraEditor.html",
     "title": "Class LookAtCameraEditor | Core Toolkit | 1.0.0",
@@ -357,7 +362,7 @@
   "api/ToolkitEditor.html": {
     "href": "api/ToolkitEditor.html",
     "title": "Namespace ToolkitEditor | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor NestedDrawer ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Enums UnityConditionArgumenDrawer.MemberType"
+    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor NestedDrawer ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Interfaces INestableEditor Enums UnityConditionArgumenDrawer.MemberType"
   },
   "api/ToolkitEngine.AngleEvaluator.html": {
     "href": "api/ToolkitEngine.AngleEvaluator.html",
