@@ -2996,6 +2996,131 @@ references:
   commentId: N:ToolkitEditor.VisualScripting
   fullName: ToolkitEditor.VisualScripting
   nameWithType: ToolkitEditor.VisualScripting
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem
+  name: BaseMachineStateItem
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html
+  commentId: T:ToolkitEditor.VisualScripting.BaseMachineStateItem
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem
+  nameWithType: BaseMachineStateItem
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties(Rect@,SerializedProperty)
+  name: DrawCustomProperties(ref Rect, SerializedProperty)
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_DrawCustomProperties_Rect__SerializedProperty_
+  commentId: M:ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties(Rect@,SerializedProperty)
+  name.vb: DrawCustomProperties(Rect, SerializedProperty)
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties(ref Rect, SerializedProperty)
+  fullName.vb: ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties(Rect, SerializedProperty)
+  nameWithType: BaseMachineStateItem.DrawCustomProperties(ref Rect, SerializedProperty)
+  nameWithType.vb: BaseMachineStateItem.DrawCustomProperties(Rect, SerializedProperty)
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties*
+  name: DrawCustomProperties
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_DrawCustomProperties_
+  commentId: Overload:ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.DrawCustomProperties
+  nameWithType: BaseMachineStateItem.DrawCustomProperties
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: BaseMachineStateItem.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.GetPropertyHeight
+  nameWithType: BaseMachineStateItem.GetPropertyHeight
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: BaseMachineStateItem.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_OnGUI_
+  commentId: Overload:ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.OnGUI
+  nameWithType: BaseMachineStateItem.OnGUI
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties
+  name: excludedProperties
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_excludedProperties
+  commentId: P:ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties
+  nameWithType: BaseMachineStateItem.excludedProperties
+- uid: ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties*
+  name: excludedProperties
+  href: api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html#ToolkitEditor_VisualScripting_BaseMachineStateItem_excludedProperties_
+  commentId: Overload:ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.BaseMachineStateItem.excludedProperties
+  nameWithType: BaseMachineStateItem.excludedProperties
+- uid: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer
+  name: MachineStateEventArgumentDrawer
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html
+  commentId: T:ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer
+  nameWithType: MachineStateEventArgumentDrawer
+- uid: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventArgumentDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: MachineStateEventArgumentDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventArgumentDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.GetPropertyHeight
+  nameWithType: MachineStateEventArgumentDrawer.GetPropertyHeight
+- uid: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventArgumentDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: MachineStateEventArgumentDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventArgumentDrawer_OnGUI_
+  commentId: Overload:ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.OnGUI
+  nameWithType: MachineStateEventArgumentDrawer.OnGUI
+- uid: ToolkitEditor.VisualScripting.MachineStateEventDrawer
+  name: MachineStateEventDrawer
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html
+  commentId: T:ToolkitEditor.VisualScripting.MachineStateEventDrawer
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventDrawer
+  nameWithType: MachineStateEventDrawer
+- uid: ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: MachineStateEventDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventDrawer.GetPropertyHeight
+  nameWithType: MachineStateEventDrawer.GetPropertyHeight
+- uid: ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: MachineStateEventDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html#ToolkitEditor_VisualScripting_MachineStateEventDrawer_OnGUI_
+  commentId: Overload:ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.VisualScripting.MachineStateEventDrawer.OnGUI
+  nameWithType: MachineStateEventDrawer.OnGUI
 - uid: ToolkitEditor.VisualScripting.Setup
   name: Setup
   href: api/ToolkitEditor.VisualScripting.Setup.html
@@ -7946,6 +8071,466 @@ references:
   commentId: N:ToolkitEngine.VisualScripting
   fullName: ToolkitEngine.VisualScripting
   nameWithType: ToolkitEngine.VisualScripting
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1
+  name: BaseMachineStateBehaviourEventUnit<T>
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1
+  name.vb: BaseMachineStateBehaviourEventUnit(Of T)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T)
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.AssignArguments(Flow,ToolkitEngine.VisualScripting.BaseMachineStateBehaviour{`0})
+  name: AssignArguments(Flow, BaseMachineStateBehaviour<T>)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_AssignArguments_Flow_ToolkitEngine_VisualScripting_BaseMachineStateBehaviour__0__
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.AssignArguments(Flow,ToolkitEngine.VisualScripting.BaseMachineStateBehaviour{`0})
+  name.vb: AssignArguments(Flow, BaseMachineStateBehaviour(Of T))
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.AssignArguments(Flow, ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).AssignArguments(Flow, ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T))
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.AssignArguments(Flow, BaseMachineStateBehaviour<T>)
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).AssignArguments(Flow, BaseMachineStateBehaviour(Of T))
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.AssignArguments*
+  name: AssignArguments
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_AssignArguments_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.AssignArguments
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.AssignArguments
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).AssignArguments
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.AssignArguments
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).AssignArguments
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_Definition
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.Definition
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.Definition()
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).Definition()
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.Definition()
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).Definition()
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.Definition
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).Definition
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.Definition
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).Definition
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.GetHook(GraphReference)
+  name: GetHook(GraphReference)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_GetHook_GraphReference_
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.GetHook(GraphReference)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.GetHook(GraphReference)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).GetHook(GraphReference)
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.GetHook(GraphReference)
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).GetHook(GraphReference)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.GetHook*
+  name: GetHook
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_GetHook_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.GetHook
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.GetHook
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).GetHook
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.GetHook
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).GetHook
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.ShouldTrigger(Flow,ToolkitEngine.VisualScripting.BaseMachineStateBehaviour{`0})
+  name: ShouldTrigger(Flow, BaseMachineStateBehaviour<T>)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_ShouldTrigger_Flow_ToolkitEngine_VisualScripting_BaseMachineStateBehaviour__0__
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.ShouldTrigger(Flow,ToolkitEngine.VisualScripting.BaseMachineStateBehaviour{`0})
+  name.vb: ShouldTrigger(Flow, BaseMachineStateBehaviour(Of T))
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.ShouldTrigger(Flow, ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).ShouldTrigger(Flow, ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T))
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.ShouldTrigger(Flow, BaseMachineStateBehaviour<T>)
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).ShouldTrigger(Flow, BaseMachineStateBehaviour(Of T))
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.ShouldTrigger*
+  name: ShouldTrigger
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_ShouldTrigger_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.ShouldTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.ShouldTrigger
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).ShouldTrigger
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.ShouldTrigger
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).ShouldTrigger
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.register
+  name: register
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_register
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.register
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.register
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).register
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.register
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).register
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.register*
+  name: register
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_register_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.register
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.register
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).register
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.register
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).register
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.state
+  name: state
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_state
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.state
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.state
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).state
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.state
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).state
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.target
+  name: target
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_target
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.target
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.target
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).target
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.target
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).target
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.value
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviourEventUnit_1_value
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit`1.value
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit(Of T).value
+  nameWithType: BaseMachineStateBehaviourEventUnit<T>.value
+  nameWithType.vb: BaseMachineStateBehaviourEventUnit(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1
+  name: BaseMachineStateBehaviour<T>
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1
+  name.vb: BaseMachineStateBehaviour(Of T)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T)
+  nameWithType: BaseMachineStateBehaviour<T>
+  nameWithType.vb: BaseMachineStateBehaviour(Of T)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.Continue
+  name: Continue()
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_Continue
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.Continue
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.Continue()
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).Continue()
+  nameWithType: BaseMachineStateBehaviour<T>.Continue()
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).Continue()
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.Continue*
+  name: Continue
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_Continue_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.Continue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.Continue
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).Continue
+  nameWithType: BaseMachineStateBehaviour<T>.Continue
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).Continue
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.SetValue(`0,System.Action)
+  name: SetValue(T, Action)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_SetValue__0_System_Action_
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.SetValue(`0,System.Action)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.SetValue(T, System.Action)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).SetValue(T, System.Action)
+  nameWithType: BaseMachineStateBehaviour<T>.SetValue(T, Action)
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).SetValue(T, Action)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.SetValue*
+  name: SetValue
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_SetValue_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.SetValue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.SetValue
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).SetValue
+  nameWithType: BaseMachineStateBehaviour<T>.SetValue
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).SetValue
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.value
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_value
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.value
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).value
+  nameWithType: BaseMachineStateBehaviour<T>.value
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.value*
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html#ToolkitEngine_VisualScripting_BaseMachineStateBehaviour_1_value_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateBehaviour`1.value
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateBehaviour(Of T).value
+  nameWithType: BaseMachineStateBehaviour<T>.value
+  nameWithType.vb: BaseMachineStateBehaviour(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1
+  name: BaseMachineStateContinueUnit<T>
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1
+  name.vb: BaseMachineStateContinueUnit(Of T)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit(Of T)
+  nameWithType: BaseMachineStateContinueUnit<T>
+  nameWithType.vb: BaseMachineStateContinueUnit(Of T)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateContinueUnit_1_Definition
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.Definition
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>.Definition()
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit(Of T).Definition()
+  nameWithType: BaseMachineStateContinueUnit<T>.Definition()
+  nameWithType.vb: BaseMachineStateContinueUnit(Of T).Definition()
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateContinueUnit_1_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>.Definition
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit(Of T).Definition
+  nameWithType: BaseMachineStateContinueUnit<T>.Definition
+  nameWithType.vb: BaseMachineStateContinueUnit(Of T).Definition
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateContinueUnit_1_enter
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.enter
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>.enter
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit(Of T).enter
+  nameWithType: BaseMachineStateContinueUnit<T>.enter
+  nameWithType.vb: BaseMachineStateContinueUnit(Of T).enter
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.state
+  name: state
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateContinueUnit_1_state
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit`1.state
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>.state
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit(Of T).state
+  nameWithType: BaseMachineStateContinueUnit<T>.state
+  nameWithType.vb: BaseMachineStateContinueUnit(Of T).state
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1
+  name: BaseMachineStateItemEventUnit<T>
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1
+  name.vb: BaseMachineStateItemEventUnit(Of T)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T)
+  nameWithType: BaseMachineStateItemEventUnit<T>
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.AssignArguments(Flow,ToolkitEngine.VisualScripting.BaseMachineStateItem{`0})
+  name: AssignArguments(Flow, BaseMachineStateItem<T>)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_AssignArguments_Flow_ToolkitEngine_VisualScripting_BaseMachineStateItem__0__
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.AssignArguments(Flow,ToolkitEngine.VisualScripting.BaseMachineStateItem{`0})
+  name.vb: AssignArguments(Flow, BaseMachineStateItem(Of T))
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.AssignArguments(Flow, ToolkitEngine.VisualScripting.BaseMachineStateItem<T>)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).AssignArguments(Flow, ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T))
+  nameWithType: BaseMachineStateItemEventUnit<T>.AssignArguments(Flow, BaseMachineStateItem<T>)
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).AssignArguments(Flow, BaseMachineStateItem(Of T))
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.AssignArguments*
+  name: AssignArguments
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_AssignArguments_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.AssignArguments
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.AssignArguments
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).AssignArguments
+  nameWithType: BaseMachineStateItemEventUnit<T>.AssignArguments
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).AssignArguments
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_Definition
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.Definition
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.Definition()
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).Definition()
+  nameWithType: BaseMachineStateItemEventUnit<T>.Definition()
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).Definition()
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.Definition
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).Definition
+  nameWithType: BaseMachineStateItemEventUnit<T>.Definition
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).Definition
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.GetHook(GraphReference)
+  name: GetHook(GraphReference)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_GetHook_GraphReference_
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.GetHook(GraphReference)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.GetHook(GraphReference)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).GetHook(GraphReference)
+  nameWithType: BaseMachineStateItemEventUnit<T>.GetHook(GraphReference)
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).GetHook(GraphReference)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.GetHook*
+  name: GetHook
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_GetHook_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.GetHook
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.GetHook
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).GetHook
+  nameWithType: BaseMachineStateItemEventUnit<T>.GetHook
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).GetHook
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.ShouldTrigger(Flow,ToolkitEngine.VisualScripting.BaseMachineStateItem{`0})
+  name: ShouldTrigger(Flow, BaseMachineStateItem<T>)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_ShouldTrigger_Flow_ToolkitEngine_VisualScripting_BaseMachineStateItem__0__
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.ShouldTrigger(Flow,ToolkitEngine.VisualScripting.BaseMachineStateItem{`0})
+  name.vb: ShouldTrigger(Flow, BaseMachineStateItem(Of T))
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.ShouldTrigger(Flow, ToolkitEngine.VisualScripting.BaseMachineStateItem<T>)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).ShouldTrigger(Flow, ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T))
+  nameWithType: BaseMachineStateItemEventUnit<T>.ShouldTrigger(Flow, BaseMachineStateItem<T>)
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).ShouldTrigger(Flow, BaseMachineStateItem(Of T))
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.ShouldTrigger*
+  name: ShouldTrigger
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_ShouldTrigger_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.ShouldTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.ShouldTrigger
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).ShouldTrigger
+  nameWithType: BaseMachineStateItemEventUnit<T>.ShouldTrigger
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).ShouldTrigger
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.key
+  name: key
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_key
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.key
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.key
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).key
+  nameWithType: BaseMachineStateItemEventUnit<T>.key
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).key
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.register
+  name: register
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_register
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.register
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.register
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).register
+  nameWithType: BaseMachineStateItemEventUnit<T>.register
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).register
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.register*
+  name: register
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_register_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.register
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.register
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).register
+  nameWithType: BaseMachineStateItemEventUnit<T>.register
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).register
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.state
+  name: state
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_state
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.state
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.state
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).state
+  nameWithType: BaseMachineStateItemEventUnit<T>.state
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).state
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.value
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItemEventUnit_1_value
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit`1.value
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit(Of T).value
+  nameWithType: BaseMachineStateItemEventUnit<T>.value
+  nameWithType.vb: BaseMachineStateItemEventUnit(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1
+  name: BaseMachineStateItem<T>
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html
+  commentId: T:ToolkitEngine.VisualScripting.BaseMachineStateItem`1
+  name.vb: BaseMachineStateItem(Of T)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T)
+  nameWithType: BaseMachineStateItem<T>
+  nameWithType.vb: BaseMachineStateItem(Of T)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.Continue
+  name: Continue()
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_Continue
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.Continue
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.Continue()
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).Continue()
+  nameWithType: BaseMachineStateItem<T>.Continue()
+  nameWithType.vb: BaseMachineStateItem(Of T).Continue()
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.Continue*
+  name: Continue
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_Continue_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.Continue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.Continue
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).Continue
+  nameWithType: BaseMachineStateItem<T>.Continue
+  nameWithType.vb: BaseMachineStateItem(Of T).Continue
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.SetValue(`0,System.Action)
+  name: SetValue(T, Action)
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_SetValue__0_System_Action_
+  commentId: M:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.SetValue(`0,System.Action)
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.SetValue(T, System.Action)
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).SetValue(T, System.Action)
+  nameWithType: BaseMachineStateItem<T>.SetValue(T, Action)
+  nameWithType.vb: BaseMachineStateItem(Of T).SetValue(T, Action)
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.SetValue*
+  name: SetValue
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_SetValue_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.SetValue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.SetValue
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).SetValue
+  nameWithType: BaseMachineStateItem<T>.SetValue
+  nameWithType.vb: BaseMachineStateItem(Of T).SetValue
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.enabled
+  name: enabled
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_enabled
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.enabled
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.enabled
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).enabled
+  nameWithType: BaseMachineStateItem<T>.enabled
+  nameWithType.vb: BaseMachineStateItem(Of T).enabled
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.enabled*
+  name: enabled
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_enabled_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.enabled
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.enabled
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).enabled
+  nameWithType: BaseMachineStateItem<T>.enabled
+  nameWithType.vb: BaseMachineStateItem(Of T).enabled
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_enabled
+  name: m_enabled
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_m_enabled
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_enabled
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.m_enabled
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).m_enabled
+  nameWithType: BaseMachineStateItem<T>.m_enabled
+  nameWithType.vb: BaseMachineStateItem(Of T).m_enabled
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_events
+  name: m_events
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_m_events
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_events
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.m_events
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).m_events
+  nameWithType: BaseMachineStateItem<T>.m_events
+  nameWithType.vb: BaseMachineStateItem(Of T).m_events
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_name
+  name: m_name
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_m_name
+  commentId: F:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.m_name
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.m_name
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).m_name
+  nameWithType: BaseMachineStateItem<T>.m_name
+  nameWithType.vb: BaseMachineStateItem(Of T).m_name
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.name
+  name: name
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_name
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.name
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.name
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).name
+  nameWithType: BaseMachineStateItem<T>.name
+  nameWithType.vb: BaseMachineStateItem(Of T).name
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.name*
+  name: name
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_name_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.name
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.name
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).name
+  nameWithType: BaseMachineStateItem<T>.name
+  nameWithType.vb: BaseMachineStateItem(Of T).name
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.value
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_value
+  commentId: P:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.value
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).value
+  nameWithType: BaseMachineStateItem<T>.value
+  nameWithType.vb: BaseMachineStateItem(Of T).value
+- uid: ToolkitEngine.VisualScripting.BaseMachineStateItem`1.value*
+  name: value
+  href: api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html#ToolkitEngine_VisualScripting_BaseMachineStateItem_1_value_
+  commentId: Overload:ToolkitEngine.VisualScripting.BaseMachineStateItem`1.value
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.BaseMachineStateItem<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.BaseMachineStateItem(Of T).value
+  nameWithType: BaseMachineStateItem<T>.value
+  nameWithType.vb: BaseMachineStateItem(Of T).value
 - uid: ToolkitEngine.VisualScripting.BasePoolItemEventUnit
   name: BasePoolItemEventUnit
   href: api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html
@@ -8296,6 +8881,146 @@ references:
   commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   fullName: ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   nameWithType: EventHooks.OnTimedCurveTimeChanged
+- uid: ToolkitEngine.VisualScripting.IMachineState`1
+  name: IMachineState<T>
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html
+  commentId: T:ToolkitEngine.VisualScripting.IMachineState`1
+  name.vb: IMachineState(Of T)
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T)
+  nameWithType: IMachineState<T>
+  nameWithType.vb: IMachineState(Of T)
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.Continue
+  name: Continue()
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_Continue
+  commentId: M:ToolkitEngine.VisualScripting.IMachineState`1.Continue
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.Continue()
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).Continue()
+  nameWithType: IMachineState<T>.Continue()
+  nameWithType.vb: IMachineState(Of T).Continue()
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.Continue*
+  name: Continue
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_Continue_
+  commentId: Overload:ToolkitEngine.VisualScripting.IMachineState`1.Continue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.Continue
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).Continue
+  nameWithType: IMachineState<T>.Continue
+  nameWithType.vb: IMachineState(Of T).Continue
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.GetEventName(`0)
+  name: GetEventName(T)
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_GetEventName__0_
+  commentId: M:ToolkitEngine.VisualScripting.IMachineState`1.GetEventName(`0)
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.GetEventName(T)
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).GetEventName(T)
+  nameWithType: IMachineState<T>.GetEventName(T)
+  nameWithType.vb: IMachineState(Of T).GetEventName(T)
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.GetEventName*
+  name: GetEventName
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_GetEventName_
+  commentId: Overload:ToolkitEngine.VisualScripting.IMachineState`1.GetEventName
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.GetEventName
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).GetEventName
+  nameWithType: IMachineState<T>.GetEventName
+  nameWithType.vb: IMachineState(Of T).GetEventName
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.name
+  name: name
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_name
+  commentId: P:ToolkitEngine.VisualScripting.IMachineState`1.name
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.name
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).name
+  nameWithType: IMachineState<T>.name
+  nameWithType.vb: IMachineState(Of T).name
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.name*
+  name: name
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_name_
+  commentId: Overload:ToolkitEngine.VisualScripting.IMachineState`1.name
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.name
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).name
+  nameWithType: IMachineState<T>.name
+  nameWithType.vb: IMachineState(Of T).name
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.value
+  name: value
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_value
+  commentId: P:ToolkitEngine.VisualScripting.IMachineState`1.value
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).value
+  nameWithType: IMachineState<T>.value
+  nameWithType.vb: IMachineState(Of T).value
+- uid: ToolkitEngine.VisualScripting.IMachineState`1.value*
+  name: value
+  href: api/ToolkitEngine.VisualScripting.IMachineState-1.html#ToolkitEngine_VisualScripting_IMachineState_1_value_
+  commentId: Overload:ToolkitEngine.VisualScripting.IMachineState`1.value
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.IMachineState<T>.value
+  fullName.vb: ToolkitEngine.VisualScripting.IMachineState(Of T).value
+  nameWithType: IMachineState<T>.value
+  nameWithType.vb: IMachineState(Of T).value
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1
+  name: MachineStateEvent<T>
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html
+  commentId: T:ToolkitEngine.VisualScripting.MachineStateEvent`1
+  name.vb: MachineStateEvent(Of T)
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T)
+  nameWithType: MachineStateEvent<T>
+  nameWithType.vb: MachineStateEvent(Of T)
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.#ctor
+  name: MachineStateEvent()
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1__ctor
+  commentId: M:ToolkitEngine.VisualScripting.MachineStateEvent`1.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.MachineStateEvent()
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).New()
+  nameWithType: MachineStateEvent<T>.MachineStateEvent()
+  nameWithType.vb: MachineStateEvent(Of T).New()
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.#ctor*
+  name: MachineStateEvent
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1__ctor_
+  commentId: Overload:ToolkitEngine.VisualScripting.MachineStateEvent`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.MachineStateEvent
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).New
+  nameWithType: MachineStateEvent<T>.MachineStateEvent
+  nameWithType.vb: MachineStateEvent(Of T).New
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.Evaluate(`0,System.String,System.Action)
+  name: Evaluate(T, string, Action)
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1_Evaluate__0_System_String_System_Action_
+  commentId: M:ToolkitEngine.VisualScripting.MachineStateEvent`1.Evaluate(`0,System.String,System.Action)
+  name.vb: Evaluate(T, String, Action)
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.Evaluate(T, string, System.Action)
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).Evaluate(T, String, System.Action)
+  nameWithType: MachineStateEvent<T>.Evaluate(T, string, Action)
+  nameWithType.vb: MachineStateEvent(Of T).Evaluate(T, String, Action)
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.Evaluate*
+  name: Evaluate
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1_Evaluate_
+  commentId: Overload:ToolkitEngine.VisualScripting.MachineStateEvent`1.Evaluate
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.Evaluate
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).Evaluate
+  nameWithType: MachineStateEvent<T>.Evaluate
+  nameWithType.vb: MachineStateEvent(Of T).Evaluate
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.isEmpty
+  name: isEmpty
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1_isEmpty
+  commentId: P:ToolkitEngine.VisualScripting.MachineStateEvent`1.isEmpty
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.isEmpty
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).isEmpty
+  nameWithType: MachineStateEvent<T>.isEmpty
+  nameWithType.vb: MachineStateEvent(Of T).isEmpty
+- uid: ToolkitEngine.VisualScripting.MachineStateEvent`1.isEmpty*
+  name: isEmpty
+  href: api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html#ToolkitEngine_VisualScripting_MachineStateEvent_1_isEmpty_
+  commentId: Overload:ToolkitEngine.VisualScripting.MachineStateEvent`1.isEmpty
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.MachineStateEvent<T>.isEmpty
+  fullName.vb: ToolkitEngine.VisualScripting.MachineStateEvent(Of T).isEmpty
+  nameWithType: MachineStateEvent<T>.isEmpty
+  nameWithType.vb: MachineStateEvent(Of T).isEmpty
 - uid: ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned
   name: OnObjectSpawnerDespawned
   href: api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html

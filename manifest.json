@@ -675,6 +675,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.BaseMachineStateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.VisualScripting.Setup.yml",
       "output": {
         ".html": {
@@ -1655,6 +1685,56 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.yml",
       "output": {
         ".html": {
@@ -1709,6 +1789,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.VisualScripting.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.IMachineState-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.IMachineState-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html"
         }
       },
       "version": ""

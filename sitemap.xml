@@ -2,1435 +2,1495 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.AddressableUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseEventUnit-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseGenericSetAnimatorParameterEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseSetAnimatorParameter-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseSetAnimatorParameter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseSetAnimatorParameterEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.BaseSetEventUnit.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.ComponentExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.HumanBodyTargets.Target.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.HumanBodyTargets.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.LayerAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.LayerDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.ListExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.MaxInfinityAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.MaxInfinityDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.MemberInfoExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.MinMaxAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.MinMaxDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.NavMeshAreaMaskAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.NavMeshAreaMaskDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.NavMeshPathExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.ReflectionUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.SerializedPropertyExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.SetAnimatorBool.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.SetAnimatorFloat.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.SetAnimatorInt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.SetAnimatorTrigger.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.StringExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.TagAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.TagDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.VectorLabelAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.VectorLabelDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Global.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.AssetUtility.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.BaseEvaluableDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.BaseEvaluatorDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.BaseFilterDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.BaseRemapperEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.BaseToolkitEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.FacingEventsEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.FloatRemapperEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.INestableEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.LookAtCameraEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.NestedDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.ObjectActivationDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.ObjectSpawnerControlEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.ObjectSpawnerEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.PoolItemEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.PoolItemManagerEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.PoolItemSpawnerDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.Rendering.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.SetEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.SpawnerDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.TimedCurveEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.TransformShakeEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityConditionArgumenDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityConditionDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityElectorDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityEvaluatorDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityFloatDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.UnityValueDrawer-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.Vector3RemapperEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.Setup.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.VisualScriptToolbar.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.VisualScripting.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.WaveDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.WaveSpawnerEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.AngleEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.AnimatorStatePostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.AttachmentPostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.AttachmentRecycler.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Axis.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.AxisUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BaseCompareFilter-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BaseEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BaseFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BasePostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BasePreSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.BaseRemapper-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.CollisionPreSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ConditionFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.CoroutineUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.DestroyHandler.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.DistanceEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.DistanceFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.EvaluableCategoryAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.EvaluatorValue.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.FacingEvents.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.FloatRemapper.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.GameObjectFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.GizmosUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.IEvaluable.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.IKillable.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.IPoolItemRecyclable.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.LOSFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.LabelFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.LabelType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Labels.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Lifetime.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.LookAtCamera.LookStyle.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.LookAtCamera.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.NavMeshPathDistanceEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.NavMeshPreSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.NestedAttribute.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ObjectActivation.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ObjectSpawner.OrderMode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ObjectSpawner.SpawnSpace.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ObjectSpawner.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ObjectSpawnerControl.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ParentPostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ParticleSystemStoppedHandler.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.PhysicsUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.PoolItem.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.PoolItemManager.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.PoolItemSpawner-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.BaseMaterialModifier-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.BaseMaterialModifier.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.ColorMaterialModifier.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.FloatMaterialModifier.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.MaterialRecycler.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.RangeMaterialModifier.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Rendering.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ScriptMachinePostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.SerializableDictionary-2.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.SerializableDictionaryDrawer.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Set.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShaderUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShakeTransform.BaseSettings.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShakeTransform.PositionSettings.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShakeTransform.RotationSettings.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShakeTransform.ScaleSettings.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ShakeTransform.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.SpawnedAction.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Spawner.SpawnType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Spawner.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.SpawnerEventArgs.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.SplineAnimatePostSpawnRule.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.TagFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.TargetingPoints.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.TimedCurve.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.ToolkitUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityCondition.CompareOperatorType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityCondition.ConditionType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityCondition.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityElector-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityElector.RandomnessMode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityElector.SelectionMode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityElector.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityFloat.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityValue-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityValue.ValueType.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.UnityValue.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.Vector3Remapper.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.BoolOnFlow.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.EventHooks.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.IMachineState-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html</loc>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemGet.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemReleased.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetEmpty.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetItemAdded.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetItemRemove.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineFilter.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.SetMaterialColor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.SetMaterialFloat.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.VisualScripting.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.WaveSpawner.NextMode.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.WaveSpawner.Wave.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.WaveSpawner.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/ToolkitEngine.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Unity.VisualScripting.Count.Data.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Unity.VisualScripting.Count.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/Unity.VisualScripting.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEditor.EditorGUILayoutUtility.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEditor.EditorGUIRectLayout.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEditor.SerializedPropertyUtility.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEditor.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.AI.NavMeshAgentExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.AI.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.DontDestroyOnLoad.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.GameObjectExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.IWeightedItem-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.InputSystem.InputActionPropertyExt.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.InputSystem.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.MathUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.RandomUtil.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.Singleton-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.SingletonEventHandler-1.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.UI.CameraImage.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.UI.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.Vector3Ext.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/UnityEngine.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/api/index.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/changelog/CHANGELOG.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/index.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/license/LICENSE.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.core/manual/index.html</loc>
-    <lastmod>2024-09-08T12:46:14+00:00</lastmod>
+    <lastmod>2024-09-12T04:52:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

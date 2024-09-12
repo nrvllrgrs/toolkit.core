@@ -329,6 +329,21 @@
     "title": "Class Vector3RemapperEditor | Core Toolkit | 1.0.0",
     "keywords": "Class Vector3RemapperEditor Namespace ToolkitEditor public class Vector3RemapperEditor : BaseRemapperEditor Inheritance object BaseRemapperEditor Vector3RemapperEditor Inherited Members BaseRemapperEditor.m_object BaseRemapperEditor.m_component BaseRemapperEditor.m_memberName BaseRemapperEditor.m_isProperty BaseRemapperEditor.m_curve BaseRemapperEditor.m_srcMinValue BaseRemapperEditor.m_srcMaxValue BaseRemapperEditor.m_dstMinValue BaseRemapperEditor.m_dstMaxValue BaseRemapperEditor.m_onRemapped BaseRemapperEditor.OnInspectorGUI() BaseRemapperEditor.DrawFloatMinMax(SerializedProperty, SerializedProperty) BaseRemapperEditor.DrawDestinationMinMax(SerializedProperty, SerializedProperty)"
   },
+  "api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html": {
+    "href": "api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html",
+    "title": "Class BaseMachineStateItem | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateItem Namespace ToolkitEditor.VisualScripting public class BaseMachineStateItem : PropertyDrawer Inheritance object BaseMachineStateItem Properties excludedProperties protected virtual string[] excludedProperties { get; } Property Value string[] Methods DrawCustomProperties(ref Rect, SerializedProperty) protected virtual void DrawCustomProperties(ref Rect position, SerializedProperty property) Parameters position Rect property SerializedProperty GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html": {
+    "href": "api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html",
+    "title": "Class MachineStateEventArgumentDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class MachineStateEventArgumentDrawer Namespace ToolkitEditor.VisualScripting public sealed class MachineStateEventArgumentDrawer : PropertyDrawer Inheritance object MachineStateEventArgumentDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html": {
+    "href": "api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html",
+    "title": "Class MachineStateEventDrawer | Core Toolkit | 1.0.0",
+    "keywords": "Class MachineStateEventDrawer Namespace ToolkitEditor.VisualScripting public sealed class MachineStateEventDrawer : PropertyDrawer Inheritance object MachineStateEventDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
   "api/ToolkitEditor.VisualScripting.Setup.html": {
     "href": "api/ToolkitEditor.VisualScripting.Setup.html",
     "title": "Class Setup | Core Toolkit | 1.0.0",
@@ -347,7 +362,7 @@
   "api/ToolkitEditor.VisualScripting.html": {
     "href": "api/ToolkitEditor.VisualScripting.html",
     "title": "Namespace ToolkitEditor.VisualScripting | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor.VisualScripting Classes Setup VisualScriptToolbar VisualScriptingVariablesUtil"
+    "keywords": "Namespace ToolkitEditor.VisualScripting Classes BaseMachineStateItem MachineStateEventArgumentDrawer MachineStateEventDrawer Setup VisualScriptToolbar VisualScriptingVariablesUtil"
   },
   "api/ToolkitEditor.WaveDrawer.html": {
     "href": "api/ToolkitEditor.WaveDrawer.html",
@@ -819,6 +834,31 @@
     "title": "Class Vector3Remapper | Core Toolkit | 1.0.0",
     "keywords": "Class Vector3Remapper Namespace ToolkitEngine public class Vector3Remapper : BaseRemapper<Vector3> Inheritance object BaseRemapper<Vector3> Vector3Remapper Inherited Members BaseRemapper<Vector3>.m_dstMinValue BaseRemapper<Vector3>.m_dstMaxValue BaseRemapper<Vector3>.Remap() BaseRemapper<Vector3>.Remap(float) Methods GetValue(float) protected override Vector3 GetValue(float t) Parameters t float Returns Vector3"
   },
+  "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html",
+    "title": "Class BaseMachineStateBehaviour<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateBehaviour<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseMachineStateBehaviour<T> : MonoBehaviour, IMachineState<T> where T : struct, IConvertible Type Parameters T Inheritance object BaseMachineStateBehaviour<T> Implements IMachineState<T> Properties value public T value { get; } Property Value T Methods Continue() public abstract void Continue() SetValue(T, Action) protected void SetValue(T value, Action action) Parameters value T action Action"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html",
+    "title": "Class BaseMachineStateBehaviourEventUnit<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateBehaviourEventUnit<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseMachineStateBehaviourEventUnit<T> : EventUnit<BaseMachineStateBehaviour<T>> where T : struct, IConvertible Type Parameters T Inheritance object BaseMachineStateBehaviourEventUnit<T> Fields state public ValueOutput state Field Value ValueOutput target public ValueInput target Field Value ValueInput value public T value Field Value T Properties register protected override bool register { get; } Property Value bool Methods AssignArguments(Flow, BaseMachineStateBehaviour<T>) protected override void AssignArguments(Flow flow, BaseMachineStateBehaviour<T> args) Parameters flow Flow args BaseMachineStateBehaviour<T> Definition() protected override void Definition() GetHook(GraphReference) public override EventHook GetHook(GraphReference reference) Parameters reference GraphReference Returns EventHook ShouldTrigger(Flow, BaseMachineStateBehaviour<T>) protected override bool ShouldTrigger(Flow flow, BaseMachineStateBehaviour<T> args) Parameters flow Flow args BaseMachineStateBehaviour<T> Returns bool"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html",
+    "title": "Class BaseMachineStateContinueUnit<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateContinueUnit<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseMachineStateContinueUnit<T> : Unit where T : struct, IConvertible Type Parameters T Inheritance object BaseMachineStateContinueUnit<T> Fields enter public ControlInput enter Field Value ControlInput state public ValueInput state Field Value ValueInput Methods Definition() protected override void Definition()"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html",
+    "title": "Class BaseMachineStateItem<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateItem<T> Namespace ToolkitEngine.VisualScripting [Serializable] public abstract class BaseMachineStateItem<T> : IMachineState<T> where T : struct, IConvertible Type Parameters T Inheritance object BaseMachineStateItem<T> Implements IMachineState<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_enabled Indicates whether state is enabled. protected bool m_enabled Field Value bool m_events protected MachineStateEvent<T> m_events Field Value MachineStateEvent<T> m_name Name of state protected string m_name Field Value string Properties enabled Indicates whether state is enabled. public bool enabled { get; } Property Value bool name Name of state -- used as key in visual scripting public string name { get; } Property Value string value public T value { get; } Property Value T Methods Continue() public abstract void Continue() SetValue(T, Action) protected void SetValue(T value, Action action) Parameters value T action Action"
+  },
+  "api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html",
+    "title": "Class BaseMachineStateItemEventUnit<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class BaseMachineStateItemEventUnit<T> Namespace ToolkitEngine.VisualScripting public abstract class BaseMachineStateItemEventUnit<T> : EventUnit<BaseMachineStateItem<T>> where T : struct, IConvertible Type Parameters T Inheritance object BaseMachineStateItemEventUnit<T> Fields key public ValueInput key Field Value ValueInput state public ValueOutput state Field Value ValueOutput value public T value Field Value T Properties register protected override bool register { get; } Property Value bool Methods AssignArguments(Flow, BaseMachineStateItem<T>) protected override void AssignArguments(Flow flow, BaseMachineStateItem<T> args) Parameters flow Flow args BaseMachineStateItem<T> Definition() protected override void Definition() GetHook(GraphReference) public override EventHook GetHook(GraphReference reference) Parameters reference GraphReference Returns EventHook ShouldTrigger(Flow, BaseMachineStateItem<T>) protected override bool ShouldTrigger(Flow flow, BaseMachineStateItem<T> args) Parameters flow Flow args BaseMachineStateItem<T> Returns bool"
+  },
   "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html": {
     "href": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html",
     "title": "Class BasePoolItemEventUnit | Core Toolkit | 1.0.0",
@@ -848,6 +888,16 @@
     "href": "api/ToolkitEngine.VisualScripting.EventHooks.html",
     "title": "Class EventHooks | Core Toolkit | 1.0.0",
     "keywords": "Class EventHooks Namespace ToolkitEngine.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnPoolItemGet public const string OnPoolItemGet Field Value string OnPoolItemGet public const string OnPoolItemGet Field Value string OnPoolItemReleased public const string OnPoolItemReleased Field Value string OnPoolItemReleased public const string OnPoolItemReleased Field Value string OnPoolItemSpawned public const string OnPoolItemSpawned Field Value string OnPoolItemSpawned public const string OnPoolItemSpawned Field Value string OnSetEmpty public const string OnSetEmpty Field Value string OnSetEmpty public const string OnSetEmpty Field Value string OnSetItemAdded public const string OnSetItemAdded Field Value string OnSetItemAdded public const string OnSetItemAdded Field Value string OnSetItemRemoved public const string OnSetItemRemoved Field Value string OnSetItemRemoved public const string OnSetItemRemoved Field Value string OnSpawnerDespawned public const string OnSpawnerDespawned Field Value string OnSpawnerDespawned public const string OnSpawnerDespawned Field Value string OnSpawnerSpawned public const string OnSpawnerSpawned Field Value string OnSpawnerSpawned public const string OnSpawnerSpawned Field Value string OnSpawnerSpawning public const string OnSpawnerSpawning Field Value string OnSpawnerSpawning public const string OnSpawnerSpawning Field Value string OnTimedCurveBeginCompleted public const string OnTimedCurveBeginCompleted Field Value string OnTimedCurveBeginCompleted public const string OnTimedCurveBeginCompleted Field Value string OnTimedCurveEndCompleted public const string OnTimedCurveEndCompleted Field Value string OnTimedCurveEndCompleted public const string OnTimedCurveEndCompleted Field Value string OnTimedCurvePaused public const string OnTimedCurvePaused Field Value string OnTimedCurvePaused public const string OnTimedCurvePaused Field Value string OnTimedCurvePlayed public const string OnTimedCurvePlayed Field Value string OnTimedCurvePlayed public const string OnTimedCurvePlayed Field Value string OnTimedCurveTimeChanged public const string OnTimedCurveTimeChanged Field Value string OnTimedCurveTimeChanged public const string OnTimedCurveTimeChanged Field Value string"
+  },
+  "api/ToolkitEngine.VisualScripting.IMachineState-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.IMachineState-1.html",
+    "title": "Interface IMachineState<T> | Core Toolkit | 1.0.0",
+    "keywords": "Interface IMachineState<T> Namespace ToolkitEngine.VisualScripting public interface IMachineState<T> where T : struct, IConvertible Type Parameters T Properties name string name { get; } Property Value string value T value { get; } Property Value T Methods Continue() void Continue() GetEventName(T) public static string GetEventName(T state) Parameters state T Returns string"
+  },
+  "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html": {
+    "href": "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html",
+    "title": "Class MachineStateEvent<T> | Core Toolkit | 1.0.0",
+    "keywords": "Class MachineStateEvent<T> Namespace ToolkitEngine.VisualScripting [Serializable] public sealed class MachineStateEvent<T> where T : struct, IConvertible Type Parameters T Inheritance object MachineStateEvent<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors MachineStateEvent() public MachineStateEvent() Properties isEmpty public bool isEmpty { get; } Property Value bool Methods Evaluate(T, string, Action) public bool Evaluate(T value, string eventName, Action action) Parameters value T eventName string action Action Returns bool"
   },
   "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html": {
     "href": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html",
@@ -1037,7 +1087,7 @@
   "api/ToolkitEngine.VisualScripting.html": {
     "href": "api/ToolkitEngine.VisualScripting.html",
     "title": "Namespace ToolkitEngine.VisualScripting | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseSpawnerEventUnit BaseTimedCurveEventUnit BoolOnFlow EventHooks OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemoved OnSetItemRemovedMessageListener OnSpawnerDespawnedMessageListener OnSpawnerSpawned OnSpawnerSpawnedMessageListener OnSpawnerSpawningMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat"
+    "keywords": "Namespace ToolkitEngine.VisualScripting Classes BaseMachineStateBehaviourEventUnit<T> BaseMachineStateBehaviour<T> BaseMachineStateContinueUnit<T> BaseMachineStateItemEventUnit<T> BaseMachineStateItem<T> BasePoolItemEventUnit BaseSetMaterialProperty<T> BaseSpawnerEventUnit BaseTimedCurveEventUnit BoolOnFlow EventHooks MachineStateEvent<T> OnObjectSpawnerDespawned OnObjectSpawnerSpawning OnPoolItemGet OnPoolItemGetMessageListener OnPoolItemReleased OnPoolItemReleasedMessageListener OnPoolItemSpawned OnPoolItemSpawnedMessageListener OnSetEmpty OnSetEmptyMessageListener OnSetItemAdded OnSetItemAddedMessageListener OnSetItemRemove OnSetItemRemoved OnSetItemRemovedMessageListener OnSpawnerDespawnedMessageListener OnSpawnerSpawned OnSpawnerSpawnedMessageListener OnSpawnerSpawningMessageListener OnTimedCurveBeginCompleted OnTimedCurveBeginCompletedMessageListener OnTimedCurveEndCompleted OnTimedCurveEndCompletedMessageListener OnTimedCurvePaused OnTimedCurvePausedMessageListener OnTimedCurvePlayed OnTimedCurvePlayedMessageListener OnTimedCurveTimeChanged OnTimedCurveTimeChangedMessageListener ScriptMachineEvaluator ScriptMachineEvaluator.EventArgs ScriptMachineEvaluatorEvent ScriptMachineFilter ScriptMachineFilter.EventArgs ScriptMachineFilterEvent SetMaterialColor SetMaterialFloat Interfaces IMachineState<T>"
   },
   "api/ToolkitEngine.WaveSpawner.NextMode.html": {
     "href": "api/ToolkitEngine.WaveSpawner.NextMode.html",
