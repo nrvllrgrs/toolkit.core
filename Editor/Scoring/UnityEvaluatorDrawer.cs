@@ -22,9 +22,6 @@ namespace ToolkitEditor
 		// Used to map reorderable list to evaluator
 		private static Dictionary<ReorderableList, UnityEvaluator> s_evaluatorLookup = new();
 
-		private const float k_enabledWidth = 20f;
-		private const float k_curveWidth = 60f;
-
 		#endregion
 
 		#region Methods
@@ -64,44 +61,23 @@ namespace ToolkitEditor
 						if (!index.Between(0, data.evaluables.arraySize - 1))
 							return;
 
-						var evaluable = data.evaluables.GetArrayElementAtIndex(index);
+						SerializedProperty evaluable = data.evaluables.GetArrayElementAtIndex(index);
 						if (evaluable == null)
 							return;
 
-						var width = rect.width - 2f;
-						rect.y += 1f;
-						rect.height = EditorGUIUtility.singleLineHeight;
+						EditorGUI.PropertyField(rect, evaluable);
+					};
 
-						// Draw the enabled property
-						rect.width = k_enabledWidth;
-						rect.x += 4f;
+					data.reorderableList.elementHeightCallback += (index) =>
+					{
+						if (!index.Between(0, data.evaluables.arraySize - 1))
+							return 0f;
 
-						var enabledProperty = evaluable.FindPropertyRelative("m_enabled");
-						if (enabledProperty != null)
-						{
-							EditorGUI.PropertyField(rect, enabledProperty, GUIContent.none);
-						}
-						rect.x += rect.width + 2f;
+						SerializedProperty evaluable = data.evaluables.GetArrayElementAtIndex(index);
+						if (evaluable == null)
+							return 0f;
 
-						// Draw the type name
-						rect.width = width - k_enabledWidth - k_curveWidth - 10f;
-						EditorGUI.LabelField(rect, evaluable.GetValue().GetType().Name);
-						rect.x += rect.width + 4f;
-
-						if (evaluable.IsOfType<BaseEvaluator>())
-						{
-							var evaluator = evaluable.GetValue<BaseEvaluator>();
-							if (evaluator.showCurve)
-							{
-								// Draw the weight curve property
-								rect.width = k_curveWidth;
-								var weightProperty = evaluable.FindPropertyRelative("m_curve");
-								if (weightProperty != null)
-								{
-									EditorGUI.PropertyField(rect, weightProperty, GUIContent.none);
-								}
-							}
-						}
+						return EditorGUI.GetPropertyHeight(evaluable, label);
 					};
 
 					data.reorderableList.onCanAddCallback += OnCanAddCallback;
@@ -115,29 +91,6 @@ namespace ToolkitEditor
 				}
 
 				data.reorderableList.DoList(position);
-				position.y += data.reorderableList.GetHeight() + EditorGUIUtility.standardVerticalSpacing;
-
-				EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_weight"));
-
-				// Draw selected evaluator
-				if (data.evaluator.evaluables.Any() && data.reorderableList.index.Between(0, data.evaluator.evaluables.Count - 1))
-				{
-					var selectedEvaluatorProp = data.evaluables.GetArrayElementAtIndex(data.reorderableList.index);
-					if (selectedEvaluatorProp != null)
-					{
-						EditorGUIRectLayout.Space(ref position);
-
-						//float boxHeight = EditorGUIUtility.singleLineHeight
-						//	+ EditorGUI.GetPropertyHeight(selectedEvaluatorProp)
-						//	+ EditorGUIUtility.standardVerticalSpacing;
-
-						//var boxRect = new Rect(position.x, position.y, position.width, boxHeight);
-						//EditorGUI.HelpBox(boxRect, string.Empty, MessageType.None);
-
-						EditorGUIRectLayout.LabelField(ref position, selectedEvaluatorProp.GetValue().GetType().Name, EditorStyles.boldLabel);
-						EditorGUIRectLayout.PropertyField(ref position, selectedEvaluatorProp);
-					}
-				}
 			}
 		}
 
@@ -152,26 +105,13 @@ namespace ToolkitEditor
 				{
 					if (data.property.isExpanded)
 					{
-						height += data.reorderableList.GetHeight() // List
-							+ EditorGUI.GetPropertyHeight(data.property.FindPropertyRelative("m_weight")) // Weight
-							+ (EditorGUIUtility.standardVerticalSpacing * 3); // Spacing
-
-						if (data.evaluables != null
-							&& data.reorderableList != null
-							&& data.reorderableList.index.Between(0, data.evaluables.arraySize - 1))
-						{
-							height += EditorGUIRectLayout.GetSpaceHeight() // Space between Weight and Selected name
-								+ EditorGUIUtility.singleLineHeight // Selected evaluator name
-								+ EditorGUIUtility.standardVerticalSpacing // Spacing after name
-								+ EditorGUI.GetPropertyHeight(data.evaluables.GetArrayElementAtIndex(data.reorderableList.index)); // Selected evaluator fields
-						}
+						height += data.reorderableList.GetHeight(); // List
 					}
 				}
 				catch
 				{
 					s_dataLookup.Remove(data.evaluator);
 					s_evaluatorLookup.Remove(data.reorderableList);
-					//EditorUtility.SetDirty(property.serializedObject.targetObject);
 				}
 			}
 
@@ -295,6 +235,9 @@ namespace ToolkitEditor
 
 		private List<string> m_cachedPropertyNames = new();
 
+		protected const float k_enabledWidth = 20f;
+		protected const float k_curveWidth = 60f;
+
 		#endregion
 
 		#region Properties
@@ -307,6 +250,57 @@ namespace ToolkitEditor
 		#region Methods
 
 		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+		{
+			EditorGUI.BeginProperty(position, label, property);
+
+			Rect rect = new Rect(position);
+			rect.height = EditorGUIUtility.singleLineHeight;
+
+			property.isExpanded = EditorGUI.Foldout(rect, property.isExpanded, string.Empty, EditorStyles.foldout);
+
+			// Draw the enabled property
+			rect.width = k_enabledWidth;
+			rect.x += 4f;
+
+			var enabledProperty = property.FindPropertyRelative("m_enabled");
+			if (enabledProperty != null)
+			{
+				EditorGUI.PropertyField(rect, enabledProperty, GUIContent.none);
+			}
+			rect.x += rect.width + 2f;
+
+			// Draw the type name
+			var width = position.width - 2f;
+			rect.width = width - k_enabledWidth - k_curveWidth - 10f;
+
+			EditorGUI.LabelField(rect, property.GetValue().GetType().Name);
+			rect.x += rect.width + 4f;
+
+			if (property.IsOfType<BaseEvaluator>())
+			{
+				var evaluator = property.GetValue<BaseEvaluator>();
+				if (evaluator.showCurve)
+				{
+					// Draw the weight curve property
+					rect.width = k_curveWidth;
+					var weightProperty = property.FindPropertyRelative("m_curve");
+					if (weightProperty != null)
+					{
+						EditorGUI.PropertyField(rect, weightProperty, GUIContent.none);
+					}
+				}
+			}
+
+			EditorGUI.EndProperty();
+
+			if (property.isExpanded)
+			{
+				position.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+				OnGUIProperties(position, property, label);
+			}
+		}
+
+		protected virtual void OnGUIProperties(Rect position, SerializedProperty property, GUIContent label)
 		{
 			if (!m_cachedPropertyNames.Any())
 			{
@@ -337,7 +331,8 @@ namespace ToolkitEditor
 
 				EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative(propertyName));
 			}
-			
+
+			EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_bonusWeight"));
 			EditorGUIRectLayout.Space(ref position);
 
 			foreach (var propertyName in m_cachedPropertyNames)
@@ -348,41 +343,41 @@ namespace ToolkitEditor
 					EditorGUIRectLayout.PropertyField(ref position, cachedProperty);
 				}
 			}
-
-			EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_bonusWeight"));
 		}
 
 		protected virtual bool ShouldDrawKnownProperty(SerializedProperty property, string propertyName) => true;
 
 		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
 		{
-			float height = 0f;
-			foreach (var propertyName in knownPropertyNames)
+			float height = EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
+			if (property.isExpanded)
 			{
-				// Enabled intentionally skipped
-				if (Equals(propertyName, "m_enabled"))
-					continue;
-
-				if (!ShouldDrawKnownProperty(property, propertyName))
-					continue;
-
-				height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative(propertyName))
-					+ EditorGUIUtility.standardVerticalSpacing;
-			}
-
-			height += EditorGUIRectLayout.GetSpaceHeight();
-
-			foreach (var propertyName in m_cachedPropertyNames)
-			{
-				var cachedProperty = property.FindPropertyRelative(propertyName);
-				if (cachedProperty != null)
+				foreach (var propertyName in knownPropertyNames)
 				{
-					height += EditorGUI.GetPropertyHeight(cachedProperty)
+					// Enabled intentionally skipped
+					if (Equals(propertyName, "m_enabled"))
+						continue;
+
+					if (!ShouldDrawKnownProperty(property, propertyName))
+						continue;
+
+					height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative(propertyName))
 						+ EditorGUIUtility.standardVerticalSpacing;
 				}
-			}
 
-			return height + EditorGUIUtility.standardVerticalSpacing;
+				height += EditorGUIRectLayout.GetSpaceHeight();
+
+				foreach (var propertyName in m_cachedPropertyNames)
+				{
+					var cachedProperty = property.FindPropertyRelative(propertyName);
+					if (cachedProperty != null)
+					{
+						height += EditorGUI.GetPropertyHeight(cachedProperty)
+							+ EditorGUIUtility.standardVerticalSpacing;
+					}
+				}
+			}
+			return height;
 		}
 
 		#endregion
