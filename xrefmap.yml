@@ -1326,6 +1326,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.BaseEvaluableDrawer.OnGUI
   nameWithType: BaseEvaluableDrawer.OnGUI
+- uid: ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties(Rect,SerializedProperty,GUIContent)
+  name: OnGUIProperties(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_OnGUIProperties_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties(Rect, SerializedProperty, GUIContent)
+  nameWithType: BaseEvaluableDrawer.OnGUIProperties(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties*
+  name: OnGUIProperties
+  href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_OnGUIProperties_
+  commentId: Overload:ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.BaseEvaluableDrawer.OnGUIProperties
+  nameWithType: BaseEvaluableDrawer.OnGUIProperties
 - uid: ToolkitEditor.BaseEvaluableDrawer.ShouldDrawKnownProperty(SerializedProperty,System.String)
   name: ShouldDrawKnownProperty(SerializedProperty, string)
   href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_ShouldDrawKnownProperty_SerializedProperty_System_String_
@@ -1342,6 +1355,18 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.BaseEvaluableDrawer.ShouldDrawKnownProperty
   nameWithType: BaseEvaluableDrawer.ShouldDrawKnownProperty
+- uid: ToolkitEditor.BaseEvaluableDrawer.k_curveWidth
+  name: k_curveWidth
+  href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_k_curveWidth
+  commentId: F:ToolkitEditor.BaseEvaluableDrawer.k_curveWidth
+  fullName: ToolkitEditor.BaseEvaluableDrawer.k_curveWidth
+  nameWithType: BaseEvaluableDrawer.k_curveWidth
+- uid: ToolkitEditor.BaseEvaluableDrawer.k_enabledWidth
+  name: k_enabledWidth
+  href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_k_enabledWidth
+  commentId: F:ToolkitEditor.BaseEvaluableDrawer.k_enabledWidth
+  fullName: ToolkitEditor.BaseEvaluableDrawer.k_enabledWidth
+  nameWithType: BaseEvaluableDrawer.k_enabledWidth
 - uid: ToolkitEditor.BaseEvaluableDrawer.knownPropertyNames
   name: knownPropertyNames
   href: api/ToolkitEditor.BaseEvaluableDrawer.html#ToolkitEditor_BaseEvaluableDrawer_knownPropertyNames
