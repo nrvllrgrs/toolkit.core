@@ -405,6 +405,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.CommentEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.CommentEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.CommentOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.CommentOverlay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.CommentSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.CommentSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.FacingEventsEditor.yml",
       "output": {
         ".html": {
@@ -899,6 +929,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.CollisionPreSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Comment.html"
         }
       },
       "version": ""
@@ -2467,11 +2507,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2490,11 +2530,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".html": {
-          "relative_path": "changelog/toc.html"
-        },
         ".json": {
           "relative_path": "changelog/toc.json"
+        },
+        ".html": {
+          "relative_path": "changelog/toc.html"
         }
       },
       "version": ""
@@ -2523,11 +2563,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".html": {
-          "relative_path": "license/toc.html"
-        },
         ".json": {
           "relative_path": "license/toc.json"
+        },
+        ".html": {
+          "relative_path": "license/toc.html"
         }
       },
       "version": ""
@@ -2546,11 +2586,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

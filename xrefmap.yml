@@ -1649,6 +1649,113 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.BaseToolkitEditor.knownSerializedPropertyNames
   nameWithType: BaseToolkitEditor.knownSerializedPropertyNames
+- uid: ToolkitEditor.CommentEditor
+  name: CommentEditor
+  href: api/ToolkitEditor.CommentEditor.html
+  commentId: T:ToolkitEditor.CommentEditor
+  fullName: ToolkitEditor.CommentEditor
+  nameWithType: CommentEditor
+- uid: ToolkitEditor.CommentEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_DrawProperties
+  commentId: M:ToolkitEditor.CommentEditor.DrawProperties
+  fullName: ToolkitEditor.CommentEditor.DrawProperties()
+  nameWithType: CommentEditor.DrawProperties()
+- uid: ToolkitEditor.CommentEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.CommentEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.CommentEditor.DrawProperties
+  nameWithType: CommentEditor.DrawProperties
+- uid: ToolkitEditor.CommentEditor.m_author
+  name: m_author
+  href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_m_author
+  commentId: F:ToolkitEditor.CommentEditor.m_author
+  fullName: ToolkitEditor.CommentEditor.m_author
+  nameWithType: CommentEditor.m_author
+- uid: ToolkitEditor.CommentEditor.m_text
+  name: m_text
+  href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_m_text
+  commentId: F:ToolkitEditor.CommentEditor.m_text
+  fullName: ToolkitEditor.CommentEditor.m_text
+  nameWithType: CommentEditor.m_text
+- uid: ToolkitEditor.CommentOverlay
+  name: CommentOverlay
+  href: api/ToolkitEditor.CommentOverlay.html
+  commentId: T:ToolkitEditor.CommentOverlay
+  fullName: ToolkitEditor.CommentOverlay
+  nameWithType: CommentOverlay
+- uid: ToolkitEditor.CommentOverlay.#ctor
+  name: CommentOverlay()
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay__ctor
+  commentId: M:ToolkitEditor.CommentOverlay.#ctor
+  name.vb: New()
+  fullName: ToolkitEditor.CommentOverlay.CommentOverlay()
+  fullName.vb: ToolkitEditor.CommentOverlay.New()
+  nameWithType: CommentOverlay.CommentOverlay()
+  nameWithType.vb: CommentOverlay.New()
+- uid: ToolkitEditor.CommentOverlay.#ctor*
+  name: CommentOverlay
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay__ctor_
+  commentId: Overload:ToolkitEditor.CommentOverlay.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEditor.CommentOverlay.CommentOverlay
+  fullName.vb: ToolkitEditor.CommentOverlay.New
+  nameWithType: CommentOverlay.CommentOverlay
+  nameWithType.vb: CommentOverlay.New
+- uid: ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent
+  name: CreateHorizontalToolbarContent()
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay_CreateHorizontalToolbarContent
+  commentId: M:ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent
+  fullName: ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent()
+  nameWithType: CommentOverlay.CreateHorizontalToolbarContent()
+- uid: ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent*
+  name: CreateHorizontalToolbarContent
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay_CreateHorizontalToolbarContent_
+  commentId: Overload:ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent
+  isSpec: "True"
+  fullName: ToolkitEditor.CommentOverlay.CreateHorizontalToolbarContent
+  nameWithType: CommentOverlay.CreateHorizontalToolbarContent
+- uid: ToolkitEditor.CommentOverlay.CreatePanelContent
+  name: CreatePanelContent()
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay_CreatePanelContent
+  commentId: M:ToolkitEditor.CommentOverlay.CreatePanelContent
+  fullName: ToolkitEditor.CommentOverlay.CreatePanelContent()
+  nameWithType: CommentOverlay.CreatePanelContent()
+- uid: ToolkitEditor.CommentOverlay.CreatePanelContent*
+  name: CreatePanelContent
+  href: api/ToolkitEditor.CommentOverlay.html#ToolkitEditor_CommentOverlay_CreatePanelContent_
+  commentId: Overload:ToolkitEditor.CommentOverlay.CreatePanelContent
+  isSpec: "True"
+  fullName: ToolkitEditor.CommentOverlay.CreatePanelContent
+  nameWithType: CommentOverlay.CreatePanelContent
+- uid: ToolkitEditor.CommentSystem
+  name: CommentSystem
+  href: api/ToolkitEditor.CommentSystem.html
+  commentId: T:ToolkitEditor.CommentSystem
+  fullName: ToolkitEditor.CommentSystem
+  nameWithType: CommentSystem
+- uid: ToolkitEditor.CommentSystem.ACTIVE_SAVE_VAR
+  name: ACTIVE_SAVE_VAR
+  href: api/ToolkitEditor.CommentSystem.html#ToolkitEditor_CommentSystem_ACTIVE_SAVE_VAR
+  commentId: F:ToolkitEditor.CommentSystem.ACTIVE_SAVE_VAR
+  fullName: ToolkitEditor.CommentSystem.ACTIVE_SAVE_VAR
+  nameWithType: CommentSystem.ACTIVE_SAVE_VAR
+- uid: ToolkitEditor.CommentSystem.isOn
+  name: isOn
+  href: api/ToolkitEditor.CommentSystem.html#ToolkitEditor_CommentSystem_isOn
+  commentId: P:ToolkitEditor.CommentSystem.isOn
+  fullName: ToolkitEditor.CommentSystem.isOn
+  nameWithType: CommentSystem.isOn
+- uid: ToolkitEditor.CommentSystem.isOn*
+  name: isOn
+  href: api/ToolkitEditor.CommentSystem.html#ToolkitEditor_CommentSystem_isOn_
+  commentId: Overload:ToolkitEditor.CommentSystem.isOn
+  isSpec: "True"
+  fullName: ToolkitEditor.CommentSystem.isOn
+  nameWithType: CommentSystem.isOn
 - uid: ToolkitEditor.FacingEventsEditor
   name: FacingEventsEditor
   href: api/ToolkitEditor.FacingEventsEditor.html
@@ -3930,6 +4037,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.CollisionPreSpawnRule.Process
   nameWithType: CollisionPreSpawnRule.Process
+- uid: ToolkitEngine.Comment
+  name: Comment
+  href: api/ToolkitEngine.Comment.html
+  commentId: T:ToolkitEngine.Comment
+  fullName: ToolkitEngine.Comment
+  nameWithType: Comment
 - uid: ToolkitEngine.ConditionFilter
   name: ConditionFilter
   href: api/ToolkitEngine.ConditionFilter.html

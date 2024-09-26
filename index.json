@@ -192,7 +192,22 @@
   "api/ToolkitEditor.BaseToolkitEditor.html": {
     "href": "api/ToolkitEditor.BaseToolkitEditor.html",
     "title": "Class BaseToolkitEditor | Core Toolkit | 1.0.0",
-    "keywords": "Class BaseToolkitEditor Namespace ToolkitEditor public abstract class BaseToolkitEditor : Editor Inheritance object BaseToolkitEditor Derived FacingEventsEditor LookAtCameraEditor PoolItemManagerEditor TransformShakeEditor WaveSpawnerEditor Properties knownSerializedPropertyNames The SerializeField names of all SerializedProperty fields defined in the Editor (including derived types). protected string[] knownSerializedPropertyNames { get; set; } Property Value string[] See Also InitializeKnownSerializedPropertyNames() Methods DrawEvents() protected virtual void DrawEvents() DrawInspector() protected virtual void DrawInspector() DrawNestedEvents() protected virtual void DrawNestedEvents() DrawProperties() protected virtual void DrawProperties() InitializeKnownSerializedPropertyNames() protected virtual void InitializeKnownSerializedPropertyNames() OnInspectorGUI() public override void OnInspectorGUI()"
+    "keywords": "Class BaseToolkitEditor Namespace ToolkitEditor public abstract class BaseToolkitEditor : Editor Inheritance object BaseToolkitEditor Derived CommentEditor FacingEventsEditor LookAtCameraEditor PoolItemManagerEditor TransformShakeEditor WaveSpawnerEditor Properties knownSerializedPropertyNames The SerializeField names of all SerializedProperty fields defined in the Editor (including derived types). protected string[] knownSerializedPropertyNames { get; set; } Property Value string[] See Also InitializeKnownSerializedPropertyNames() Methods DrawEvents() protected virtual void DrawEvents() DrawInspector() protected virtual void DrawInspector() DrawNestedEvents() protected virtual void DrawNestedEvents() DrawProperties() protected virtual void DrawProperties() InitializeKnownSerializedPropertyNames() protected virtual void InitializeKnownSerializedPropertyNames() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.CommentEditor.html": {
+    "href": "api/ToolkitEditor.CommentEditor.html",
+    "title": "Class CommentEditor | Core Toolkit | 1.0.0",
+    "keywords": "Class CommentEditor Namespace ToolkitEditor public class CommentEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor CommentEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields m_author protected SerializedProperty m_author Field Value SerializedProperty m_text protected SerializedProperty m_text Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.CommentOverlay.html": {
+    "href": "api/ToolkitEditor.CommentOverlay.html",
+    "title": "Class CommentOverlay | Core Toolkit | 1.0.0",
+    "keywords": "Class CommentOverlay Namespace ToolkitEditor public class CommentOverlay : Overlay, ICreateHorizontalToolbar Inheritance object CommentOverlay Implements ICreateHorizontalToolbar Constructors CommentOverlay() public CommentOverlay() Methods CreateHorizontalToolbarContent() public OverlayToolbar CreateHorizontalToolbarContent() Returns OverlayToolbar CreatePanelContent() public override VisualElement CreatePanelContent() Returns VisualElement"
+  },
+  "api/ToolkitEditor.CommentSystem.html": {
+    "href": "api/ToolkitEditor.CommentSystem.html",
+    "title": "Class CommentSystem | Core Toolkit | 1.0.0",
+    "keywords": "Class CommentSystem Namespace ToolkitEditor public static class CommentSystem Inheritance object CommentSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields ACTIVE_SAVE_VAR public const string ACTIVE_SAVE_VAR = \"CommentSystem.isOn\" Field Value string Properties isOn public static bool isOn { get; set; } Property Value bool"
   },
   "api/ToolkitEditor.FacingEventsEditor.html": {
     "href": "api/ToolkitEditor.FacingEventsEditor.html",
@@ -377,7 +392,7 @@
   "api/ToolkitEditor.html": {
     "href": "api/ToolkitEditor.html",
     "title": "Namespace ToolkitEditor | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor FacingEventsEditor FloatRemapperEditor LookAtCameraEditor NestedDrawer ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Interfaces INestableEditor Enums UnityConditionArgumenDrawer.MemberType"
+    "keywords": "Namespace ToolkitEditor Classes AssetUtility BaseEvaluableDrawer BaseEvaluatorDrawer BaseFilterDrawer BaseRemapperEditor BaseToolkitEditor CommentEditor CommentOverlay CommentSystem FacingEventsEditor FloatRemapperEditor LookAtCameraEditor NestedDrawer ObjectActivationDrawer ObjectSpawnerControlEditor ObjectSpawnerEditor PoolItemEditor PoolItemManagerEditor PoolItemSpawnerDrawer SetEditor SpawnerDrawer TimedCurveEditor TransformShakeEditor TransformShakeEditor.ShakeSettingsEditor UnityConditionArgumenDrawer UnityConditionDrawer UnityElectorDrawer UnityEvaluatorDrawer UnityFloatDrawer UnityValueDrawer<T> Vector3RemapperEditor WaveDrawer WaveSpawnerEditor Interfaces INestableEditor Enums UnityConditionArgumenDrawer.MemberType"
   },
   "api/ToolkitEngine.AngleEvaluator.html": {
     "href": "api/ToolkitEngine.AngleEvaluator.html",
@@ -443,6 +458,11 @@
     "href": "api/ToolkitEngine.CollisionPreSpawnRule.html",
     "title": "Class CollisionPreSpawnRule | Core Toolkit | 1.0.0",
     "keywords": "Class CollisionPreSpawnRule Namespace ToolkitEngine public class CollisionPreSpawnRule : BasePreSpawnRule Inheritance object BasePreSpawnRule CollisionPreSpawnRule Methods Process(ObjectSpawner, GameObject, ref Vector3, ref Quaternion) public override bool Process(ObjectSpawner spawner, GameObject template, ref Vector3 position, ref Quaternion rotation) Parameters spawner ObjectSpawner template GameObject position Vector3 rotation Quaternion Returns bool"
+  },
+  "api/ToolkitEngine.Comment.html": {
+    "href": "api/ToolkitEngine.Comment.html",
+    "title": "Class Comment | Core Toolkit | 1.0.0",
+    "keywords": "Class Comment Namespace ToolkitEngine public sealed class Comment : MonoBehaviour Inheritance object Comment"
   },
   "api/ToolkitEngine.ConditionFilter.html": {
     "href": "api/ToolkitEngine.ConditionFilter.html",
@@ -1107,7 +1127,7 @@
   "api/ToolkitEngine.html": {
     "href": "api/ToolkitEngine.html",
     "title": "Namespace ToolkitEngine | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine Classes AngleEvaluator AnimatorStatePostSpawnRule AttachmentPostSpawnRule AttachmentRecycler AxisUtil BaseCompareFilter<T> BaseEvaluator BaseFilter BasePostSpawnRule BasePreSpawnRule BaseRemapper<T> CollisionPreSpawnRule ConditionFilter CoroutineUtil DestroyHandler DistanceEvaluator DistanceFilter EvaluableCategoryAttribute EvaluatorValue FacingEvents FloatRemapper GameObjectFilter GizmosUtil LOSFilter LabelFilter LabelType Labels Lifetime LookAtCamera NavMeshPathDistanceEvaluator NavMeshPreSpawnRule NestedAttribute ObjectActivation ObjectSpawner ObjectSpawnerControl OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ParticleSystemStoppedHandler PhysicsUtil PoolItem PoolItemManager PoolItemSpawner<T> ScriptMachinePostSpawnRule SerializableDictionaryDrawer SerializableDictionary<TKey, TValue> Set ShaderUtil ShakeTransform ShakeTransform.BaseSettings ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Spawner SpawnerEventArgs SplineAnimatePostSpawnRule TagFilter TargetingPoints TimedCurve ToolkitUtil UnityCondition UnityElector UnityElector<T> UnityEvaluator UnityFloat UnityValue UnityValue<T> Vector3Remapper WaveSpawner WaveSpawner.Wave Interfaces IEvaluable IKillable IPoolItemRecyclable Enums Axis LookAtCamera.LookStyle ObjectSpawner.OrderMode ObjectSpawner.SpawnSpace OverrideRigidbodyPostSpawnRule.OverrideMethod PoolItemSpawner<T>.CapacityMode Spawner.SpawnType UnityCondition.CompareOperatorType UnityCondition.ConditionType UnityElector.RandomnessMode UnityElector.SelectionMode UnityValue.ValueType WaveSpawner.NextMode Delegates SpawnedAction"
+    "keywords": "Namespace ToolkitEngine Classes AngleEvaluator AnimatorStatePostSpawnRule AttachmentPostSpawnRule AttachmentRecycler AxisUtil BaseCompareFilter<T> BaseEvaluator BaseFilter BasePostSpawnRule BasePreSpawnRule BaseRemapper<T> CollisionPreSpawnRule Comment ConditionFilter CoroutineUtil DestroyHandler DistanceEvaluator DistanceFilter EvaluableCategoryAttribute EvaluatorValue FacingEvents FloatRemapper GameObjectFilter GizmosUtil LOSFilter LabelFilter LabelType Labels Lifetime LookAtCamera NavMeshPathDistanceEvaluator NavMeshPreSpawnRule NestedAttribute ObjectActivation ObjectSpawner ObjectSpawnerControl OverrideRigidbodyPostSpawnRule ParentPostSpawnRule ParticleSystemStoppedHandler PhysicsUtil PoolItem PoolItemManager PoolItemSpawner<T> ScriptMachinePostSpawnRule SerializableDictionaryDrawer SerializableDictionary<TKey, TValue> Set ShaderUtil ShakeTransform ShakeTransform.BaseSettings ShakeTransform.PositionSettings ShakeTransform.RotationSettings ShakeTransform.ScaleSettings Spawner SpawnerEventArgs SplineAnimatePostSpawnRule TagFilter TargetingPoints TimedCurve ToolkitUtil UnityCondition UnityElector UnityElector<T> UnityEvaluator UnityFloat UnityValue UnityValue<T> Vector3Remapper WaveSpawner WaveSpawner.Wave Interfaces IEvaluable IKillable IPoolItemRecyclable Enums Axis LookAtCamera.LookStyle ObjectSpawner.OrderMode ObjectSpawner.SpawnSpace OverrideRigidbodyPostSpawnRule.OverrideMethod PoolItemSpawner<T>.CapacityMode Spawner.SpawnType UnityCondition.CompareOperatorType UnityCondition.ConditionType UnityElector.RandomnessMode UnityElector.SelectionMode UnityValue.ValueType WaveSpawner.NextMode Delegates SpawnedAction"
   },
   "api/Unity.VisualScripting.Count.Data.html": {
     "href": "api/Unity.VisualScripting.Count.Data.html",
