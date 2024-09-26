@@ -197,7 +197,7 @@
   "api/ToolkitEditor.CommentEditor.html": {
     "href": "api/ToolkitEditor.CommentEditor.html",
     "title": "Class CommentEditor | Core Toolkit | 1.0.0",
-    "keywords": "Class CommentEditor Namespace ToolkitEditor public class CommentEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor CommentEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields m_author protected SerializedProperty m_author Field Value SerializedProperty m_text protected SerializedProperty m_text Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
+    "keywords": "Class CommentEditor Namespace ToolkitEditor public class CommentEditor : BaseToolkitEditor Inheritance object BaseToolkitEditor CommentEditor Inherited Members BaseToolkitEditor.knownSerializedPropertyNames BaseToolkitEditor.OnInspectorGUI() BaseToolkitEditor.InitializeKnownSerializedPropertyNames() BaseToolkitEditor.DrawInspector() BaseToolkitEditor.DrawEvents() BaseToolkitEditor.DrawNestedEvents() Fields m_author protected SerializedProperty m_author Field Value SerializedProperty m_date protected SerializedProperty m_date Field Value SerializedProperty m_text protected SerializedProperty m_text Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
   },
   "api/ToolkitEditor.CommentOverlay.html": {
     "href": "api/ToolkitEditor.CommentOverlay.html",

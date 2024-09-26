@@ -1674,6 +1674,12 @@ references:
   commentId: F:ToolkitEditor.CommentEditor.m_author
   fullName: ToolkitEditor.CommentEditor.m_author
   nameWithType: CommentEditor.m_author
+- uid: ToolkitEditor.CommentEditor.m_date
+  name: m_date
+  href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_m_date
+  commentId: F:ToolkitEditor.CommentEditor.m_date
+  fullName: ToolkitEditor.CommentEditor.m_date
+  nameWithType: CommentEditor.m_date
 - uid: ToolkitEditor.CommentEditor.m_text
   name: m_text
   href: api/ToolkitEditor.CommentEditor.html#ToolkitEditor_CommentEditor_m_text
