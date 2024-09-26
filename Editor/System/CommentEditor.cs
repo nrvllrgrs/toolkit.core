@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Reflection;
 using UnityEngine;
 using UnityEditor;
@@ -13,6 +14,7 @@ namespace ToolkitEditor
 
 		protected SerializedProperty m_text;
 		protected SerializedProperty m_author;
+		protected SerializedProperty m_date;
 
 		#endregion
 
@@ -22,6 +24,7 @@ namespace ToolkitEditor
 		{
 			m_text = serializedObject.FindProperty(nameof(m_text));
 			m_author = serializedObject.FindProperty(nameof(m_author));
+			m_date = serializedObject.FindProperty(nameof(m_date));
 		}
 
 		protected override void DrawProperties()
@@ -47,10 +50,15 @@ namespace ToolkitEditor
 				string displayName = userInfoType.GetProperty("displayName").GetValue(userInfo, null) as string;
 
 				m_author.stringValue = displayName;
+				m_date.longValue = DateTime.UtcNow.Ticks;
 			}
 
 			EditorGUI.BeginDisabledGroup(true);
 			EditorGUILayout.PropertyField(m_author);
+
+			var date = new DateTime(m_date.longValue);
+			EditorGUILayout.TextField("Date", date.ToLocalTime().ToString("g", CultureInfo.CurrentCulture));
+
 			EditorGUI.EndDisabledGroup();
 		}
 

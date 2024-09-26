@@ -14,6 +14,9 @@ namespace ToolkitEngine
 		private string m_author;
 
 		[SerializeField]
+		private long m_date;
+
+		[SerializeField]
 		private bool m_showInScene = true;
 
 		#endregion
