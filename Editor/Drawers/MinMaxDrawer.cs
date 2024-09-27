@@ -7,11 +7,12 @@ public class MinMaxDrawer : PropertyDrawer
 	public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 	{
 		var minMaxAttr = attribute as MinMaxAttribute;
+		label.tooltip = property.tooltip;
 
 		if (property.propertyType == SerializedPropertyType.Vector2)
 		{
 			Vector2 value = property.vector2Value;
-			EditorGUIRectLayout.LabelField(ref position, property.displayName);
+			EditorGUIRectLayout.LabelField(ref position, label);
 
 			++EditorGUI.indentLevel;
 
@@ -38,7 +39,7 @@ public class MinMaxDrawer : PropertyDrawer
 		else if (property.propertyType == SerializedPropertyType.Vector2Int)
 		{
 			Vector2Int value = property.vector2IntValue;
-			EditorGUIRectLayout.LabelField(ref position, property.displayName);
+			EditorGUIRectLayout.LabelField(ref position, label);
 
 			++EditorGUI.indentLevel;
 
