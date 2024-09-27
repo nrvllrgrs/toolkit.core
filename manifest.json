@@ -925,6 +925,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ColliderAngleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ColliderAngleFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.CollisionPreSpawnRule.yml",
       "output": {
         ".html": {

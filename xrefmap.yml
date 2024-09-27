@@ -4021,6 +4021,25 @@ references:
   fullName.vb: ToolkitEngine.BaseRemapper(Of T).m_dstMinValue
   nameWithType: BaseRemapper<T>.m_dstMinValue
   nameWithType.vb: BaseRemapper(Of T).m_dstMinValue
+- uid: ToolkitEngine.ColliderAngleFilter
+  name: ColliderAngleFilter
+  href: api/ToolkitEngine.ColliderAngleFilter.html
+  commentId: T:ToolkitEngine.ColliderAngleFilter
+  fullName: ToolkitEngine.ColliderAngleFilter
+  nameWithType: ColliderAngleFilter
+- uid: ToolkitEngine.ColliderAngleFilter.IsIncluded(GameObject,GameObject,Vector3)
+  name: IsIncluded(GameObject, GameObject, Vector3)
+  href: api/ToolkitEngine.ColliderAngleFilter.html#ToolkitEngine_ColliderAngleFilter_IsIncluded_GameObject_GameObject_Vector3_
+  commentId: M:ToolkitEngine.ColliderAngleFilter.IsIncluded(GameObject,GameObject,Vector3)
+  fullName: ToolkitEngine.ColliderAngleFilter.IsIncluded(GameObject, GameObject, Vector3)
+  nameWithType: ColliderAngleFilter.IsIncluded(GameObject, GameObject, Vector3)
+- uid: ToolkitEngine.ColliderAngleFilter.IsIncluded*
+  name: IsIncluded
+  href: api/ToolkitEngine.ColliderAngleFilter.html#ToolkitEngine_ColliderAngleFilter_IsIncluded_
+  commentId: Overload:ToolkitEngine.ColliderAngleFilter.IsIncluded
+  isSpec: "True"
+  fullName: ToolkitEngine.ColliderAngleFilter.IsIncluded
+  nameWithType: ColliderAngleFilter.IsIncluded
 - uid: ToolkitEngine.CollisionPreSpawnRule
   name: CollisionPreSpawnRule
   href: api/ToolkitEngine.CollisionPreSpawnRule.html
