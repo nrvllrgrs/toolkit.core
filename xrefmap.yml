@@ -3521,6 +3521,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.AngleEvaluator.minAngle
   nameWithType: AngleEvaluator.minAngle
+- uid: ToolkitEngine.AngleFilter
+  name: AngleFilter
+  href: api/ToolkitEngine.AngleFilter.html
+  commentId: T:ToolkitEngine.AngleFilter
+  fullName: ToolkitEngine.AngleFilter
+  nameWithType: AngleFilter
+- uid: ToolkitEngine.AngleFilter.IsIncluded(GameObject,GameObject,Vector3)
+  name: IsIncluded(GameObject, GameObject, Vector3)
+  href: api/ToolkitEngine.AngleFilter.html#ToolkitEngine_AngleFilter_IsIncluded_GameObject_GameObject_Vector3_
+  commentId: M:ToolkitEngine.AngleFilter.IsIncluded(GameObject,GameObject,Vector3)
+  fullName: ToolkitEngine.AngleFilter.IsIncluded(GameObject, GameObject, Vector3)
+  nameWithType: AngleFilter.IsIncluded(GameObject, GameObject, Vector3)
+- uid: ToolkitEngine.AngleFilter.IsIncluded*
+  name: IsIncluded
+  href: api/ToolkitEngine.AngleFilter.html#ToolkitEngine_AngleFilter_IsIncluded_
+  commentId: Overload:ToolkitEngine.AngleFilter.IsIncluded
+  isSpec: "True"
+  fullName: ToolkitEngine.AngleFilter.IsIncluded
+  nameWithType: AngleFilter.IsIncluded
 - uid: ToolkitEngine.AnimatorStatePostSpawnRule
   name: AnimatorStatePostSpawnRule
   href: api/ToolkitEngine.AnimatorStatePostSpawnRule.html

@@ -815,6 +815,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AngleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AngleFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.AnimatorStatePostSpawnRule.yml",
       "output": {
         ".html": {
