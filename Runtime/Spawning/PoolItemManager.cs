@@ -9,7 +9,7 @@ namespace ToolkitEngine
 		#region Fields
 
 		[SerializeField]
-		private PoolItemSpawner<PoolItem>[] m_spawners;
+		private PoolItemManagerConfig m_config;
 
 		private static Dictionary<PoolItem, PoolItemSpawner<PoolItem>> m_map = new();
 
@@ -19,9 +19,17 @@ namespace ToolkitEngine
 
 		protected override void Initialize()
 		{
-			foreach (var spawner in m_spawners)
+			foreach (var spawner in m_config.spawners)
 			{
 				m_map.Add(spawner.template, spawner);
+			}
+		}
+
+		protected override void Terminate()
+		{
+			foreach (var spawner in m_config.spawners)
+			{
+				spawner.Clear();
 			}
 		}
 

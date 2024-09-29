@@ -1,31 +1,49 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Pool;
 
 namespace ToolkitEngine
 {
-    [System.Serializable]
+    public sealed class PoolItemSpawner
+    {
+		#region Enumerators
+
+		public enum SourceType
+		{
+			Internal,
+			Direct,
+			Global
+		}
+
+		#endregion
+	}
+
+	[System.Serializable]
     public sealed class PoolItemSpawner<T>
         where T : PoolItem
     {
-        #region Enumerators
+		#region Enumerators
 
-        public enum CapacityMode
+		public enum CapacityMode
         {
             Overflow,
             AutoRelease,
             Block,
         }
 
-        #endregion
+		#endregion
 
-        #region Fields
+		#region Fields
 
-        [SerializeField]
+		[SerializeField]
         private T m_template;
 
         [SerializeField]
-        private bool m_global;
+        private PoolItemSpawner.SourceType m_source;
+
+        [SerializeField]
+        private ObjectSpawner m_spawner;
 
         /// <summary>
         /// Collection checks are performed when an instance is returned back to the pool. An exception will be thrown if the instance is already in the pool.
@@ -39,7 +57,7 @@ namespace ToolkitEngine
         [SerializeField]
         private CapacityMode m_capacityMode;
 
-        private ObjectPool<T> m_pool;
+        private ObjectPool<T> m_objectPool;
 
         /// <summary>
         /// Use for limit type
@@ -75,19 +93,28 @@ namespace ToolkitEngine
             }
         }
 
-        private ObjectPool<T> pool
+        internal ObjectPool<T> objectPool
         {
             get
             {
-                if (m_pool == null)
-                {
-                    m_pool = new ObjectPool<T>(_CreatePoolItem, _OnGetPoolItem, _OnReleasePoolItem, _OnDestroyPoolItem, m_collectionCheck, 1, m_capacity);
-                }
-                return m_pool;
+				if (m_objectPool == null)
+				{
+					if (m_source == PoolItemSpawner.SourceType.Internal)
+					{
+						m_objectPool = new ObjectPool<T>(_CreatePoolItem, _OnGetPoolItem, _OnReleasePoolItem, _OnDestroyPoolItem, m_collectionCheck, 1, m_capacity);
+					}
+                    else if (m_source == PoolItemSpawner.SourceType.Direct)
+                    {
+                        m_objectPool = m_spawner.objectPool as ObjectPool<T>;
+                    }
+				}
+                return m_objectPool;
             }
         }
 
-        public System.Action<T> onCreatePoolItem { get; set; }
+        private bool useGlobal => m_source == PoolItemSpawner.SourceType.Global;
+
+		public System.Action<T> onCreatePoolItem { get; set; }
         public System.Action<T> onGetPoolItem { get; set; }
         public System.Action<T> onReleasePoolItem { get; set; }
         public System.Action<T> onDestroyPoolItem { get; set; }
@@ -98,7 +125,7 @@ namespace ToolkitEngine
 
         public bool TryGet(out T item)
         {
-            if (!m_global)
+            if (!useGlobal)
             {
 				item = null;
 				if (!hasTemplate)
@@ -107,7 +134,7 @@ namespace ToolkitEngine
 				switch (m_capacityMode)
 				{
 					case CapacityMode.Overflow:
-						item = pool.Get();
+						item = objectPool.Get();
 						break;
 
 					case CapacityMode.AutoRelease:
@@ -117,15 +144,15 @@ namespace ToolkitEngine
 							item = m_queue[0];
 							m_queue.RemoveAt(0);
 
-							pool.Release(item);
+							objectPool.Release(item);
 						}
-						item = pool.Get();
+						item = objectPool.Get();
 						break;
 
 					case CapacityMode.Block:
 						if (m_queue.Count < m_capacity)
 						{
-							item = pool.Get();
+							item = objectPool.Get();
 						}
 						break;
 				}
@@ -144,9 +171,9 @@ namespace ToolkitEngine
 
         public void Release(T item)
         {
-            if (!m_global)
+            if (!useGlobal)
             {
-				pool.Release(item);
+				objectPool.Release(item);
 			}
             else if (PoolItemManager.Exists)
             {
@@ -156,9 +183,9 @@ namespace ToolkitEngine
 
         public void Clear()
         {
-            if (!m_global)
+            if (!useGlobal)
             {
-				pool.Clear();
+				objectPool.Clear();
 			}
         }
 
@@ -170,7 +197,7 @@ namespace ToolkitEngine
                 if (!m_queue.Contains(sender as T))
                     return;
 
-                pool.Release(sender as T);
+                objectPool.Release(sender as T);
             };
 
             onCreatePoolItem?.Invoke(item);

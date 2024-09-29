@@ -11,69 +11,83 @@ namespace ToolkitEditor
 
 		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 		{
-			var templateProp = property.FindPropertyRelative("m_template");
-			if (templateProp.objectReferenceValue == null)
-			{
-				EditorGUIRectLayout.HelpBox(ref position, "Template is required!", MessageType.Error);
-			}
-			EditorGUIRectLayout.PropertyField(ref position, templateProp);
+			var sourceProp = property.FindPropertyRelative("m_source");
+			var sourceValue = (PoolItemSpawner.SourceType)sourceProp.intValue;
 
-			var globalProp = property.FindPropertyRelative("m_global");
 			if (property.serializedObject.targetObject is Component)
 			{
-				// If component is PoolItemManager then must check locally (preventing infinite loop)
-				if (property.serializedObject.targetObject is PoolItemManager)
+				EditorGUIRectLayout.PropertyField(ref position, sourceProp);
+			}
+
+			if (sourceValue != PoolItemSpawner.SourceType.Direct)
+			{
+				var templateProp = property.FindPropertyRelative("m_template");
+				if (templateProp.objectReferenceValue == null)
 				{
-					globalProp.boolValue = false;
+					EditorGUIRectLayout.HelpBox(ref position, "Template is required!", MessageType.Error);
 				}
-				else
+				EditorGUIRectLayout.PropertyField(ref position, templateProp);
+			}
+
+			if (property.serializedObject.targetObject is Component)
+			{
+				switch (sourceValue)
 				{
-					EditorGUIRectLayout.PropertyField(ref position, globalProp);
-				}
-				
-				if (!globalProp.boolValue)
-				{
-					EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_collectionCheck"));
-					EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacity"));
-					EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacityMode"));
+					case PoolItemSpawner.SourceType.Internal:
+						EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_collectionCheck"));
+						EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacity"));
+						EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacityMode"));
+						break;
+
+					case PoolItemSpawner.SourceType.Direct:
+						EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_spawner"));
+						break;
 				}
 			}
 			// PoolItemSpawner on ScriptableObjects must be global
 			else
 			{
-				globalProp.boolValue = true;
+				sourceProp.intValue = (int)PoolItemSpawner.SourceType.Global;
 
 				EditorGUI.BeginDisabledGroup(true);
-				EditorGUIRectLayout.PropertyField(ref position, globalProp);
+				EditorGUIRectLayout.PropertyField(ref position, sourceProp);
 				EditorGUI.EndDisabledGroup();
 			}
 		}
 
 		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
 		{
-			var templateProp = property.FindPropertyRelative("m_template");
-			float height = EditorGUI.GetPropertyHeight(templateProp)
-				+ EditorGUIUtility.standardVerticalSpacing;
+			float height = 0f;
+			var sourceProp = property.FindPropertyRelative("m_source");
+			var sourceValue = (PoolItemSpawner.SourceType)sourceProp.intValue;
 
-			var globalProp = property.FindPropertyRelative("m_global");
-			if (!(property.serializedObject.targetObject is PoolItemManager))
+			SerializedProperty templateProp = null;
+			if (sourceValue != PoolItemSpawner.SourceType.Direct)
 			{
-				height += EditorGUI.GetPropertyHeight(globalProp)
+				templateProp = property.FindPropertyRelative("m_template");
+				height += EditorGUI.GetPropertyHeight(templateProp)
 					+ EditorGUIUtility.standardVerticalSpacing;
 			}
 
-			if (property.serializedObject.targetObject is Component)
+			height += EditorGUI.GetPropertyHeight(sourceProp)
+					+ EditorGUIUtility.standardVerticalSpacing;
+
+			switch ((PoolItemSpawner.SourceType)sourceProp.intValue)
 			{
-				if (!globalProp.boolValue)
-				{
+				case PoolItemSpawner.SourceType.Internal:
 					height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_collectionCheck"))
 						+ EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_capacity"))
 						+ EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_capacityMode"))
 						+ (EditorGUIUtility.standardVerticalSpacing * 3f);
-				}
+					break;
+
+				case PoolItemSpawner.SourceType.Direct:
+					height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_spawner"))
+						+ EditorGUIUtility.standardVerticalSpacing;
+					break;
 			}
 
-			if (templateProp.objectReferenceValue == null)
+			if (templateProp != null && templateProp.objectReferenceValue == null)
 			{
 				height += EditorGUIRectLayout.GetHelpboxHeight("Template is required!");
 			}

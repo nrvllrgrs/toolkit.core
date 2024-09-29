@@ -9,7 +9,7 @@ namespace ToolkitEditor
 		#region Fields
 
 		protected SerializedProperty m_dontDestroyOnLoad;
-		protected SerializedProperty m_spawners;
+		protected SerializedProperty m_config;
 
 		#endregion
 
@@ -18,13 +18,13 @@ namespace ToolkitEditor
 		protected virtual void OnEnable()
 		{
 			m_dontDestroyOnLoad = serializedObject.FindProperty(nameof(m_dontDestroyOnLoad));
-			m_spawners = serializedObject.FindProperty(nameof(m_spawners));
+			m_config = serializedObject.FindProperty(nameof(m_config));
 		}
 
 		protected override void DrawProperties()
 		{
 			EditorGUILayout.PropertyField(m_dontDestroyOnLoad);
-			EditorGUILayout.PropertyField(m_spawners);
+			EditorGUILayout.PropertyField(m_config);
 		}
 
 		#endregion

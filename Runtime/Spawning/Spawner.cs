@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
+using UnityEngine.Pool;
 
 #if ADDRESSABLE_ASSETS
 using UnityEngine.AddressableAssets;
@@ -124,6 +125,8 @@ namespace ToolkitEngine
 				return false;
 			}
 		}
+
+		internal ObjectPool<PoolItem> objectPool => m_spawnType == SpawnType.ObjectPool ? m_pool.objectPool : null;
 
 		public GameObject template
 		{

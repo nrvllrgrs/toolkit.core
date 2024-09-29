@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Pool;
 
 #if ADDRESSABLE_ASSETS
 using UnityEngine.AddressableAssets;
@@ -101,6 +102,8 @@ namespace ToolkitEngine
 					: new Transform[] { transform };
 			}
 		}
+
+		internal ObjectPool<PoolItem> objectPool => m_spawner.objectPool;
 
 		#endregion
 
