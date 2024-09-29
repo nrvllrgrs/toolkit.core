@@ -1415,6 +1415,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.RendererLayerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.RendererLayerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Rendering.yml",
       "output": {
         ".html": {

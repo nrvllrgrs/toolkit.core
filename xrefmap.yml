@@ -6394,6 +6394,53 @@ references:
   commentId: T:ToolkitEngine.Rendering.RangeMaterialModifier
   fullName: ToolkitEngine.Rendering.RangeMaterialModifier
   nameWithType: RangeMaterialModifier
+- uid: ToolkitEngine.Rendering.RendererLayerControl
+  name: RendererLayerControl
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html
+  commentId: T:ToolkitEngine.Rendering.RendererLayerControl
+  fullName: ToolkitEngine.Rendering.RendererLayerControl
+  nameWithType: RendererLayerControl
+- uid: ToolkitEngine.Rendering.RendererLayerControl.ResetLayer
+  name: ResetLayer()
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_ResetLayer
+  commentId: M:ToolkitEngine.Rendering.RendererLayerControl.ResetLayer
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.ResetLayer()
+  nameWithType: RendererLayerControl.ResetLayer()
+- uid: ToolkitEngine.Rendering.RendererLayerControl.ResetLayer*
+  name: ResetLayer
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_ResetLayer_
+  commentId: Overload:ToolkitEngine.Rendering.RendererLayerControl.ResetLayer
+  isSpec: "True"
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.ResetLayer
+  nameWithType: RendererLayerControl.ResetLayer
+- uid: ToolkitEngine.Rendering.RendererLayerControl.SetLayer
+  name: SetLayer()
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_SetLayer
+  commentId: M:ToolkitEngine.Rendering.RendererLayerControl.SetLayer
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.SetLayer()
+  nameWithType: RendererLayerControl.SetLayer()
+- uid: ToolkitEngine.Rendering.RendererLayerControl.SetLayer(System.Int32)
+  name: SetLayer(int)
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_SetLayer_System_Int32_
+  commentId: M:ToolkitEngine.Rendering.RendererLayerControl.SetLayer(System.Int32)
+  name.vb: SetLayer(Integer)
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.SetLayer(int)
+  fullName.vb: ToolkitEngine.Rendering.RendererLayerControl.SetLayer(Integer)
+  nameWithType: RendererLayerControl.SetLayer(int)
+  nameWithType.vb: RendererLayerControl.SetLayer(Integer)
+- uid: ToolkitEngine.Rendering.RendererLayerControl.SetLayer*
+  name: SetLayer
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_SetLayer_
+  commentId: Overload:ToolkitEngine.Rendering.RendererLayerControl.SetLayer
+  isSpec: "True"
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.SetLayer
+  nameWithType: RendererLayerControl.SetLayer
+- uid: ToolkitEngine.Rendering.RendererLayerControl.m_layer
+  name: m_layer
+  href: api/ToolkitEngine.Rendering.RendererLayerControl.html#ToolkitEngine_Rendering_RendererLayerControl_m_layer
+  commentId: F:ToolkitEngine.Rendering.RendererLayerControl.m_layer
+  fullName: ToolkitEngine.Rendering.RendererLayerControl.m_layer
+  nameWithType: RendererLayerControl.m_layer
 - uid: ToolkitEngine.ScriptMachinePostSpawnRule
   name: ScriptMachinePostSpawnRule
   href: api/ToolkitEngine.ScriptMachinePostSpawnRule.html

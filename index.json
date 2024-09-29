@@ -699,10 +699,15 @@
     "title": "Class RangeMaterialModifier | Core Toolkit | 1.0.0",
     "keywords": "Class RangeMaterialModifier Namespace ToolkitEngine.Rendering public class RangeMaterialModifier : FloatMaterialModifier Inheritance object BaseMaterialModifier BaseMaterialModifier<float> FloatMaterialModifier RangeMaterialModifier Inherited Members FloatMaterialModifier.GetValue(float) FloatMaterialModifier.Set(Material, float) BaseMaterialModifier<float>.Awake() BaseMaterialModifier<float>.OnEnable() BaseMaterialModifier<float>.OnDestroy() BaseMaterialModifier<float>.Set(float) BaseMaterialModifier.m_propertyName BaseMaterialModifier.m_mode BaseMaterialModifier.m_renderers BaseMaterialModifier.m_shared BaseMaterialModifier.m_indices BaseMaterialModifier.m_materials BaseMaterialModifier.m_applyOnEnable BaseMaterialModifier.m_nameId"
   },
+  "api/ToolkitEngine.Rendering.RendererLayerControl.html": {
+    "href": "api/ToolkitEngine.Rendering.RendererLayerControl.html",
+    "title": "Class RendererLayerControl | Core Toolkit | 1.0.0",
+    "keywords": "Class RendererLayerControl Namespace ToolkitEngine.Rendering public class RendererLayerControl : MonoBehaviour Inheritance object RendererLayerControl Fields m_layer protected int m_layer Field Value int Methods ResetLayer() public void ResetLayer() SetLayer() public void SetLayer() SetLayer(int) public void SetLayer(int layer) Parameters layer int"
+  },
   "api/ToolkitEngine.Rendering.html": {
     "href": "api/ToolkitEngine.Rendering.html",
     "title": "Namespace ToolkitEngine.Rendering | Core Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.Rendering Classes BaseMaterialModifier BaseMaterialModifier<T> ColorMaterialModifier FloatMaterialModifier MaterialRecycler RangeMaterialModifier Enums BaseMaterialModifier.Mode"
+    "keywords": "Namespace ToolkitEngine.Rendering Classes BaseMaterialModifier BaseMaterialModifier<T> ColorMaterialModifier FloatMaterialModifier MaterialRecycler RangeMaterialModifier RendererLayerControl Enums BaseMaterialModifier.Mode"
   },
   "api/ToolkitEngine.ScriptMachinePostSpawnRule.html": {
     "href": "api/ToolkitEngine.ScriptMachinePostSpawnRule.html",
