@@ -135,7 +135,7 @@ namespace ToolkitEngine
 			}
 		}
 
-		public bool isBackwards => tweener.IsPlaying() && tweener.IsBackwards();
+		public bool isBackwards => tweener.IsBackwards();
 
 		private TweenerCore<float, float, FloatOptions> tweener
 		{
@@ -178,20 +178,20 @@ namespace ToolkitEngine
 
 		public void Play()
 		{
-			isPlaying = true;
 			tweener.Play();
+			isPlaying = true;
 		}
 
 		public void PlayForward()
 		{
-			isPlaying = true;
 			tweener.PlayForward();
+			isPlaying = true;
 		}
 
 		public void PlayBackwards()
 		{
-			isPlaying = true;
 			tweener.PlayBackwards();
+			isPlaying = true;
 		}
 
 		public void Play(bool value)
