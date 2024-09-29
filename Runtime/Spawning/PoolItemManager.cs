@@ -19,6 +19,9 @@ namespace ToolkitEngine
 
 		protected override void Initialize()
 		{
+			if (m_config == null)
+				return;
+
 			foreach (var spawner in m_config.spawners)
 			{
 				m_map.Add(spawner.template, spawner);
@@ -27,6 +30,9 @@ namespace ToolkitEngine
 
 		protected override void Terminate()
 		{
+			if (m_config == null)
+				return;
+
 			foreach (var spawner in m_config.spawners)
 			{
 				spawner.Clear();
