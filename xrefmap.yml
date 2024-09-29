@@ -2337,18 +2337,18 @@ references:
   isSpec: "True"
   fullName: ToolkitEditor.PoolItemManagerEditor.OnEnable
   nameWithType: PoolItemManagerEditor.OnEnable
+- uid: ToolkitEditor.PoolItemManagerEditor.m_config
+  name: m_config
+  href: api/ToolkitEditor.PoolItemManagerEditor.html#ToolkitEditor_PoolItemManagerEditor_m_config
+  commentId: F:ToolkitEditor.PoolItemManagerEditor.m_config
+  fullName: ToolkitEditor.PoolItemManagerEditor.m_config
+  nameWithType: PoolItemManagerEditor.m_config
 - uid: ToolkitEditor.PoolItemManagerEditor.m_dontDestroyOnLoad
   name: m_dontDestroyOnLoad
   href: api/ToolkitEditor.PoolItemManagerEditor.html#ToolkitEditor_PoolItemManagerEditor_m_dontDestroyOnLoad
   commentId: F:ToolkitEditor.PoolItemManagerEditor.m_dontDestroyOnLoad
   fullName: ToolkitEditor.PoolItemManagerEditor.m_dontDestroyOnLoad
   nameWithType: PoolItemManagerEditor.m_dontDestroyOnLoad
-- uid: ToolkitEditor.PoolItemManagerEditor.m_spawners
-  name: m_spawners
-  href: api/ToolkitEditor.PoolItemManagerEditor.html#ToolkitEditor_PoolItemManagerEditor_m_spawners
-  commentId: F:ToolkitEditor.PoolItemManagerEditor.m_spawners
-  fullName: ToolkitEditor.PoolItemManagerEditor.m_spawners
-  nameWithType: PoolItemManagerEditor.m_spawners
 - uid: ToolkitEditor.PoolItemSpawnerDrawer
   name: PoolItemSpawnerDrawer
   href: api/ToolkitEditor.PoolItemSpawnerDrawer.html
@@ -5889,6 +5889,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.PoolItemManager.Release
   nameWithType: PoolItemManager.Release
+- uid: ToolkitEngine.PoolItemManager.Terminate
+  name: Terminate()
+  href: api/ToolkitEngine.PoolItemManager.html#ToolkitEngine_PoolItemManager_Terminate
+  commentId: M:ToolkitEngine.PoolItemManager.Terminate
+  fullName: ToolkitEngine.PoolItemManager.Terminate()
+  nameWithType: PoolItemManager.Terminate()
+- uid: ToolkitEngine.PoolItemManager.Terminate*
+  name: Terminate
+  href: api/ToolkitEngine.PoolItemManager.html#ToolkitEngine_PoolItemManager_Terminate_
+  commentId: Overload:ToolkitEngine.PoolItemManager.Terminate
+  isSpec: "True"
+  fullName: ToolkitEngine.PoolItemManager.Terminate
+  nameWithType: PoolItemManager.Terminate
 - uid: ToolkitEngine.PoolItemManager.TryGet(ToolkitEngine.PoolItem,ToolkitEngine.PoolItem@)
   name: TryGet(PoolItem, out PoolItem)
   href: api/ToolkitEngine.PoolItemManager.html#ToolkitEngine_PoolItemManager_TryGet_ToolkitEngine_PoolItem_ToolkitEngine_PoolItem__
@@ -5905,6 +5918,55 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.PoolItemManager.TryGet
   nameWithType: PoolItemManager.TryGet
+- uid: ToolkitEngine.PoolItemManagerConfig
+  name: PoolItemManagerConfig
+  href: api/ToolkitEngine.PoolItemManagerConfig.html
+  commentId: T:ToolkitEngine.PoolItemManagerConfig
+  fullName: ToolkitEngine.PoolItemManagerConfig
+  nameWithType: PoolItemManagerConfig
+- uid: ToolkitEngine.PoolItemManagerConfig.spawners
+  name: spawners
+  href: api/ToolkitEngine.PoolItemManagerConfig.html#ToolkitEngine_PoolItemManagerConfig_spawners
+  commentId: P:ToolkitEngine.PoolItemManagerConfig.spawners
+  fullName: ToolkitEngine.PoolItemManagerConfig.spawners
+  nameWithType: PoolItemManagerConfig.spawners
+- uid: ToolkitEngine.PoolItemManagerConfig.spawners*
+  name: spawners
+  href: api/ToolkitEngine.PoolItemManagerConfig.html#ToolkitEngine_PoolItemManagerConfig_spawners_
+  commentId: Overload:ToolkitEngine.PoolItemManagerConfig.spawners
+  isSpec: "True"
+  fullName: ToolkitEngine.PoolItemManagerConfig.spawners
+  nameWithType: PoolItemManagerConfig.spawners
+- uid: ToolkitEngine.PoolItemSpawner
+  name: PoolItemSpawner
+  href: api/ToolkitEngine.PoolItemSpawner.html
+  commentId: T:ToolkitEngine.PoolItemSpawner
+  fullName: ToolkitEngine.PoolItemSpawner
+  nameWithType: PoolItemSpawner
+- uid: ToolkitEngine.PoolItemSpawner.SourceType
+  name: PoolItemSpawner.SourceType
+  href: api/ToolkitEngine.PoolItemSpawner.SourceType.html
+  commentId: T:ToolkitEngine.PoolItemSpawner.SourceType
+  fullName: ToolkitEngine.PoolItemSpawner.SourceType
+  nameWithType: PoolItemSpawner.SourceType
+- uid: ToolkitEngine.PoolItemSpawner.SourceType.Direct
+  name: Direct
+  href: api/ToolkitEngine.PoolItemSpawner.SourceType.html#ToolkitEngine_PoolItemSpawner_SourceType_Direct
+  commentId: F:ToolkitEngine.PoolItemSpawner.SourceType.Direct
+  fullName: ToolkitEngine.PoolItemSpawner.SourceType.Direct
+  nameWithType: PoolItemSpawner.SourceType.Direct
+- uid: ToolkitEngine.PoolItemSpawner.SourceType.Global
+  name: Global
+  href: api/ToolkitEngine.PoolItemSpawner.SourceType.html#ToolkitEngine_PoolItemSpawner_SourceType_Global
+  commentId: F:ToolkitEngine.PoolItemSpawner.SourceType.Global
+  fullName: ToolkitEngine.PoolItemSpawner.SourceType.Global
+  nameWithType: PoolItemSpawner.SourceType.Global
+- uid: ToolkitEngine.PoolItemSpawner.SourceType.Internal
+  name: Internal
+  href: api/ToolkitEngine.PoolItemSpawner.SourceType.html#ToolkitEngine_PoolItemSpawner_SourceType_Internal
+  commentId: F:ToolkitEngine.PoolItemSpawner.SourceType.Internal
+  fullName: ToolkitEngine.PoolItemSpawner.SourceType.Internal
+  nameWithType: PoolItemSpawner.SourceType.Internal
 - uid: ToolkitEngine.PoolItemSpawner`1
   name: PoolItemSpawner<T>
   href: api/ToolkitEngine.PoolItemSpawner-1.html

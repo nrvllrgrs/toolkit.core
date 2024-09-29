@@ -1325,6 +1325,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemManagerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemManagerConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.yml",
       "output": {
         ".html": {
@@ -1339,6 +1349,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.PoolItemSpawner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemSpawner.SourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemSpawner.SourceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PoolItemSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PoolItemSpawner.html"
         }
       },
       "version": ""

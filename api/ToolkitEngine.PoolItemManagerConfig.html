@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PoolItemSpawnerDrawer | Core Toolkit | 1.0.0 </title>
+      <title>Class PoolItemManagerConfig | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PoolItemSpawnerDrawer | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class PoolItemManagerConfig | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEditor_PoolItemSpawnerDrawer.md&amp;value=---%0Auid%3A%20ToolkitEditor.PoolItemSpawnerDrawer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_PoolItemManagerConfig.md&amp;value=---%0Auid%3A%20ToolkitEngine.PoolItemManagerConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEditor.PoolItemSpawnerDrawer">
+        <article data-uid="ToolkitEngine.PoolItemManagerConfig">
 
 
 
-  <h1 id="ToolkitEditor_PoolItemSpawnerDrawer" data-uid="ToolkitEditor.PoolItemSpawnerDrawer" class="text-break">
-Class PoolItemSpawnerDrawer  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Spawning/PoolItemSpawnerDrawer.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_PoolItemManagerConfig" data-uid="ToolkitEngine.PoolItemManagerConfig" class="text-break">
+Class PoolItemManagerConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManagerConfig.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEditor.html">ToolkitEditor</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class PoolItemSpawnerDrawer  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PoolItemSpawnerDrawer : PropertyDrawer</code></pre>
+    <pre><code class="lang-csharp hljs">public class PoolItemManagerConfig : ScriptableObject</code></pre>
   </div>
 
 
@@ -111,7 +111,7 @@ Class PoolItemSpawnerDrawer  <a class="header-action link-secondary" title="View
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PoolItemSpawnerDrawer</span></div>
+      <div><span class="xref">PoolItemManagerConfig</span></div>
     </dd>
   </dl>
 
@@ -123,75 +123,33 @@ Class PoolItemSpawnerDrawer  <a class="header-action link-secondary" title="View
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="ToolkitEditor_PoolItemSpawnerDrawer_GetPropertyHeight_" data-uid="ToolkitEditor.PoolItemSpawnerDrawer.GetPropertyHeight*"></a>
+  <a id="ToolkitEngine_PoolItemManagerConfig_spawners_" data-uid="ToolkitEngine.PoolItemManagerConfig.spawners*"></a>
 
-  <h3 id="ToolkitEditor_PoolItemSpawnerDrawer_GetPropertyHeight_SerializedProperty_GUIContent_" data-uid="ToolkitEditor.PoolItemSpawnerDrawer.GetPropertyHeight(SerializedProperty,GUIContent)">
-  GetPropertyHeight(SerializedProperty, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Spawning/PoolItemSpawnerDrawer.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_PoolItemManagerConfig_spawners" data-uid="ToolkitEngine.PoolItemManagerConfig.spawners">
+  spawners
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManagerConfig.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override float GetPropertyHeight(SerializedProperty property, GUIContent label)</code></pre>
+    <pre><code class="lang-csharp hljs">public PoolItemSpawner&lt;PoolItem&gt;[] spawners { get; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-    <dt><code>label</code> <span class="xref">GUIContent</span></dt>
+    <dt><a class="xref" href="ToolkitEngine.PoolItemSpawner-1.html">PoolItemSpawner</a>&lt;<a class="xref" href="ToolkitEngine.PoolItem.html">PoolItem</a>&gt;[]</dt>
     <dd></dd>
   </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ToolkitEditor_PoolItemSpawnerDrawer_OnGUI_" data-uid="ToolkitEditor.PoolItemSpawnerDrawer.OnGUI*"></a>
-
-  <h3 id="ToolkitEditor_PoolItemSpawnerDrawer_OnGUI_Rect_SerializedProperty_GUIContent_" data-uid="ToolkitEditor.PoolItemSpawnerDrawer.OnGUI(Rect,SerializedProperty,GUIContent)">
-  OnGUI(Rect, SerializedProperty, GUIContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Spawning/PoolItemSpawnerDrawer.cs/#L12"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <span class="xref">Rect</span></dt>
-    <dd></dd>
-    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
-    <dd></dd>
-    <dt><code>label</code> <span class="xref">GUIContent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
 
 
 
