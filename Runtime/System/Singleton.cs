@@ -86,9 +86,8 @@ namespace UnityEngine
 					}
 
 #if UNITY_EDITOR
-				(_instance as Singleton<T>).Refresh();
+					(_instance as Singleton<T>).Refresh();
 #endif
-
 					return _instance;
 				}
 			}
@@ -103,7 +102,7 @@ namespace UnityEngine
 #if UNITY_EDITOR
 				return !UnityEditor.EditorApplication.isPlaying;
 #else
-			return Exists;
+				return Exists;
 #endif
 			}
 		}
