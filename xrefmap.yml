@@ -10526,6 +10526,24 @@ references:
   fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).GetHook
   nameWithType: TargetEventUnit<TArgs>.GetHook
   nameWithType.vb: TargetEventUnit(Of TArgs).GetHook
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.InvokeTrigger(System.Object,`0)
+  name: InvokeTrigger(object, TArgs)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_InvokeTrigger_System_Object__0_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.InvokeTrigger(System.Object,`0)
+  name.vb: InvokeTrigger(Object, TArgs)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.InvokeTrigger(object, TArgs)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).InvokeTrigger(Object, TArgs)
+  nameWithType: TargetEventUnit<TArgs>.InvokeTrigger(object, TArgs)
+  nameWithType.vb: TargetEventUnit(Of TArgs).InvokeTrigger(Object, TArgs)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.InvokeTrigger*
+  name: InvokeTrigger
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_InvokeTrigger_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.InvokeTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.InvokeTrigger
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).InvokeTrigger
+  nameWithType: TargetEventUnit<TArgs>.InvokeTrigger
+  nameWithType.vb: TargetEventUnit(Of TArgs).InvokeTrigger
 - uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType
   name: MessageListenerType
   href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_MessageListenerType
@@ -10645,24 +10663,6 @@ references:
   fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).TargetType.Global
   nameWithType: TargetEventUnit<TArgs>.TargetType.Global
   nameWithType.vb: TargetEventUnit(Of TArgs).TargetType.Global
-- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger(System.Object,`0)
-  name: Trigger(object, TArgs)
-  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_System_Object__0_
-  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger(System.Object,`0)
-  name.vb: Trigger(Object, TArgs)
-  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Trigger(object, TArgs)
-  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Trigger(Object, TArgs)
-  nameWithType: TargetEventUnit<TArgs>.Trigger(object, TArgs)
-  nameWithType.vb: TargetEventUnit(Of TArgs).Trigger(Object, TArgs)
-- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger*
-  name: Trigger
-  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_
-  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger
-  isSpec: "True"
-  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Trigger
-  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Trigger
-  nameWithType: TargetEventUnit<TArgs>.Trigger
-  nameWithType.vb: TargetEventUnit(Of TArgs).Trigger
 - uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs
   name: eventArgs
   href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_eventArgs
