@@ -163,7 +163,7 @@ namespace ToolkitEngine.VisualScripting
 		protected abstract void StartListeningToManager();
 		protected abstract void StopListeningToManager();
 
-		protected void Trigger(object sender, TArgs e)
+		protected void InvokeTrigger(object sender, TArgs e)
 		{
 			Trigger(m_graph, e);
 		}
