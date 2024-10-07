@@ -9172,6 +9172,91 @@ references:
   commentId: F:ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   fullName: ToolkitEngine.VisualScripting.EventHooks.OnTimedCurveTimeChanged
   nameWithType: EventHooks.OnTimedCurveTimeChanged
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2
+  name: FilteredTargetEventUnit<TArgs, TFilter>
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html
+  commentId: T:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2
+  name.vb: FilteredTargetEventUnit(Of TArgs, TFilter)
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter)
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter)
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_Definition
+  commentId: M:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.Definition
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.Definition()
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).Definition()
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.Definition()
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).Definition()
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.Definition
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).Definition
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.Definition
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).Definition
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.GetFilterValue(`0)
+  name: GetFilterValue(TArgs)
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_GetFilterValue__0_
+  commentId: M:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.GetFilterValue(`0)
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.GetFilterValue(TArgs)
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).GetFilterValue(TArgs)
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.GetFilterValue(TArgs)
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).GetFilterValue(TArgs)
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.GetFilterValue*
+  name: GetFilterValue
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_GetFilterValue_
+  commentId: Overload:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.GetFilterValue
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.GetFilterValue
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).GetFilterValue
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.GetFilterValue
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).GetFilterValue
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.ShouldTrigger(Flow,`0)
+  name: ShouldTrigger(Flow, TArgs)
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_ShouldTrigger_Flow__0_
+  commentId: M:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.ShouldTrigger(Flow,`0)
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.ShouldTrigger(Flow, TArgs)
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).ShouldTrigger(Flow, TArgs)
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.ShouldTrigger(Flow, TArgs)
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).ShouldTrigger(Flow, TArgs)
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.ShouldTrigger*
+  name: ShouldTrigger
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_ShouldTrigger_
+  commentId: Overload:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.ShouldTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.ShouldTrigger
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).ShouldTrigger
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.ShouldTrigger
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).ShouldTrigger
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filter
+  name: filter
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_filter
+  commentId: P:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filter
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.filter
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).filter
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.filter
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).filter
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filter*
+  name: filter
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_filter_
+  commentId: Overload:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.filter
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).filter
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.filter
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).filter
+- uid: ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filtered
+  name: filtered
+  href: api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html#ToolkitEngine_VisualScripting_FilteredTargetEventUnit_2_filtered
+  commentId: F:ToolkitEngine.VisualScripting.FilteredTargetEventUnit`2.filtered
+  fullName: ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>.filtered
+  fullName.vb: ToolkitEngine.VisualScripting.FilteredTargetEventUnit(Of TArgs, TFilter).filtered
+  nameWithType: FilteredTargetEventUnit<TArgs, TFilter>.filtered
+  nameWithType.vb: FilteredTargetEventUnit(Of TArgs, TFilter).filtered
 - uid: ToolkitEngine.VisualScripting.IMachineState`1
   name: IMachineState<T>
   href: api/ToolkitEngine.VisualScripting.IMachineState-1.html
@@ -10347,6 +10432,330 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.VisualScripting.SetMaterialFloat.Set
   nameWithType: SetMaterialFloat.Set
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1
+  name: TargetEventUnit<TArgs>
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html
+  commentId: T:ToolkitEngine.VisualScripting.TargetEventUnit`1
+  name.vb: TargetEventUnit(Of TArgs)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs)
+  nameWithType: TargetEventUnit<TArgs>
+  nameWithType.vb: TargetEventUnit(Of TArgs)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments(Flow,`0)
+  name: AssignArguments(Flow, TArgs)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_AssignArguments_Flow__0_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments(Flow,`0)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.AssignArguments(Flow, TArgs)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).AssignArguments(Flow, TArgs)
+  nameWithType: TargetEventUnit<TArgs>.AssignArguments(Flow, TArgs)
+  nameWithType.vb: TargetEventUnit(Of TArgs).AssignArguments(Flow, TArgs)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments*
+  name: AssignArguments
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_AssignArguments_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.AssignArguments
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).AssignArguments
+  nameWithType: TargetEventUnit<TArgs>.AssignArguments
+  nameWithType.vb: TargetEventUnit(Of TArgs).AssignArguments
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData
+  name: CreateData()
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_CreateData
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.CreateData()
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).CreateData()
+  nameWithType: TargetEventUnit<TArgs>.CreateData()
+  nameWithType.vb: TargetEventUnit(Of TArgs).CreateData()
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData*
+  name: CreateData
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_CreateData_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.CreateData
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).CreateData
+  nameWithType: TargetEventUnit<TArgs>.CreateData
+  nameWithType.vb: TargetEventUnit(Of TArgs).CreateData
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Data
+  name: TargetEventUnit<TArgs>.Data
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.Data.html
+  commentId: T:ToolkitEngine.VisualScripting.TargetEventUnit`1.Data
+  name.vb: TargetEventUnit(Of TArgs).Data
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Data
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Data
+  nameWithType: TargetEventUnit<TArgs>.Data
+  nameWithType.vb: TargetEventUnit(Of TArgs).Data
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Data.target
+  name: target
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.Data.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Data_target
+  commentId: F:ToolkitEngine.VisualScripting.TargetEventUnit`1.Data.target
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Data.target
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Data.target
+  nameWithType: TargetEventUnit<TArgs>.Data.target
+  nameWithType.vb: TargetEventUnit(Of TArgs).Data.target
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Definition
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Definition()
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Definition()
+  nameWithType: TargetEventUnit<TArgs>.Definition()
+  nameWithType.vb: TargetEventUnit(Of TArgs).Definition()
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Definition
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Definition
+  nameWithType: TargetEventUnit<TArgs>.Definition
+  nameWithType.vb: TargetEventUnit(Of TArgs).Definition
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook(GraphReference)
+  name: GetHook(GraphReference)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_GetHook_GraphReference_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook(GraphReference)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.GetHook(GraphReference)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).GetHook(GraphReference)
+  nameWithType: TargetEventUnit<TArgs>.GetHook(GraphReference)
+  nameWithType.vb: TargetEventUnit(Of TArgs).GetHook(GraphReference)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook*
+  name: GetHook
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_GetHook_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.GetHook
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).GetHook
+  nameWithType: TargetEventUnit<TArgs>.GetHook
+  nameWithType.vb: TargetEventUnit(Of TArgs).GetHook
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_MessageListenerType
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.MessageListenerType
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).MessageListenerType
+  nameWithType: TargetEventUnit<TArgs>.MessageListenerType
+  nameWithType.vb: TargetEventUnit(Of TArgs).MessageListenerType
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_MessageListenerType_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.MessageListenerType
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).MessageListenerType
+  nameWithType: TargetEventUnit<TArgs>.MessageListenerType
+  nameWithType.vb: TargetEventUnit(Of TArgs).MessageListenerType
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack)
+  name: StartListening(GraphStack)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_GraphStack_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StartListening(GraphStack)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StartListening(GraphStack)
+  nameWithType: TargetEventUnit<TArgs>.StartListening(GraphStack)
+  nameWithType.vb: TargetEventUnit(Of TArgs).StartListening(GraphStack)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack,System.Boolean)
+  name: StartListening(GraphStack, bool)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_GraphStack_System_Boolean_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack,System.Boolean)
+  name.vb: StartListening(GraphStack, Boolean)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StartListening(GraphStack, bool)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StartListening(GraphStack, Boolean)
+  nameWithType: TargetEventUnit<TArgs>.StartListening(GraphStack, bool)
+  nameWithType.vb: TargetEventUnit(Of TArgs).StartListening(GraphStack, Boolean)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening*
+  name: StartListening
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StartListening
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StartListening
+  nameWithType: TargetEventUnit<TArgs>.StartListening
+  nameWithType.vb: TargetEventUnit(Of TArgs).StartListening
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager
+  name: StartListeningToManager()
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListeningToManager
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StartListeningToManager()
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StartListeningToManager()
+  nameWithType: TargetEventUnit<TArgs>.StartListeningToManager()
+  nameWithType.vb: TargetEventUnit(Of TArgs).StartListeningToManager()
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager*
+  name: StartListeningToManager
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListeningToManager_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StartListeningToManager
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StartListeningToManager
+  nameWithType: TargetEventUnit<TArgs>.StartListeningToManager
+  nameWithType.vb: TargetEventUnit(Of TArgs).StartListeningToManager
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening(GraphStack)
+  name: StopListening(GraphStack)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListening_GraphStack_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening(GraphStack)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StopListening(GraphStack)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StopListening(GraphStack)
+  nameWithType: TargetEventUnit<TArgs>.StopListening(GraphStack)
+  nameWithType.vb: TargetEventUnit(Of TArgs).StopListening(GraphStack)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening*
+  name: StopListening
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListening_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StopListening
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StopListening
+  nameWithType: TargetEventUnit<TArgs>.StopListening
+  nameWithType.vb: TargetEventUnit(Of TArgs).StopListening
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager
+  name: StopListeningToManager()
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListeningToManager
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StopListeningToManager()
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StopListeningToManager()
+  nameWithType: TargetEventUnit<TArgs>.StopListeningToManager()
+  nameWithType.vb: TargetEventUnit(Of TArgs).StopListeningToManager()
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager*
+  name: StopListeningToManager
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListeningToManager_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.StopListeningToManager
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).StopListeningToManager
+  nameWithType: TargetEventUnit<TArgs>.StopListeningToManager
+  nameWithType.vb: TargetEventUnit(Of TArgs).StopListeningToManager
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType
+  name: TargetEventUnit<TArgs>.TargetType
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html
+  commentId: T:ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType
+  name.vb: TargetEventUnit(Of TArgs).TargetType
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.TargetType
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).TargetType
+  nameWithType: TargetEventUnit<TArgs>.TargetType
+  nameWithType.vb: TargetEventUnit(Of TArgs).TargetType
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType.GameObject
+  name: GameObject
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_TargetType_GameObject
+  commentId: F:ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType.GameObject
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.TargetType.GameObject
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).TargetType.GameObject
+  nameWithType: TargetEventUnit<TArgs>.TargetType.GameObject
+  nameWithType.vb: TargetEventUnit(Of TArgs).TargetType.GameObject
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType.Global
+  name: Global
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_TargetType_Global
+  commentId: F:ToolkitEngine.VisualScripting.TargetEventUnit`1.TargetType.Global
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.TargetType.Global
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).TargetType.Global
+  nameWithType: TargetEventUnit<TArgs>.TargetType.Global
+  nameWithType.vb: TargetEventUnit(Of TArgs).TargetType.Global
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger(System.Object,`0)
+  name: Trigger(object, TArgs)
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_System_Object__0_
+  commentId: M:ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger(System.Object,`0)
+  name.vb: Trigger(Object, TArgs)
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Trigger(object, TArgs)
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Trigger(Object, TArgs)
+  nameWithType: TargetEventUnit<TArgs>.Trigger(object, TArgs)
+  nameWithType.vb: TargetEventUnit(Of TArgs).Trigger(Object, TArgs)
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger*
+  name: Trigger
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Trigger
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).Trigger
+  nameWithType: TargetEventUnit<TArgs>.Trigger
+  nameWithType.vb: TargetEventUnit(Of TArgs).Trigger
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs
+  name: eventArgs
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_eventArgs
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.eventArgs
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).eventArgs
+  nameWithType: TargetEventUnit<TArgs>.eventArgs
+  nameWithType.vb: TargetEventUnit(Of TArgs).eventArgs
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs*
+  name: eventArgs
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_eventArgs_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.eventArgs
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).eventArgs
+  nameWithType: TargetEventUnit<TArgs>.eventArgs
+  nameWithType.vb: TargetEventUnit(Of TArgs).eventArgs
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName
+  name: hookName
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_hookName
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.hookName
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).hookName
+  nameWithType: TargetEventUnit<TArgs>.hookName
+  nameWithType.vb: TargetEventUnit(Of TArgs).hookName
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName*
+  name: hookName
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_hookName_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.hookName
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).hookName
+  nameWithType: TargetEventUnit<TArgs>.hookName
+  nameWithType.vb: TargetEventUnit(Of TArgs).hookName
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.register
+  name: register
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_register
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.register
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.register
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).register
+  nameWithType: TargetEventUnit<TArgs>.register
+  nameWithType.vb: TargetEventUnit(Of TArgs).register
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.register*
+  name: register
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_register_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.register
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.register
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).register
+  nameWithType: TargetEventUnit<TArgs>.register
+  nameWithType.vb: TargetEventUnit(Of TArgs).register
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs
+  name: showEventArgs
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_showEventArgs
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.showEventArgs
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).showEventArgs
+  nameWithType: TargetEventUnit<TArgs>.showEventArgs
+  nameWithType.vb: TargetEventUnit(Of TArgs).showEventArgs
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs*
+  name: showEventArgs
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_showEventArgs_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.showEventArgs
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).showEventArgs
+  nameWithType: TargetEventUnit<TArgs>.showEventArgs
+  nameWithType.vb: TargetEventUnit(Of TArgs).showEventArgs
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.target
+  name: target
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_target
+  commentId: P:ToolkitEngine.VisualScripting.TargetEventUnit`1.target
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.target
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).target
+  nameWithType: TargetEventUnit<TArgs>.target
+  nameWithType.vb: TargetEventUnit(Of TArgs).target
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.target*
+  name: target
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_target_
+  commentId: Overload:ToolkitEngine.VisualScripting.TargetEventUnit`1.target
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.target
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).target
+  nameWithType: TargetEventUnit<TArgs>.target
+  nameWithType.vb: TargetEventUnit(Of TArgs).target
+- uid: ToolkitEngine.VisualScripting.TargetEventUnit`1.type
+  name: type
+  href: api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html#ToolkitEngine_VisualScripting_TargetEventUnit_1_type
+  commentId: F:ToolkitEngine.VisualScripting.TargetEventUnit`1.type
+  fullName: ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.type
+  fullName.vb: ToolkitEngine.VisualScripting.TargetEventUnit(Of TArgs).type
+  nameWithType: TargetEventUnit<TArgs>.type
+  nameWithType.vb: TargetEventUnit(Of TArgs).type
 - uid: ToolkitEngine.WaveSpawner
   name: WaveSpawner
   href: api/ToolkitEngine.WaveSpawner.html

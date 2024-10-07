@@ -1895,6 +1895,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.VisualScripting.IMachineState-1.yml",
       "output": {
         ".html": {
@@ -2279,6 +2289,36 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.VisualScripting.SetMaterialFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html"
         }
       },
       "version": ""

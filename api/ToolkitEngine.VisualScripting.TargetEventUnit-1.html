@@ -1,0 +1,700 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TargetEventUnit&lt;TArgs&gt; | Core Toolkit | 1.0.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TargetEventUnit&lt;TArgs&gt; | Core Toolkit | 1.0.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_VisualScripting_TargetEventUnit_1.md&amp;value=---%0Auid%3A%20ToolkitEngine.VisualScripting.TargetEventUnit%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1">
+
+
+
+  <h1 id="ToolkitEngine_VisualScripting_TargetEventUnit_1" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1" class="text-break">
+Class TargetEventUnit&lt;TArgs&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.VisualScripting.html">VisualScripting</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class TargetEventUnit&lt;TArgs&gt; : EventUnit&lt;TArgs&gt;, IGameObjectEventUnit</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TArgs</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TargetEventUnit&lt;TArgs&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IGameObjectEventUnit</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html">FilteredTargetEventUnit&lt;TArgs, TFilter&gt;</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_type" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.type">
+  type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TargetEventUnit&lt;TArgs&gt;.TargetType type</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.VisualScripting.TargetEventUnit-1.html">TargetEventUnit</a>&lt;TArgs&gt;.<a class="xref" href="ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html">TargetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_MessageListenerType_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_MessageListenerType" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.MessageListenerType">
+  MessageListenerType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Type MessageListenerType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_eventArgs_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_eventArgs" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.eventArgs">
+  eventArgs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueOutput eventArgs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ValueOutput</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_hookName_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_hookName" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.hookName">
+  hookName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string hookName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_register_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.register*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_register" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.register">
+  register
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override sealed bool register { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_showEventArgs_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_showEventArgs" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.showEventArgs">
+  showEventArgs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool showEventArgs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_target_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.target*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_target" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.target">
+  target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The game object that listens for the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueInput target { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ValueInput</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_AssignArguments_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_AssignArguments_Flow__0_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.AssignArguments(Flow,`0)">
+  AssignArguments(Flow, TArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AssignArguments(Flow flow, TArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>flow</code> <span class="xref">Flow</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <span class="xref">TArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_CreateData_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_CreateData" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.CreateData">
+  CreateData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IGraphElementData CreateData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IGraphElementData</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_Definition_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_Definition" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.Definition">
+  Definition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Definition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_GetHook_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_GetHook_GraphReference_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.GetHook(GraphReference)">
+  GetHook(GraphReference)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override EventHook GetHook(GraphReference reference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <span class="xref">GraphReference</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EventHook</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_GraphStack_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack)">
+  StartListening(GraphStack)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StartListening(GraphStack stack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stack</code> <span class="xref">GraphStack</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListening_GraphStack_System_Boolean_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListening(GraphStack,System.Boolean)">
+  StartListening(GraphStack, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void StartListening(GraphStack stack, bool updateTarget)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stack</code> <span class="xref">GraphStack</span></dt>
+    <dd></dd>
+    <dt><code>updateTarget</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListeningToManager_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StartListeningToManager" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StartListeningToManager">
+  StartListeningToManager()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void StartListeningToManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListening_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListening_GraphStack_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListening(GraphStack)">
+  StopListening(GraphStack)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StopListening(GraphStack stack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stack</code> <span class="xref">GraphStack</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListeningToManager_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_StopListeningToManager" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.StopListeningToManager">
+  StopListeningToManager()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void StopListeningToManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger*"></a>
+
+  <h3 id="ToolkitEngine_VisualScripting_TargetEventUnit_1_Trigger_System_Object__0_" data-uid="ToolkitEngine.VisualScripting.TargetEventUnit`1.Trigger(System.Object,`0)">
+  Trigger(object, TArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Samples~/Visual Scripting/Scripts/TargetEventUnit.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Trigger(object sender, TArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>e</code> <span class="xref">TArgs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
