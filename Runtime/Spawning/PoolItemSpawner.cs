@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.Pool;
 
 namespace ToolkitEngine
 {
-    public sealed class PoolItemSpawner
+	public sealed class PoolItemSpawner
     {
 		#region Enumerators
 
@@ -159,7 +158,7 @@ namespace ToolkitEngine
 
 				return item != null;
 			}
-            else if (PoolItemManager.Exists && PoolItemManager.TryGet(template, out PoolItem poolItem))
+            else if (PoolItemManager.CastInstance.TryGet(template, out PoolItem poolItem))
             {
 				item = poolItem as T;
 				return true;
@@ -175,9 +174,9 @@ namespace ToolkitEngine
             {
 				objectPool.Release(item);
 			}
-            else if (PoolItemManager.Exists)
+            else
             {
-                PoolItemManager.Release(item);
+                PoolItemManager.CastInstance.Release(item);
             }
         }
 

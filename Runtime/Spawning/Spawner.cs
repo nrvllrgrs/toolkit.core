@@ -419,7 +419,7 @@ namespace ToolkitEngine
 				return;
 
 			var poolItem = template.GetComponent<PoolItem>();
-			if (poolItem != null && PoolItemManager.TryGet(poolItem, out var item))
+			if (poolItem != null && PoolItemManager.CastInstance.TryGet(poolItem, out var item))
 			{
 				// Instantiation handled by TryGet
 			}

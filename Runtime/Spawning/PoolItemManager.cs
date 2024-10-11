@@ -4,14 +4,11 @@ using UnityEngine.Assertions;
 
 namespace ToolkitEngine
 {
-	public class PoolItemManager : Singleton<PoolItemManager>
+	public class PoolItemManager : ConfigurableSubsystem<PoolItemManager, PoolItemManagerConfig>
     {
 		#region Fields
 
-		[SerializeField]
-		private PoolItemManagerConfig m_config;
-
-		private static Dictionary<PoolItem, PoolItemSpawner<PoolItem>> m_map = new();
+		private Dictionary<PoolItem, PoolItemSpawner<PoolItem>> m_map = new();
 
 		#endregion
 
@@ -19,10 +16,9 @@ namespace ToolkitEngine
 
 		protected override void Initialize()
 		{
-			if (m_config == null)
-				return;
+			base.Initialize();
 
-			foreach (var spawner in m_config.spawners)
+			foreach (var spawner in Config.spawners)
 			{
 				m_map.Add(spawner.template, spawner);
 			}
@@ -30,16 +26,13 @@ namespace ToolkitEngine
 
 		protected override void Terminate()
 		{
-			if (m_config == null)
-				return;
-
-			foreach (var spawner in m_config.spawners)
+			foreach (var spawner in Config.spawners)
 			{
 				spawner.Clear();
 			}
 		}
 
-		public static bool TryGet(PoolItem template, out PoolItem item)
+		public bool TryGet(PoolItem template, out PoolItem item)
 		{
 			Assert.IsNotNull(template);
 
@@ -52,7 +45,7 @@ namespace ToolkitEngine
 			return false;
 		}
 
-		public static bool Release(PoolItem item)
+		public bool Release(PoolItem item)
 		{
 			if (m_map.TryGetValue(item, out PoolItemSpawner<PoolItem> spawner))
 			{

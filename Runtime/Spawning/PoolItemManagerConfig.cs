@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace ToolkitEngine
 {
-	[CreateAssetMenu(menuName = "Toolkit/Config/PoolItem Manager Config")]
+	[CreateAssetMenu(menuName = "Toolkit/Config/PoolItemManager Config")]
 	public class PoolItemManagerConfig : ScriptableObject
     {
 		#region Fields

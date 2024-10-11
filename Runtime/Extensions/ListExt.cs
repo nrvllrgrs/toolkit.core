@@ -49,4 +49,10 @@ public static class ListExt
 			item.enabled = value;
         }
     }
+
+	public static void RefreshWith<T>(this List<T> list, IEnumerable<T> items)
+	{
+		list.Clear();
+		list.AddRange(items);
+	}
 }
