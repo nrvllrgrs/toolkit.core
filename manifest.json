@@ -975,6 +975,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ConfigCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ConfigCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ConfigManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ConfigManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ConfigurableSubsystem-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ConfigurableSubsystem-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.CoroutineUtil.yml",
       "output": {
         ".html": {
@@ -1085,6 +1115,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IInstantiableSubsystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IInstantiableSubsystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IInstantiableSubsystemConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IInstantiableSubsystemConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.IKillable.yml",
       "output": {
         ".html": {
@@ -1099,6 +1149,46 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.IPoolItemRecyclable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ISubsystem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ISubsystem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ISubsystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ISubsystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.InstantiableSubsystem-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.InstantiableSubsystem-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.KeyedComponent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.KeyedComponent-1.html"
         }
       },
       "version": ""
@@ -1139,6 +1229,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Labels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LifecycleSubsystem.Phase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LifecycleSubsystem.Phase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LifecycleSubsystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LifecycleSubsystem.html"
         }
       },
       "version": ""
@@ -1299,6 +1409,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.PhysicsUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PlayerLoopUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PlayerLoopUtil.html"
         }
       },
       "version": ""
@@ -1609,6 +1729,36 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.SplineAnimatePostSpawnRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Subsystem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Subsystem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SubsystemBootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SubsystemBootstrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SubsystemInstance-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SubsystemInstance-2.html"
         }
       },
       "version": ""

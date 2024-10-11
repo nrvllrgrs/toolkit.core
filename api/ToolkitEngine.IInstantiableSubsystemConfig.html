@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PoolItemManagerConfig | Core Toolkit | 1.0.0 </title>
+      <title>Interface IInstantiableSubsystemConfig | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PoolItemManagerConfig | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Interface IInstantiableSubsystemConfig | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_PoolItemManagerConfig.md&amp;value=---%0Auid%3A%20ToolkitEngine.PoolItemManagerConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_IInstantiableSubsystemConfig.md&amp;value=---%0Auid%3A%20ToolkitEngine.IInstantiableSubsystemConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.PoolItemManagerConfig">
+        <article data-uid="ToolkitEngine.IInstantiableSubsystemConfig">
 
 
 
-  <h1 id="ToolkitEngine_PoolItemManagerConfig" data-uid="ToolkitEngine.PoolItemManagerConfig" class="text-break">
-Class PoolItemManagerConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManagerConfig.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_IInstantiableSubsystemConfig" data-uid="ToolkitEngine.IInstantiableSubsystemConfig" class="text-break">
+Interface IInstantiableSubsystemConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystemConfig.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,19 +101,12 @@ Class PoolItemManagerConfig  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PoolItemManagerConfig : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IInstantiableSubsystemConfig</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PoolItemManagerConfig</span></div>
-    </dd>
-  </dl>
 
 
 
@@ -123,33 +116,64 @@ Class PoolItemManagerConfig  <a class="header-action link-secondary" title="View
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="ToolkitEngine_PoolItemManagerConfig_spawners_" data-uid="ToolkitEngine.PoolItemManagerConfig.spawners*"></a>
+  <a id="ToolkitEngine_IInstantiableSubsystemConfig_GetManagerType_" data-uid="ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType*"></a>
 
-  <h3 id="ToolkitEngine_PoolItemManagerConfig_spawners" data-uid="ToolkitEngine.PoolItemManagerConfig.spawners">
-  spawners
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManagerConfig.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_IInstantiableSubsystemConfig_GetManagerType" data-uid="ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType">
+  GetManagerType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystemConfig.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PoolItemSpawner&lt;PoolItem&gt;[] spawners { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Type GetManagerType()</code></pre>
   </div>
 
 
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.PoolItemSpawner-1.html">PoolItemSpawner</a>&lt;<a class="xref" href="ToolkitEngine.PoolItem.html">PoolItem</a>&gt;[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_IInstantiableSubsystemConfig_GetTemplate_" data-uid="ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate*"></a>
+
+  <h3 id="ToolkitEngine_IInstantiableSubsystemConfig_GetTemplate" data-uid="ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate">
+  GetTemplate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystemConfig.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">GameObject GetTemplate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

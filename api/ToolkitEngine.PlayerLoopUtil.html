@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PoolItemManager | Core Toolkit | 1.0.0 </title>
+      <title>Class PlayerLoopUtil | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PoolItemManager | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class PlayerLoopUtil | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_PoolItemManager.md&amp;value=---%0Auid%3A%20ToolkitEngine.PoolItemManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_PlayerLoopUtil.md&amp;value=---%0Auid%3A%20ToolkitEngine.PlayerLoopUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.PoolItemManager">
+        <article data-uid="ToolkitEngine.PlayerLoopUtil">
 
 
 
-  <h1 id="ToolkitEngine_PoolItemManager" data-uid="ToolkitEngine.PoolItemManager" class="text-break">
-Class PoolItemManager  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_PlayerLoopUtil" data-uid="ToolkitEngine.PlayerLoopUtil" class="text-break">
+Class PlayerLoopUtil  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Utilities/PlayerLoopUtil.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PoolItemManager : ConfigurableSubsystem&lt;PoolItemManager, PoolItemManagerConfig&gt;, ISubsystem, ISubsystem&lt;PoolItemManager&gt;, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public static class PlayerLoopUtil</code></pre>
   </div>
 
 
@@ -111,52 +111,15 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="ToolkitEngine.Subsystem-1.html">Subsystem</a>&lt;<a class="xref" href="ToolkitEngine.PoolItemManager.html">PoolItemManager</a>&gt;</div>
-      <div><a class="xref" href="ToolkitEngine.ConfigurableSubsystem-2.html">ConfigurableSubsystem</a>&lt;<a class="xref" href="ToolkitEngine.PoolItemManager.html">PoolItemManager</a>, <a class="xref" href="ToolkitEngine.PoolItemManagerConfig.html">PoolItemManagerConfig</a>&gt;</div>
-      <div><span class="xref">PoolItemManager</span></div>
+      <div><span class="xref">PlayerLoopUtil</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></div>
-      <div><a class="xref" href="ToolkitEngine.ISubsystem-1.html">ISubsystem</a>&lt;<a class="xref" href="ToolkitEngine.PoolItemManager.html">PoolItemManager</a>&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="ToolkitEngine.ConfigurableSubsystem-2.html#ToolkitEngine_ConfigurableSubsystem_2_Config">ConfigurableSubsystem&lt;PoolItemManager, PoolItemManagerConfig&gt;.Config</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance">Subsystem&lt;PoolItemManager&gt;.Instance</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance">Subsystem&lt;PoolItemManager&gt;.CastInstance</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate">Subsystem&lt;PoolItemManager&gt;.Instantiate()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Update">Subsystem&lt;PoolItemManager&gt;.Update()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_FixedUpdate">Subsystem&lt;PoolItemManager&gt;.FixedUpdate()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate">Subsystem&lt;PoolItemManager&gt;.LateUpdate()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose">Subsystem&lt;PoolItemManager&gt;.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose_System_Boolean_">Subsystem&lt;PoolItemManager&gt;.Dispose(bool)</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -189,49 +152,27 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="ToolkitEngine_PoolItemManager_Initialize_" data-uid="ToolkitEngine.PoolItemManager.Initialize*"></a>
+  <a id="ToolkitEngine_PlayerLoopUtil_InsertSystem_" data-uid="ToolkitEngine.PlayerLoopUtil.InsertSystem*"></a>
 
-  <h3 id="ToolkitEngine_PoolItemManager_Initialize" data-uid="ToolkitEngine.PoolItemManager.Initialize">
-  Initialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_PlayerLoopUtil_InsertSystem__1_PlayerLoopSystem__PlayerLoopSystem__System_Int32_" data-uid="ToolkitEngine.PlayerLoopUtil.InsertSystem``1(PlayerLoopSystem@,PlayerLoopSystem@,System.Int32)">
+  InsertSystem&lt;T&gt;(ref PlayerLoopSystem, in PlayerLoopSystem, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Utilities/PlayerLoopUtil.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ToolkitEngine_PoolItemManager_Release_" data-uid="ToolkitEngine.PoolItemManager.Release*"></a>
-
-  <h3 id="ToolkitEngine_PoolItemManager_Release_ToolkitEngine_PoolItem_" data-uid="ToolkitEngine.PoolItemManager.Release(ToolkitEngine.PoolItem)">
-  Release(PoolItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L48"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Release(PoolItem item)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool InsertSystem&lt;T&gt;(ref PlayerLoopSystem loop, in PlayerLoopSystem systemToInsert, int index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>item</code> <a class="xref" href="ToolkitEngine.PoolItem.html">PoolItem</a></dt>
+    <dt><code>loop</code> <span class="xref">PlayerLoopSystem</span></dt>
+    <dd></dd>
+    <dt><code>systemToInsert</code> <span class="xref">PlayerLoopSystem</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -241,6 +182,11 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
     <dd></dd>
   </dl>
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -251,60 +197,34 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
 
 
-  <a id="ToolkitEngine_PoolItemManager_Terminate_" data-uid="ToolkitEngine.PoolItemManager.Terminate*"></a>
+  <a id="ToolkitEngine_PlayerLoopUtil_RemoveSystem_" data-uid="ToolkitEngine.PlayerLoopUtil.RemoveSystem*"></a>
 
-  <h3 id="ToolkitEngine_PoolItemManager_Terminate" data-uid="ToolkitEngine.PoolItemManager.Terminate">
-  Terminate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_PlayerLoopUtil_RemoveSystem__1_PlayerLoopSystem__PlayerLoopSystem__" data-uid="ToolkitEngine.PlayerLoopUtil.RemoveSystem``1(PlayerLoopSystem@,PlayerLoopSystem@)">
+  RemoveSystem&lt;T&gt;(ref PlayerLoopSystem, in PlayerLoopSystem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Utilities/PlayerLoopUtil.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Terminate()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ToolkitEngine_PoolItemManager_TryGet_" data-uid="ToolkitEngine.PoolItemManager.TryGet*"></a>
-
-  <h3 id="ToolkitEngine_PoolItemManager_TryGet_ToolkitEngine_PoolItem_ToolkitEngine_PoolItem__" data-uid="ToolkitEngine.PoolItemManager.TryGet(ToolkitEngine.PoolItem,ToolkitEngine.PoolItem@)">
-  TryGet(PoolItem, out PoolItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGet(PoolItem template, out PoolItem item)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RemoveSystem&lt;T&gt;(ref PlayerLoopSystem loop, in PlayerLoopSystem systemToRemove)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>template</code> <a class="xref" href="ToolkitEngine.PoolItem.html">PoolItem</a></dt>
+    <dt><code>loop</code> <span class="xref">PlayerLoopSystem</span></dt>
     <dd></dd>
-    <dt><code>item</code> <a class="xref" href="ToolkitEngine.PoolItem.html">PoolItem</a></dt>
+    <dt><code>systemToRemove</code> <span class="xref">PlayerLoopSystem</span></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+  <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>T</code></dt>
     <dd></dd>
   </dl>
-
 
 
 

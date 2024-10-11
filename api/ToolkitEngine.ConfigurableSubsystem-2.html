@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PoolItemSpawner | Core Toolkit | 1.0.0 </title>
+      <title>Class ConfigurableSubsystem&lt;T, TConfig&gt; | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PoolItemSpawner | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class ConfigurableSubsystem&lt;T, TConfig&gt; | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_PoolItemSpawner.md&amp;value=---%0Auid%3A%20ToolkitEngine.PoolItemSpawner%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_ConfigurableSubsystem_2.md&amp;value=---%0Auid%3A%20ToolkitEngine.ConfigurableSubsystem%602%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.PoolItemSpawner">
+        <article data-uid="ToolkitEngine.ConfigurableSubsystem`2">
 
 
 
-  <h1 id="ToolkitEngine_PoolItemSpawner" data-uid="ToolkitEngine.PoolItemSpawner" class="text-break">
-Class PoolItemSpawner  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemSpawner.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_ConfigurableSubsystem_2" data-uid="ToolkitEngine.ConfigurableSubsystem`2" class="text-break">
+Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/ConfigurableSubsystem.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,25 +101,78 @@ Class PoolItemSpawner  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class PoolItemSpawner</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurableSubsystem&lt;T, TConfig&gt; : Subsystem&lt;T&gt;, ISubsystem, ISubsystem&lt;T&gt;, IDisposable where T : class, new() where TConfig : ScriptableObject</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TConfig</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PoolItemSpawner</span></div>
+      <div><a class="xref" href="ToolkitEngine.Subsystem-1.html">Subsystem</a>&lt;T&gt;</div>
+      <div><span class="xref">ConfigurableSubsystem&lt;T, TConfig&gt;</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></div>
+      <div><a class="xref" href="ToolkitEngine.ISubsystem-1.html">ISubsystem</a>&lt;T&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.InstantiableSubsystem-2.html">InstantiableSubsystem&lt;T, TConfig&gt;</a></div>
+      <div><a class="xref" href="ToolkitEngine.PoolItemManager.html">PoolItemManager</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance">Subsystem&lt;T&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance">Subsystem&lt;T&gt;.CastInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate">Subsystem&lt;T&gt;.Instantiate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Initialize">Subsystem&lt;T&gt;.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Terminate">Subsystem&lt;T&gt;.Terminate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Update">Subsystem&lt;T&gt;.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_FixedUpdate">Subsystem&lt;T&gt;.FixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate">Subsystem&lt;T&gt;.LateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose">Subsystem&lt;T&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose_System_Boolean_">Subsystem&lt;T&gt;.Dispose(bool)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -133,12 +186,50 @@ Class PoolItemSpawner  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_ConfigurableSubsystem_2_Config_" data-uid="ToolkitEngine.ConfigurableSubsystem`2.Config*"></a>
+
+  <h3 id="ToolkitEngine_ConfigurableSubsystem_2_Config" data-uid="ToolkitEngine.ConfigurableSubsystem`2.Config">
+  Config
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/ConfigurableSubsystem.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TConfig Config { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TConfig</span></dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 

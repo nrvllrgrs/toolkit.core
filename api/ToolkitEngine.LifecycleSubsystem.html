@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ListExt | Core Toolkit | 1.0.0 </title>
+      <title>Class LifecycleSubsystem | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ListExt | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Class LifecycleSubsystem | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=Global_ListExt.md&amp;value=---%0Auid%3A%20Global.ListExt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/new/master/apiSpec/new?filename=ToolkitEngine_LifecycleSubsystem.md&amp;value=---%0Auid%3A%20ToolkitEngine.LifecycleSubsystem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Global.ListExt">
+        <article data-uid="ToolkitEngine.LifecycleSubsystem">
 
 
 
-  <h1 id="Global_ListExt" data-uid="Global.ListExt" class="text-break">
-Class ListExt  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L4"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_LifecycleSubsystem" data-uid="ToolkitEngine.LifecycleSubsystem" class="text-break">
+Class LifecycleSubsystem  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ListExt</code></pre>
+    <pre><code class="lang-csharp hljs">public static class LifecycleSubsystem</code></pre>
   </div>
 
 
@@ -111,7 +111,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ListExt</span></div>
+      <div><span class="xref">LifecycleSubsystem</span></div>
     </dd>
   </dl>
 
@@ -152,39 +152,20 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 </h2>
 
 
-  <a id="Global_ListExt_Random_" data-uid="Global.ListExt.Random*"></a>
+  <a id="ToolkitEngine_LifecycleSubsystem_FixedUpdate_" data-uid="ToolkitEngine.LifecycleSubsystem.FixedUpdate*"></a>
 
-  <h3 id="Global_ListExt_Random__1_System_Collections_Generic_IList___0__System_Boolean_" data-uid="Global.ListExt.Random``1(System.Collections.Generic.IList{``0},System.Boolean)">
-  Random&lt;T&gt;(IList&lt;T&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_LifecycleSubsystem_FixedUpdate" data-uid="ToolkitEngine.LifecycleSubsystem.FixedUpdate">
+  FixedUpdate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this IList&lt;T&gt; list, bool remove = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void FixedUpdate()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
-    <dd></dd>
-    <dt><code>remove</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -195,34 +176,22 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <a id="Global_ListExt_RefreshWith_" data-uid="Global.ListExt.RefreshWith*"></a>
 
-  <h3 id="Global_ListExt_RefreshWith__1_System_Collections_Generic_List___0__System_Collections_Generic_IEnumerable___0__" data-uid="Global.ListExt.RefreshWith``1(System.Collections.Generic.List{``0},System.Collections.Generic.IEnumerable{``0})">
-  RefreshWith&lt;T&gt;(List&lt;T&gt;, IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L53"><i class="bi bi-code-slash"></i></a>
+
+  <a id="ToolkitEngine_LifecycleSubsystem_LateUpdate_" data-uid="ToolkitEngine.LifecycleSubsystem.LateUpdate*"></a>
+
+  <h3 id="ToolkitEngine_LifecycleSubsystem_LateUpdate" data-uid="ToolkitEngine.LifecycleSubsystem.LateUpdate">
+  LateUpdate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RefreshWith&lt;T&gt;(this List&lt;T&gt; list, IEnumerable&lt;T&gt; items)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LateUpdate()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
-    <dd></dd>
-    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -233,25 +202,25 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <a id="Global_ListExt_SetActive_" data-uid="Global.ListExt.SetActive*"></a>
 
-  <h3 id="Global_ListExt_SetActive_System_Collections_Generic_IEnumerable_GameObject__System_Boolean_" data-uid="Global.ListExt.SetActive(System.Collections.Generic.IEnumerable{GameObject},System.Boolean)">
-  SetActive(IEnumerable&lt;GameObject&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L37"><i class="bi bi-code-slash"></i></a>
+
+  <a id="ToolkitEngine_LifecycleSubsystem_Register_" data-uid="ToolkitEngine.LifecycleSubsystem.Register*"></a>
+
+  <h3 id="ToolkitEngine_LifecycleSubsystem_Register_ToolkitEngine_ISubsystem_" data-uid="ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem)">
+  Register(ISubsystem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetActive(this IEnumerable&lt;GameObject&gt; list, bool value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Register(ISubsystem subsystem)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>subsystem</code> <a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></dt>
     <dd></dd>
   </dl>
 
@@ -266,25 +235,25 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <a id="Global_ListExt_SetEnabled_" data-uid="Global.ListExt.SetEnabled*"></a>
+  <a id="ToolkitEngine_LifecycleSubsystem_Register_" data-uid="ToolkitEngine.LifecycleSubsystem.Register*"></a>
 
-  <h3 id="Global_ListExt_SetEnabled_System_Collections_Generic_IEnumerable_Behaviour__System_Boolean_" data-uid="Global.ListExt.SetEnabled(System.Collections.Generic.IEnumerable{Behaviour},System.Boolean)">
-  SetEnabled(IEnumerable&lt;Behaviour&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_LifecycleSubsystem_Register_ToolkitEngine_ISubsystem_ToolkitEngine_LifecycleSubsystem_Phase_" data-uid="ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)">
+  Register(ISubsystem, Phase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetEnabled(this IEnumerable&lt;Behaviour&gt; list, bool value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Register(ISubsystem subsystem, LifecycleSubsystem.Phase phase)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Behaviour</span>&gt;</dt>
+    <dt><code>subsystem</code> <a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></dt>
     <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>phase</code> <a class="xref" href="ToolkitEngine.LifecycleSubsystem.html">LifecycleSubsystem</a>.<a class="xref" href="ToolkitEngine.LifecycleSubsystem.Phase.html">Phase</a></dt>
     <dd></dd>
   </dl>
 
@@ -299,37 +268,86 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <a id="Global_ListExt_Shuffle_" data-uid="Global.ListExt.Shuffle*"></a>
+  <a id="ToolkitEngine_LifecycleSubsystem_Unregister_" data-uid="ToolkitEngine.LifecycleSubsystem.Unregister*"></a>
 
-  <h3 id="Global_ListExt_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="Global.ListExt.Shuffle``1(System.Collections.Generic.IList{``0})">
-  Shuffle&lt;T&gt;(IList&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_LifecycleSubsystem_Unregister_ToolkitEngine_ISubsystem_" data-uid="ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem)">
+  Unregister(ISubsystem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; Shuffle&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Unregister(ISubsystem subsystem)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dt><code>subsystem</code> <a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_LifecycleSubsystem_Unregister_" data-uid="ToolkitEngine.LifecycleSubsystem.Unregister*"></a>
+
+  <h3 id="ToolkitEngine_LifecycleSubsystem_Unregister_ToolkitEngine_ISubsystem_ToolkitEngine_LifecycleSubsystem_Phase_" data-uid="ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)">
+  Unregister(ISubsystem, Phase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unregister(ISubsystem subsystem, LifecycleSubsystem.Phase phase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dt><code>subsystem</code> <a class="xref" href="ToolkitEngine.ISubsystem.html">ISubsystem</a></dt>
+    <dd></dd>
+    <dt><code>phase</code> <a class="xref" href="ToolkitEngine.LifecycleSubsystem.html">LifecycleSubsystem</a>.<a class="xref" href="ToolkitEngine.LifecycleSubsystem.Phase.html">Phase</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_LifecycleSubsystem_Update_" data-uid="ToolkitEngine.LifecycleSubsystem.Update*"></a>
+
+  <h3 id="ToolkitEngine_LifecycleSubsystem_Update" data-uid="ToolkitEngine.LifecycleSubsystem.Update">
+  Update()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/LifecycleSubsystem.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Update()</code></pre>
+  </div>
+
+
+
 
 
 

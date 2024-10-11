@@ -499,6 +499,22 @@ references:
   fullName.vb: ListExt.Random(Of T)(System.Collections.Generic.IList(Of T), Boolean)
   nameWithType: ListExt.Random<T>(IList<T>, bool)
   nameWithType.vb: ListExt.Random(Of T)(IList(Of T), Boolean)
+- uid: Global.ListExt.RefreshWith*
+  name: RefreshWith
+  href: api/Global.ListExt.html#Global_ListExt_RefreshWith_
+  commentId: Overload:Global.ListExt.RefreshWith
+  isSpec: "True"
+  fullName: ListExt.RefreshWith
+  nameWithType: ListExt.RefreshWith
+- uid: Global.ListExt.RefreshWith``1(System.Collections.Generic.List{``0},System.Collections.Generic.IEnumerable{``0})
+  name: RefreshWith<T>(List<T>, IEnumerable<T>)
+  href: api/Global.ListExt.html#Global_ListExt_RefreshWith__1_System_Collections_Generic_List___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:Global.ListExt.RefreshWith``1(System.Collections.Generic.List{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: RefreshWith(Of T)(List(Of T), IEnumerable(Of T))
+  fullName: ListExt.RefreshWith<T>(System.Collections.Generic.List<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: ListExt.RefreshWith(Of T)(System.Collections.Generic.List(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ListExt.RefreshWith<T>(List<T>, IEnumerable<T>)
+  nameWithType.vb: ListExt.RefreshWith(Of T)(List(Of T), IEnumerable(Of T))
 - uid: Global.ListExt.SetActive(System.Collections.Generic.IEnumerable{GameObject},System.Boolean)
   name: SetActive(IEnumerable<GameObject>, bool)
   href: api/Global.ListExt.html#Global_ListExt_SetActive_System_Collections_Generic_IEnumerable_GameObject__System_Boolean_
@@ -4106,6 +4122,73 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.ConditionFilter.IsIncluded
   nameWithType: ConditionFilter.IsIncluded
+- uid: ToolkitEngine.ConfigCollection
+  name: ConfigCollection
+  href: api/ToolkitEngine.ConfigCollection.html
+  commentId: T:ToolkitEngine.ConfigCollection
+  fullName: ToolkitEngine.ConfigCollection
+  nameWithType: ConfigCollection
+- uid: ToolkitEngine.ConfigManager
+  name: ConfigManager
+  href: api/ToolkitEngine.ConfigManager.html
+  commentId: T:ToolkitEngine.ConfigManager
+  fullName: ToolkitEngine.ConfigManager
+  nameWithType: ConfigManager
+- uid: ToolkitEngine.ConfigManager.TryGet*
+  name: TryGet
+  href: api/ToolkitEngine.ConfigManager.html#ToolkitEngine_ConfigManager_TryGet_
+  commentId: Overload:ToolkitEngine.ConfigManager.TryGet
+  isSpec: "True"
+  fullName: ToolkitEngine.ConfigManager.TryGet
+  nameWithType: ConfigManager.TryGet
+- uid: ToolkitEngine.ConfigManager.TryGet``1(``0@)
+  name: TryGet<T>(out T)
+  href: api/ToolkitEngine.ConfigManager.html#ToolkitEngine_ConfigManager_TryGet__1___0__
+  commentId: M:ToolkitEngine.ConfigManager.TryGet``1(``0@)
+  name.vb: TryGet(Of T)(T)
+  fullName: ToolkitEngine.ConfigManager.TryGet<T>(out T)
+  fullName.vb: ToolkitEngine.ConfigManager.TryGet(Of T)(T)
+  nameWithType: ConfigManager.TryGet<T>(out T)
+  nameWithType.vb: ConfigManager.TryGet(Of T)(T)
+- uid: ToolkitEngine.ConfigManager.configs
+  name: configs
+  href: api/ToolkitEngine.ConfigManager.html#ToolkitEngine_ConfigManager_configs
+  commentId: P:ToolkitEngine.ConfigManager.configs
+  fullName: ToolkitEngine.ConfigManager.configs
+  nameWithType: ConfigManager.configs
+- uid: ToolkitEngine.ConfigManager.configs*
+  name: configs
+  href: api/ToolkitEngine.ConfigManager.html#ToolkitEngine_ConfigManager_configs_
+  commentId: Overload:ToolkitEngine.ConfigManager.configs
+  isSpec: "True"
+  fullName: ToolkitEngine.ConfigManager.configs
+  nameWithType: ConfigManager.configs
+- uid: ToolkitEngine.ConfigurableSubsystem`2
+  name: ConfigurableSubsystem<T, TConfig>
+  href: api/ToolkitEngine.ConfigurableSubsystem-2.html
+  commentId: T:ToolkitEngine.ConfigurableSubsystem`2
+  name.vb: ConfigurableSubsystem(Of T, TConfig)
+  fullName: ToolkitEngine.ConfigurableSubsystem<T, TConfig>
+  fullName.vb: ToolkitEngine.ConfigurableSubsystem(Of T, TConfig)
+  nameWithType: ConfigurableSubsystem<T, TConfig>
+  nameWithType.vb: ConfigurableSubsystem(Of T, TConfig)
+- uid: ToolkitEngine.ConfigurableSubsystem`2.Config
+  name: Config
+  href: api/ToolkitEngine.ConfigurableSubsystem-2.html#ToolkitEngine_ConfigurableSubsystem_2_Config
+  commentId: P:ToolkitEngine.ConfigurableSubsystem`2.Config
+  fullName: ToolkitEngine.ConfigurableSubsystem<T, TConfig>.Config
+  fullName.vb: ToolkitEngine.ConfigurableSubsystem(Of T, TConfig).Config
+  nameWithType: ConfigurableSubsystem<T, TConfig>.Config
+  nameWithType.vb: ConfigurableSubsystem(Of T, TConfig).Config
+- uid: ToolkitEngine.ConfigurableSubsystem`2.Config*
+  name: Config
+  href: api/ToolkitEngine.ConfigurableSubsystem-2.html#ToolkitEngine_ConfigurableSubsystem_2_Config_
+  commentId: Overload:ToolkitEngine.ConfigurableSubsystem`2.Config
+  isSpec: "True"
+  fullName: ToolkitEngine.ConfigurableSubsystem<T, TConfig>.Config
+  fullName.vb: ToolkitEngine.ConfigurableSubsystem(Of T, TConfig).Config
+  nameWithType: ConfigurableSubsystem<T, TConfig>.Config
+  nameWithType.vb: ConfigurableSubsystem(Of T, TConfig).Config
 - uid: ToolkitEngine.CoroutineUtil
   name: CoroutineUtil
   href: api/ToolkitEngine.CoroutineUtil.html
@@ -4498,6 +4581,70 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.IEvaluable.enabled
   nameWithType: IEvaluable.enabled
+- uid: ToolkitEngine.IInstantiableSubsystem
+  name: IInstantiableSubsystem
+  href: api/ToolkitEngine.IInstantiableSubsystem.html
+  commentId: T:ToolkitEngine.IInstantiableSubsystem
+  fullName: ToolkitEngine.IInstantiableSubsystem
+  nameWithType: IInstantiableSubsystem
+- uid: ToolkitEngine.IInstantiableSubsystem.GetInstance
+  name: GetInstance()
+  href: api/ToolkitEngine.IInstantiableSubsystem.html#ToolkitEngine_IInstantiableSubsystem_GetInstance
+  commentId: M:ToolkitEngine.IInstantiableSubsystem.GetInstance
+  fullName: ToolkitEngine.IInstantiableSubsystem.GetInstance()
+  nameWithType: IInstantiableSubsystem.GetInstance()
+- uid: ToolkitEngine.IInstantiableSubsystem.GetInstance*
+  name: GetInstance
+  href: api/ToolkitEngine.IInstantiableSubsystem.html#ToolkitEngine_IInstantiableSubsystem_GetInstance_
+  commentId: Overload:ToolkitEngine.IInstantiableSubsystem.GetInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.IInstantiableSubsystem.GetInstance
+  nameWithType: IInstantiableSubsystem.GetInstance
+- uid: ToolkitEngine.IInstantiableSubsystem.SetInstance(GameObject)
+  name: SetInstance(GameObject)
+  href: api/ToolkitEngine.IInstantiableSubsystem.html#ToolkitEngine_IInstantiableSubsystem_SetInstance_GameObject_
+  commentId: M:ToolkitEngine.IInstantiableSubsystem.SetInstance(GameObject)
+  fullName: ToolkitEngine.IInstantiableSubsystem.SetInstance(GameObject)
+  nameWithType: IInstantiableSubsystem.SetInstance(GameObject)
+- uid: ToolkitEngine.IInstantiableSubsystem.SetInstance*
+  name: SetInstance
+  href: api/ToolkitEngine.IInstantiableSubsystem.html#ToolkitEngine_IInstantiableSubsystem_SetInstance_
+  commentId: Overload:ToolkitEngine.IInstantiableSubsystem.SetInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.IInstantiableSubsystem.SetInstance
+  nameWithType: IInstantiableSubsystem.SetInstance
+- uid: ToolkitEngine.IInstantiableSubsystemConfig
+  name: IInstantiableSubsystemConfig
+  href: api/ToolkitEngine.IInstantiableSubsystemConfig.html
+  commentId: T:ToolkitEngine.IInstantiableSubsystemConfig
+  fullName: ToolkitEngine.IInstantiableSubsystemConfig
+  nameWithType: IInstantiableSubsystemConfig
+- uid: ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType
+  name: GetManagerType()
+  href: api/ToolkitEngine.IInstantiableSubsystemConfig.html#ToolkitEngine_IInstantiableSubsystemConfig_GetManagerType
+  commentId: M:ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType
+  fullName: ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType()
+  nameWithType: IInstantiableSubsystemConfig.GetManagerType()
+- uid: ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType*
+  name: GetManagerType
+  href: api/ToolkitEngine.IInstantiableSubsystemConfig.html#ToolkitEngine_IInstantiableSubsystemConfig_GetManagerType_
+  commentId: Overload:ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType
+  isSpec: "True"
+  fullName: ToolkitEngine.IInstantiableSubsystemConfig.GetManagerType
+  nameWithType: IInstantiableSubsystemConfig.GetManagerType
+- uid: ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate
+  name: GetTemplate()
+  href: api/ToolkitEngine.IInstantiableSubsystemConfig.html#ToolkitEngine_IInstantiableSubsystemConfig_GetTemplate
+  commentId: M:ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate
+  fullName: ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate()
+  nameWithType: IInstantiableSubsystemConfig.GetTemplate()
+- uid: ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate*
+  name: GetTemplate
+  href: api/ToolkitEngine.IInstantiableSubsystemConfig.html#ToolkitEngine_IInstantiableSubsystemConfig_GetTemplate_
+  commentId: Overload:ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate
+  isSpec: "True"
+  fullName: ToolkitEngine.IInstantiableSubsystemConfig.GetTemplate
+  nameWithType: IInstantiableSubsystemConfig.GetTemplate
 - uid: ToolkitEngine.IKillable
   name: IKillable
   href: api/ToolkitEngine.IKillable.html
@@ -4542,6 +4689,176 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.IPoolItemRecyclable.Recycle
   nameWithType: IPoolItemRecyclable.Recycle
+- uid: ToolkitEngine.ISubsystem
+  name: ISubsystem
+  href: api/ToolkitEngine.ISubsystem.html
+  commentId: T:ToolkitEngine.ISubsystem
+  fullName: ToolkitEngine.ISubsystem
+  nameWithType: ISubsystem
+- uid: ToolkitEngine.ISubsystem.FixedUpdate
+  name: FixedUpdate()
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_FixedUpdate
+  commentId: M:ToolkitEngine.ISubsystem.FixedUpdate
+  fullName: ToolkitEngine.ISubsystem.FixedUpdate()
+  nameWithType: ISubsystem.FixedUpdate()
+- uid: ToolkitEngine.ISubsystem.FixedUpdate*
+  name: FixedUpdate
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_FixedUpdate_
+  commentId: Overload:ToolkitEngine.ISubsystem.FixedUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.ISubsystem.FixedUpdate
+  nameWithType: ISubsystem.FixedUpdate
+- uid: ToolkitEngine.ISubsystem.Instance
+  name: Instance
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Instance
+  commentId: P:ToolkitEngine.ISubsystem.Instance
+  fullName: ToolkitEngine.ISubsystem.Instance
+  nameWithType: ISubsystem.Instance
+- uid: ToolkitEngine.ISubsystem.Instance*
+  name: Instance
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Instance_
+  commentId: Overload:ToolkitEngine.ISubsystem.Instance
+  isSpec: "True"
+  fullName: ToolkitEngine.ISubsystem.Instance
+  nameWithType: ISubsystem.Instance
+- uid: ToolkitEngine.ISubsystem.LateUpdate
+  name: LateUpdate()
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_LateUpdate
+  commentId: M:ToolkitEngine.ISubsystem.LateUpdate
+  fullName: ToolkitEngine.ISubsystem.LateUpdate()
+  nameWithType: ISubsystem.LateUpdate()
+- uid: ToolkitEngine.ISubsystem.LateUpdate*
+  name: LateUpdate
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_LateUpdate_
+  commentId: Overload:ToolkitEngine.ISubsystem.LateUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.ISubsystem.LateUpdate
+  nameWithType: ISubsystem.LateUpdate
+- uid: ToolkitEngine.ISubsystem.Update
+  name: Update()
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Update
+  commentId: M:ToolkitEngine.ISubsystem.Update
+  fullName: ToolkitEngine.ISubsystem.Update()
+  nameWithType: ISubsystem.Update()
+- uid: ToolkitEngine.ISubsystem.Update*
+  name: Update
+  href: api/ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Update_
+  commentId: Overload:ToolkitEngine.ISubsystem.Update
+  isSpec: "True"
+  fullName: ToolkitEngine.ISubsystem.Update
+  nameWithType: ISubsystem.Update
+- uid: ToolkitEngine.ISubsystem`1
+  name: ISubsystem<T>
+  href: api/ToolkitEngine.ISubsystem-1.html
+  commentId: T:ToolkitEngine.ISubsystem`1
+  name.vb: ISubsystem(Of T)
+  fullName: ToolkitEngine.ISubsystem<T>
+  fullName.vb: ToolkitEngine.ISubsystem(Of T)
+  nameWithType: ISubsystem<T>
+  nameWithType.vb: ISubsystem(Of T)
+- uid: ToolkitEngine.ISubsystem`1.CastInstance
+  name: CastInstance
+  href: api/ToolkitEngine.ISubsystem-1.html#ToolkitEngine_ISubsystem_1_CastInstance
+  commentId: P:ToolkitEngine.ISubsystem`1.CastInstance
+  fullName: ToolkitEngine.ISubsystem<T>.CastInstance
+  fullName.vb: ToolkitEngine.ISubsystem(Of T).CastInstance
+  nameWithType: ISubsystem<T>.CastInstance
+  nameWithType.vb: ISubsystem(Of T).CastInstance
+- uid: ToolkitEngine.ISubsystem`1.CastInstance*
+  name: CastInstance
+  href: api/ToolkitEngine.ISubsystem-1.html#ToolkitEngine_ISubsystem_1_CastInstance_
+  commentId: Overload:ToolkitEngine.ISubsystem`1.CastInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.ISubsystem<T>.CastInstance
+  fullName.vb: ToolkitEngine.ISubsystem(Of T).CastInstance
+  nameWithType: ISubsystem<T>.CastInstance
+  nameWithType.vb: ISubsystem(Of T).CastInstance
+- uid: ToolkitEngine.InstantiableSubsystem`2
+  name: InstantiableSubsystem<T, TConfig>
+  href: api/ToolkitEngine.InstantiableSubsystem-2.html
+  commentId: T:ToolkitEngine.InstantiableSubsystem`2
+  name.vb: InstantiableSubsystem(Of T, TConfig)
+  fullName: ToolkitEngine.InstantiableSubsystem<T, TConfig>
+  fullName.vb: ToolkitEngine.InstantiableSubsystem(Of T, TConfig)
+  nameWithType: InstantiableSubsystem<T, TConfig>
+  nameWithType.vb: InstantiableSubsystem(Of T, TConfig)
+- uid: ToolkitEngine.InstantiableSubsystem`2.GetInstance
+  name: GetInstance()
+  href: api/ToolkitEngine.InstantiableSubsystem-2.html#ToolkitEngine_InstantiableSubsystem_2_GetInstance
+  commentId: M:ToolkitEngine.InstantiableSubsystem`2.GetInstance
+  fullName: ToolkitEngine.InstantiableSubsystem<T, TConfig>.GetInstance()
+  fullName.vb: ToolkitEngine.InstantiableSubsystem(Of T, TConfig).GetInstance()
+  nameWithType: InstantiableSubsystem<T, TConfig>.GetInstance()
+  nameWithType.vb: InstantiableSubsystem(Of T, TConfig).GetInstance()
+- uid: ToolkitEngine.InstantiableSubsystem`2.GetInstance*
+  name: GetInstance
+  href: api/ToolkitEngine.InstantiableSubsystem-2.html#ToolkitEngine_InstantiableSubsystem_2_GetInstance_
+  commentId: Overload:ToolkitEngine.InstantiableSubsystem`2.GetInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.InstantiableSubsystem<T, TConfig>.GetInstance
+  fullName.vb: ToolkitEngine.InstantiableSubsystem(Of T, TConfig).GetInstance
+  nameWithType: InstantiableSubsystem<T, TConfig>.GetInstance
+  nameWithType.vb: InstantiableSubsystem(Of T, TConfig).GetInstance
+- uid: ToolkitEngine.InstantiableSubsystem`2.SetInstance(GameObject)
+  name: SetInstance(GameObject)
+  href: api/ToolkitEngine.InstantiableSubsystem-2.html#ToolkitEngine_InstantiableSubsystem_2_SetInstance_GameObject_
+  commentId: M:ToolkitEngine.InstantiableSubsystem`2.SetInstance(GameObject)
+  fullName: ToolkitEngine.InstantiableSubsystem<T, TConfig>.SetInstance(GameObject)
+  fullName.vb: ToolkitEngine.InstantiableSubsystem(Of T, TConfig).SetInstance(GameObject)
+  nameWithType: InstantiableSubsystem<T, TConfig>.SetInstance(GameObject)
+  nameWithType.vb: InstantiableSubsystem(Of T, TConfig).SetInstance(GameObject)
+- uid: ToolkitEngine.InstantiableSubsystem`2.SetInstance*
+  name: SetInstance
+  href: api/ToolkitEngine.InstantiableSubsystem-2.html#ToolkitEngine_InstantiableSubsystem_2_SetInstance_
+  commentId: Overload:ToolkitEngine.InstantiableSubsystem`2.SetInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.InstantiableSubsystem<T, TConfig>.SetInstance
+  fullName.vb: ToolkitEngine.InstantiableSubsystem(Of T, TConfig).SetInstance
+  nameWithType: InstantiableSubsystem<T, TConfig>.SetInstance
+  nameWithType.vb: InstantiableSubsystem(Of T, TConfig).SetInstance
+- uid: ToolkitEngine.KeyedComponent`1
+  name: KeyedComponent<T>
+  href: api/ToolkitEngine.KeyedComponent-1.html
+  commentId: T:ToolkitEngine.KeyedComponent`1
+  name.vb: KeyedComponent(Of T)
+  fullName: ToolkitEngine.KeyedComponent<T>
+  fullName.vb: ToolkitEngine.KeyedComponent(Of T)
+  nameWithType: KeyedComponent<T>
+  nameWithType.vb: KeyedComponent(Of T)
+- uid: ToolkitEngine.KeyedComponent`1.key
+  name: key
+  href: api/ToolkitEngine.KeyedComponent-1.html#ToolkitEngine_KeyedComponent_1_key
+  commentId: P:ToolkitEngine.KeyedComponent`1.key
+  fullName: ToolkitEngine.KeyedComponent<T>.key
+  fullName.vb: ToolkitEngine.KeyedComponent(Of T).key
+  nameWithType: KeyedComponent<T>.key
+  nameWithType.vb: KeyedComponent(Of T).key
+- uid: ToolkitEngine.KeyedComponent`1.key*
+  name: key
+  href: api/ToolkitEngine.KeyedComponent-1.html#ToolkitEngine_KeyedComponent_1_key_
+  commentId: Overload:ToolkitEngine.KeyedComponent`1.key
+  isSpec: "True"
+  fullName: ToolkitEngine.KeyedComponent<T>.key
+  fullName.vb: ToolkitEngine.KeyedComponent(Of T).key
+  nameWithType: KeyedComponent<T>.key
+  nameWithType.vb: KeyedComponent(Of T).key
+- uid: ToolkitEngine.KeyedComponent`1.value
+  name: value
+  href: api/ToolkitEngine.KeyedComponent-1.html#ToolkitEngine_KeyedComponent_1_value
+  commentId: P:ToolkitEngine.KeyedComponent`1.value
+  fullName: ToolkitEngine.KeyedComponent<T>.value
+  fullName.vb: ToolkitEngine.KeyedComponent(Of T).value
+  nameWithType: KeyedComponent<T>.value
+  nameWithType.vb: KeyedComponent(Of T).value
+- uid: ToolkitEngine.KeyedComponent`1.value*
+  name: value
+  href: api/ToolkitEngine.KeyedComponent-1.html#ToolkitEngine_KeyedComponent_1_value_
+  commentId: Overload:ToolkitEngine.KeyedComponent`1.value
+  isSpec: "True"
+  fullName: ToolkitEngine.KeyedComponent<T>.value
+  fullName.vb: ToolkitEngine.KeyedComponent(Of T).value
+  nameWithType: KeyedComponent<T>.value
+  nameWithType.vb: KeyedComponent(Of T).value
 - uid: ToolkitEngine.LOSFilter
   name: LOSFilter
   href: api/ToolkitEngine.LOSFilter.html
@@ -4859,6 +5176,113 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Labels.UnionWith
   nameWithType: Labels.UnionWith
+- uid: ToolkitEngine.LifecycleSubsystem
+  name: LifecycleSubsystem
+  href: api/ToolkitEngine.LifecycleSubsystem.html
+  commentId: T:ToolkitEngine.LifecycleSubsystem
+  fullName: ToolkitEngine.LifecycleSubsystem
+  nameWithType: LifecycleSubsystem
+- uid: ToolkitEngine.LifecycleSubsystem.FixedUpdate
+  name: FixedUpdate()
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_FixedUpdate
+  commentId: M:ToolkitEngine.LifecycleSubsystem.FixedUpdate
+  fullName: ToolkitEngine.LifecycleSubsystem.FixedUpdate()
+  nameWithType: LifecycleSubsystem.FixedUpdate()
+- uid: ToolkitEngine.LifecycleSubsystem.FixedUpdate*
+  name: FixedUpdate
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_FixedUpdate_
+  commentId: Overload:ToolkitEngine.LifecycleSubsystem.FixedUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.LifecycleSubsystem.FixedUpdate
+  nameWithType: LifecycleSubsystem.FixedUpdate
+- uid: ToolkitEngine.LifecycleSubsystem.LateUpdate
+  name: LateUpdate()
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_LateUpdate
+  commentId: M:ToolkitEngine.LifecycleSubsystem.LateUpdate
+  fullName: ToolkitEngine.LifecycleSubsystem.LateUpdate()
+  nameWithType: LifecycleSubsystem.LateUpdate()
+- uid: ToolkitEngine.LifecycleSubsystem.LateUpdate*
+  name: LateUpdate
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_LateUpdate_
+  commentId: Overload:ToolkitEngine.LifecycleSubsystem.LateUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.LifecycleSubsystem.LateUpdate
+  nameWithType: LifecycleSubsystem.LateUpdate
+- uid: ToolkitEngine.LifecycleSubsystem.Phase
+  name: LifecycleSubsystem.Phase
+  href: api/ToolkitEngine.LifecycleSubsystem.Phase.html
+  commentId: T:ToolkitEngine.LifecycleSubsystem.Phase
+  fullName: ToolkitEngine.LifecycleSubsystem.Phase
+  nameWithType: LifecycleSubsystem.Phase
+- uid: ToolkitEngine.LifecycleSubsystem.Phase.FixedUpdate
+  name: FixedUpdate
+  href: api/ToolkitEngine.LifecycleSubsystem.Phase.html#ToolkitEngine_LifecycleSubsystem_Phase_FixedUpdate
+  commentId: F:ToolkitEngine.LifecycleSubsystem.Phase.FixedUpdate
+  fullName: ToolkitEngine.LifecycleSubsystem.Phase.FixedUpdate
+  nameWithType: LifecycleSubsystem.Phase.FixedUpdate
+- uid: ToolkitEngine.LifecycleSubsystem.Phase.LateUpdate
+  name: LateUpdate
+  href: api/ToolkitEngine.LifecycleSubsystem.Phase.html#ToolkitEngine_LifecycleSubsystem_Phase_LateUpdate
+  commentId: F:ToolkitEngine.LifecycleSubsystem.Phase.LateUpdate
+  fullName: ToolkitEngine.LifecycleSubsystem.Phase.LateUpdate
+  nameWithType: LifecycleSubsystem.Phase.LateUpdate
+- uid: ToolkitEngine.LifecycleSubsystem.Phase.Update
+  name: Update
+  href: api/ToolkitEngine.LifecycleSubsystem.Phase.html#ToolkitEngine_LifecycleSubsystem_Phase_Update
+  commentId: F:ToolkitEngine.LifecycleSubsystem.Phase.Update
+  fullName: ToolkitEngine.LifecycleSubsystem.Phase.Update
+  nameWithType: LifecycleSubsystem.Phase.Update
+- uid: ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem)
+  name: Register(ISubsystem)
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Register_ToolkitEngine_ISubsystem_
+  commentId: M:ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem)
+  fullName: ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem)
+  nameWithType: LifecycleSubsystem.Register(ISubsystem)
+- uid: ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)
+  name: Register(ISubsystem, Phase)
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Register_ToolkitEngine_ISubsystem_ToolkitEngine_LifecycleSubsystem_Phase_
+  commentId: M:ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)
+  fullName: ToolkitEngine.LifecycleSubsystem.Register(ToolkitEngine.ISubsystem, ToolkitEngine.LifecycleSubsystem.Phase)
+  nameWithType: LifecycleSubsystem.Register(ISubsystem, LifecycleSubsystem.Phase)
+- uid: ToolkitEngine.LifecycleSubsystem.Register*
+  name: Register
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Register_
+  commentId: Overload:ToolkitEngine.LifecycleSubsystem.Register
+  isSpec: "True"
+  fullName: ToolkitEngine.LifecycleSubsystem.Register
+  nameWithType: LifecycleSubsystem.Register
+- uid: ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem)
+  name: Unregister(ISubsystem)
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Unregister_ToolkitEngine_ISubsystem_
+  commentId: M:ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem)
+  fullName: ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem)
+  nameWithType: LifecycleSubsystem.Unregister(ISubsystem)
+- uid: ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)
+  name: Unregister(ISubsystem, Phase)
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Unregister_ToolkitEngine_ISubsystem_ToolkitEngine_LifecycleSubsystem_Phase_
+  commentId: M:ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem,ToolkitEngine.LifecycleSubsystem.Phase)
+  fullName: ToolkitEngine.LifecycleSubsystem.Unregister(ToolkitEngine.ISubsystem, ToolkitEngine.LifecycleSubsystem.Phase)
+  nameWithType: LifecycleSubsystem.Unregister(ISubsystem, LifecycleSubsystem.Phase)
+- uid: ToolkitEngine.LifecycleSubsystem.Unregister*
+  name: Unregister
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Unregister_
+  commentId: Overload:ToolkitEngine.LifecycleSubsystem.Unregister
+  isSpec: "True"
+  fullName: ToolkitEngine.LifecycleSubsystem.Unregister
+  nameWithType: LifecycleSubsystem.Unregister
+- uid: ToolkitEngine.LifecycleSubsystem.Update
+  name: Update()
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Update
+  commentId: M:ToolkitEngine.LifecycleSubsystem.Update
+  fullName: ToolkitEngine.LifecycleSubsystem.Update()
+  nameWithType: LifecycleSubsystem.Update()
+- uid: ToolkitEngine.LifecycleSubsystem.Update*
+  name: Update
+  href: api/ToolkitEngine.LifecycleSubsystem.html#ToolkitEngine_LifecycleSubsystem_Update_
+  commentId: Overload:ToolkitEngine.LifecycleSubsystem.Update
+  isSpec: "True"
+  fullName: ToolkitEngine.LifecycleSubsystem.Update
+  nameWithType: LifecycleSubsystem.Update
 - uid: ToolkitEngine.Lifetime
   name: Lifetime
   href: api/ToolkitEngine.Lifetime.html
@@ -5794,6 +6218,44 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.PhysicsUtil.CalculateForceToHitTarget
   nameWithType: PhysicsUtil.CalculateForceToHitTarget
+- uid: ToolkitEngine.PlayerLoopUtil
+  name: PlayerLoopUtil
+  href: api/ToolkitEngine.PlayerLoopUtil.html
+  commentId: T:ToolkitEngine.PlayerLoopUtil
+  fullName: ToolkitEngine.PlayerLoopUtil
+  nameWithType: PlayerLoopUtil
+- uid: ToolkitEngine.PlayerLoopUtil.InsertSystem*
+  name: InsertSystem
+  href: api/ToolkitEngine.PlayerLoopUtil.html#ToolkitEngine_PlayerLoopUtil_InsertSystem_
+  commentId: Overload:ToolkitEngine.PlayerLoopUtil.InsertSystem
+  isSpec: "True"
+  fullName: ToolkitEngine.PlayerLoopUtil.InsertSystem
+  nameWithType: PlayerLoopUtil.InsertSystem
+- uid: ToolkitEngine.PlayerLoopUtil.InsertSystem``1(PlayerLoopSystem@,PlayerLoopSystem@,System.Int32)
+  name: InsertSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem, int)
+  href: api/ToolkitEngine.PlayerLoopUtil.html#ToolkitEngine_PlayerLoopUtil_InsertSystem__1_PlayerLoopSystem__PlayerLoopSystem__System_Int32_
+  commentId: M:ToolkitEngine.PlayerLoopUtil.InsertSystem``1(PlayerLoopSystem@,PlayerLoopSystem@,System.Int32)
+  name.vb: InsertSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem, Integer)
+  fullName: ToolkitEngine.PlayerLoopUtil.InsertSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem, int)
+  fullName.vb: ToolkitEngine.PlayerLoopUtil.InsertSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem, Integer)
+  nameWithType: PlayerLoopUtil.InsertSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem, int)
+  nameWithType.vb: PlayerLoopUtil.InsertSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem, Integer)
+- uid: ToolkitEngine.PlayerLoopUtil.RemoveSystem*
+  name: RemoveSystem
+  href: api/ToolkitEngine.PlayerLoopUtil.html#ToolkitEngine_PlayerLoopUtil_RemoveSystem_
+  commentId: Overload:ToolkitEngine.PlayerLoopUtil.RemoveSystem
+  isSpec: "True"
+  fullName: ToolkitEngine.PlayerLoopUtil.RemoveSystem
+  nameWithType: PlayerLoopUtil.RemoveSystem
+- uid: ToolkitEngine.PlayerLoopUtil.RemoveSystem``1(PlayerLoopSystem@,PlayerLoopSystem@)
+  name: RemoveSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem)
+  href: api/ToolkitEngine.PlayerLoopUtil.html#ToolkitEngine_PlayerLoopUtil_RemoveSystem__1_PlayerLoopSystem__PlayerLoopSystem__
+  commentId: M:ToolkitEngine.PlayerLoopUtil.RemoveSystem``1(PlayerLoopSystem@,PlayerLoopSystem@)
+  name.vb: RemoveSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem)
+  fullName: ToolkitEngine.PlayerLoopUtil.RemoveSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem)
+  fullName.vb: ToolkitEngine.PlayerLoopUtil.RemoveSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem)
+  nameWithType: PlayerLoopUtil.RemoveSystem<T>(ref PlayerLoopSystem, in PlayerLoopSystem)
+  nameWithType.vb: PlayerLoopUtil.RemoveSystem(Of T)(PlayerLoopSystem, PlayerLoopSystem)
 - uid: ToolkitEngine.PoolItem
   name: PoolItem
   href: api/ToolkitEngine.PoolItem.html
@@ -7625,6 +8087,244 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.SplineAnimatePostSpawnRule.Process
   nameWithType: SplineAnimatePostSpawnRule.Process
+- uid: ToolkitEngine.SubsystemBootstrapper
+  name: SubsystemBootstrapper
+  href: api/ToolkitEngine.SubsystemBootstrapper.html
+  commentId: T:ToolkitEngine.SubsystemBootstrapper
+  fullName: ToolkitEngine.SubsystemBootstrapper
+  nameWithType: SubsystemBootstrapper
+- uid: ToolkitEngine.SubsystemInstance`2
+  name: SubsystemInstance<T, TConfig>
+  href: api/ToolkitEngine.SubsystemInstance-2.html
+  commentId: T:ToolkitEngine.SubsystemInstance`2
+  name.vb: SubsystemInstance(Of T, TConfig)
+  fullName: ToolkitEngine.SubsystemInstance<T, TConfig>
+  fullName.vb: ToolkitEngine.SubsystemInstance(Of T, TConfig)
+  nameWithType: SubsystemInstance<T, TConfig>
+  nameWithType.vb: SubsystemInstance(Of T, TConfig)
+- uid: ToolkitEngine.SubsystemInstance`2.Awake
+  name: Awake()
+  href: api/ToolkitEngine.SubsystemInstance-2.html#ToolkitEngine_SubsystemInstance_2_Awake
+  commentId: M:ToolkitEngine.SubsystemInstance`2.Awake
+  fullName: ToolkitEngine.SubsystemInstance<T, TConfig>.Awake()
+  fullName.vb: ToolkitEngine.SubsystemInstance(Of T, TConfig).Awake()
+  nameWithType: SubsystemInstance<T, TConfig>.Awake()
+  nameWithType.vb: SubsystemInstance(Of T, TConfig).Awake()
+- uid: ToolkitEngine.SubsystemInstance`2.Awake*
+  name: Awake
+  href: api/ToolkitEngine.SubsystemInstance-2.html#ToolkitEngine_SubsystemInstance_2_Awake_
+  commentId: Overload:ToolkitEngine.SubsystemInstance`2.Awake
+  isSpec: "True"
+  fullName: ToolkitEngine.SubsystemInstance<T, TConfig>.Awake
+  fullName.vb: ToolkitEngine.SubsystemInstance(Of T, TConfig).Awake
+  nameWithType: SubsystemInstance<T, TConfig>.Awake
+  nameWithType.vb: SubsystemInstance(Of T, TConfig).Awake
+- uid: ToolkitEngine.Subsystem`1
+  name: Subsystem<T>
+  href: api/ToolkitEngine.Subsystem-1.html
+  commentId: T:ToolkitEngine.Subsystem`1
+  name.vb: Subsystem(Of T)
+  fullName: ToolkitEngine.Subsystem<T>
+  fullName.vb: ToolkitEngine.Subsystem(Of T)
+  nameWithType: Subsystem<T>
+  nameWithType.vb: Subsystem(Of T)
+- uid: ToolkitEngine.Subsystem`1.#ctor
+  name: Subsystem()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1__ctor
+  commentId: M:ToolkitEngine.Subsystem`1.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Subsystem<T>.Subsystem()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).New()
+  nameWithType: Subsystem<T>.Subsystem()
+  nameWithType.vb: Subsystem(Of T).New()
+- uid: ToolkitEngine.Subsystem`1.#ctor*
+  name: Subsystem
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1__ctor_
+  commentId: Overload:ToolkitEngine.Subsystem`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Subsystem<T>.Subsystem
+  fullName.vb: ToolkitEngine.Subsystem(Of T).New
+  nameWithType: Subsystem<T>.Subsystem
+  nameWithType.vb: Subsystem(Of T).New
+- uid: ToolkitEngine.Subsystem`1.CastInstance
+  name: CastInstance
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance
+  commentId: P:ToolkitEngine.Subsystem`1.CastInstance
+  fullName: ToolkitEngine.Subsystem<T>.CastInstance
+  fullName.vb: ToolkitEngine.Subsystem(Of T).CastInstance
+  nameWithType: Subsystem<T>.CastInstance
+  nameWithType.vb: Subsystem(Of T).CastInstance
+- uid: ToolkitEngine.Subsystem`1.CastInstance*
+  name: CastInstance
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance_
+  commentId: Overload:ToolkitEngine.Subsystem`1.CastInstance
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.CastInstance
+  fullName.vb: ToolkitEngine.Subsystem(Of T).CastInstance
+  nameWithType: Subsystem<T>.CastInstance
+  nameWithType.vb: Subsystem(Of T).CastInstance
+- uid: ToolkitEngine.Subsystem`1.Dispose
+  name: Dispose()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose
+  commentId: M:ToolkitEngine.Subsystem`1.Dispose
+  fullName: ToolkitEngine.Subsystem<T>.Dispose()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Dispose()
+  nameWithType: Subsystem<T>.Dispose()
+  nameWithType.vb: Subsystem(Of T).Dispose()
+- uid: ToolkitEngine.Subsystem`1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose_System_Boolean_
+  commentId: M:ToolkitEngine.Subsystem`1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: ToolkitEngine.Subsystem<T>.Dispose(bool)
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Dispose(Boolean)
+  nameWithType: Subsystem<T>.Dispose(bool)
+  nameWithType.vb: Subsystem(Of T).Dispose(Boolean)
+- uid: ToolkitEngine.Subsystem`1.Dispose*
+  name: Dispose
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Dispose
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Dispose
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Dispose
+  nameWithType: Subsystem<T>.Dispose
+  nameWithType.vb: Subsystem(Of T).Dispose
+- uid: ToolkitEngine.Subsystem`1.Finalize
+  name: ~Subsystem()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Finalize
+  commentId: M:ToolkitEngine.Subsystem`1.Finalize
+  name.vb: ''
+  fullName: ToolkitEngine.Subsystem<T>.~Subsystem()
+  fullName.vb: ''
+  nameWithType: Subsystem<T>.~Subsystem()
+  nameWithType.vb: ''
+- uid: ToolkitEngine.Subsystem`1.Finalize*
+  name: ~Subsystem
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Finalize_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Finalize
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.~Subsystem
+  nameWithType: Subsystem<T>.~Subsystem
+- uid: ToolkitEngine.Subsystem`1.FixedUpdate
+  name: FixedUpdate()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_FixedUpdate
+  commentId: M:ToolkitEngine.Subsystem`1.FixedUpdate
+  fullName: ToolkitEngine.Subsystem<T>.FixedUpdate()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).FixedUpdate()
+  nameWithType: Subsystem<T>.FixedUpdate()
+  nameWithType.vb: Subsystem(Of T).FixedUpdate()
+- uid: ToolkitEngine.Subsystem`1.FixedUpdate*
+  name: FixedUpdate
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_FixedUpdate_
+  commentId: Overload:ToolkitEngine.Subsystem`1.FixedUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.FixedUpdate
+  fullName.vb: ToolkitEngine.Subsystem(Of T).FixedUpdate
+  nameWithType: Subsystem<T>.FixedUpdate
+  nameWithType.vb: Subsystem(Of T).FixedUpdate
+- uid: ToolkitEngine.Subsystem`1.Initialize
+  name: Initialize()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Initialize
+  commentId: M:ToolkitEngine.Subsystem`1.Initialize
+  fullName: ToolkitEngine.Subsystem<T>.Initialize()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Initialize()
+  nameWithType: Subsystem<T>.Initialize()
+  nameWithType.vb: Subsystem(Of T).Initialize()
+- uid: ToolkitEngine.Subsystem`1.Initialize*
+  name: Initialize
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Initialize_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Initialize
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Initialize
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Initialize
+  nameWithType: Subsystem<T>.Initialize
+  nameWithType.vb: Subsystem(Of T).Initialize
+- uid: ToolkitEngine.Subsystem`1.Instance
+  name: Instance
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance
+  commentId: P:ToolkitEngine.Subsystem`1.Instance
+  fullName: ToolkitEngine.Subsystem<T>.Instance
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Instance
+  nameWithType: Subsystem<T>.Instance
+  nameWithType.vb: Subsystem(Of T).Instance
+- uid: ToolkitEngine.Subsystem`1.Instance*
+  name: Instance
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Instance
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Instance
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Instance
+  nameWithType: Subsystem<T>.Instance
+  nameWithType.vb: Subsystem(Of T).Instance
+- uid: ToolkitEngine.Subsystem`1.Instantiate
+  name: Instantiate()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate
+  commentId: M:ToolkitEngine.Subsystem`1.Instantiate
+  fullName: ToolkitEngine.Subsystem<T>.Instantiate()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Instantiate()
+  nameWithType: Subsystem<T>.Instantiate()
+  nameWithType.vb: Subsystem(Of T).Instantiate()
+- uid: ToolkitEngine.Subsystem`1.Instantiate*
+  name: Instantiate
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Instantiate
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Instantiate
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Instantiate
+  nameWithType: Subsystem<T>.Instantiate
+  nameWithType.vb: Subsystem(Of T).Instantiate
+- uid: ToolkitEngine.Subsystem`1.LateUpdate
+  name: LateUpdate()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate
+  commentId: M:ToolkitEngine.Subsystem`1.LateUpdate
+  fullName: ToolkitEngine.Subsystem<T>.LateUpdate()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).LateUpdate()
+  nameWithType: Subsystem<T>.LateUpdate()
+  nameWithType.vb: Subsystem(Of T).LateUpdate()
+- uid: ToolkitEngine.Subsystem`1.LateUpdate*
+  name: LateUpdate
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate_
+  commentId: Overload:ToolkitEngine.Subsystem`1.LateUpdate
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.LateUpdate
+  fullName.vb: ToolkitEngine.Subsystem(Of T).LateUpdate
+  nameWithType: Subsystem<T>.LateUpdate
+  nameWithType.vb: Subsystem(Of T).LateUpdate
+- uid: ToolkitEngine.Subsystem`1.Terminate
+  name: Terminate()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Terminate
+  commentId: M:ToolkitEngine.Subsystem`1.Terminate
+  fullName: ToolkitEngine.Subsystem<T>.Terminate()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Terminate()
+  nameWithType: Subsystem<T>.Terminate()
+  nameWithType.vb: Subsystem(Of T).Terminate()
+- uid: ToolkitEngine.Subsystem`1.Terminate*
+  name: Terminate
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Terminate_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Terminate
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Terminate
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Terminate
+  nameWithType: Subsystem<T>.Terminate
+  nameWithType.vb: Subsystem(Of T).Terminate
+- uid: ToolkitEngine.Subsystem`1.Update
+  name: Update()
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Update
+  commentId: M:ToolkitEngine.Subsystem`1.Update
+  fullName: ToolkitEngine.Subsystem<T>.Update()
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Update()
+  nameWithType: Subsystem<T>.Update()
+  nameWithType.vb: Subsystem(Of T).Update()
+- uid: ToolkitEngine.Subsystem`1.Update*
+  name: Update
+  href: api/ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Update_
+  commentId: Overload:ToolkitEngine.Subsystem`1.Update
+  isSpec: "True"
+  fullName: ToolkitEngine.Subsystem<T>.Update
+  fullName.vb: ToolkitEngine.Subsystem(Of T).Update
+  nameWithType: Subsystem<T>.Update
+  nameWithType.vb: Subsystem(Of T).Update
 - uid: ToolkitEngine.TagFilter
   name: TagFilter
   href: api/ToolkitEngine.TagFilter.html
