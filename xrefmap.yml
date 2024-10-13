@@ -4514,6 +4514,49 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.GizmosUtil.DrawCone
   nameWithType: GizmosUtil.DrawCone
+- uid: ToolkitEngine.GizmosUtil.DrawCylinder(Transform,System.Single,System.Single)
+  name: DrawCylinder(Transform, float, float)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawCylinder_Transform_System_Single_System_Single_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawCylinder(Transform,System.Single,System.Single)
+  name.vb: DrawCylinder(Transform, Single, Single)
+  fullName: ToolkitEngine.GizmosUtil.DrawCylinder(Transform, float, float)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawCylinder(Transform, Single, Single)
+  nameWithType: GizmosUtil.DrawCylinder(Transform, float, float)
+  nameWithType.vb: GizmosUtil.DrawCylinder(Transform, Single, Single)
+- uid: ToolkitEngine.GizmosUtil.DrawCylinder(Transform,System.Single,System.Single,Color)
+  name: DrawCylinder(Transform, float, float, Color)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawCylinder_Transform_System_Single_System_Single_Color_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawCylinder(Transform,System.Single,System.Single,Color)
+  name.vb: DrawCylinder(Transform, Single, Single, Color)
+  fullName: ToolkitEngine.GizmosUtil.DrawCylinder(Transform, float, float, Color)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawCylinder(Transform, Single, Single, Color)
+  nameWithType: GizmosUtil.DrawCylinder(Transform, float, float, Color)
+  nameWithType.vb: GizmosUtil.DrawCylinder(Transform, Single, Single, Color)
+- uid: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3,System.Single,System.Single)
+  name: DrawCylinder(Vector3, float, float)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawCylinder_Vector3_System_Single_System_Single_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawCylinder(Vector3,System.Single,System.Single)
+  name.vb: DrawCylinder(Vector3, Single, Single)
+  fullName: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3, float, float)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3, Single, Single)
+  nameWithType: GizmosUtil.DrawCylinder(Vector3, float, float)
+  nameWithType.vb: GizmosUtil.DrawCylinder(Vector3, Single, Single)
+- uid: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3,System.Single,System.Single,Color)
+  name: DrawCylinder(Vector3, float, float, Color)
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawCylinder_Vector3_System_Single_System_Single_Color_
+  commentId: M:ToolkitEngine.GizmosUtil.DrawCylinder(Vector3,System.Single,System.Single,Color)
+  name.vb: DrawCylinder(Vector3, Single, Single, Color)
+  fullName: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3, float, float, Color)
+  fullName.vb: ToolkitEngine.GizmosUtil.DrawCylinder(Vector3, Single, Single, Color)
+  nameWithType: GizmosUtil.DrawCylinder(Vector3, float, float, Color)
+  nameWithType.vb: GizmosUtil.DrawCylinder(Vector3, Single, Single, Color)
+- uid: ToolkitEngine.GizmosUtil.DrawCylinder*
+  name: DrawCylinder
+  href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawCylinder_
+  commentId: Overload:ToolkitEngine.GizmosUtil.DrawCylinder
+  isSpec: "True"
+  fullName: ToolkitEngine.GizmosUtil.DrawCylinder
+  nameWithType: GizmosUtil.DrawCylinder
 - uid: ToolkitEngine.GizmosUtil.DrawEllipse(Transform,System.Single,System.Single,System.Int32)
   name: DrawEllipse(Transform, float, float, int)
   href: api/ToolkitEngine.GizmosUtil.html#ToolkitEngine_GizmosUtil_DrawEllipse_Transform_System_Single_System_Single_System_Int32_

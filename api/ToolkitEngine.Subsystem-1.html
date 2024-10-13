@@ -101,7 +101,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Subsystem&lt;T&gt; : ISubsystem, ISubsystem&lt;T&gt;, IDisposable where T : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Subsystem&lt;T&gt; : ISubsystem, ISubsystem&lt;T&gt;, IDisposable where T : class, ISubsystem, new()</code></pre>
   </div>
 
 
@@ -175,7 +175,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1__ctor" data-uid="ToolkitEngine.Subsystem`1.#ctor">
   Subsystem()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -271,7 +271,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Dispose" data-uid="ToolkitEngine.Subsystem`1.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -298,7 +298,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Dispose_System_Boolean_" data-uid="ToolkitEngine.Subsystem`1.Dispose(System.Boolean)">
   Dispose(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -329,7 +329,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Finalize" data-uid="ToolkitEngine.Subsystem`1.Finalize">
   ~Subsystem()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -355,7 +355,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_FixedUpdate" data-uid="ToolkitEngine.Subsystem`1.FixedUpdate">
   FixedUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -381,7 +381,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Initialize" data-uid="ToolkitEngine.Subsystem`1.Initialize">
   Initialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -407,7 +407,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Instantiate" data-uid="ToolkitEngine.Subsystem`1.Instantiate">
   Instantiate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -433,7 +433,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_LateUpdate" data-uid="ToolkitEngine.Subsystem`1.LateUpdate">
   LateUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -459,7 +459,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Terminate" data-uid="ToolkitEngine.Subsystem`1.Terminate">
   Terminate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -485,7 +485,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Update" data-uid="ToolkitEngine.Subsystem`1.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

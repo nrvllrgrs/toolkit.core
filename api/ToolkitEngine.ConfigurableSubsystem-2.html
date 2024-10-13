@@ -101,7 +101,7 @@ Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-seco
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigurableSubsystem&lt;T, TConfig&gt; : Subsystem&lt;T&gt;, ISubsystem, ISubsystem&lt;T&gt;, IDisposable where T : class, new() where TConfig : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurableSubsystem&lt;T, TConfig&gt; : Subsystem&lt;T&gt;, ISubsystem, ISubsystem&lt;T&gt;, IDisposable where T : class, ISubsystem, new() where TConfig : ScriptableObject</code></pre>
   </div>
 
 
