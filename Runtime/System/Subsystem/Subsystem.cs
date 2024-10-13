@@ -16,7 +16,7 @@ namespace ToolkitEngine
 	}
 
 	public abstract class Subsystem<T> : ISubsystem, ISubsystem<T>, IDisposable
-		where T : class, new()
+		where T : class, ISubsystem, new()
 	{
 		#region Fields
 
@@ -40,6 +40,8 @@ namespace ToolkitEngine
 					if (s_instance == null)
 					{
 						s_instance = new T();
+						LifecycleSubsystem.Register(s_instance);
+
 					}
 					return s_instance;
 				}
@@ -53,7 +55,6 @@ namespace ToolkitEngine
 		protected Subsystem()
 		{
 			Initialize();
-			LifecycleSubsystem.Register(this);
 		}
 
 		#endregion

@@ -1,5 +1,10 @@
-using UnityEditor;
 using UnityEngine;
+using static UnityEngine.UI.Image;
+
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace ToolkitEngine
 {
@@ -64,6 +69,41 @@ namespace ToolkitEngine
 #if UNITY_EDITOR
 			Gizmos.color = Handles.color = color;
 			DrawCone(vertex, angle, height, direction);
+#endif
+		}
+
+		public static void DrawCylinder(Transform transform, float radius, float height)
+		{
+			DrawCylinder(transform, radius, height, Color.white);
+		}
+
+		public static void DrawCylinder(Transform transform, float radius, float height, Color color)
+		{
+			DrawCylinder(transform.position, transform.up, radius, height, color);
+		}
+
+		public static void DrawCylinder(Vector3 origin, float radius, float height)
+		{
+			DrawCylinder(origin, radius, height, Color.white);
+		}
+
+		public static void DrawCylinder(Vector3 origin, float radius, float height, Color color)
+		{
+			DrawCylinder(origin, Vector3.up, radius, height , color);
+		}
+
+		private static void DrawCylinder(Vector3 origin, Vector3 up, float radius, float height, Color color)
+		{
+#if UNITY_EDITOR
+			Gizmos.color = Handles.color = color;
+			var offset = up * (height * 0.5f);
+			Handles.DrawWireDisc(origin - offset, up, radius);
+			Handles.DrawWireDisc(origin + offset, up, radius);
+
+			Gizmos.DrawLine(origin - offset + Vector3.forward * radius, origin + offset + Vector3.forward * radius);
+			Gizmos.DrawLine(origin - offset - Vector3.forward * radius, origin + offset - Vector3.forward * radius);
+			Gizmos.DrawLine(origin - offset + Vector3.right * radius, origin + offset + Vector3.right * radius);
+			Gizmos.DrawLine(origin - offset - Vector3.right * radius, origin + offset - Vector3.right * radius);
 #endif
 		}
 

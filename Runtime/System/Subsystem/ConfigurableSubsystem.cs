@@ -3,7 +3,7 @@ using UnityEngine;
 namespace ToolkitEngine
 {
 	public class ConfigurableSubsystem<T, TConfig> : Subsystem<T>
-        where T : class, new()
+        where T : class, ISubsystem, new()
 		where TConfig : ScriptableObject
     {
 		#region Fields
