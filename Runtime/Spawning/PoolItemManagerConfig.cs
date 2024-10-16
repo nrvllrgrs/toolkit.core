@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ToolkitEngine
 {
-	[CreateAssetMenu(menuName = "Toolkit/Config/PoolItemManager Config")]
+	[CreateAssetMenu(menuName = "Toolkit/Config/PoolItemManager Config", order = 10)]
 	public class PoolItemManagerConfig : ScriptableObject
     {
 		#region Fields

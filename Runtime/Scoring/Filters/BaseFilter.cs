@@ -14,6 +14,9 @@ namespace ToolkitEngine
 		[SerializeField, Tooltip("Indicates whether true condition forces score of 1; whereas a false condition is skipped.")]
 		protected bool m_overrideOrSkip;
 
+		[SerializeField, Tooltip("Indicates whether filter result is inverted.")]
+		protected bool m_inverted;
+
 		[SerializeField, Min(0f), Tooltip("Bonus weight multiplied to valid targets. Should only be used in rare circumstances.")]
 		protected float m_bonusWeight = 1f;
 
@@ -36,7 +39,7 @@ namespace ToolkitEngine
 
 		public float Evaluate(GameObject actor, GameObject target, Vector3 position)
 		{
-			return Convert.ToSingle(IsIncluded(actor, target, position));
+			return Convert.ToSingle(IsIncluded(actor, target, position) != m_inverted);
 		}
 
 		protected abstract bool IsIncluded(GameObject actor, GameObject target, Vector3 position);

@@ -8,7 +8,7 @@ namespace ToolkitEngine
 		#region Fields
 
 		[SerializeField]
-		private GameObject m_object;
+		private Object m_object;
 
 		[SerializeField]
 		private bool m_active;
@@ -19,12 +19,30 @@ namespace ToolkitEngine
 
 		public void Set()
 		{
-			m_object.SetActive(m_active);
+			Set(m_active);
 		}
 
 		public void Invert()
 		{
-			m_object.SetActive(!m_active);
+			Set(!m_active);
+		}
+
+		private void Set(bool value)
+		{
+			if (m_object is GameObject go)
+			{
+				if (GameObjectExt.IsNull(go))
+					return;
+
+				go.SetActive(value);
+			}
+			else if (m_object is Behaviour behaviour)
+			{
+				if (behaviour == null)
+					return;
+
+				behaviour.enabled = value;
+			}
 		}
 
 		#endregion

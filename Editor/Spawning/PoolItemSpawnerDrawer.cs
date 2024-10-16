@@ -11,10 +11,11 @@ namespace ToolkitEditor
 
 		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 		{
+			var targetValue = property.serializedObject.targetObject;
 			var sourceProp = property.FindPropertyRelative("m_source");
 			var sourceValue = (PoolItemSpawner.SourceType)sourceProp.intValue;
 
-			if (property.serializedObject.targetObject is Component)
+			if (targetValue is Component)
 			{
 				EditorGUIRectLayout.PropertyField(ref position, sourceProp);
 			}
@@ -29,7 +30,7 @@ namespace ToolkitEditor
 				EditorGUIRectLayout.PropertyField(ref position, templateProp);
 			}
 
-			if (property.serializedObject.targetObject is Component)
+			if (targetValue is Component)
 			{
 				switch (sourceValue)
 				{
@@ -43,6 +44,14 @@ namespace ToolkitEditor
 						EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_spawner"));
 						break;
 				}
+			}
+			else if (targetValue is PoolItemManagerConfig)
+			{
+				sourceProp.intValue = (int)PoolItemSpawner.SourceType.Internal;
+
+				EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_collectionCheck"));
+				EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacity"));
+				EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_capacityMode"));
 			}
 			// PoolItemSpawner on ScriptableObjects must be global
 			else
@@ -58,6 +67,7 @@ namespace ToolkitEditor
 		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
 		{
 			float height = 0f;
+			var targetValue = property.serializedObject.targetObject;
 			var sourceProp = property.FindPropertyRelative("m_source");
 			var sourceValue = (PoolItemSpawner.SourceType)sourceProp.intValue;
 
@@ -69,8 +79,11 @@ namespace ToolkitEditor
 					+ EditorGUIUtility.standardVerticalSpacing;
 			}
 
-			height += EditorGUI.GetPropertyHeight(sourceProp)
+			if (targetValue is not PoolItemManagerConfig)
+			{
+				height += EditorGUI.GetPropertyHeight(sourceProp)
 					+ EditorGUIUtility.standardVerticalSpacing;
+			}
 
 			switch ((PoolItemSpawner.SourceType)sourceProp.intValue)
 			{

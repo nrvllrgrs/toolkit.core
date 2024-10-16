@@ -22,9 +22,6 @@ namespace ToolkitEngine
 		[SerializeField, Tooltip("Colliders that are ignored for line-of-sight check.")]
 		private Collider[] m_ignoredColliders;
 
-		[SerializeField, Tooltip("Indicates whether target should not have line-of-sight")]
-		private bool m_invert;
-
 		private HashSet<Collider> m_ignoredSet = null;
 
 		#endregion
@@ -44,22 +41,17 @@ namespace ToolkitEngine
 				if (m_requireTargetingPoints)
 					return false;
 
-				return CheckInvert(HasLineOfSight(actor, target, position));
+				return HasLineOfSight(actor, target, position);
 			}
 			else
 			{
 				foreach (var point in targetingPoints)
 				{
 					if (HasLineOfSight(actor, target, point.position))
-						return CheckInvert(true);
+						return true;
 				}
-				return CheckInvert(false);
+				return false;
 			}
-		}
-
-		private bool CheckInvert(bool value)
-		{
-			return value ^ m_invert;
 		}
 
 		private bool HasLineOfSight(GameObject actor, GameObject target, Vector3 end)

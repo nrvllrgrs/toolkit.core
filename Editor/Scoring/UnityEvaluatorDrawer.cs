@@ -413,6 +413,7 @@ namespace ToolkitEditor
 		{
 			"m_enabled",
 			"m_overrideOrSkip",
+			"m_inverted",
 			"m_bonusWeight",
 		};
 	}
