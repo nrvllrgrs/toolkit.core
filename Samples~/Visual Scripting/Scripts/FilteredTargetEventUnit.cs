@@ -9,7 +9,7 @@ namespace ToolkitEngine.VisualScripting
 		[UnitHeaderInspectable("Filtered")]
 		public bool filtered;
 
-		[DoNotSerialize, PortLabelHidden]
+		[DoNotSerialize]
 		public ValueInput filter { get; set; }
 
 		#endregion
