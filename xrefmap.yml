@@ -10309,25 +10309,6 @@ references:
   commentId: T:ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener
   fullName: ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener
   nameWithType: OnSetItemAddedMessageListener
-- uid: ToolkitEngine.VisualScripting.OnSetItemRemove
-  name: OnSetItemRemove
-  href: api/ToolkitEngine.VisualScripting.OnSetItemRemove.html
-  commentId: T:ToolkitEngine.VisualScripting.OnSetItemRemove
-  fullName: ToolkitEngine.VisualScripting.OnSetItemRemove
-  nameWithType: OnSetItemRemove
-- uid: ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
-  name: MessageListenerType
-  href: api/ToolkitEngine.VisualScripting.OnSetItemRemove.html#ToolkitEngine_VisualScripting_OnSetItemRemove_MessageListenerType
-  commentId: P:ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
-  fullName: ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
-  nameWithType: OnSetItemRemove.MessageListenerType
-- uid: ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType*
-  name: MessageListenerType
-  href: api/ToolkitEngine.VisualScripting.OnSetItemRemove.html#ToolkitEngine_VisualScripting_OnSetItemRemove_MessageListenerType_
-  commentId: Overload:ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
-  isSpec: "True"
-  fullName: ToolkitEngine.VisualScripting.OnSetItemRemove.MessageListenerType
-  nameWithType: OnSetItemRemove.MessageListenerType
 - uid: ToolkitEngine.VisualScripting.OnSetItemRemoved
   name: OnSetItemRemoved
   href: api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html
