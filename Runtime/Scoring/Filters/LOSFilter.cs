@@ -7,6 +7,9 @@ namespace ToolkitEngine
     {
 		#region Fields
 
+		[SerializeField, Tooltip("Origin of the LOS check. If empty, use this gameObject's transform.")]
+		private Transform m_origin;
+
 		[SerializeField]
 		private LayerMask m_layers = ~0;
 
@@ -56,20 +59,22 @@ namespace ToolkitEngine
 
 		private bool HasLineOfSight(GameObject actor, GameObject target, Vector3 end)
 		{
+			Transform origin = GetOrigin(actor);
+
 			bool hasCharacterController = target.GetComponent<CharacterController>() != null;
 			if (m_ignoredSet.Count == 0)
 			{
-				if (Physics.Linecast(actor.transform.position, end, out RaycastHit hit, m_layers, m_queryTrigger))
+				if (Physics.Linecast(origin.position, end, out RaycastHit hit, m_layers, m_queryTrigger))
 					return CheckRaycastHit(hit, target);
 
 				return hasCharacterController;
 			}
 			else
 			{
-				Vector3 direction = (end - actor.transform.position).normalized;
-				float distance = Vector3.Distance(actor.transform.position, end);
+				Vector3 direction = (end - origin.position).normalized;
+				float distance = Vector3.Distance(origin.position, end);
 
-				foreach (var hit in Physics.RaycastAll(actor.transform.position, direction, distance, m_layers, m_queryTrigger))
+				foreach (var hit in Physics.RaycastAll(origin.position, direction, distance, m_layers, m_queryTrigger))
 				{
 					// Ignored collier, skip
 					if (m_ignoredSet.Contains(hit.collider))
@@ -88,6 +93,15 @@ namespace ToolkitEngine
 				return Equals(hit.collider.gameObject, target);
 
 			return hit.collider.gameObject.IsDescendantOf(target);
+		}
+
+		private Transform GetOrigin(GameObject actor)
+		{
+			if (m_origin == null)
+			{
+				m_origin = actor.transform;
+			}
+			return m_origin;
 		}
 
 		#endregion
