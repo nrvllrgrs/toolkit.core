@@ -3794,6 +3794,22 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.BaseEvaluator.Evaluate
   nameWithType: BaseEvaluator.Evaluate
+- uid: ToolkitEngine.BaseEvaluator.UpdateOrigin(GameObject,Transform@)
+  name: UpdateOrigin(GameObject, ref Transform)
+  href: api/ToolkitEngine.BaseEvaluator.html#ToolkitEngine_BaseEvaluator_UpdateOrigin_GameObject_Transform__
+  commentId: M:ToolkitEngine.BaseEvaluator.UpdateOrigin(GameObject,Transform@)
+  name.vb: UpdateOrigin(GameObject, Transform)
+  fullName: ToolkitEngine.BaseEvaluator.UpdateOrigin(GameObject, ref Transform)
+  fullName.vb: ToolkitEngine.BaseEvaluator.UpdateOrigin(GameObject, Transform)
+  nameWithType: BaseEvaluator.UpdateOrigin(GameObject, ref Transform)
+  nameWithType.vb: BaseEvaluator.UpdateOrigin(GameObject, Transform)
+- uid: ToolkitEngine.BaseEvaluator.UpdateOrigin*
+  name: UpdateOrigin
+  href: api/ToolkitEngine.BaseEvaluator.html#ToolkitEngine_BaseEvaluator_UpdateOrigin_
+  commentId: Overload:ToolkitEngine.BaseEvaluator.UpdateOrigin
+  isSpec: "True"
+  fullName: ToolkitEngine.BaseEvaluator.UpdateOrigin
+  nameWithType: BaseEvaluator.UpdateOrigin
 - uid: ToolkitEngine.BaseEvaluator.bonusWeight
   name: bonusWeight
   href: api/ToolkitEngine.BaseEvaluator.html#ToolkitEngine_BaseEvaluator_bonusWeight
@@ -3889,6 +3905,22 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.BaseFilter.IsIncluded
   nameWithType: BaseFilter.IsIncluded
+- uid: ToolkitEngine.BaseFilter.UpdateOrigin(GameObject,Transform@)
+  name: UpdateOrigin(GameObject, ref Transform)
+  href: api/ToolkitEngine.BaseFilter.html#ToolkitEngine_BaseFilter_UpdateOrigin_GameObject_Transform__
+  commentId: M:ToolkitEngine.BaseFilter.UpdateOrigin(GameObject,Transform@)
+  name.vb: UpdateOrigin(GameObject, Transform)
+  fullName: ToolkitEngine.BaseFilter.UpdateOrigin(GameObject, ref Transform)
+  fullName.vb: ToolkitEngine.BaseFilter.UpdateOrigin(GameObject, Transform)
+  nameWithType: BaseFilter.UpdateOrigin(GameObject, ref Transform)
+  nameWithType.vb: BaseFilter.UpdateOrigin(GameObject, Transform)
+- uid: ToolkitEngine.BaseFilter.UpdateOrigin*
+  name: UpdateOrigin
+  href: api/ToolkitEngine.BaseFilter.html#ToolkitEngine_BaseFilter_UpdateOrigin_
+  commentId: Overload:ToolkitEngine.BaseFilter.UpdateOrigin
+  isSpec: "True"
+  fullName: ToolkitEngine.BaseFilter.UpdateOrigin
+  nameWithType: BaseFilter.UpdateOrigin
 - uid: ToolkitEngine.BaseFilter.bonusWeight
   name: bonusWeight
   href: api/ToolkitEngine.BaseFilter.html#ToolkitEngine_BaseFilter_bonusWeight
