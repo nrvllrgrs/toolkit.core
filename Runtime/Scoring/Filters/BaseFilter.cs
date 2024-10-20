@@ -44,6 +44,14 @@ namespace ToolkitEngine
 
 		protected abstract bool IsIncluded(GameObject actor, GameObject target, Vector3 position);
 
+		protected static void UpdateOrigin(GameObject actor, ref Transform origin)
+		{
+			if (origin == null)
+			{
+				origin = actor.transform;
+			}
+		}
+
 		#endregion
 	}
 }

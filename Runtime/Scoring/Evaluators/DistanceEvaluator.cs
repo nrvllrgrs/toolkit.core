@@ -6,6 +6,9 @@ namespace ToolkitEngine
     {
 		#region Fields
 
+		[SerializeField, Tooltip("Origin of the distance check. If empty, use this gameObject's transform.")]
+		private Transform m_origin;
+
 		[SerializeField, MinMax(0f, float.PositiveInfinity)]
 		private Vector2 m_range = new Vector2(0f, 100f);
 
@@ -25,15 +28,17 @@ namespace ToolkitEngine
 
 		protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position)
 		{
+			UpdateOrigin(actor, ref m_origin);
+
 			float sqrDistance;
 			if (!m_horizontalOnly)
 			{
-				sqrDistance = (actor.transform.position - position).sqrMagnitude;
+				sqrDistance = (m_origin.position - position).sqrMagnitude;
 			}
 			else
 			{
 				var position2D = new Vector2(position.x, position.z);
-				var actorPosition2D = new Vector2(actor.transform.position.x, actor.transform.position.z);
+				var actorPosition2D = new Vector2(m_origin.position.x, m_origin.position.z);
 				sqrDistance = (actorPosition2D - position2D).sqrMagnitude;
 			}
 
