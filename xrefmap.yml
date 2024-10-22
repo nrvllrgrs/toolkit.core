@@ -11960,6 +11960,31 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.Button
   nameWithType: EditorGUIRectLayout.Button
+- uid: UnityEditor.EditorGUIRectLayout.ColorField(Rect@,GUIContent,Color)
+  name: ColorField(ref Rect, GUIContent, Color)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ColorField_Rect__GUIContent_Color_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ColorField(Rect@,GUIContent,Color)
+  name.vb: ColorField(Rect, GUIContent, Color)
+  fullName: UnityEditor.EditorGUIRectLayout.ColorField(ref Rect, GUIContent, Color)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ColorField(Rect, GUIContent, Color)
+  nameWithType: EditorGUIRectLayout.ColorField(ref Rect, GUIContent, Color)
+  nameWithType.vb: EditorGUIRectLayout.ColorField(Rect, GUIContent, Color)
+- uid: UnityEditor.EditorGUIRectLayout.ColorField(Rect@,System.String,Color)
+  name: ColorField(ref Rect, string, Color)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ColorField_Rect__System_String_Color_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ColorField(Rect@,System.String,Color)
+  name.vb: ColorField(Rect, String, Color)
+  fullName: UnityEditor.EditorGUIRectLayout.ColorField(ref Rect, string, Color)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ColorField(Rect, String, Color)
+  nameWithType: EditorGUIRectLayout.ColorField(ref Rect, string, Color)
+  nameWithType.vb: EditorGUIRectLayout.ColorField(Rect, String, Color)
+- uid: UnityEditor.EditorGUIRectLayout.ColorField*
+  name: ColorField
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ColorField_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.ColorField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.ColorField
+  nameWithType: EditorGUIRectLayout.ColorField
 - uid: UnityEditor.EditorGUIRectLayout.CurveField(Rect@,SerializedProperty,Color,GUIContent,System.Int32)
   name: CurveField(ref Rect, SerializedProperty, Color, GUIContent, int)
   href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_CurveField_Rect__SerializedProperty_Color_GUIContent_System_Int32_
@@ -12348,6 +12373,31 @@ references:
   isSpec: "True"
   fullName: UnityEditor.EditorGUIRectLayout.TextField
   nameWithType: EditorGUIRectLayout.TextField
+- uid: UnityEditor.EditorGUIRectLayout.ToggleField(Rect@,GUIContent,System.Boolean)
+  name: ToggleField(ref Rect, GUIContent, bool)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ToggleField_Rect__GUIContent_System_Boolean_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ToggleField(Rect@,GUIContent,System.Boolean)
+  name.vb: ToggleField(Rect, GUIContent, Boolean)
+  fullName: UnityEditor.EditorGUIRectLayout.ToggleField(ref Rect, GUIContent, bool)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ToggleField(Rect, GUIContent, Boolean)
+  nameWithType: EditorGUIRectLayout.ToggleField(ref Rect, GUIContent, bool)
+  nameWithType.vb: EditorGUIRectLayout.ToggleField(Rect, GUIContent, Boolean)
+- uid: UnityEditor.EditorGUIRectLayout.ToggleField(Rect@,System.String,System.Boolean)
+  name: ToggleField(ref Rect, string, bool)
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ToggleField_Rect__System_String_System_Boolean_
+  commentId: M:UnityEditor.EditorGUIRectLayout.ToggleField(Rect@,System.String,System.Boolean)
+  name.vb: ToggleField(Rect, String, Boolean)
+  fullName: UnityEditor.EditorGUIRectLayout.ToggleField(ref Rect, string, bool)
+  fullName.vb: UnityEditor.EditorGUIRectLayout.ToggleField(Rect, String, Boolean)
+  nameWithType: EditorGUIRectLayout.ToggleField(ref Rect, string, bool)
+  nameWithType.vb: EditorGUIRectLayout.ToggleField(Rect, String, Boolean)
+- uid: UnityEditor.EditorGUIRectLayout.ToggleField*
+  name: ToggleField
+  href: api/UnityEditor.EditorGUIRectLayout.html#UnityEditor_EditorGUIRectLayout_ToggleField_
+  commentId: Overload:UnityEditor.EditorGUIRectLayout.ToggleField
+  isSpec: "True"
+  fullName: UnityEditor.EditorGUIRectLayout.ToggleField
+  nameWithType: EditorGUIRectLayout.ToggleField
 - uid: UnityEditor.SerializedPropertyUtility
   name: SerializedPropertyUtility
   href: api/UnityEditor.SerializedPropertyUtility.html
