@@ -32,6 +32,9 @@ namespace UnityEditor
 			return r;
 		}
 
+		public static Color ColorField(ref Rect rect, string label, Color value) => GenericField(ref rect, label, value, EditorGUI.ColorField);
+		public static Color ColorField(ref Rect rect, GUIContent label, Color value) => GenericField(ref rect, label, value, EditorGUI.ColorField);
+
 		public static void CurveField(ref Rect rect, SerializedProperty property, string label, int lineCount = 1)
 		{
 			CurveField(ref rect, property, Color.green, label, lineCount);
@@ -75,19 +78,8 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}
 
-		public static float FloatField(ref Rect rect, string label, float value)
-		{
-			return FloatField(ref rect, new GUIContent(label), value);
-		}
-
-		public static float FloatField(ref Rect rect, GUIContent label, float value)
-		{
-			rect.height = EditorGUIUtility.singleLineHeight;
-			value = EditorGUI.FloatField(rect, label, value);
-
-			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
-			return value;
-		}
+		public static float FloatField(ref Rect rect, string label, float value) => GenericField(ref rect, label, value, EditorGUI.FloatField);
+		public static float FloatField(ref Rect rect, GUIContent label, float value) => GenericField(ref rect, label, value, EditorGUI.FloatField);
 
 		public static bool Foldout(ref Rect rect, SerializedProperty property, string label, GUIStyle style = null)
 		{
@@ -101,6 +93,20 @@ namespace UnityEditor
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 			return property.isExpanded;
+		}
+
+		private static T GenericField<T>(ref Rect rect, string label, T value, Func<Rect, GUIContent, T, T> guiFieldFunc)
+		{
+			return GenericField(ref rect, new GUIContent(label), value, guiFieldFunc);
+		}
+
+		private static T GenericField<T>(ref Rect rect, GUIContent label, T value, Func<Rect, GUIContent, T, T> guiFieldFunc)
+		{
+			rect.height = EditorGUIUtility.singleLineHeight;
+			value = guiFieldFunc(rect, label, value);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return value;
 		}
 
 		public static float GetFoldoutHeight(SerializedProperty property)
@@ -126,19 +132,9 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}
 
-		public static int IntField(ref Rect rect, string label, int value)
-		{
-			return IntField(ref rect, new GUIContent(label), value);
-		}
+		public static int IntField(ref Rect rect, string label, int value) => GenericField(ref rect, label, value, EditorGUI.IntField);
 
-		public static int IntField(ref Rect rect, GUIContent label, int value)
-		{
-			rect.height = EditorGUIUtility.singleLineHeight;
-			value = EditorGUI.IntField(rect, label, value);
-
-			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
-			return value;
-		}
+		public static int IntField(ref Rect rect, GUIContent label, int value) => GenericField(ref rect, label, value, EditorGUI.IntField);
 
 		public static void IntSlider(ref Rect rect, SerializedProperty property, int minValue, int maxValue)
 		{
@@ -280,5 +276,8 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 			return s;
 		}
+
+		public static bool ToggleField(ref Rect rect, string label, bool value) => GenericField(ref rect, label, value, EditorGUI.Toggle);
+		public static bool ToggleField(ref Rect rect, GUIContent label, bool value) => GenericField(ref rect, label, value, EditorGUI.Toggle);
 	}
 }
