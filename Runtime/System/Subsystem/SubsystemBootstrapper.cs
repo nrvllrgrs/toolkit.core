@@ -4,6 +4,8 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.LowLevel;
 using UnityEngine.PlayerLoop;
+using Newtonsoft.Json;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -16,6 +18,8 @@ namespace ToolkitEngine
 		#region Fields
 
 		private static Dictionary<Type, Dictionary<Type, PlayerLoopSystem>> s_subsystemsByPhase = new();
+
+		private const string SUBSYSTEM_CONFIG_PATH = "";
 
 		#endregion
 
@@ -31,9 +35,20 @@ namespace ToolkitEngine
 			InsertSubsystem<FixedUpdate>(typeof(LifecycleSubsystem), ref currentPlayerLoop, 0, LifecycleSubsystem.FixedUpdate);
 			InsertSubsystem<PostLateUpdate>(typeof(LifecycleSubsystem), ref currentPlayerLoop, 0, LifecycleSubsystem.LateUpdate);
 
-			// TODO: ???
-			// Load subsystem.config (JSON)
-			// Insert each system
+			var subsystemConfigs = Resources.LoadAll<TextAsset>(SUBSYSTEM_CONFIG_PATH);
+			foreach (var config in subsystemConfigs)
+			{
+				try
+				{
+					// Instantiate each subsystem in config
+					var types = JsonConvert.DeserializeObject<List<Type>>(config.text);
+					foreach (var type in types)
+					{
+						Instantiate(type);
+					}
+				}
+				catch { }
+			}
 
 			PlayerLoop.SetPlayerLoop(currentPlayerLoop);
 
@@ -72,14 +87,10 @@ namespace ToolkitEngine
 					GameObject clone = UnityEngine.Object.Instantiate(template);
 					UnityEngine.Object.DontDestroyOnLoad(clone);
 
-					var type = subsystemConfig.GetManagerType();
-
 					// 'Instance' needs to be instantiated before reflection can get its property
-					var methodInfo = type.GetMethod("Instantiate", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-					if (methodInfo != null)
-					{
-						methodInfo.Invoke(null, null);
-					}
+					var type = subsystemConfig.GetManagerType();
+					if (!Instantiate(type))
+						continue;
 
 					// Get Subsystem.Instance and set its instantiated gameObject
 					var propertyInfo = type.GetProperty(nameof(ISubsystem.Instance), BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
@@ -89,6 +100,21 @@ namespace ToolkitEngine
 					}
 				}
 			}
+		}
+
+		private static bool Instantiate(Type type)
+		{
+			if (type == null)
+				return false;
+
+			var methodInfo = type.GetMethod("Instantiate", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+			if (methodInfo != null)
+			{
+				methodInfo.Invoke(null, null);
+				return true;
+			}
+
+			return false;
 		}
 
 #if UNITY_EDITOR
