@@ -41,7 +41,6 @@ namespace ToolkitEngine
 					{
 						s_instance = new T();
 						LifecycleSubsystem.Register(s_instance);
-
 					}
 					return s_instance;
 				}
@@ -68,6 +67,7 @@ namespace ToolkitEngine
 				if (s_instance == null)
 				{
 					s_instance = new T();
+					LifecycleSubsystem.Register(s_instance);
 				}
 			}
 		}
