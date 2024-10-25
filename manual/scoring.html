@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>toolkit.core | Core Toolkit | 1.0.0 </title>
+      <title>Scoring | Core Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="toolkit.core | Core Toolkit | 1.0.0 ">
+      <meta name="title" content="Scoring | Core Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/blob/master/Documentation~/manual/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.core/blob/master/Documentation~/manual/scoring.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,13 +85,60 @@
         </div>
 
         <article data-uid="">
-<h1 id="toolkitcore">toolkit.core</h1>
+<h1 id="scoring">Scoring</h1>
 
+<p><code>UnityEvaluator</code> is a data structure that allows for scoring (or filtering). It contains a list of <code>Evaluators</code> and <code>Filters</code> , each which return a value between 0 and 1. These values are multiplied together to give the final score.</p>
+<p>Keep in mind, if the score is ever 0 then the list will immediately stop -- any value times 0 is 0. Because of this, it is recommended that you order your list with performance in mind. For example, LOSFilter (which performs a Raycast) should probably be evaluated later in list.</p>
+<h2 id="evaluators">Evaluators</h2>
+<p>Evaluators return a value between 0 and 1.</p>
+<p>The following properties are common between all Evaluators:</p>
+<ul>
+<li><strong>Curve</strong>: Weight curve between range.</li>
+<li><strong>Bonus Weight</strong>: Bonus weight multiplied to against result, modifying the returning score. It is encouraged that this property is rarely used, otherwise, it can create unintended behaviors.</li>
+<li><strong>Range</strong>: The contextual value is clamped between the minimum and maximum values.</li>
+</ul>
+<h3 id="visual-scripting">Visual Scripting</h3>
+<p>If an Evaluator does not exist, you can make one via a <code>ScriptMachine</code>. To create one, perform the following steps:</p>
+<ol>
+<li>Add a <code>ScriptMachine</code> to the gameObject.</li>
+<li>Add a <code>ScriptMachineEvaluator</code> to your scorer.</li>
+<li>Drag-and-drop the ScriptMachine component onto its <em>Script Machine</em> property.</li>
+<li>Enter a string into its <em>Event Name</em> property.</li>
+<li>Edit the <code>Script Machine</code>'s graph.</li>
+<li>Add an Evaluator Event unit and enter the same string to its Event Name.</li>
+<li>Perform the desired calculations and return that result by setting the <em>value</em> of the <code>ScriptMachineEvaluator</code>.</li>
+</ol>
+<p>It is recommended that ScriptMachineEvaluators are not used for production. They are great for quick experiments.</p>
+<h2 id="filters">Filters</h2>
+<p>Filters return either 0 (false) or 1 (true).</p>
+<p>The following properties are common between all Filters:</p>
+<ul>
+<li><strong>Override or Skip</strong>: Indicates whether this true condition forces a score of 1; whereas, a false condition is skipped.</li>
+</ul>
+<blockquote>
+<p>This property can be useful when determining whether an AI <em>always</em> detects the player within a  given distance -- regardless of other conditions.</p>
+</blockquote>
+<ul>
+<li><strong>Inverted</strong>: Indicates whether filter result is inverted. In other words, false becomes true and true becomes false.</li>
+<li><strong>Bonus Weight</strong>: Bonus weight multiplied to against result, modifying the returning score. It is encouraged that this property is rarely used, otherwise, it can create unintended behaviors.</li>
+</ul>
+<h3 id="visual-scripting-1">Visual Scripting</h3>
+<p>If a Filter does not exist, you can make one via a <code>ScriptMachine</code>. To create one, perform the following steps:</p>
+<ol>
+<li>Add a <code>ScriptMachine</code> to the gameObject.</li>
+<li>Add a <code>ScriptMachineFilter</code> to your scorer.</li>
+<li>Drag-and-drop the ScriptMachine component onto its <em>Script Machine</em> property.</li>
+<li>Enter a string into its <em>Event Name</em> property.</li>
+<li>Edit the <code>Script Machine</code>'s graph.</li>
+<li>Add an Evaluator Event unit and enter the same string to its Event Name.</li>
+<li>Perform the desired calculations and return that result by setting the <em>isIncluded</em> of the <code>ScriptMachineFilter</code>.</li>
+</ol>
+<p>It is recommended that ScriptMachineFilters are not used for production. They are great for quick experiments.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Documentation~/manual/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Documentation~/manual/scoring.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
 

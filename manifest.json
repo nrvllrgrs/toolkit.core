@@ -2814,10 +2814,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/index.md",
+      "source_relative_path": "manual/readme.md",
       "output": {
         ".html": {
-          "relative_path": "manual/index.html"
+          "relative_path": "manual/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/scoring.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/scoring.html"
         }
       },
       "version": ""
