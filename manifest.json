@@ -2045,6 +2045,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.FilteredManagerEventUnit-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.FilteredManagerEventUnit-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.yml",
       "output": {
         ".html": {
@@ -2069,6 +2079,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ManagerEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ManagerEventUnit-1.html"
         }
       },
       "version": ""
