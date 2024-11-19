@@ -1,15 +1,17 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace ToolkitEngine.Rendering
 {
-    public class RendererLayerControl : MonoBehaviour
+	public class RendererLayerControl : MonoBehaviour
     {
 		#region Fields
 
 		[SerializeField, Layer]
 		protected int m_layer;
+
+		[SerializeField]
+		private Transform m_target;
 
 		[SerializeField]
 		private List<Renderer> m_ignoredRenderers;
@@ -22,7 +24,12 @@ namespace ToolkitEngine.Rendering
 
 		private void Awake()
 		{
-			foreach (var renderer in GetComponentsInChildren<Renderer>())
+			if (m_target == null)
+			{
+				m_target = transform;
+			}
+
+			foreach (var renderer in m_target.GetComponentsInChildren<Renderer>())
 			{
 				if (m_ignoredRenderers.Contains(renderer))
 					continue;
