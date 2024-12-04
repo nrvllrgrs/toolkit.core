@@ -138,6 +138,7 @@ namespace ToolkitEngine
 			if (typeof(UnityObject).IsAssignableFrom(m_keyType))
 			{
 				m_keyValue = EditorGUI.ObjectField(position, m_keyValue, m_keyType, true);
+				position.y += position.height + EditorGUIUtility.standardVerticalSpacing;
 				return;
 			}
 
