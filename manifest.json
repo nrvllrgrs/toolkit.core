@@ -345,6 +345,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.AnimatorPoserEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.AnimatorPoserEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.AssetUtility.yml",
       "output": {
         ".html": {
@@ -819,6 +829,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.AngleFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AnimatorPoser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AnimatorPoser.html"
         }
       },
       "version": ""

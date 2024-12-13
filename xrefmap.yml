@@ -1288,6 +1288,62 @@ references:
   commentId: N:ToolkitEditor
   fullName: ToolkitEditor
   nameWithType: ToolkitEditor
+- uid: ToolkitEditor.AnimatorPoserEditor
+  name: AnimatorPoserEditor
+  href: api/ToolkitEditor.AnimatorPoserEditor.html
+  commentId: T:ToolkitEditor.AnimatorPoserEditor
+  fullName: ToolkitEditor.AnimatorPoserEditor
+  nameWithType: AnimatorPoserEditor
+- uid: ToolkitEditor.AnimatorPoserEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_DrawProperties
+  commentId: M:ToolkitEditor.AnimatorPoserEditor.DrawProperties
+  fullName: ToolkitEditor.AnimatorPoserEditor.DrawProperties()
+  nameWithType: AnimatorPoserEditor.DrawProperties()
+- uid: ToolkitEditor.AnimatorPoserEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.AnimatorPoserEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.AnimatorPoserEditor.DrawProperties
+  nameWithType: AnimatorPoserEditor.DrawProperties
+- uid: ToolkitEditor.AnimatorPoserEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_OnEnable
+  commentId: M:ToolkitEditor.AnimatorPoserEditor.OnEnable
+  fullName: ToolkitEditor.AnimatorPoserEditor.OnEnable()
+  nameWithType: AnimatorPoserEditor.OnEnable()
+- uid: ToolkitEditor.AnimatorPoserEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.AnimatorPoserEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.AnimatorPoserEditor.OnEnable
+  nameWithType: AnimatorPoserEditor.OnEnable
+- uid: ToolkitEditor.AnimatorPoserEditor.m_animator
+  name: m_animator
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_m_animator
+  commentId: F:ToolkitEditor.AnimatorPoserEditor.m_animator
+  fullName: ToolkitEditor.AnimatorPoserEditor.m_animator
+  nameWithType: AnimatorPoserEditor.m_animator
+- uid: ToolkitEditor.AnimatorPoserEditor.m_clip
+  name: m_clip
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_m_clip
+  commentId: F:ToolkitEditor.AnimatorPoserEditor.m_clip
+  fullName: ToolkitEditor.AnimatorPoserEditor.m_clip
+  nameWithType: AnimatorPoserEditor.m_clip
+- uid: ToolkitEditor.AnimatorPoserEditor.m_motion
+  name: m_motion
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_m_motion
+  commentId: F:ToolkitEditor.AnimatorPoserEditor.m_motion
+  fullName: ToolkitEditor.AnimatorPoserEditor.m_motion
+  nameWithType: AnimatorPoserEditor.m_motion
+- uid: ToolkitEditor.AnimatorPoserEditor.m_stateName
+  name: m_stateName
+  href: api/ToolkitEditor.AnimatorPoserEditor.html#ToolkitEditor_AnimatorPoserEditor_m_stateName
+  commentId: F:ToolkitEditor.AnimatorPoserEditor.m_stateName
+  fullName: ToolkitEditor.AnimatorPoserEditor.m_stateName
+  nameWithType: AnimatorPoserEditor.m_stateName
 - uid: ToolkitEditor.AssetUtility
   name: AssetUtility
   href: api/ToolkitEditor.AssetUtility.html
@@ -3556,6 +3612,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.AngleFilter.IsIncluded
   nameWithType: AngleFilter.IsIncluded
+- uid: ToolkitEngine.AnimatorPoser
+  name: AnimatorPoser
+  href: api/ToolkitEngine.AnimatorPoser.html
+  commentId: T:ToolkitEngine.AnimatorPoser
+  fullName: ToolkitEngine.AnimatorPoser
+  nameWithType: AnimatorPoser
 - uid: ToolkitEngine.AnimatorStatePostSpawnRule
   name: AnimatorStatePostSpawnRule
   href: api/ToolkitEngine.AnimatorStatePostSpawnRule.html
