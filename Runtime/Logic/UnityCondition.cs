@@ -79,6 +79,25 @@ namespace ToolkitEngine
 			}
 		}
 
+		public bool isTrueOrDisabled
+		{
+			get
+			{
+				if (isEmpty)
+					return m_validOnEmpty;
+
+				switch (m_conditionType)
+				{
+					case ConditionType.All:
+						return m_arguments.All(x => x.isTrueOrDisabled);
+
+					case ConditionType.Any:
+						return m_arguments.Any(x => x.isTrueOrDisabled);
+				}
+				return false;
+			}
+		}
+
 		#endregion
 
 		#region Constructors
@@ -186,20 +205,37 @@ namespace ToolkitEngine
 			{
 				get
 				{
-					if (m_component == null)
-						return false;
-
-					var behaviour = m_component as Behaviour;
-					if (behaviour == null)
+					if (!TryGetBehaviour(out var behaviour))
 						return false;
 
 					return behaviour.enabled && isTrue;
 				}
 			}
 
+			public bool isTrueOrDisabled
+			{
+				get
+				{
+					if (!TryGetBehaviour(out var behaviour))
+						return false;
+
+					return !behaviour.enabled || isTrue;
+				}
+			}
+
 			#endregion
 
 			#region Methods
+
+			private bool TryGetBehaviour(out Behaviour behaviour)
+			{
+				behaviour = null;
+				if (m_component == null)
+					return false;
+
+				behaviour = m_component as Behaviour;
+				return behaviour != null;
+			}
 
 			private bool Evaluate(System.IComparable value, System.IComparable test)
 			{
