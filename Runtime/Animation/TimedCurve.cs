@@ -143,7 +143,7 @@ namespace ToolkitEngine
 			{
 				if (m_tweener == null)
 				{
-					m_tweener = DOTween.To(() => time, value => time = value * m_duration, 1f, 1f)
+					m_tweener = DOTween.To(() => time, SetTweenerValue, 1f, 1f)
 						.SetAutoKill(false);
 
 					if (!m_isPlaying)
@@ -159,6 +159,14 @@ namespace ToolkitEngine
 		#endregion
 
 		#region Methods
+
+		private void SetTweenerValue(float value)
+		{
+			if (!m_isPlaying)
+				return;
+
+			time = value * m_duration;
+		}
 
 		private void Awake()
 		{
