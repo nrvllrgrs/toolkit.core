@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Pool;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 #endif
 
@@ -160,7 +160,7 @@ namespace ToolkitEngine
 			m_spawner.Set(poolItem);
 		}
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 		public void Set(AssetReferenceGameObject assetReference)
 		{
 			m_spawner.Set(assetReference);

@@ -6,7 +6,7 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.Pool;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 #endif
@@ -68,7 +68,7 @@ namespace ToolkitEngine
 		[SerializeField]
 		protected PoolItemSpawner<PoolItem> m_pool;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 		[SerializeField]
 		protected AssetReferenceGameObject m_assetReference;
 #endif
@@ -117,7 +117,7 @@ namespace ToolkitEngine
 					case SpawnType.ObjectPool:
 						return m_pool.template?.gameObject != null;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 					case SpawnType.Addressable:
 						return m_assetReference.RuntimeKeyIsValid();
 #endif
@@ -179,7 +179,7 @@ namespace ToolkitEngine
 			m_pool.template = poolItem;
 		}
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 		public void Set(AssetReferenceGameObject assetReference)
 		{
 			m_spawnType = SpawnType.Addressable;
@@ -278,7 +278,7 @@ namespace ToolkitEngine
 					PostInstantiate(spawnedObject, position, onSpawnedAction, args);
 					break;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 				case SpawnType.Addressable:
 					if (!m_assetReference.RuntimeKeyIsValid())
 						return false;
@@ -319,7 +319,7 @@ namespace ToolkitEngine
 					// Decrementing simultaneous count handled in pool initialization
 					break;
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 				case SpawnType.Addressable:
 					spawnedObject.ReadyComponent<DestroyHandler>()
 						.OnDestroyed.AddListener(AddressableDestroyed);
@@ -377,7 +377,7 @@ namespace ToolkitEngine
 			SpawnedObject_Destroyed(poolItem.gameObject);
 		}
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 		private void AddressableDestroyed(GameObject spawnedObject)
 		{
 			SpawnedObject_Destroyed(spawnedObject.gameObject);
@@ -429,7 +429,7 @@ namespace ToolkitEngine
 			}
 		}
 
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 		public static void InstantiateAssetReference(AssetReferenceGameObject assetReference, Vector3 position, Quaternion rotation, Transform parent)
 		{
 			if (assetReference == null || !assetReference.RuntimeKeyIsValid())
@@ -472,7 +472,7 @@ namespace ToolkitEngine
 					{
 						UnityEngine.Object.DestroyImmediate(proxy);
 					}
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 					else
 					{
 						Addressables.Release(proxy);
@@ -517,7 +517,7 @@ namespace ToolkitEngine
 					break;
 
 				case Spawner.SpawnType.Addressable:
-#if ADDRESSABLE_ASSETS
+#if UNITY_ADDRESSABLES
 					if (!spawner.m_assetReference.RuntimeKeyIsValid())
 						return;
 
