@@ -58,7 +58,7 @@ namespace ToolkitEngine
 			{
 				if (s_removeEntryContent == null)
 				{
-					s_removeEntryContent = new GUIContent(EditorGUIUtility.IconContent("d_winbtn_win_close@2x"));
+					s_removeEntryContent = new GUIContent(EditorGUIUtility.IconContent("Close"));
 					s_removeEntryContent.tooltip = "Remove Item";
 				}
 				return s_removeEntryContent;
