@@ -76,6 +76,16 @@ namespace ToolkitEngine
 			m_animator.runtimeAnimatorController = item;
 		}
 
+		public void Push(AnimationClip clip, string motion)
+		{
+			var overrideController = new AnimatorOverrideController();
+			overrideController.name = $"{clip.name} Override";
+			overrideController.runtimeAnimatorController = defaultController;
+			overrideController[motion] = clip;
+
+			Push(overrideController);
+		}
+
 		public RuntimeAnimatorController Pop()
 		{
 			var result = Peek();

@@ -51,7 +51,7 @@ namespace ToolkitEngine
 
                 if (m_zeroVelocity)
                 {
-                    rigidbody.velocity = Vector3.zero;
+                    rigidbody.linearVelocity = Vector3.zero;
                 }
 
                 if (m_zeroAngularVelocity)

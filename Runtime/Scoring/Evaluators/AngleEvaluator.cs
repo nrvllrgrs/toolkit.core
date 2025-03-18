@@ -28,18 +28,18 @@ namespace ToolkitEngine
 
 		protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position)
 		{
-			UpdateOrigin(actor, ref m_origin);
+			var origin = GetOrigin(actor, ref m_origin);
 
 			float angle;
 			if (!m_horizontalOnly)
 			{
-				angle = Vector3.Angle(m_origin.forward, position - m_origin.position);
+				angle = Vector3.Angle(origin.forward, position - origin.position);
 			}
 			else
 			{
-				var forward2D = new Vector2(m_origin.forward.x, m_origin.forward.z);
+				var forward2D = new Vector2(origin.forward.x, origin.forward.z);
 				var position2D = new Vector2(position.x, position.z);
-				var actorPosition2D = new Vector2(m_origin.position.x, m_origin.position.z);
+				var actorPosition2D = new Vector2(origin.position.x, origin.position.z);
 				angle = Vector2.Angle(forward2D, position2D - actorPosition2D);
 			}
 

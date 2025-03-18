@@ -30,16 +30,22 @@ namespace ToolkitEngine
 
 		public float Evaluate(GameObject actor, GameObject target)
 		{
-			return Evaluate(actor, target, target.transform.position);
+			return Evaluate(actor, target, target != null ? target.transform.position : Vector3.zero);
 		}
 
 		public float Evaluate(GameObject actor, GameObject target, Vector3 position)
 		{
+			int count = 0;
+			float max = 0f;
 			float score = m_weight;
 			foreach (var evaluable in m_evaluables)
 			{
-  				if (!evaluable.enabled)
+  				if (evaluable == null | !evaluable.enabled)
 					continue;
+
+				// Don't want to count skipped evaluables
+				++count;
+				max += evaluable.bonusWeight;
 
 				float s = evaluable.Evaluate(actor, target, position);
 				if (evaluable is BaseFilter filter && filter.overrideOrSkip)
@@ -57,16 +63,16 @@ namespace ToolkitEngine
 					break;
 			}
 
-			return GetCompensatedScore(score, m_evaluables.Count);
+			return GetCompensatedScore(score, count, max);
 		}
 
-		public static float GetCompensatedScore(float score, int count)
+		public static float GetCompensatedScore(float score, int count, float max = 1f)
 		{
 			if (count > 0)
 			{
 				// High number of evaluables (even with high scores) can drive down score
 				// Calculate compensation factor to adjust appropriately
-				float compensationFactor = (1f - score) * (1f - (1f / count));
+				float compensationFactor = (max - score) * (1f - (1f / count));
 				score = score + (compensationFactor * score);
 			}
 			return score;

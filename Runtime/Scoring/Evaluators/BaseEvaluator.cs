@@ -34,30 +34,19 @@ namespace ToolkitEngine
 
 		#region Methods
 
-		public float Evaluate(GameObject actor, GameObject target)
+		public virtual float Evaluate(GameObject actor, GameObject target)
 		{
 			return Evaluate(actor, target, target.transform.position);
 		}
 
-		public float Evaluate(GameObject actor, GameObject target, Vector3 position)
+		public virtual float Evaluate(GameObject actor, GameObject target, Vector3 position)
 		{
 			return m_curve.Evaluate(CalculateNormalizedScore(actor, target, position));
 		}
 
 		protected abstract float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position);
 
-		protected static void UpdateOrigin(GameObject actor, ref Transform origin)
-		{
-			if (origin == null)
-			{
-				origin = actor.transform;
-			}
-		}
-
-		public void Dispose()
-		{
-			throw new NotImplementedException();
-		}
+		protected static Transform GetOrigin(GameObject actor, ref Transform origin) => origin != null ? origin : actor.transform;
 
 		#endregion
 	}

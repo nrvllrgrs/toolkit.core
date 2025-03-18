@@ -123,7 +123,8 @@ namespace ToolkitEngine
 				removeRect.width = BUTTON_WIDTH;
 
 				// Shift vertical position before potential break
-				position.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
+				position.y += Mathf.Max(EditorGUI.GetPropertyHeight(keyProp), EditorGUI.GetPropertyHeight(valueProp))
+					+ EditorGUIUtility.standardVerticalSpacing;
 
 				if (GUI.Button(removeRect, REMOVE_ENTRY_CONTENT, BUTTON_STYLE))
 				{

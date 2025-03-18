@@ -96,6 +96,7 @@ namespace ToolkitEngine
 					var propertyInfo = type.GetProperty(nameof(ISubsystem.Instance), BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
 					if (propertyInfo?.GetValue(null, null) is IInstantiableSubsystem subsystem)
 					{
+						clone.name = $"{type.Name} Instance";
 						subsystem.SetInstance(clone);
 					}
 				}

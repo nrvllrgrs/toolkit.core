@@ -10,12 +10,12 @@ public class NavMeshAreaMaskDrawer : PropertyDrawer
 
         EditorGUI.BeginChangeCheck();
 
-        string[] areaNames = GameObjectUtility.GetNavMeshAreaNames();
+        string[] areaNames = UnityEngine.AI.NavMesh.GetAreaNames();
         string[] completedAreaNames = new string[areaNames.Length];
 
         foreach (var name in areaNames)
         {
-            completedAreaNames[GameObjectUtility.GetNavMeshAreaFromName(name)] = name;
+            completedAreaNames[UnityEngine.AI.NavMesh.GetAreaFromName(name)] = name;
         }
 
         int mask = EditorGUI.MaskField(position, property.intValue, completedAreaNames);

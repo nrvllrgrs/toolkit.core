@@ -28,17 +28,17 @@ namespace ToolkitEngine
 
 		protected override float CalculateNormalizedScore(GameObject actor, GameObject target, Vector3 position)
 		{
-			UpdateOrigin(actor, ref m_origin);
+			var origin = GetOrigin(actor, ref m_origin);
 
 			float sqrDistance;
 			if (!m_horizontalOnly)
 			{
-				sqrDistance = (m_origin.position - position).sqrMagnitude;
+				sqrDistance = (origin.position - position).sqrMagnitude;
 			}
 			else
 			{
 				var position2D = new Vector2(position.x, position.z);
-				var actorPosition2D = new Vector2(m_origin.position.x, m_origin.position.z);
+				var actorPosition2D = new Vector2(origin.position.x, origin.position.z);
 				sqrDistance = (actorPosition2D - position2D).sqrMagnitude;
 			}
 
