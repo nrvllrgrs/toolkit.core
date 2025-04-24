@@ -9,12 +9,21 @@ namespace ToolkitEditor
     {
 		#region Methods
 
-		public static T LoadAsset<T>(string name)
+		public static string GetFirstAssetPath<T>(string name)
 			where T : Object
 		{
 			var guid = AssetDatabase.FindAssets($"t:{typeof(T).Name} {name}").FirstOrDefault();
 			return guid != null
-				? AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GUIDToAssetPath(guid))
+				? AssetDatabase.GUIDToAssetPath(guid)
+				: null;
+		}
+
+		public static T LoadFirstAsset<T>(string name)
+			where T : Object
+		{
+			var path = GetFirstAssetPath<T>(name);
+			return path != null
+				? AssetDatabase.LoadAssetAtPath<T>(path)
 				: null;
 		}
 

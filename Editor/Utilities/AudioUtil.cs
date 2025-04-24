@@ -1,6 +1,8 @@
 using System;
 using System.IO;
+using System.Reflection;
 using System.Text;
+using UnityEditor;
 using UnityEngine;
 
 namespace ToolkitEditor
@@ -135,5 +137,44 @@ namespace ToolkitEditor
 			var subChunk2 = BitConverter.GetBytes(samples * 2);
 			AddDataToBuffer(stream, ref offset, subChunk2);
 		}
+
+		#region Preview Methods
+
+		public static void PlayPreviewClip(AudioClip audioClip)
+		{
+			StopAllPreviewClips();
+
+			if (audioClip == null)
+				return;
+
+			Assembly unityEditorAssembly = typeof(AudioImporter).Assembly;
+			Type audioUtilClass = unityEditorAssembly.GetType("UnityEditor.AudioUtil");
+
+			MethodInfo method = audioUtilClass.GetMethod(
+				"PlayPreviewClip",
+				BindingFlags.Static | BindingFlags.Public,
+				null,
+				new Type[] { typeof(AudioClip), typeof(int), typeof(bool) },
+				null
+			);
+			method?.Invoke(null, new object[] { audioClip, 0, false });
+		}
+
+		public static void StopAllPreviewClips()
+		{
+			Assembly unityEditorAssembly = typeof(AudioImporter).Assembly;
+			Type audioUtilClass = unityEditorAssembly.GetType("UnityEditor.AudioUtil");
+
+			MethodInfo method = audioUtilClass.GetMethod(
+				"StopAllPreviewClips",
+				BindingFlags.Static | BindingFlags.Public,
+				null,
+				new Type[] { },
+				null
+			);
+			method?.Invoke(null, new object[] { });
+		}
+
+		#endregion
 	}
 }
