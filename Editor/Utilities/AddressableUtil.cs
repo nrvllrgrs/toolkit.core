@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-#if UNITY_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
 using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
@@ -11,7 +11,7 @@ using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 public static class AddressableUtil
 {
 	#region Methods
-#if UNITY_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
 
 	public static string GetAddressableGroup(Object obj)
 	{

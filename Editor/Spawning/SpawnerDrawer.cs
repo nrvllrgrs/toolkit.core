@@ -28,7 +28,7 @@ namespace ToolkitEditor
                     EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_pool"));
                     break;
 		    
-#if UNITY_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
                 case Spawner.SpawnType.Addressable:
                     EditorGUIRectLayout.PropertyField(ref position, property.FindPropertyRelative("m_assetReference"));
                     break;
@@ -72,16 +72,16 @@ namespace ToolkitEditor
 
                 case Spawner.SpawnType.ObjectPool:
                     height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_pool"))
-		        + EditorGUIUtility.standardVerticalSpacing;
-		    break;
+		            + EditorGUIUtility.standardVerticalSpacing;
+		        break;
       
-#if UNITY_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
                 case Spawner.SpawnType.Addressable:
                     height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative("m_assetReference"))
                         + EditorGUIUtility.standardVerticalSpacing;
-		    break;
+		        break;
 #endif
-                }
+            }
 
             return height;
         }

@@ -25,7 +25,7 @@ namespace ToolkitEngine
 
 		#region Methods
 
-		private void Awake()
+		protected virtual void Awake()
 		{
 			Assert.IsTrue(!string.IsNullOrWhiteSpace(m_key));
 			Assert.IsNotNull(m_value);
