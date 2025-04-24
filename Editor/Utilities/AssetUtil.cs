@@ -36,19 +36,11 @@ namespace ToolkitEditor
 			return AssetImporter.GetAtPath(AssetDatabase.GUIDToAssetPath(guid)) as T;
 		}
 
-		public static T[] GetAssetsOfType<T>()
+		public static IEnumerable<T> GetAssetsOfType<T>()
 			where T : Object
 		{
-			// Get assets in database
-			var guids = AssetDatabase.FindAssets(string.Format("t:{0}", typeof(T).Name));
-			var assets = new List<T>();
-
-			foreach (var guid in guids)
-			{
-				assets.Add(AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GUIDToAssetPath(guid)));
-			}
-
-			return assets.ToArray();
+			return AssetDatabase.FindAssets($"t:{typeof(T).Name} a:assets")
+				.Select(x => AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GUIDToAssetPath(x)));
 		}
 
 		#endregion
