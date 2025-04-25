@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 
 namespace UnityEditor
@@ -165,6 +166,20 @@ namespace UnityEditor
 			EditorGUI.ObjectField(rect, property, label);
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
+		public static int Popup(ref Rect rect, string label, int selectedIndex, string[] displayedOptions)
+		{
+			return Popup(ref rect, new GUIContent(label), selectedIndex, displayedOptions.Select(x => new GUIContent(x)).ToArray());
+		}
+
+		public static int Popup(ref Rect rect, GUIContent label, int selectedIndex, GUIContent[] displayedOptions)
+		{
+			rect.height = EditorGUIUtility.singleLineHeight;
+			int index = EditorGUI.Popup(rect, label, selectedIndex, displayedOptions);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return index;
 		}
 
 		public static void ProgressBar(ref Rect rect, float value, string label)
