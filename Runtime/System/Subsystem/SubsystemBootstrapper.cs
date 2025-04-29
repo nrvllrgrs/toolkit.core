@@ -6,7 +6,6 @@ using UnityEngine.LowLevel;
 using UnityEngine.PlayerLoop;
 using Newtonsoft.Json;
 
-
 #if UNITY_EDITOR
 using UnityEditor;
 #endif

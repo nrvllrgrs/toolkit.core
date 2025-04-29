@@ -5,6 +5,7 @@ namespace ToolkitEngine
 	public interface ISubsystem : IDisposable
 	{
 		static object Instance { get; }
+		static bool Exists { get; }
 		void Update();
 		void FixedUpdate();
 		void LateUpdate();
@@ -30,6 +31,7 @@ namespace ToolkitEngine
 		#region Properties
 
 		public static object Instance => s_instance;
+		public static bool Exists => s_instance != null;
 
 		public static T CastInstance
 		{
@@ -68,11 +70,19 @@ namespace ToolkitEngine
 				{
 					s_instance = new T();
 					LifecycleSubsystem.Register(s_instance);
+
+					if (UnityEngine.Application.isPlaying && s_instance is Subsystem<T> subsystem)
+					{
+						subsystem.InstantiateSubsystem();
+					}
 				}
 			}
 		}
 
 		protected virtual void Initialize()
+		{ }
+
+		protected virtual void InstantiateSubsystem()
 		{ }
 
 		protected virtual void Terminate()
