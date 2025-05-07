@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	[System.Serializable]
     public class UnityEvaluator

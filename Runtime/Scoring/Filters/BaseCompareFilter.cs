@@ -1,7 +1,7 @@
 using UnityEngine;
 using CompareOperatorType = ToolkitEngine.UnityCondition.CompareOperatorType;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	public abstract class BaseCompareFilter<T> : BaseFilter
 		where T : System.IComparable

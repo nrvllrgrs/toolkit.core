@@ -1,11 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
-    public class LabelFilter : BaseFilter
+	public class LabelFilter : BaseFilter
     {
 		#region Fields
 

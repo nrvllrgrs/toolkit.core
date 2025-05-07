@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	public class GameObjectFilter : BaseFilter
 	{

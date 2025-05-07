@@ -1,6 +1,6 @@
 using UnityEditor;
 using UnityEngine;
-using ToolkitEngine;
+using ToolkitEngine.Scoring;
 
 namespace ToolkitEditor
 {

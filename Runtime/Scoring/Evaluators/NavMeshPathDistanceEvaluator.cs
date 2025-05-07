@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	public class NavMeshPathDistanceEvaluator : BaseEvaluator
     {

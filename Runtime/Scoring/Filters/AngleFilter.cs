@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
     public class AngleFilter : BaseFilter
 	{

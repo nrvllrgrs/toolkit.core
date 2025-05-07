@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	[Serializable]
 	public abstract class BaseFilter : IEvaluable

@@ -5,7 +5,7 @@ using UnityEngine;
 
 using Random = UnityEngine.Random;
 
-namespace ToolkitEngine
+namespace ToolkitEngine.Scoring
 {
 	[Serializable]
 	public abstract class UnityElector
