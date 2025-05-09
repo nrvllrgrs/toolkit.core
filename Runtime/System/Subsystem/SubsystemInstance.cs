@@ -11,7 +11,7 @@ namespace ToolkitEngine
 		protected virtual void Awake()
 		{
 			DontDestroyOnLoad(gameObject);
-			InstantiableSubsystem<T, TConfig>.CastInstance.SetInstance(gameObject);
+			//InstantiableSubsystem<T, TConfig>.CastInstance.SetInstance(gameObject);
 		}
 
 		#endregion

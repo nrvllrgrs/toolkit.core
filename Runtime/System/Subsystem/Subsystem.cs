@@ -62,7 +62,7 @@ namespace ToolkitEngine
 
 		#region Methods
 
-		public static void Instantiate()
+		public static void New()
 		{
 			lock (s_padlock)
 			{
@@ -71,18 +71,15 @@ namespace ToolkitEngine
 					s_instance = new T();
 					LifecycleSubsystem.Register(s_instance);
 
-					if (UnityEngine.Application.isPlaying && s_instance is Subsystem<T> subsystem)
-					{
-						subsystem.InstantiateSubsystem();
-					}
+					//if (UnityEngine.Application.isPlaying && s_instance is Subsystem<T> subsystem)
+					//{
+					//	subsystem.InstantiateSubsystem();
+					//}
 				}
 			}
 		}
 
 		protected virtual void Initialize()
-		{ }
-
-		protected virtual void InstantiateSubsystem()
 		{ }
 
 		protected virtual void Terminate()

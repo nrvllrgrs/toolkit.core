@@ -43,7 +43,7 @@ namespace ToolkitEngine
 					var types = JsonConvert.DeserializeObject<List<Type>>(config.text);
 					foreach (var type in types)
 					{
-						Instantiate(type);
+						New(type);
 					}
 				}
 				catch { }
@@ -77,37 +77,35 @@ namespace ToolkitEngine
 		{
 			foreach (var config in ConfigManager.configs)
 			{
-				if (config is IInstantiableSubsystemConfig subsystemConfig)
+				if (config is IInstantiableSubsystemConfig instantiableSubsystemConfig)
 				{
-					GameObject template = subsystemConfig.GetTemplate();
-					if (template == null)
-						continue;
-
-					GameObject clone = UnityEngine.Object.Instantiate(template);
-					UnityEngine.Object.DontDestroyOnLoad(clone);
-
 					// 'Instance' needs to be instantiated before reflection can get its property
-					var type = subsystemConfig.GetManagerType();
-					if (!Instantiate(type))
+					var type = instantiableSubsystemConfig.subsystemType;
+
+					if (!New(type))
 						continue;
 
-					// Get Subsystem.Instance and set its instantiated gameObject
+					// Get Subsystem.Instance
 					var propertyInfo = type.GetProperty(nameof(ISubsystem.Instance), BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-					if (propertyInfo?.GetValue(null, null) is IInstantiableSubsystem subsystem)
+					if (propertyInfo?.GetValue(null, null) is not IInstantiableSubsystem subsystem)
+						continue;
+
+					// Invoke Instantiate method on Subsystem.Instance
+					var methodInfo = type.GetMethod("Instantiate", BindingFlags.Public | BindingFlags.Instance);
+					if (methodInfo != null)
 					{
-						clone.name = $"{type.Name} Instance";
-						subsystem.SetInstance(clone);
+						methodInfo?.Invoke(subsystem, null);
 					}
 				}
 			}
 		}
 
-		private static bool Instantiate(Type type)
+		private static bool New(Type type)
 		{
 			if (type == null)
 				return false;
 
-			var methodInfo = type.GetMethod("Instantiate", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+			var methodInfo = type.GetMethod("New", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
 			if (methodInfo != null)
 			{
 				methodInfo.Invoke(null, null);
