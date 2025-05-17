@@ -33,6 +33,16 @@ namespace ToolkitEditor
 			return AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GetAssetPath(asset));
 		}
 
+		public static AssetImporter LoadImporter(Object asset)
+		{
+			return AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(asset));
+		}
+
+		public static AssetImporter LoadImporter(string guid)
+		{
+			return AssetImporter.GetAtPath(AssetDatabase.GUIDToAssetPath(guid));
+		}
+
 		public static T LoadImporter<T>(Object asset)
 			where T : AssetImporter
 		{
