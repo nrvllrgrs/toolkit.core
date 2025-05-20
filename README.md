@@ -180,3 +180,20 @@ A flexible event system built on Unity's Input System that allows developers to 
 Build on the XR Interaction Toolkit with custom behaviors, constraints, and targeting logic to support more advanced and context-sensitive interactions.
 
 https://github.com/nrvllrgrs/toolkit.xri
+
+# Prerequisites
+* **DOTween**: https://dotween.demigiant.com/
+* **Easy Project Settings**: https://github.com/gilzoide/unity-easy-project-settings
+* **NaughtyAttrributes**: https://github.com/dbrizov/NaughtyAttributes
+* **NewtonSoft Json**: com.unity.nuget.newtonsoft-json#3.2.1
+* **Unity Toolbar Extender**: https://github.com/marijnz/unity-toolbar-extender
+* **UniTask**: https://github.com/Cysharp/UniTask
+
+# Installing
+To load as UMP package from a Git URL:
+1. Open the project that you plan to use.
+2. Go to Window > Package Manager
+3. Open the **add** menu from the Package Manager's toolbar.
+4. Select **Add package by git URL** from the add menu.
+5. Enter `https://github.com/nrvllrgrs/toolkit.core.git` in the textbox.
+3. Click Add.
