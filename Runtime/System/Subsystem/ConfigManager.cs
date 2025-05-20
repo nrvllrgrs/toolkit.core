@@ -39,12 +39,23 @@ namespace ToolkitEngine
 		public static bool TryGet<T>(out T value)
 			where T : ScriptableObject
 		{
-			if (s_map.TryGetValue(typeof(T), out var config))
+			var type = typeof(T);
+			if (s_map.TryGetValue(type, out var config))
 			{
 				value = config as T;
 				return true;
 			}
 			
+			// Look for subclass config
+			foreach (var p in s_map)
+			{
+				if (p.Key.IsSubclassOf(type))
+				{
+					value = p.Value as T;
+					return true;
+				}
+			}
+
 			value = default;
 			return false;
 		}
