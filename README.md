@@ -1,4 +1,4 @@
-# Toolkits
+# Toolkit Overview
 
 ## Core
 **toolkit.core** is a modular toolkit designed to streamline and enhance game development workflows. It offers a suite of utilities and systems aimed at reducing boilerplate code, promoting clean architecture, and facilitating rapid prototyping.
@@ -49,6 +49,22 @@ Support different damage types (e.g. fire, poison, physical) and selectively app
 https://github.com/nrvllrgrs/toolkit.health
 
 ## Inventory
+**toolkit.inventory** is a modular inventory system. It provides a flexible, data-driven framework for managing items, crafting recipes, currencies, and loot tables.
+
+### Key Features
+**Item Management**
+Supports the creation and management of various item types, including stackable and non-stackable items, with customizable properties and behaviors.
+
+**Crafting Recipes**
+Allows for the definition of crafting recipes, enabling players to combine items to create new ones. Recipes can be configured to require specific items and quantities.
+
+**Currency System**
+Implements a currency system to handle in-game economies, facilitating transactions like buying, selling, and trading items.
+
+**Loot Tables**
+Provides a mechanism to define loot tables, specifying the probability and quantity of items dropped by enemies or found in containers.
+
+
 https://github.com/nrvllrgrs/toolkit.inventory
 
 ## Material FX
@@ -73,6 +89,14 @@ Differentiates between overarching quests and individual tasks. Tasks can be con
 **Quest Layer Scene Management**
 Implements a dedicated "Quest Layer" to manage quest-related objects and logic within specific scenes — allowing for dynamic loading and unloading of quest components based on the player's progression and current scene context.
 
+https://github.com/nrvllrgrs/toolkit.quest
+
+## Scene
+In Progress
+
+## Sensors
+**toolkit.sensors** is a system for equipping game objects with sensing and perception capabilities. It enables designers and developers to simulate environmental awareness through customizable sensors that detect, filter, and evaluate stimuli in real time.
+
 ### Key Features
 **Multiple Sensor Modalities**
 Includes raycast, trigger zone, and other detection methods, supporting both directional and area-based sensing.
@@ -82,14 +106,6 @@ Sensors can be customized with filter components that define what types of signa
 
 **Signal Strength Scoring**
 Detected signals can include a strength parameter, enabling scoring systems that rank detections based on proximity, visibility, or other environmental factors. This is useful for AI decision-making, priority targeting, or stealth mechanics.
-
-https://github.com/nrvllrgrs/toolkit.quest
-
-## Scene
-In Progress
-
-## Sensors
-**toolkit.sensors** is a system for equipping game objects with sensing and perception capabilities. It enables designers and developers to simulate environmental awareness through customizable sensors that detect, filter, and evaluate stimuli in real time.
 
 https://github.com/nrvllrgrs/toolkit.sensors
 
@@ -151,4 +167,16 @@ Supports customizable level curves, allowing developers to define XP requirement
 https://github.com/nrvllrgrs/toolkit.xp
 
 ## XR Interaction+
+**toolkit.xri** is a modular extension for Unity's XR Interaction Toolkit (XRI), designed to streamline the development of immersive VR and AR experiences. It provides a flexible, data-driven framework, facilitating the creation of complex interaction systems.
+
+### Key Features
+**Holsters & Pockets System**
+Create immersive physical storage systems where players can stow and retrieve items from configurable holsters and body pockets — ideal for inventory, weapons, and tools.
+
+**Input Action Events**
+A flexible event system built on Unity's Input System that allows developers to respond to user inputs with context-aware, runtime-bound logic. Great for gestures, tool use, or custom controls.
+
+**Extended Interactors & Interactables**
+Build on the XR Interaction Toolkit with custom behaviors, constraints, and targeting logic to support more advanced and context-sensitive interactions.
+
 https://github.com/nrvllrgrs/toolkit.xri
