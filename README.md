@@ -11,7 +11,7 @@ These components enable the creation of data-driven conditional logic within the
 Provides mechanisms for spawning objects within the game world, supporting features like controlled instantiation, management of spawned instances, and integration with other systems for interactive object placement. 
 
 **TimedCurve System**
-Implements a system for managing time-based animations and transitions using curves. This allows for smooth interpolation of values over time, facilitating effects such as easing, pulsing, or other temporal behaviors.
+Implements a component for managing tweening using curves. This allows for smooth interpolation of values over time, facilitating effects such as easing, pulsing, or other temporal behaviors.
 
 https://github.com/nrvllrgrs/toolkit.core
 
