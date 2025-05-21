@@ -1,42 +1,45 @@
 ﻿using Unity.VisualScripting;
 
-public abstract class BaseEventUnit<TArgs> : GameObjectEventUnit<TArgs>
+namespace ToolkitEngine.VisualScripting
 {
-    #region Fields
-
-    [DoNotSerialize, PortLabelHidden]
-    public ValueOutput eventArgs;
-
-    protected TArgs m_eventArgs;
-
-    #endregion
-
-    #region Properties
-
-    protected virtual bool showEventArgs => true;
-    protected override string hookName => GetType().Name;
-
-    #endregion
-
-    #region Methods
-
-    protected override void Definition()
+    public abstract class BaseEventUnit<TArgs> : GameObjectEventUnit<TArgs>
     {
-        base.Definition();
+        #region Fields
 
-        if (showEventArgs)
+        [DoNotSerialize, PortLabelHidden]
+        public ValueOutput eventArgs;
+
+        protected TArgs m_eventArgs;
+
+        #endregion
+
+        #region Properties
+
+        protected virtual bool showEventArgs => true;
+        protected override string hookName => GetType().Name;
+
+        #endregion
+
+        #region Methods
+
+        protected override void Definition()
         {
-            eventArgs = ValueOutput("eventArgs", (flow) => m_eventArgs);
-        }
-    }
+            base.Definition();
 
-    protected override void AssignArguments(Flow flow, TArgs args)
-    {
-        if (eventArgs != null)
+            if (showEventArgs)
+            {
+                eventArgs = ValueOutput("eventArgs", (flow) => m_eventArgs);
+            }
+        }
+
+        protected override void AssignArguments(Flow flow, TArgs args)
         {
-            flow.SetValue(eventArgs, args);
+            if (eventArgs != null)
+            {
+                flow.SetValue(eventArgs, args);
+            }
         }
-    }
 
-    #endregion
+        #endregion
+    }
 }

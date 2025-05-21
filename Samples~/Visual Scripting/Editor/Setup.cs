@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEditor;
 using UnityToolbarExtender;
+using ToolkitEngine.Scoring;
 using ToolkitEngine.VisualScripting;
 
 namespace ToolkitEditor.VisualScripting
