@@ -62,6 +62,23 @@ namespace ToolkitEditor
 				.Select(x => AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GUIDToAssetPath(x)));
 		}
 
+		public static void SaveSubAsset(Object target)
+		{
+			if (!AssetDatabase.IsSubAsset(target))
+				return;
+
+			var path = AssetDatabase.GetAssetPath(target);
+			var assets = AssetDatabase.LoadAllAssetRepresentationsAtPath(path);
+			foreach (var asset in assets)
+			{
+				if (asset != target)
+					continue;
+
+				LoadImporter(target)?.SaveAndReimport();
+			}
+		}
+
+
 		#endregion
 	}
 }
