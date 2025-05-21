@@ -100,7 +100,16 @@ Implements a dedicated "Quest Layer" to manage quest-related objects and logic w
 https://github.com/nrvllrgrs/toolkit.quest
 
 ## Scene
-In Progress
+**toolkit.scene** extends functionality of Unity's scene management solution, enabling developers to orchestrate complex, multi-scene workflows with minimal boilerplate.
+
+### Key Features
+**Subscene Management**
+Load, unload, and control additive subscenes dynamically at runtime — perfect for modular level design, streaming environments, or UI layering.
+
+**Cross-Scene Messaging**
+Broadcast and listen for messages across scene boundaries using a decoupled, event-driven architecture. Easily coordinate behaviors between systems without direct references.
+
+![alt text](Documentation~/images/Transmissions.png)
 
 ## Sensors
 **toolkit.sensors** is a system for equipping game objects with sensing and perception capabilities. It enables designers and developers to simulate environmental awareness through customizable sensors that detect, filter, and evaluate stimuli in real time.
