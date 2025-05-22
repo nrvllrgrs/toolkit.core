@@ -168,6 +168,17 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}
 
+		public static void ObjectField<T>(ref Rect rect, SerializedProperty property, GUIContent label = null)
+			where T : UnityEngine.Object
+		{
+			label = label ?? new GUIContent(property.displayName);
+
+			rect.height = EditorGUI.GetPropertyHeight(property);
+			EditorGUI.ObjectField(rect, property, typeof(T), label);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
 		public static int Popup(ref Rect rect, string label, int selectedIndex, string[] displayedOptions)
 		{
 			return Popup(ref rect, new GUIContent(label), selectedIndex, displayedOptions.Select(x => new GUIContent(x)).ToArray());
