@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-#if USE_UNITY_ADDRESSABLES
+#if USE_ADDRESSABLES
 using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
@@ -11,16 +11,12 @@ using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 public static class AddressableUtil
 {
 	#region Methods
-#if USE_UNITY_ADDRESSABLES
+
+#if USE_ADDRESSABLES
 
 	public static string GetAddressableGroup(Object obj)
 	{
-		if (!TryGetAddressableGUID(obj, out string guid))
-			return null;
-
-		var settings = AddressableAssetSettingsDefaultObject.Settings;
-		var entry = settings.FindAssetEntry(guid);
-		if (entry == null)
+		if (!TryGetAddressableEntry(obj, out var entry))
 			return null;
 
 		return entry.parentGroup.name;
@@ -53,12 +49,7 @@ public static class AddressableUtil
 
 	public static bool SetAddressableName(Object obj, string name)
 	{
-		if (!TryGetAddressableGUID(obj, out string guid))
-			return false;
-
-		var settings = AddressableAssetSettingsDefaultObject.Settings;
-		var entry = settings.FindAssetEntry(guid);
-		if (entry == null)
+		if (!TryGetAddressableEntry(obj, out var entry))
 			return false;
 
 		entry.SetAddress(name);
@@ -77,6 +68,33 @@ public static class AddressableUtil
 
 		guid = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(obj));
 		return true;
+	}
+
+	public static void AddAddressableLabel(Object obj, string label, bool force = false)
+	{
+		if (!TryGetAddressableEntry(obj, out var entry))
+			return;
+
+		entry.SetLabel(label, true, force);
+	}
+
+	public static void RemoveAddressableLabel(Object obj, string label)
+	{
+		if (!TryGetAddressableEntry(obj, out var entry))
+			return;
+
+		entry.SetLabel(label, false);
+	}
+
+	private static bool TryGetAddressableEntry(Object obj, out AddressableAssetEntry entry)
+	{
+		entry = null;
+		if (!TryGetAddressableGUID(obj, out string guid))
+			return false;
+
+		var settings = AddressableAssetSettingsDefaultObject.Settings;
+		entry = settings.FindAssetEntry(guid);
+		return entry != null;
 	}
 
 #endif
