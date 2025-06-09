@@ -99,6 +99,15 @@ Implements a dedicated "Quest Layer" to manage quest-related objects and logic w
 
 https://github.com/nrvllrgrs/toolkit.quest
 
+## Save
+**toolkit.save** is a data-driven save/load system utilizing OdinSerializer. It enables clean, structured persistence of game state—ideal for player progress, settings, and runtime variables.
+
+### Key Features
+**Save Variables Registry**
+A centralized system for registering "Save Variables"—variables (e.g., player stats, XP, flags) that automatically persist. Each variable is serialized and restored using configured serializers.
+
+https://github.com/nrvllrgrs/toolkit.save
+
 ## Scene
 **toolkit.scene** extends functionality of Unity's scene management solution, enabling developers to orchestrate complex, multi-scene workflows with minimal boilerplate.
 
@@ -110,6 +119,8 @@ Load, unload, and control additive subscenes dynamically at runtime — perfect 
 Broadcast and listen for messages across scene boundaries using a decoupled, event-driven architecture. Easily coordinate behaviors between systems without direct references.
 
 ![alt text](Documentation~/images/Transmissions.png)
+
+https://github.com/nrvllrgrs/toolkit.scene
 
 ## Sensors
 **toolkit.sensors** is a system for equipping game objects with sensing and perception capabilities. It enables designers and developers to simulate environmental awareness through customizable sensors that detect, filter, and evaluate stimuli in real time.
