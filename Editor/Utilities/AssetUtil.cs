@@ -9,6 +9,11 @@ namespace ToolkitEditor
     {
 		#region Methods
 
+		public static string GetGUID(Object asset)
+		{
+			return AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(asset));
+		}
+
 		public static string GetFirstAssetPath<T>(string name)
 			where T : Object
 		{
@@ -31,6 +36,12 @@ namespace ToolkitEditor
 			where T : Object
 		{
 			return AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GetAssetPath(asset));
+		}
+
+		public static T LoadAssetByGUID<T>(string guid)
+			where T : Object
+		{
+			return AssetDatabase.LoadAssetAtPath<T>(AssetDatabase.GUIDToAssetPath(guid));
 		}
 
 		public static AssetImporter LoadImporter(Object asset)

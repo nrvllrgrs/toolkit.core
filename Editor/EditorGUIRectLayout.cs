@@ -158,6 +158,19 @@ namespace UnityEditor
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
 		}
 
+		public static void LabelField(ref Rect rect, string label, string label2, GUIStyle style = null)
+		{
+			LabelField(ref rect, new GUIContent(label), new GUIContent(label2), style);
+		}
+
+		public static void LabelField(ref Rect rect, GUIContent label, GUIContent label2, GUIStyle style = null)
+		{
+			rect.height = EditorGUIUtility.singleLineHeight;
+			EditorGUI.LabelField(rect, label, label2, style ?? EditorStyles.label);
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
 		public static void ObjectField(ref Rect rect, SerializedProperty property, GUIContent label = null)
 		{
 			label = label ?? new GUIContent(property.displayName);
