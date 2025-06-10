@@ -17,8 +17,10 @@ public static class MemberInfoExt
 		{
 			propertyInfo.SetValue(obj, value);
 		}
-
-		throw new ArgumentException("Can't set the value of a " + member.GetType().Name);
+		else
+		{
+			throw new ArgumentException("Can't set the value of a " + member.GetType().Name);
+		}
 	}
 
 	public static object GetMemberValue(this MemberInfo member, object obj)
@@ -29,7 +31,7 @@ public static class MemberInfoExt
 		}
 		else if (member is PropertyInfo propertyInfo)
 		{
-			return propertyInfo.GetGetMethod(nonPublic: true).Invoke(obj, null);
+			return propertyInfo.GetValue(obj);
 		}
 
 		throw new ArgumentException("Can't get the value of a " + member.GetType().Name);
