@@ -94,7 +94,9 @@ namespace ToolkitEngine
 			EditorGUI.BeginDisabledGroup(m_keyValue == null || m_dictionary.Contains(m_keyValue));
 			if (EditorGUIRectLayout.Button(ref position, ADD_ENTRY_CONTENT))
 			{
-				m_dictionary.Add(m_keyValue, Activator.CreateInstance(m_valueType));
+				m_dictionary.Add(m_keyValue, m_valueType.IsValueType
+					? Activator.CreateInstance(m_valueType)
+					: null);
 			}
 			EditorGUI.EndDisabledGroup();
 
