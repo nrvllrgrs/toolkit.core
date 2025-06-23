@@ -116,7 +116,7 @@ namespace ToolkitEngine.Rendering
 								if (m_indices.Length > 0 && !m_indices.Contains(i))
 									continue;
 
-								EnableKeywords(m_materials[i]);
+								EnableKeywords(materials[i]);
 							}
 						}
 						break;
