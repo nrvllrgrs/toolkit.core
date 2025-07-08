@@ -10,6 +10,7 @@ namespace ToolkitEditor
 {
     public static class LocalizedStringEditorExt
     {
+#if USE_UNITY_LOCALIZATION
         public static string GetLocalizedStringImmediate(this LocalizedString localizedString)
         {
 #if UNITY_EDITOR
@@ -53,5 +54,6 @@ namespace ToolkitEditor
 
 			return null;
 		}
+#endif
 	}
 }
