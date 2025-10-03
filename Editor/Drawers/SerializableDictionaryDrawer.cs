@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
@@ -183,13 +185,17 @@ namespace ToolkitEngine
 				//case UnityObject: return (T)(object)EditorGUI.ObjectField(rect, (UnityObject)(object)value, type, true);
 			}
 
-			//if (m_keyType.IsEnum)
-			//{
-			//	if (Enum.TryParse(value.GetType(), value.ToString(), out object enumValue))
-			//	{
-			//		return (T)(object)EditorGUI.EnumPopup(rect, (Enum)enumValue);
-			//	}
-			//}
+			if (m_keyType.IsEnum)
+			{
+				List<string> values = new();
+				foreach (var enumValue in Enum.GetValues(m_keyType))
+				{
+					values.Add(enumValue.ToString());
+				}
+
+				m_keyValue ??= 0;
+				m_keyValue = EditorGUIRectLayout.Popup(ref position, "Key", m_keyValue, values.ToArray());
+			}
 		}
 
 		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
