@@ -27,9 +27,11 @@ namespace ToolkitEditor
 			where T : Object
 		{
 			var path = GetFirstAssetPath<T>(name);
-			return path != null
-				? AssetDatabase.LoadAssetAtPath<T>(path)
-				: null;
+			if (path == null)
+				return null;
+
+			var assets = AssetDatabase.LoadAllAssetsAtPath(path);
+			return assets.FirstOrDefault(x => x.name == name) as T;
 		}
 
 		public static T LoadAsset<T>(Object asset)
