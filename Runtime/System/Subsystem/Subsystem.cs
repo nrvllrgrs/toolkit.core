@@ -1,5 +1,9 @@
 using System;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 namespace ToolkitEngine
 {
 	public interface ISubsystem : IDisposable
@@ -22,6 +26,7 @@ namespace ToolkitEngine
 		#region Fields
 
 		private bool m_disposed;
+		private bool m_initialized;
 
 		private static T s_instance;
 		private static readonly object s_padlock = new object();
@@ -41,21 +46,23 @@ namespace ToolkitEngine
 				{
 					if (s_instance == null)
 					{
+#if UNITY_EDITOR
+						// This will be true during the transition from play to edit mode
+						if (!EditorApplication.isPlayingOrWillChangePlaymode && EditorApplication.isPlaying)
+							return null;
+#endif
+
 						s_instance = new T();
+						if (s_instance is Subsystem<T> subsystem && !subsystem.m_initialized)
+						{
+							subsystem.m_initialized = true;
+							subsystem.Initialize();
+						}
 						LifecycleSubsystem.Register(s_instance);
 					}
 					return s_instance;
 				}
 			}
-		}
-
-		#endregion
-
-		#region Constructors
-
-		protected Subsystem()
-		{
-			Initialize();
 		}
 
 		#endregion
@@ -93,6 +100,35 @@ namespace ToolkitEngine
 
 		public virtual void LateUpdate()
 		{ }
+
+		protected static bool CanAssign<K>(K value)
+		{
+			try
+			{
+				return Exists || !Equals(value, default(K));
+			}
+			catch { return false; }
+		}
+
+		protected static void SetValue<K>(ref K propValue, K value, Action callback = null)
+		{
+			// No change, skip
+			if (Equals(propValue, value))
+				return;
+
+			propValue = value;
+			callback?.Invoke();
+		}
+
+		protected static void SetValue<K>(ref K propValue, K value, Action<K> callback)
+		{
+			// No change, skip
+			if (Equals(propValue, value))
+				return;
+
+			propValue = value;
+			callback?.Invoke(propValue);
+		}
 
 		#endregion
 

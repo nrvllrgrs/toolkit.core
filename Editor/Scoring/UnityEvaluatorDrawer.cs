@@ -59,7 +59,7 @@ namespace ToolkitEditor
 
 					data.reorderableList.drawElementCallback += (rect, index, isActive, isFocused) =>
 					{
-						if (!index.Between(0, data.evaluables.arraySize - 1))
+						if (!index.Between(0, data.evaluables.arraySize))
 							return;
 
 						SerializedProperty evaluable = data.evaluables.GetArrayElementAtIndex(index);
@@ -71,7 +71,7 @@ namespace ToolkitEditor
 
 					data.reorderableList.elementHeightCallback += (index) =>
 					{
-						if (!index.Between(0, data.evaluables.arraySize - 1))
+						if (!index.Between(0, data.evaluables.arraySize))
 							return 0f;
 
 						SerializedProperty evaluable = data.evaluables.GetArrayElementAtIndex(index);

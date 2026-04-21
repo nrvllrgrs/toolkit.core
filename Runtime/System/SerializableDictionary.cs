@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,10 +8,18 @@ namespace ToolkitEngine
 		: Dictionary<TKey, TValue>, ISerializationCallbackReceiver
 	{
 		[SerializeField, HideInInspector]
-		private List<TKey> keys = new List<TKey>();
+		protected List<TKey> keys = new List<TKey>();
 
 		[SerializeField, HideInInspector]
-		private List<TValue> values = new List<TValue>();
+		protected List<TValue> values = new List<TValue>();
+
+		protected SerializableDictionary()
+			: base()
+		{ }
+
+		protected SerializableDictionary(IEqualityComparer<TKey> comparer)
+			: base(comparer)
+		{ }
 
 		void ISerializationCallbackReceiver.OnBeforeSerialize()
 		{

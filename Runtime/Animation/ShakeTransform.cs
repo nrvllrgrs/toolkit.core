@@ -1,6 +1,7 @@
 using System;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace ToolkitEngine
 {
@@ -28,6 +29,16 @@ namespace ToolkitEngine
 
 		#endregion
 
+		#region Events
+
+		[SerializeField]
+		private UnityEvent m_onShake;
+
+		[SerializeField]
+		private UnityEvent m_onCompleted;
+
+		#endregion
+
 		#region Properties
 
 		public bool shaking => m_positionSettings.shaking || m_rotationSettings.shaking || m_scaleSettings.shaking;
@@ -42,6 +53,19 @@ namespace ToolkitEngine
 			GetDuration(m_rotationSettings, float.NegativeInfinity),
 			GetDuration(m_scaleSettings, float.NegativeInfinity));
 
+		public float duration
+		{
+			set
+			{
+				SetDuration(m_positionSettings, value);
+				SetDuration(m_rotationSettings, value);
+				SetDuration(m_scaleSettings, value);
+			}
+		}
+
+		public UnityEvent onShake => m_onShake;
+		public UnityEvent onCompleted => m_onCompleted;
+
 		#endregion
 
 		#region Methods
@@ -52,6 +76,10 @@ namespace ToolkitEngine
 			{
 				m_transform = transform;
 			}
+
+			m_positionSettings.Completed += Completed;
+			m_rotationSettings.Completed += Completed;
+			m_scaleSettings.Completed += Completed;
 		}
 
 		private void Start()
@@ -67,6 +95,13 @@ namespace ToolkitEngine
 			Kill();
 		}
 
+		private void OnDestroy()
+		{
+			m_positionSettings.Completed -= Completed;
+			m_rotationSettings.Completed -= Completed;
+			m_scaleSettings.Completed -= Completed;
+		}
+
 		[ContextMenu("Shake")]
 		public void Shake()
 		{
@@ -76,6 +111,7 @@ namespace ToolkitEngine
 			m_positionSettings.Shake(m_transform);
 			m_rotationSettings.Shake(m_transform);
 			m_scaleSettings.Shake(m_transform);
+			m_onShake?.Invoke();
 		}
 
 		[ContextMenu("Kill")]
@@ -91,7 +127,23 @@ namespace ToolkitEngine
 			m_scaleSettings.Kill(complete);
 		}
 
+		private void Completed()
+		{
+			if (!shaking)
+			{
+				m_onCompleted?.Invoke();
+			}
+		}
+
 		private float GetDuration(BaseSettings settings, float fallback) => settings.shake ? settings.duration : fallback;
+
+		private void SetDuration(BaseSettings settings, float value)
+		{
+			if (!settings.shake)
+				return;
+
+			settings.duration = value;
+		}
 
 		#endregion
 
@@ -105,14 +157,23 @@ namespace ToolkitEngine
 			[SerializeField]
 			protected bool m_shake = false;
 
-			[SerializeField, MaxInfinity]
+			[SerializeField]
+			protected bool m_continuous = false;
+
+			[SerializeField, Min(0)]
 			protected float m_duration = 1f;
 
 			[SerializeField]
 			protected Vector3 m_strength = Vector3.one;
 
+			[SerializeField]
+			protected ReflectedFloat m_strengthMultiplier = new ReflectedFloat(1f);
+
 			[SerializeField, Min(0)]
 			protected int m_vibrato = 10;
+
+			[SerializeField]
+			protected ReflectedInt m_vibratoMultiplier = new ReflectedInt(1);
 
 			[SerializeField, Range(0f, 180f)]
 			protected float m_randomness = 90f;
@@ -128,10 +189,19 @@ namespace ToolkitEngine
 
 			#endregion
 
+			#region Events
+
+			public event Action Completed;
+
+			#endregion
+
 			#region Properties
 
 			public bool shake => m_shake;
-			public float duration => m_duration;
+			public float duration { get => m_duration; set => m_duration = value; }
+			public float intensity => m_strengthMultiplier.value;
+			protected Vector3 scaledStrength => m_strength * intensity;
+			protected int scaledVibrato => m_vibrato * m_vibratoMultiplier.value;
 
 			public bool shaking => m_tweener?.IsPlaying() ?? false;
 
@@ -158,6 +228,18 @@ namespace ToolkitEngine
 				Shake(transform);
 			}
 
+			protected void CheckContinuous(Transform transform)
+			{
+				if (m_continuous)
+				{
+					m_tweener.OnComplete(() => AttemptShake(transform));
+				}
+				else
+				{
+					m_tweener.OnComplete(() => Completed?.Invoke());
+				}
+			}
+
 			#endregion
 		}
 
@@ -181,15 +263,9 @@ namespace ToolkitEngine
 				// Reset killed
 				m_killed = false;
 
-				if (m_duration < float.PositiveInfinity)
-				{
-					m_tweener = transform.DOShakePosition(m_duration, m_strength, m_vibrato, m_randomness, m_snapping, m_fadeOut, m_randomnessMode);
-				}
-				else
-				{
-					m_tweener = transform.DOShakePosition(1f, m_strength, m_vibrato, m_randomness, m_snapping, m_fadeOut, m_randomnessMode)
-						.OnComplete(() => AttemptShake(transform));
-				}
+				m_tweener = transform.DOShakePosition(m_duration, scaledStrength, scaledVibrato, m_randomness, m_snapping, m_fadeOut, m_randomnessMode);
+				CheckContinuous(transform);
+
 				return true;
 			}
 
@@ -209,15 +285,9 @@ namespace ToolkitEngine
 				// Reset killed
 				m_killed = false;
 
-				if (m_duration < float.PositiveInfinity)
-				{
-					m_tweener = transform.DOShakeRotation(m_duration, m_strength, m_vibrato, m_randomness, m_fadeOut, m_randomnessMode);
-				}
-				else
-				{
-					m_tweener = transform.DOShakeRotation(1f, m_strength, m_vibrato, m_randomness, m_fadeOut, m_randomnessMode)
-						.OnComplete(() => AttemptShake(transform));
-				}
+				m_tweener = transform.DOShakeRotation(m_duration, scaledStrength, scaledVibrato, m_randomness, m_fadeOut, m_randomnessMode);
+				CheckContinuous(transform);
+
 				return true;
 			}
 
@@ -237,15 +307,9 @@ namespace ToolkitEngine
 				// Reset killed
 				m_killed = false;
 
-				if (m_duration < float.PositiveInfinity)
-				{
-					m_tweener = transform.DOShakeScale(m_duration, m_strength, m_vibrato, m_randomness, m_fadeOut, m_randomnessMode);
-				}
-				else
-				{
-					m_tweener = transform.DOShakeScale(1f, m_strength, m_vibrato, m_randomness, m_fadeOut, m_randomnessMode)
-						.OnComplete(() => AttemptShake(transform));
-				}
+				m_tweener = transform.DOShakeScale(m_duration, scaledStrength, scaledVibrato, m_randomness, m_fadeOut, m_randomnessMode);
+				CheckContinuous(transform);
+
 				return true;
 			}
 

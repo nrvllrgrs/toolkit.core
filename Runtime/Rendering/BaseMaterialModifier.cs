@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 namespace ToolkitEngine.Rendering
 {
@@ -13,6 +14,7 @@ namespace ToolkitEngine.Rendering
         {
             Renderer,
             Material,
+			Graphic,
         }
 
         #endregion
@@ -38,6 +40,9 @@ namespace ToolkitEngine.Rendering
 
         [SerializeField]
         protected Material[] m_materials;
+
+		[SerializeField]
+		protected Graphic[] m_graphics;
 
 		[SerializeField]
 		protected bool m_applyOnEnable;
@@ -70,6 +75,8 @@ namespace ToolkitEngine.Rendering
 
 		[SerializeField]
 		private string[] m_enableKeywords;
+
+		Dictionary<Graphic, Material> m_graphicMaterials = new();
 
 #if UNITY_EDITOR
 		private List<Material> m_editorMaterials;
@@ -127,6 +134,17 @@ namespace ToolkitEngine.Rendering
 							EnableKeywords(material);
 						}
 						break;
+
+					case Mode.Graphic:
+						foreach (var graphic in m_graphics)
+						{
+							if (graphic == null)
+								continue;
+
+							// m_shared == true uses the shared defaultMaterial; false uses the instance material
+							EnableKeywords(m_shared ? graphic.defaultMaterial : graphic.material);
+						}
+						break;
 				}
 			}
 		}
@@ -149,6 +167,11 @@ namespace ToolkitEngine.Rendering
 
 		protected virtual void OnDestroy()
 		{
+			foreach (var material in m_graphicMaterials.Values)
+			{
+				Destroy(material);
+			}
+
 #if UNITY_EDITOR
 			UnityEditor.EditorApplication.playModeStateChanged -= EditorApplication_PlayModeStateChanged;
 #endif
@@ -166,6 +189,34 @@ namespace ToolkitEngine.Rendering
 			}
 		}
 #endif
+
+		protected Material GetGraphicMaterial(Graphic graphic)
+		{
+			if (m_shared)
+			{
+				if (graphic is TMPro.TMP_Text tmpText)
+					return tmpText.fontSharedMaterial;
+
+				return graphic.material;
+			}
+
+			if (!m_graphicMaterials.TryGetValue(graphic, out var material))
+			{
+				if (graphic is TMPro.TMP_Text tmpText)
+				{
+					// Copy from the clean font material, not the stencil-processed one
+					material = new Material(tmpText.fontSharedMaterial);
+					tmpText.fontMaterial = material;
+				}
+				else
+				{
+					material = new Material(graphic.materialForRendering);
+					graphic.material = material;
+				}
+				m_graphicMaterials.Add(graphic, material);
+			}
+			return material;
+		}
 
 		public void Set(float t)
         {
@@ -201,10 +252,34 @@ namespace ToolkitEngine.Rendering
 						Set(material, value);
 					}
 					break;
+
+				case Mode.Graphic:
+					foreach (var graphic in m_graphics)
+					{
+						if (graphic == null)
+							continue;
+
+						if (!SetGraphic(graphic, value))
+						{
+							var material = GetGraphicMaterial(graphic);
+							Set(material, value);
+							graphic.SetMaterialDirty();
+						}
+						graphic.SetMaterialDirty();
+					}
+					break;
 			}
 		}
 
-        protected abstract T GetValue(float t);
+		/// <summary>
+		/// Called for each Graphic before falling through to material-level Set.
+		/// Override to handle Graphic subclasses that don't use material properties
+		/// Return true if the value was applied directly to the Graphic, 
+		/// false to fall through to the normal material path.
+		/// </summary>
+		protected virtual bool SetGraphic(Graphic graphic, T value) => false;
+
+		protected abstract T GetValue(float t);
         protected abstract void Set(Material material, T value);
 
         #endregion

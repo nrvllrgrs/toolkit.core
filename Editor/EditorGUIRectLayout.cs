@@ -184,12 +184,24 @@ namespace UnityEditor
 		public static void ObjectField<T>(ref Rect rect, SerializedProperty property, GUIContent label = null)
 			where T : UnityEngine.Object
 		{
-			label = label ?? new GUIContent(property.displayName);
+			label = new GUIContent(label) ?? new GUIContent(property.displayName);
 
 			rect.height = EditorGUI.GetPropertyHeight(property);
 			EditorGUI.ObjectField(rect, property, typeof(T), label);
 
 			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+		}
+
+		public static T ObjectField<T>(ref Rect rect, T obj, bool allowSceneObjects, GUIContent label = null)
+			where T : UnityEngine.Object
+		{
+			label = label ?? new GUIContent(string.Empty);
+
+			rect.height = EditorGUIUtility.singleLineHeight;
+			obj = EditorGUI.ObjectField(rect, label, obj, typeof(T), allowSceneObjects) as T;
+
+			rect.y += rect.height + EditorGUIUtility.standardVerticalSpacing;
+			return obj;
 		}
 
 		public static int Popup(ref Rect rect, string label, int selectedIndex, string[] displayedOptions)
@@ -229,13 +241,14 @@ namespace UnityEditor
 		{
 			label = label ?? new GUIContent(property.displayName);
 
-			if (property.objectReferenceValue == null)
-			{
-				var propertyRect = new Rect(rect.x, rect.y, rect.width - (BUTTON_WIDTH + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
+			bool isEmpty = property.objectReferenceValue == null;
+			bool isSubAsset = !isEmpty && AssetDatabase.IsSubAsset(property.objectReferenceValue);
+			Rect propertyRect;
 
-				EditorGUI.BeginDisabledGroup(true);
+			if (isEmpty)
+			{
+				propertyRect = new Rect(rect.x, rect.y, rect.width - (BUTTON_WIDTH + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
 				PropertyField(ref propertyRect, property, label);
-				EditorGUI.EndDisabledGroup();
 
 				var buttonRect = new Rect(rect.x + rect.width - BUTTON_WIDTH, rect.y, BUTTON_WIDTH, EditorGUIUtility.singleLineHeight);
 				if (GUI.Button(buttonRect, "Create"))
@@ -249,12 +262,10 @@ namespace UnityEditor
 					property.serializedObject.ApplyModifiedProperties();
 					AssetDatabase.SaveAssets();
 				}
-
-				rect.y = propertyRect.y;
 			}
-			else
+			else if (isSubAsset)
 			{
-				var propertyRect = new Rect(rect.x, rect.y, rect.width - (EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
+				propertyRect = new Rect(rect.x, rect.y, rect.width - (EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing), EditorGUIUtility.singleLineHeight);
 
 				EditorGUI.BeginDisabledGroup(true);
 				PropertyField(ref propertyRect, property, label);
@@ -271,9 +282,14 @@ namespace UnityEditor
 					property.serializedObject.ApplyModifiedProperties();
 					AssetDatabase.SaveAssets();
 				}
-
-				rect.y = propertyRect.y;
 			}
+			else
+			{
+				propertyRect = new Rect(rect.x, rect.y, rect.width, EditorGUIUtility.singleLineHeight);
+				PropertyField(ref propertyRect, property, label);
+			}
+
+			rect.y = propertyRect.y;
 		}
 
 		public static float Slider(ref Rect rect, SerializedProperty property, float minValue, float maxValue)
@@ -318,5 +334,7 @@ namespace UnityEditor
 
 		public static bool ToggleField(ref Rect rect, string label, bool value) => GenericField(ref rect, label, value, EditorGUI.Toggle);
 		public static bool ToggleField(ref Rect rect, GUIContent label, bool value) => GenericField(ref rect, label, value, EditorGUI.Toggle);
+		public static Vector3Int Vector3IntField(ref Rect rect, string label, Vector3Int value) => GenericField(ref rect, label, value, EditorGUI.Vector3IntField);
+		public static Vector3Int Vector3IntField(ref Rect rect, GUIContent label, Vector3Int value) => GenericField(ref rect, label, value, EditorGUI.Vector3IntField);
 	}
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -5,6 +6,39 @@ namespace UnityEngine
 {
 	public static class RandomUtil
 	{
+		public static System.Random GetRandom(int seed)
+		{
+			System.Random random = null;
+			if (seed != 0)
+			{
+				random = new System.Random(seed);
+			}
+
+			return random;
+		}
+
+		public static float Next(float minInclusive, float maxInclusive, System.Random random = null)
+		{
+			return random != null
+				? (float)random.NextDouble() * (maxInclusive - minInclusive) + minInclusive
+				: Random.Range(minInclusive, maxInclusive);
+		}
+
+		public static int Next(int minInclusive, int maxExclusive, System.Random random = null)
+		{
+			return random?.Next(minInclusive, maxExclusive) ?? Random.Range(minInclusive, maxExclusive);
+		}
+
+		public static IEnumerable<T> Take<T>(IEnumerable<T> items, int count, System.Random random = null)
+		{
+			if (count >= items.Count())
+				return items;
+
+			return new List<T>(items)
+				.Shuffle(random)
+				.Take(count);
+		}
+
 		public static Vector3 Noise(Vector3 variance)
 		{
 			return new Vector3(
@@ -55,10 +89,10 @@ namespace UnityEngine
 			return WeightedRandomIndex(weights, (x) => x);
 		}
 
-		public static T WeightedRandom<T>(this IEnumerable<T> items, System.Func<T, float> getWeight)
+		public static T WeightedRandom<T>(this IEnumerable<T> items, Func<T, float> getWeight)
 		{
 			int index = items.Select(x => getWeight(x)).WeightedRandomIndex();
-			if (!index.Between(0, items.Count() - 1))
+			if (!index.Between(0, items.Count()))
 				return default;
 
 			return items.ElementAt(index);

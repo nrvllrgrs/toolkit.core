@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
@@ -64,7 +63,6 @@ namespace ToolkitEngine
 					s_removeEntryContent.tooltip = "Remove Item";
 				}
 				return s_removeEntryContent;
-
 			}
 		}
 
@@ -96,9 +94,32 @@ namespace ToolkitEngine
 			EditorGUI.BeginDisabledGroup(m_keyValue == null || m_dictionary.Contains(m_keyValue));
 			if (EditorGUIRectLayout.Button(ref position, ADD_ENTRY_CONTENT))
 			{
-				m_dictionary.Add(m_keyValue, m_valueType.IsValueType
-					? Activator.CreateInstance(m_valueType)
-					: null);
+				object value = null;
+				bool isUnityObject = typeof(UnityObject).IsAssignableFrom(m_valueType);
+
+				if (!isUnityObject)
+				{
+					try
+					{
+						value = Activator.CreateInstance(m_valueType);
+					}
+					catch (Exception e)
+					{
+						Debug.LogError($"Failed to create instance of {m_valueType.Name}: {e.Message}");
+						value = null;
+						isUnityObject = false;
+					}
+				}
+
+				if (isUnityObject || value != null)
+				{
+					Undo.RecordObject(property.serializedObject.targetObject, "SerializableDictionary.Add");
+					m_dictionary.Add(m_keyValue, value);
+
+					EditorUtility.SetDirty(property.serializedObject.targetObject);
+					property.serializedObject.ApplyModifiedProperties();
+					property.serializedObject.Update();
+				}
 			}
 			EditorGUI.EndDisabledGroup();
 
@@ -111,28 +132,34 @@ namespace ToolkitEngine
 
 				var keyRect = position;
 				keyRect.width = EditorGUIUtility.labelWidth - EditorGUIUtility.standardVerticalSpacing;
+				keyRect.height = EditorGUI.GetPropertyHeight(keyProp);
 
 				var valueRect = position;
 				valueRect.x = keyRect.xMax + EditorGUIUtility.standardVerticalSpacing;
 				valueRect.width = position.width - (EditorGUIUtility.labelWidth + BUTTON_WIDTH + EditorGUIUtility.standardVerticalSpacing * 2f);
+				valueRect.height = EditorGUI.GetPropertyHeight(valueProp);
 
 				EditorGUI.BeginDisabledGroup(true);
-				EditorGUI.PropertyField(keyRect, keyProp, new GUIContent(string.Empty));
+				EditorGUI.PropertyField(keyRect, keyProp, GUIContent.none);
 				EditorGUI.EndDisabledGroup();
 
-				EditorGUI.PropertyField(valueRect, valueProp, new GUIContent(string.Empty));
+				EditorGUI.PropertyField(valueRect, valueProp, GUIContent.none, true);
 
 				var removeRect = valueRect;
 				removeRect.x = valueRect.xMax + EditorGUIUtility.standardVerticalSpacing;
 				removeRect.width = BUTTON_WIDTH;
 
-				// Shift vertical position before potential break
 				position.y += Mathf.Max(EditorGUI.GetPropertyHeight(keyProp), EditorGUI.GetPropertyHeight(valueProp))
 					+ EditorGUIUtility.standardVerticalSpacing;
 
 				if (GUI.Button(removeRect, REMOVE_ENTRY_CONTENT, BUTTON_STYLE))
 				{
+					Undo.RecordObject(property.serializedObject.targetObject, "SerializableDictionary.Remove");
 					m_dictionary.Remove(keyProp.GetValue());
+
+					EditorUtility.SetDirty(property.serializedObject.targetObject);
+					property.serializedObject.ApplyModifiedProperties();
+					property.serializedObject.Update();
 					break;
 				}
 			}
@@ -156,22 +183,29 @@ namespace ToolkitEngine
 				//case long:
 				//	m_keyValue = EditorGUI.LongField(rect, m_keyValue);
 				case Type intType when intType == typeof(int):
+					m_keyValue ??= 0;
 					m_keyValue = EditorGUIRectLayout.IntField(ref position, "Key", m_keyValue);
 					return;
 
 				case Type floatType when floatType == typeof(float):
+					m_keyValue ??= 0f;
 					m_keyValue = EditorGUIRectLayout.FloatField(ref position, "Key", m_keyValue);
 					return;
 
 				//case float: return (T)(object)EditorGUI.FloatField(rect, (float)(object)value);
 				//case double: return (T)(object)EditorGUI.DoubleField(rect, (double)(object)value);
 				case Type stringType when stringType == typeof(string):
+					m_keyValue ??= string.Empty;
 					m_keyValue = EditorGUIRectLayout.TextField(ref position, "Key", m_keyValue);
 					return;
 
 				//case bool: return (T)(object)EditorGUI.Toggle(rect, (bool)(object)value);
 				//case Vector2Int: return (T)(object)EditorGUI.Vector2IntField(rect, GUIContent.none, (Vector2Int)(object)value);
-				//case Vector3Int: return (T)(object)EditorGUI.Vector3IntField(rect, GUIContent.none, (Vector3Int)(object)value);
+				case Type vector3IntType when vector3IntType == typeof(Vector3Int):
+					m_keyValue ??= Vector3Int.zero;
+					m_keyValue = EditorGUIRectLayout.Vector3IntField(ref position, "Key", m_keyValue);
+					return;
+
 				//case Vector2: return (T)(object)EditorGUI.Vector2Field(rect, GUIContent.none, (Vector2)(object)value);
 				//case Vector3: return (T)(object)EditorGUI.Vector3Field(rect, GUIContent.none, (Vector3)(object)value);
 				//case Vector4: return (T)(object)EditorGUI.Vector4Field(rect, GUIContent.none, (Vector4)(object)value);
@@ -182,7 +216,6 @@ namespace ToolkitEngine
 				//case Color: return (T)(object)EditorGUI.ColorField(rect, (Color)(object)value);
 				//case AnimationCurve: return (T)(object)EditorGUI.CurveField(rect, (AnimationCurve)(object)value);
 				//case Gradient: return (T)(object)EditorGUI.GradientField(rect, (Gradient)(object)value);
-				//case UnityObject: return (T)(object)EditorGUI.ObjectField(rect, (UnityObject)(object)value, type, true);
 			}
 
 			if (m_keyType.IsEnum)
@@ -209,12 +242,20 @@ namespace ToolkitEngine
 				var keysProp = property.FindPropertyRelative("keys");
 				var valuesProp = property.FindPropertyRelative("values");
 
+				// Either can be null before OnGUI has run or when the serialized
+				// structure is momentarily inconsistent (common with List<T> values).
+				if (keysProp == null || valuesProp == null)
+					return height;
+
 				for (int i = 0; i < keysProp.arraySize; ++i)
 				{
 					var keyProp = keysProp.GetArrayElementAtIndex(i);
 					var valueProp = valuesProp.GetArrayElementAtIndex(i);
 
-					height += Mathf.Max(EditorGUI.GetPropertyHeight(keyProp), EditorGUI.GetPropertyHeight(valueProp))
+					if (keyProp == null || valueProp == null)
+						continue;
+
+					height += Mathf.Max(EditorGUI.GetPropertyHeight(keyProp), EditorGUI.GetPropertyHeight(valueProp, true))
 						+ EditorGUIUtility.standardVerticalSpacing;
 				}
 			}

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using NPOI.SS.Formula.Functions;
 
 namespace ToolkitEditor
 {
@@ -66,6 +67,24 @@ namespace ToolkitEditor
 
 		protected virtual void DrawNestedEvents()
 		{ }
+
+		public static void DrawIDProperty(SerializedProperty property)
+		{
+			EditorGUILayout.BeginHorizontal();
+			{
+				EditorGUI.BeginDisabledGroup(true);
+				EditorGUILayout.PropertyField(property, new GUIContent("ID"));
+				EditorGUI.EndDisabledGroup();
+
+				EditorGUI.BeginDisabledGroup(Application.isPlaying);
+				if (GUILayout.Button(EditorGUIUtility.IconContent("TreeEditor.Refresh"), GUILayout.Width(20)))
+				{
+					property.stringValue = System.Guid.NewGuid().ToString();
+				}
+				EditorGUI.EndDisabledGroup();
+			}
+			EditorGUILayout.EndHorizontal();
+		}
 
 		#endregion
 	}

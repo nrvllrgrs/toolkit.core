@@ -17,6 +17,9 @@ namespace ToolkitEditor
 		protected ShakeSettingsEditor m_rotationSettings;
 		protected ShakeSettingsEditor m_scaleSettings;
 
+		protected SerializedProperty m_onShake;
+		protected SerializedProperty m_onCompleted;
+
 		#endregion
 
 		#region Methods
@@ -35,6 +38,9 @@ namespace ToolkitEditor
 
 			m_scaleSettings = new();
 			m_scaleSettings.Initialize(serializedObject.FindProperty("m_scaleSettings"), false);
+
+			m_onShake = serializedObject.FindProperty(nameof(m_onShake));
+			m_onCompleted = serializedObject.FindProperty(nameof(m_onCompleted));
 		}
 
 		protected override void InitializeKnownSerializedPropertyNames()
@@ -59,6 +65,15 @@ namespace ToolkitEditor
 			m_scaleSettings.DrawProperties("Shake Scale");
 		}
 
+		protected override void DrawEvents()
+		{
+			if (EditorGUILayoutUtility.Foldout(m_onShake, "Events"))
+			{
+				EditorGUILayout.PropertyField(m_onShake);
+				EditorGUILayout.PropertyField(m_onCompleted);
+			}
+		}
+
 		#endregion
 
 		#region Structures
@@ -68,9 +83,12 @@ namespace ToolkitEditor
 			#region Fields
 
 			public SerializedProperty m_shake;
+			public SerializedProperty m_continuous;
 			public SerializedProperty m_duration;
 			public SerializedProperty m_strength;
+			public SerializedProperty m_strengthMultiplier;
 			public SerializedProperty m_vibrato;
+			public SerializedProperty m_vibratoMultiplier;
 			public SerializedProperty m_randomness;
 			public SerializedProperty m_snapping = null;
 			public SerializedProperty m_fadeOut;
@@ -83,9 +101,12 @@ namespace ToolkitEditor
 			public void Initialize(SerializedProperty property, bool includeSnapping)
 			{
 				m_shake = property.FindPropertyRelative(nameof(m_shake));
+				m_continuous = property.FindPropertyRelative(nameof(m_continuous));
 				m_duration = property.FindPropertyRelative(nameof(m_duration));
 				m_strength = property.FindPropertyRelative(nameof(m_strength));
+				m_strengthMultiplier = property.FindPropertyRelative(nameof(m_strengthMultiplier));
 				m_vibrato = property.FindPropertyRelative(nameof(m_vibrato));
+				m_vibratoMultiplier = property.FindPropertyRelative(nameof(m_vibratoMultiplier));
 				m_randomness = property.FindPropertyRelative(nameof(m_randomness));
 				m_fadeOut = property.FindPropertyRelative(nameof(m_fadeOut));
 				m_randomnessMode = property.FindPropertyRelative(nameof(m_randomnessMode));
@@ -103,6 +124,7 @@ namespace ToolkitEditor
 				{
 					++EditorGUI.indentLevel;
 
+					EditorGUILayout.PropertyField(m_continuous);
 					EditorGUILayout.PropertyField(m_duration);
 					EditorGUILayout.PropertyField(m_strength);
 					EditorGUILayout.PropertyField(m_vibrato);
@@ -116,6 +138,15 @@ namespace ToolkitEditor
 					EditorGUILayout.PropertyField(m_fadeOut);
 					EditorGUILayout.PropertyField(m_randomnessMode);
 
+					if (EditorGUILayoutUtility.Foldout(m_strength, "Advanced Settings"))
+					{
+						++EditorGUI.indentLevel;
+
+						EditorGUILayout.PropertyField(m_strengthMultiplier);
+						EditorGUILayout.PropertyField(m_vibratoMultiplier);
+
+						--EditorGUI.indentLevel;
+					}
 					--EditorGUI.indentLevel;
 				}
 			}

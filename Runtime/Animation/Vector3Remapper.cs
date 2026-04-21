@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace ToolkitEngine
 {
+	[AddComponentMenu("Animation/Vector3 Remapper")]
 	public class Vector3Remapper : BaseRemapper<Vector3>
 	{
 		#region Methods

@@ -34,6 +34,34 @@ public static class ListExt
 		return result;
 	}
 
+	public static void Swap<T>(this IList<T> list, T a, T b)
+	{
+		int aIndex = list.IndexOf(a);
+		int bIndex = list.IndexOf(b);
+
+		T t = a;
+		list[aIndex] = b;
+		list[bIndex] = t;
+	}
+
+	public static void Clean<T>(this ICollection<T> items)
+		where T : Object
+	{
+		HashSet<T> toRemove = new();
+		foreach (var obj in items)
+		{
+			if (obj == null)
+			{
+				toRemove.Add(obj);
+			}
+		}
+
+		foreach (var obj in toRemove)
+		{
+			items.Remove(obj);
+		}
+	}
+
 	public static void SetActive(this IEnumerable<GameObject> list, bool value)
 	{
 		foreach (var item in list)

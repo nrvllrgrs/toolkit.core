@@ -155,6 +155,8 @@ namespace ToolkitEngine
 			[SerializeField]
 			private float m_floatArgument;
 
+			private MemberInfo m_memberInfo;
+
 			#endregion
 
 			#region Properties
@@ -166,36 +168,17 @@ namespace ToolkitEngine
 					if (m_component == null || string.IsNullOrEmpty(m_memberName))
 						return false;
 
-					if (!m_isProperty)
-					{
-						var fieldInfo = m_component.GetType().GetField(m_memberName, BindingFlags.Public | BindingFlags.Instance);
-						if (fieldInfo == null)
-							return false;
+					if (!TryGetMemberInfo(out var memberType, out var memberValue))
+						return false;
 
-						if (fieldInfo.FieldType == typeof(int))
-							return Evaluate((int)fieldInfo.GetValue(m_component), m_intArgument);
+					if (memberType == typeof(int))
+						return Evaluate((int)memberValue, m_intArgument);
 
-						if (fieldInfo.FieldType == typeof(float))
-							return Evaluate((float)fieldInfo.GetValue(m_component), m_floatArgument);
+					if (memberType == typeof(float))
+						return Evaluate((float)memberValue, m_floatArgument);
 
-						if (fieldInfo.FieldType == typeof(bool))
-							return Evaluate((bool)fieldInfo.GetValue(m_component), m_boolArgument);
-					}
-					else
-					{
-						var propertyInfo = m_component.GetType().GetProperty(m_memberName, BindingFlags.Public | BindingFlags.Instance);
-						if (propertyInfo == null)
-							return false;
-
-						if (propertyInfo.PropertyType == typeof(int))
-							return Evaluate((int)propertyInfo.GetValue(m_component), m_intArgument);
-
-						if (propertyInfo.PropertyType == typeof(float))
-							return Evaluate((float)propertyInfo.GetValue(m_component), m_floatArgument);
-
-						if (propertyInfo.PropertyType == typeof(bool))
-							return Evaluate((bool)propertyInfo.GetValue(m_component), m_boolArgument);
-					}
+					if (memberType == typeof(bool))
+						return Evaluate((bool)memberValue, m_boolArgument);
 
 					return false;
 				}
@@ -226,6 +209,37 @@ namespace ToolkitEngine
 			#endregion
 
 			#region Methods
+
+			private bool TryGetMemberInfo(out System.Type memberType, out object memberValue)
+			{
+#if UNITY_EDITOR
+				m_memberInfo = null;
+#endif
+				if (m_memberInfo == null)
+				{
+					m_memberInfo = !m_isProperty
+						? m_component.GetType().GetField(m_memberName, BindingFlags.Public | BindingFlags.Instance)
+						: m_component.GetType().GetProperty(m_memberName, BindingFlags.Public | BindingFlags.Instance);
+				}
+
+				memberType = default;
+				memberValue = default;
+
+				if (m_memberInfo == null)
+					return false;
+
+				if (m_memberInfo is FieldInfo fieldInfo)
+				{
+					memberType = fieldInfo.FieldType;
+					memberValue = fieldInfo.GetValue(m_component);
+				}
+				else if (m_memberInfo is PropertyInfo propertyInfo)
+				{
+					memberType = propertyInfo.PropertyType;
+					memberValue = propertyInfo.GetValue(m_component);
+				}
+				return true;
+			}
 
 			private bool TryGetBehaviour(out Behaviour behaviour)
 			{

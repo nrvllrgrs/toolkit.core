@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ToolkitEngine
 {
-	public abstract class UnityValue
+	public abstract class ReflectedValue
 	{
 		#region Enumerators
 
@@ -24,7 +24,7 @@ namespace ToolkitEngine
 	}
 
 	[System.Serializable]
-	public abstract class UnityValue<T> : UnityValue
+	public abstract class ReflectedValue<T> : ReflectedValue
 	{
 		#region Fields
 
@@ -91,7 +91,7 @@ namespace ToolkitEngine
 
 		#region Construtors
 
-		public UnityValue(T value)
+		public ReflectedValue(T value)
 		{
 			m_value = value;
 		}

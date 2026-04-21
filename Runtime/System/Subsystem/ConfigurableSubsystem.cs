@@ -8,23 +8,13 @@ namespace ToolkitEngine
     {
 		#region Fields
 
-		private TConfig m_config;
+		private static TConfig s_config;
 
 		#endregion
 
 		#region Properties
 
-		public TConfig Config
-		{
-			get
-			{
-				if (m_config == null)
-				{
-					ConfigManager.TryGet(out m_config);
-				}
-				return m_config;
-			}
-		}
+		public static TConfig Config => s_config;
 
 		#endregion
 	}

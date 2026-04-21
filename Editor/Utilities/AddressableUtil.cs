@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-#if USE_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
+using UnityEngine.AddressableAssets;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
@@ -12,7 +13,7 @@ public static class AddressableUtil
 {
 	#region Methods
 
-#if USE_ADDRESSABLES
+#if USE_UNITY_ADDRESSABLES
 
 	public static string GetAddressableGroup(Object obj)
 	{
@@ -95,6 +96,18 @@ public static class AddressableUtil
 		var settings = AddressableAssetSettingsDefaultObject.Settings;
 		entry = settings.FindAssetEntry(guid);
 		return entry != null;
+	}
+
+	public static bool TryGetAssetReference<K, T>(Object obj, out K assetReference)
+		where T : Object
+		where K : AssetReferenceT<T>
+	{
+		assetReference = null;
+		if (!TryGetAddressableEntry(obj, out var entry))
+			return false;
+
+		assetReference = (K)System.Activator.CreateInstance(typeof(K), entry.guid);
+		return true;
 	}
 
 #endif

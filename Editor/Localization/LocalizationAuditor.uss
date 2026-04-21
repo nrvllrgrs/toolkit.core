@@ -1,0 +1,195 @@
+/* Root Container */
+.root-container {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/* Header */
+.header {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 5px;
+    color: rgb(200, 200, 200);
+}
+
+.subtitle {
+    font-size: 12px;
+    color: rgb(160, 160, 160);
+}
+
+/* Settings Section */
+.settings-section {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.settings-container {
+    padding-left: 5px;
+}
+
+.setting-toggle {
+    margin-bottom: 10px;
+}
+
+.grep-path-container {
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.grep-path-field {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.browse-button {
+    width: 80px;
+}
+
+.help-box {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgba(100, 150, 255, 0.1);
+    border-left-width: 3px;
+    border-left-color: rgb(100, 150, 255);
+    border-radius: 3px;
+}
+
+/* Action Buttons */
+.action-buttons {
+    margin-bottom: 15px;
+}
+
+.scan-button {
+    height: 35px;
+    font-size: 13px;
+    -unity-font-style: bold;
+    background-color: rgb(60, 120, 200);
+    color: white;
+    border-radius: 5px;
+}
+
+.scan-button:hover {
+    background-color: rgb(70, 140, 220);
+}
+
+.scan-button:active {
+    background-color: rgb(50, 100, 180);
+}
+
+/* Status Label */
+.status-label {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+}
+
+/* Results Section */
+.results-section {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.results-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.results-count {
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: rgb(180, 180, 180);
+}
+
+.remove-button {
+    height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(200, 60, 60);
+    color: white;
+    border-radius: 4px;
+}
+
+.remove-button:hover:enabled {
+    background-color: rgb(220, 80, 80);
+}
+
+.remove-button:active:enabled {
+    background-color: rgb(180, 40, 40);
+}
+
+.remove-button:disabled {
+    background-color: rgba(100, 100, 100, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Results List */
+.results-list {
+    flex-grow: 1;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.result-item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+.result-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.result-info {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.table-label {
+    font-size: 11px;
+    color: rgb(150, 180, 255);
+    margin-bottom: 2px;
+}
+
+.key-label {
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+}
+
+.select-button {
+    width: 60px;
+    height: 24px;
+    font-size: 11px;
+    border-radius: 3px;
+}

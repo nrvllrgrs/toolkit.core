@@ -7,7 +7,7 @@ using ToolkitEngine;
 
 namespace ToolkitEditor
 {
-    [CustomEditor(typeof(BaseRemapper<>))]
+    [CustomEditor(typeof(BaseRemapper<>), true)]
     public class BaseRemapperEditor : Editor
     {
         #region Fields

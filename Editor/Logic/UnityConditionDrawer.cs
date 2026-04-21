@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityEditor;
 using ToolkitEngine;
 
+#if USE_COMPONENT_NAMES
+using Sisus.ComponentNames;
+#endif
+
 namespace ToolkitEditor
 {
 	[CustomPropertyDrawer(typeof(UnityCondition))]
@@ -78,7 +82,12 @@ namespace ToolkitEditor
 			string selectionLabel = string.Empty;
 			if (componentProperty.objectReferenceValue != null && !string.IsNullOrWhiteSpace(memberNameProperty.stringValue))
 			{
-				selectionLabel = string.Format("{0}.{1}", componentProperty.objectReferenceValue.GetType().Name, memberNameProperty.stringValue);
+#if USE_COMPONENT_NAMES
+				string componentDisplayName = ((Component)componentProperty.objectReferenceValue).GetName();
+#else
+				string componentDisplayName = componentProperty.objectReferenceValue.GetType().Name;
+#endif
+				selectionLabel = string.Format("{0}.{1}", componentDisplayName, memberNameProperty.stringValue);
 			}
 
 			if (EditorGUI.DropdownButton(memberRect, new GUIContent(selectionLabel), FocusType.Keyboard) && objectProperty.objectReferenceValue != null)
@@ -131,25 +140,86 @@ namespace ToolkitEditor
 
 		private void PopulateDropDown(GenericMenu menu, Component[] components, SerializedProperty property)
 		{
-			foreach (var component in components)
-			{
-				AddMenuItems<FieldInfo>(component.GetType().GetFields().Where(x => x.IsPublic), (field) =>
-				{
-					return field.FieldType == typeof(int)
-						|| field.FieldType == typeof(float)
-						|| field.FieldType == typeof(bool);
-				}, menu, HandleMemberInfoClicked, property, component, false);
+			// Group components by type to handle duplicates
+			var componentGroups = components
+				.Select((comp, index) => new { Component = comp, Index = index })
+				.GroupBy(x => x.Component.GetType());
 
-				AddMenuItems<PropertyInfo>(component.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance), (prop) =>
+			foreach (var group in componentGroups)
+			{
+				var componentsOfType = group.ToList();
+				bool hasMultiple = componentsOfType.Count > 1;
+
+				for (int i = 0; i < componentsOfType.Count; i++)
 				{
-					return prop.PropertyType == typeof(int)
-						|| prop.PropertyType == typeof(float)
-						|| prop.PropertyType == typeof(bool);
-				}, menu, HandleMemberInfoClicked, property, component, true);
+					var componentData = componentsOfType[i];
+					var component = componentData.Component;
+
+					string displayName;
+#if USE_COMPONENT_NAMES
+					string componentName = component.GetName();
+
+					// Check if multiple components in this group have the same custom name
+					var componentsWithSameName = componentsOfType
+						.Where(x => string.Equals(x.Component.GetName(), componentName))
+						.ToList();
+
+					bool hasMultipleWithSameName = componentsWithSameName.Count > 1;
+
+					if (hasMultipleWithSameName)
+					{
+						// Find the index within components that share the same name
+						int nameIndex = componentsWithSameName.IndexOf(componentData);
+						displayName = $"{componentName} [{nameIndex}]";
+					}
+					else
+					{
+						displayName = componentName;
+					}
+#else
+					// Get component type name
+					string componentTypeName = component.GetType().Name;
+
+					// If multiple of same type, add index to differentiate
+					displayName = hasMultiple
+						? $"{componentTypeName} [{i}]"
+						: componentTypeName;
+#endif
+
+					// Add fields
+					AddMenuItems<FieldInfo>(
+						component.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance),
+						(field) => field.FieldType == typeof(int) || field.FieldType == typeof(float) || field.FieldType == typeof(bool),
+						menu,
+						HandleMemberInfoClicked,
+						property,
+						component,
+						displayName,
+						false);
+
+					// Add properties
+					AddMenuItems<PropertyInfo>(
+						component.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance),
+						(prop) => prop.PropertyType == typeof(int) || prop.PropertyType == typeof(float) || prop.PropertyType == typeof(bool),
+						menu,
+						HandleMemberInfoClicked,
+						property,
+						component,
+						displayName,
+						true);
+				}
 			}
 		}
 
-		private void AddMenuItems<T>(IEnumerable<MemberInfo> items, System.Func<T, bool> predicate, GenericMenu menu, GenericMenu.MenuFunction2 clickedHandler, SerializedProperty property, Component component, bool isProperty)
+		private void AddMenuItems<T>(
+			IEnumerable<MemberInfo> items,
+			System.Func<T, bool> predicate,
+			GenericMenu menu,
+			GenericMenu.MenuFunction2 clickedHandler,
+			SerializedProperty property,
+			Component component,
+			string componentDisplayName,
+			bool isProperty)
 			where T : MemberInfo
 		{
 			foreach (var item in items.OrderBy(x => x.Name))
@@ -157,13 +227,14 @@ namespace ToolkitEditor
 				if (!predicate((T)item))
 					continue;
 
-				menu.AddItem(new GUIContent(string.Format("{0}/{1}", component.GetType().Name, item.Name)), false, clickedHandler, new MenuEventArgs()
-				{
-					property = property,
-					component = component,
-					memberInfo = item,
-					isProperty = isProperty
-				});
+				menu.AddItem(
+					new GUIContent($"{componentDisplayName}/{item.Name}"), false, clickedHandler, new MenuEventArgs()
+					{
+						property = property,
+						component = component,
+						memberInfo = item,
+						isProperty = isProperty
+					});
 			}
 		}
 
@@ -180,33 +251,38 @@ namespace ToolkitEditor
 
 		public bool TryGetMemberType(Component component, string memberName, bool isProperty, out MemberType memberType)
 		{
-			if (component != null && !string.IsNullOrWhiteSpace(memberName))
+			memberType = 0;
+
+			if (component == null || string.IsNullOrWhiteSpace(memberName))
+				return false;
+
+			if (!isProperty)
 			{
-				if (!isProperty)
+				var fieldInfo = component.GetType().GetField(memberName, BindingFlags.Public | BindingFlags.Instance);
+				if (fieldInfo != null)
 				{
-					var fieldInfo = component.GetType().GetField(memberName, BindingFlags.Public | BindingFlags.Instance);
-					if (fieldInfo != null)
+					if (fieldInfo.FieldType == typeof(int))
 					{
-						if (fieldInfo.FieldType == typeof(int))
-						{
-							memberType = MemberType.Int32;
-							return true;
-						}
-						if (fieldInfo.FieldType == typeof(float))
-						{
-							memberType = MemberType.Single;
-							return true;
-						}
-						if (fieldInfo.FieldType == typeof(bool))
-						{
-							memberType = MemberType.Boolean;
-							return true;
-						}
+						memberType = MemberType.Int32;
+						return true;
+					}
+					if (fieldInfo.FieldType == typeof(float))
+					{
+						memberType = MemberType.Single;
+						return true;
+					}
+					if (fieldInfo.FieldType == typeof(bool))
+					{
+						memberType = MemberType.Boolean;
+						return true;
 					}
 				}
-				else
+			}
+			else
+			{
+				var propInfo = component.GetType().GetProperty(memberName, BindingFlags.Public | BindingFlags.Instance);
+				if (propInfo != null)
 				{
-					var propInfo = component.GetType().GetProperty(memberName, BindingFlags.Public | BindingFlags.Instance);
 					if (propInfo.PropertyType == typeof(int))
 					{
 						memberType = MemberType.Int32;
@@ -225,7 +301,6 @@ namespace ToolkitEditor
 				}
 			}
 
-			memberType = 0;
 			return false;
 		}
 

@@ -1,5 +1,3 @@
-using System;
-using System.Reflection;
 using UnityEngine;
 
 namespace UnityEditor
@@ -88,6 +86,11 @@ namespace UnityEditor
 
 			var rect = GUILayoutUtility.GetLastRect();
 			EditorGUIRectLayout.ScriptableObjectField<T>(ref rect, property, scriptableObject, label);
+		}
+
+		public static void SpriteField(SerializedProperty property)
+		{
+			EditorGUILayout.ObjectField(property, typeof(Sprite), GUILayout.Height(64), GUILayout.Width(64 + EditorGUIUtility.labelWidth));
 		}
 	}
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -23,10 +24,70 @@ namespace ToolkitEditor
 				: null;
 		}
 
+		public static string GetFirstAssetPath<T>(string name, DefaultAsset directory)
+			where T : Object
+		{
+			var folderPath = AssetDatabase.GetAssetPath(directory);
+			var guid = AssetDatabase.FindAssets($"t:{typeof(T).Name} {name}", new[] { folderPath }).FirstOrDefault();
+			return guid != null
+				? AssetDatabase.GUIDToAssetPath(guid)
+				: null;
+		}
+
+		public static string GetFirstExactAssetPath<T>(string name)
+			where T : Object
+		{
+			return AssetDatabase.FindAssets($"t:{typeof(T).Name} {name}")
+				.Select(AssetDatabase.GUIDToAssetPath)
+				.FirstOrDefault(path => System.IO.Path.GetFileNameWithoutExtension(path) == name);
+		}
+
+		public static string GetFirstExactAssetPath<T>(string name, DefaultAsset directory)
+			where T : Object
+		{
+			var folderPath = AssetDatabase.GetAssetPath(directory);
+			return AssetDatabase.FindAssets($"t:{typeof(T).Name} {name}", new[] { folderPath })
+				.Select(AssetDatabase.GUIDToAssetPath)
+				.FirstOrDefault(path => System.IO.Path.GetFileNameWithoutExtension(path) == name);
+		}
+
 		public static T LoadFirstAsset<T>(string name)
 			where T : Object
 		{
 			var path = GetFirstAssetPath<T>(name);
+			if (path == null)
+				return null;
+
+			var assets = AssetDatabase.LoadAllAssetsAtPath(path);
+			return assets.FirstOrDefault(x => x.name == name) as T;
+		}
+
+		public static T LoadFirstAsset<T>(string name, DefaultAsset directory)
+			where T : Object
+		{
+			var path = GetFirstAssetPath<T>(name, directory);
+			if (path == null)
+				return null;
+
+			var assets = AssetDatabase.LoadAllAssetsAtPath(path);
+			return assets.FirstOrDefault(x => x.name == name) as T;
+		}
+
+		public static T LoadFirstExactAsset<T>(string name)
+			where T : Object
+		{
+			var path = GetFirstExactAssetPath<T>(name);
+			if (path == null)
+				return null;
+
+			var assets = AssetDatabase.LoadAllAssetsAtPath(path);
+			return assets.FirstOrDefault(x => x.name == name) as T;
+		}
+
+		public static T LoadFirstExactAsset<T>(string name, DefaultAsset directory)
+			where T : Object
+		{
+			var path = GetFirstExactAssetPath<T>(name, directory);
 			if (path == null)
 				return null;
 
@@ -91,6 +152,50 @@ namespace ToolkitEditor
 			}
 		}
 
+		public static string GetAssetPath(string path)
+		{
+			path = path.Replace("\\", "/");
+
+			string projectPath = Application.dataPath.Replace("Assets", "");
+			projectPath = projectPath.Replace("\\", "/");
+
+			if (!path.StartsWith(projectPath))
+			{
+				Debug.LogError("Path is not inside this project.");
+				return null;
+			}
+
+			return path.Substring(projectPath.Length);
+		}
+
+		public static string GetFullPath(Object asset)
+		{
+			return System.IO.Path.GetFullPath(AssetDatabase.GetAssetPath(asset));
+		}
+
+		public static string GetParentPath(Object asset)
+		{
+			string assetPath = AssetDatabase.GetAssetPath(asset);
+			return System.IO.Path.GetDirectoryName(assetPath);
+		}
+
+		public static DefaultAsset GetParentAsset(Object asset)
+		{
+			return AssetDatabase.LoadAssetAtPath<DefaultAsset>(GetParentPath(asset));
+		}
+
+		public static void UpdatePrefabContent(Object obj, System.Action<GameObject> updater)
+		{
+			// Load prefab in edit mode
+			string assetPath = AssetDatabase.GetAssetPath(obj);
+			var prefab = PrefabUtility.LoadPrefabContents(assetPath);
+			{
+				updater?.Invoke(prefab);
+
+				PrefabUtility.SaveAsPrefabAsset(prefab, assetPath);
+				PrefabUtility.UnloadPrefabContents(prefab);
+			}
+		}
 
 		#endregion
 	}

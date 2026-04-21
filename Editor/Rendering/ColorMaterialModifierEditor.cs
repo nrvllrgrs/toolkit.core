@@ -9,7 +9,7 @@ namespace ToolkitEditor.Rendering
     {
         #region Fields
 
-        protected SerializedProperty m_hdr;
+        protected SerializedProperty m_colorMode;
         protected SerializedProperty m_source;
         protected SerializedProperty m_destination;
         protected SerializedProperty m_hdrSource;
@@ -23,7 +23,7 @@ namespace ToolkitEditor.Rendering
         {
             base.OnEnable();
 
-            m_hdr = serializedObject.FindProperty(nameof(m_hdr));
+			m_colorMode = serializedObject.FindProperty(nameof(m_colorMode));
             m_source = serializedObject.FindProperty(nameof(m_source));
             m_destination = serializedObject.FindProperty(nameof(m_destination));
             m_hdrSource = serializedObject.FindProperty(nameof(m_hdrSource));
@@ -34,7 +34,7 @@ namespace ToolkitEditor.Rendering
         {
             EditorGUILayout.Separator();
 
-            if (m_hdr.boolValue)
+            if (m_colorMode.enumValueIndex == (int)ColorMaterialModifier.ColorMode.HDR)
             {
 				EditorGUILayout.PropertyField(m_hdrSource, new GUIContent("Source"));
 				EditorGUILayout.PropertyField(m_hdrDestination, new GUIContent("Destination"));
@@ -44,7 +44,7 @@ namespace ToolkitEditor.Rendering
 				EditorGUILayout.PropertyField(m_source);
 				EditorGUILayout.PropertyField(m_destination);
 			}
-			EditorGUILayout.PropertyField(m_hdr, new GUIContent("HDR"));
+			EditorGUILayout.PropertyField(m_colorMode);
 		}
 
         #endregion

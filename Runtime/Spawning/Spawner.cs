@@ -5,10 +5,12 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.Pool;
+using Cysharp.Threading.Tasks;
 
 #if USE_UNITY_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+
 #endif
 
 #if UNITY_EDITOR
@@ -261,7 +263,7 @@ namespace ToolkitEngine
 				case SpawnType.ObjectPool:
 					if (!m_poolInitialized)
 					{
-						m_pool.onReleasePoolItem = _OnReleasePoolItem;
+						m_pool.onReleasePoolItem += _OnReleasePoolItem;
 						m_poolInitialized = true;
 					}
 
@@ -386,6 +388,54 @@ namespace ToolkitEngine
 #endif
 		#endregion
 
+		#region Async Spawn Methods
+
+		public UniTask<GameObject> InstantiateAsync()
+		{
+			return InstantiateAsync(null);
+		}
+
+		public UniTask<GameObject> InstantiateAsync(Transform parent)
+		{
+			return InstantiateAsync(Vector3.zero, Quaternion.identity, parent);
+		}
+
+		public UniTask<GameObject> InstantiateAsync(Transform parent, bool spawnInWorldSpace)
+		{
+			if (spawnInWorldSpace)
+			{
+				return InstantiateAsync(parent);
+			}
+			else
+			{
+				return InstantiateAsync(parent.position, parent.rotation, parent);
+			}
+		}
+
+		public UniTask<GameObject> InstantiateAsync(Vector3 position, Quaternion rotation)
+		{
+			return InstantiateAsync(position, rotation, null);
+		}
+
+		public UniTask<GameObject> InstantiateAsync(Vector3 position, Quaternion rotation, Transform parent)
+		{
+			var completionSource = new UniTaskCompletionSource<GameObject>();
+			bool spawned = Instantiate(position, rotation, parent, OnSpawned);
+			if (!spawned)
+			{
+				completionSource.TrySetException(new Exception("Spawner failed to instantiate object."));
+			}
+
+			return completionSource.Task;
+
+			void OnSpawned(GameObject spawnedObj, params object[] args)
+			{
+				completionSource.TrySetResult(spawnedObj);
+			}
+		}
+
+		#endregion
+
 		#region Despawn Methods
 
 		public void DestroyAll()
@@ -496,8 +546,8 @@ namespace ToolkitEngine
 
 			switch (spawner.spawnType)
 			{
-				case Spawner.SpawnType.Template:
-				case Spawner.SpawnType.ObjectPool:
+				case SpawnType.Template:
+				case SpawnType.ObjectPool:
 					var template = spawner.template;
 					if (template == null)
 						return;
@@ -517,7 +567,7 @@ namespace ToolkitEngine
 					break;
 
 #if USE_UNITY_ADDRESSABLES
-				case Spawner.SpawnType.Addressable:
+				case SpawnType.Addressable:
 					if (!spawner.m_assetReference.RuntimeKeyIsValid())
 						return;
 
@@ -555,12 +605,12 @@ namespace ToolkitEngine
 		}
 
 #endif
-		#endregion
-	}
+	#endregion
+}
 
 #if UNITY_EDITOR
 
-	public class SpawnerProxyManager : ScriptableSingleton<SpawnerProxyManager>
+public class SpawnerProxyManager : ScriptableSingleton<SpawnerProxyManager>
 	{
 		#region Fields
 

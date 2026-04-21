@@ -17,13 +17,16 @@ namespace ToolkitEngine
 		private float m_duration = 1f;
 
 		[SerializeField]
+		private ReflectedFloat m_durationFactor = new ReflectedFloat(1f);
+
+		[SerializeField]
+		private bool m_playOnAwake;
+
+		[SerializeField]
 		private float m_amplitude = 1f;
 
 		[SerializeField]
 		private float m_verticalShift = 0f;
-
-		[SerializeField]
-		private bool m_playOnAwake;
 
 		[SerializeField]
 		private float m_time;
@@ -76,6 +79,15 @@ namespace ToolkitEngine
 			{
 				value = Mathf.Clamp(value, 0f, m_duration);
 
+				if (Mathf.Approximately(value, m_duration))
+				{
+					tweener.fullPosition = tweener.endValue;
+				}
+				else if (Mathf.Approximately(value, 0f))
+				{
+					tweener.fullPosition = 0f;
+				}
+
 				// No change, skip
 				if (m_time == value)
 					return;
@@ -84,20 +96,16 @@ namespace ToolkitEngine
 				OnTimeChanged.Invoke(this);
 				OnValueChanged?.Invoke(this.value);
 
-				if (time == m_duration)
+				if (Mathf.Approximately(time, m_duration))
 				{
-					tweener.fullPosition = tweener.endValue;
-
 					if (isPlaying && !tweener.isBackwards)
 					{
 						Wrap(m_curve.postWrapMode);
 						OnEndCompleted.Invoke(this);
 					}
 				}
-				else if (time == 0)
+				else if (Mathf.Approximately(time, 0f))
 				{
-					tweener.fullPosition = 0f;
-
 					if (isPlaying && tweener.isBackwards)
 					{
 						Wrap(m_curve.preWrapMode);
@@ -131,7 +139,21 @@ namespace ToolkitEngine
 			set
 			{
 				m_duration = value;
-				tweener.timeScale = 1f / m_duration;
+				UpdateTweenScale();
+			}
+		}
+
+		public float durationFactor
+		{
+			get => m_durationFactor.value;
+			set
+			{
+				// No change, skip
+				if (m_durationFactor.value == value)
+					return;
+
+				m_durationFactor.value = value;
+				UpdateTweenScale();
 			}
 		}
 
@@ -159,14 +181,6 @@ namespace ToolkitEngine
 		#endregion
 
 		#region Methods
-
-		private void SetTweenerValue(float value)
-		{
-			if (!m_isPlaying)
-				return;
-
-			time = value * m_duration;
-		}
 
 		private void Awake()
 		{
@@ -290,6 +304,18 @@ namespace ToolkitEngine
 					isPlaying = false;
 					break;
 			}
+		}
+
+		public void InvokeNotification() => OnValueChanged?.Invoke(value);
+
+		private void UpdateTweenScale() => tweener.timeScale = 1f / (m_duration * durationFactor);
+
+		private void SetTweenerValue(float value)
+		{
+			if (!m_isPlaying)
+				return;
+
+			time = value * m_duration;
 		}
 
 		#endregion

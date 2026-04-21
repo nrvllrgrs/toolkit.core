@@ -3,7 +3,7 @@ using UnityEngine.Rendering;
 
 namespace ToolkitEngine.Rendering
 {
-    public class FloatMaterialModifier : BaseMaterialModifier<float>
+	public class FloatMaterialModifier : BaseMaterialModifier<float>
     {
         #region Properties
 
@@ -27,9 +27,8 @@ namespace ToolkitEngine.Rendering
 #else
             material.SetFloat(m_nameId, value);
 #endif
-
         }
 
-        #endregion
-    }
+		#endregion
+	}
 }

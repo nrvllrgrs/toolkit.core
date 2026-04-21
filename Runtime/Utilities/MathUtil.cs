@@ -30,14 +30,14 @@ namespace UnityEngine
 			return (a % b + b) % b;
 		}
 
-		public static bool Between(this float value, float min, float max)
+		public static bool Between(this float value, float minInclusive, float maxInclusive)
 		{
-			return min <= value && value <= max;
+			return minInclusive <= value && value <= maxInclusive;
 		}
 
-		public static bool Between(this int value, int min, int max)
+		public static bool Between(this int value, int minInclusive, int maxExclusive)
 		{
-			return min <= value && value <= max;
+			return minInclusive <= value && value < maxExclusive;
 		}
 
 		public static float Wrap(this float value, float maxDouble)
@@ -77,6 +77,16 @@ namespace UnityEngine
 		public static float NextGaussian(float mean, float stdDeviation)
 		{
 			return mean + NextGaussian() * stdDeviation;
+		}
+
+		public static float RoundTo(float value, float interval)
+		{
+			return Mathf.Round(value / interval) * interval;
+		}
+
+		public static float RoundDownTo(float value, float interval)
+		{
+			return Mathf.Floor(value / interval) * interval;
 		}
 	}
 }

@@ -166,7 +166,7 @@ namespace ToolkitEngine
 			m_spawner.Set(assetReference);
 		}
 #endif
-#endregion
+		#endregion
 
 		#region Spawn Methods
 
@@ -246,7 +246,7 @@ namespace ToolkitEngine
 			if (m_order != OrderMode.Indexed)
 				return false;
 
-			if (!index.Between(0, m_points.Length - 1))
+			if (!index.Between(0, m_points.Length))
 				return false;
 
 			var point = m_points[index];
@@ -328,6 +328,10 @@ namespace ToolkitEngine
 
 			UnityEditor.EditorApplication.delayCall += () =>
 			{
+				// Guard against the object being destroyed before the deferred call runs
+				if (this == null)
+					return;
+
 				switch (m_spawnSpace)
 				{
 					case SpawnSpace.SpawnAtPoint:

@@ -1,14 +1,26 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 namespace ToolkitEngine.Rendering
 {
-    public class ColorMaterialModifier : BaseMaterialModifier<Color>
+	public class ColorMaterialModifier : BaseMaterialModifier<Color>
     {
-        #region Fields
+		#region Enumerators
 
-        [SerializeField]
-        private bool m_hdr;
+		public enum ColorMode
+		{
+			Standard,
+			HDR,
+			Vertex,
+		}
+
+		#endregion
+
+		#region Fields
+
+		[SerializeField]
+        private ColorMode m_colorMode;
 
         [SerializeField]
         private Color m_source = Color.white;
@@ -36,7 +48,7 @@ namespace ToolkitEngine.Rendering
 
         protected override Color GetValue(float t)
         {
-            return !m_hdr
+            return m_colorMode != ColorMode.HDR
                 ? Color.Lerp(m_source, m_destination, t)
                 : Color.Lerp(m_hdrSource, m_hdrDestination, t);
         }
@@ -48,9 +60,17 @@ namespace ToolkitEngine.Rendering
 #else
             material.SetColor(m_nameId, value);
 #endif
-
 		}
 
-        #endregion
-    }
+		protected override bool SetGraphic(Graphic graphic, Color value)
+		{
+			if (m_colorMode != ColorMode.Vertex)
+				return false;
+
+			graphic.color = value;
+			return true;
+		}
+
+		#endregion
+	}
 }
