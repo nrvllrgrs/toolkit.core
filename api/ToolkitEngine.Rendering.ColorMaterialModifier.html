@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Rendering_ColorMaterialModifier" data-uid="ToolkitEngine.Rendering.ColorMaterialModifier" class="text-break">
-Class ColorMaterialModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class ColorMaterialModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -132,6 +132,9 @@ Class ColorMaterialModifier  <a class="header-action link-secondary" title="View
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier-1.html#ToolkitEngine_Rendering_BaseMaterialModifier_1_OnDestroy">BaseMaterialModifier&lt;Color&gt;.OnDestroy()</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier-1.html#ToolkitEngine_Rendering_BaseMaterialModifier_1_GetGraphicMaterial_Graphic_">BaseMaterialModifier&lt;Color&gt;.GetGraphicMaterial(Graphic)</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier-1.html#ToolkitEngine_Rendering_BaseMaterialModifier_1_Set_System_Single_">BaseMaterialModifier&lt;Color&gt;.Set(float)</a>
     </div>
     <div>
@@ -151,6 +154,9 @@ Class ColorMaterialModifier  <a class="header-action link-secondary" title="View
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_materials">BaseMaterialModifier.m_materials</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_graphics">BaseMaterialModifier.m_graphics</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_applyOnEnable">BaseMaterialModifier.m_applyOnEnable</a>
@@ -173,7 +179,7 @@ Class ColorMaterialModifier  <a class="header-action link-secondary" title="View
 
   <h3 id="ToolkitEngine_Rendering_ColorMaterialModifier_GetValue_System_Single_" data-uid="ToolkitEngine.Rendering.ColorMaterialModifier.GetValue(System.Single)">
   GetValue(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -209,7 +215,7 @@ Class ColorMaterialModifier  <a class="header-action link-secondary" title="View
 
   <h3 id="ToolkitEngine_Rendering_ColorMaterialModifier_Set_Material_Color_" data-uid="ToolkitEngine.Rendering.ColorMaterialModifier.Set(Material,Color)">
   Set(Material, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -227,6 +233,48 @@ Class ColorMaterialModifier  <a class="header-action link-secondary" title="View
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Rendering_ColorMaterialModifier_SetGraphic_" data-uid="ToolkitEngine.Rendering.ColorMaterialModifier.SetGraphic*"></a>
+
+  <h3 id="ToolkitEngine_Rendering_ColorMaterialModifier_SetGraphic_Graphic_Color_" data-uid="ToolkitEngine.Rendering.ColorMaterialModifier.SetGraphic(Graphic,Color)">
+  SetGraphic(Graphic, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/ColorMaterialModifier.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called for each Graphic before falling through to material-level Set.
+Override to handle Graphic subclasses that don't use material properties
+Return true if the value was applied directly to the Graphic,
+false to fall through to the normal material path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool SetGraphic(Graphic graphic, Color value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>graphic</code> <span class="xref">Graphic</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

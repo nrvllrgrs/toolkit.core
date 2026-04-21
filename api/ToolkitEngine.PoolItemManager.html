@@ -137,10 +137,13 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance">Subsystem&lt;PoolItemManager&gt;.Instance</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Exists">Subsystem&lt;PoolItemManager&gt;.Exists</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance">Subsystem&lt;PoolItemManager&gt;.CastInstance</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate">Subsystem&lt;PoolItemManager&gt;.Instantiate()</a>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_New">Subsystem&lt;PoolItemManager&gt;.New()</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Update">Subsystem&lt;PoolItemManager&gt;.Update()</a>
@@ -150,6 +153,15 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate">Subsystem&lt;PoolItemManager&gt;.LateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CanAssign__1___0_">Subsystem&lt;PoolItemManager&gt;.CanAssign&lt;K&gt;(K)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action_">Subsystem&lt;PoolItemManager&gt;.SetValue&lt;K&gt;(ref K, K, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action___0__">Subsystem&lt;PoolItemManager&gt;.SetValue&lt;K&gt;(ref K, K, Action&lt;K&gt;)</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose">Subsystem&lt;PoolItemManager&gt;.Dispose()</a>
@@ -185,6 +197,41 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_PoolItemManager_DontDestroyOnLoadScene_" data-uid="ToolkitEngine.PoolItemManager.DontDestroyOnLoadScene*"></a>
+
+  <h3 id="ToolkitEngine_PoolItemManager_DontDestroyOnLoadScene" data-uid="ToolkitEngine.PoolItemManager.DontDestroyOnLoadScene">
+  DontDestroyOnLoadScene
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene DontDestroyOnLoadScene { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Scene</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -193,7 +240,7 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_PoolItemManager_Initialize" data-uid="ToolkitEngine.PoolItemManager.Initialize">
   Initialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -219,7 +266,7 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_PoolItemManager_Release_ToolkitEngine_PoolItem_" data-uid="ToolkitEngine.PoolItemManager.Release(ToolkitEngine.PoolItem)">
   Release(PoolItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,7 +302,7 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_PoolItemManager_Terminate" data-uid="ToolkitEngine.PoolItemManager.Terminate">
   Terminate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -281,7 +328,7 @@ Class PoolItemManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="ToolkitEngine_PoolItemManager_TryGet_ToolkitEngine_PoolItem_ToolkitEngine_PoolItem__" data-uid="ToolkitEngine.PoolItemManager.TryGet(ToolkitEngine.PoolItem,ToolkitEngine.PoolItem@)">
   TryGet(PoolItem, out PoolItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Spawning/PoolItemManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

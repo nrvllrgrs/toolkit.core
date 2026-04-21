@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Subsystem_1" data-uid="ToolkitEngine.Subsystem`1" class="text-break">
-Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L18"><i class="bi bi-code-slash"></i></a>
+Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -133,6 +133,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
     <dt>Derived</dt>
     <dd>
       <div><a class="xref" href="ToolkitEngine.ConfigurableSubsystem-2.html">ConfigurableSubsystem&lt;T, TConfig&gt;</a></div>
+      <div><a class="xref" href="ToolkitEngine.VisualScripting.VisualScriptingManager.html">VisualScriptingManager</a></div>
     </dd>
   </dl>
 
@@ -167,36 +168,6 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="ToolkitEngine_Subsystem_1__ctor_" data-uid="ToolkitEngine.Subsystem`1.#ctor*"></a>
-
-  <h3 id="ToolkitEngine_Subsystem_1__ctor" data-uid="ToolkitEngine.Subsystem`1.#ctor">
-  Subsystem()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L54"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Subsystem()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -205,7 +176,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_CastInstance" data-uid="ToolkitEngine.Subsystem`1.CastInstance">
   CastInstance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,11 +203,42 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="ToolkitEngine_Subsystem_1_Exists_" data-uid="ToolkitEngine.Subsystem`1.Exists*"></a>
+
+  <h3 id="ToolkitEngine_Subsystem_1_Exists" data-uid="ToolkitEngine.Subsystem`1.Exists">
+  Exists
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Exists { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Subsystem_1_Instance_" data-uid="ToolkitEngine.Subsystem`1.Instance*"></a>
 
   <h3 id="ToolkitEngine_Subsystem_1_Instance" data-uid="ToolkitEngine.Subsystem`1.Instance">
   Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -267,11 +269,52 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 </h2>
 
 
+  <a id="ToolkitEngine_Subsystem_1_CanAssign_" data-uid="ToolkitEngine.Subsystem`1.CanAssign*"></a>
+
+  <h3 id="ToolkitEngine_Subsystem_1_CanAssign__1___0_" data-uid="ToolkitEngine.Subsystem`1.CanAssign``1(``0)">
+  CanAssign&lt;K&gt;(K)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static bool CanAssign&lt;K&gt;(K value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">K</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>K</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Subsystem_1_Dispose_" data-uid="ToolkitEngine.Subsystem`1.Dispose*"></a>
 
   <h3 id="ToolkitEngine_Subsystem_1_Dispose" data-uid="ToolkitEngine.Subsystem`1.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -298,7 +341,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Dispose_System_Boolean_" data-uid="ToolkitEngine.Subsystem`1.Dispose(System.Boolean)">
   Dispose(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -329,7 +372,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Finalize" data-uid="ToolkitEngine.Subsystem`1.Finalize">
   ~Subsystem()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -355,7 +398,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_FixedUpdate" data-uid="ToolkitEngine.Subsystem`1.FixedUpdate">
   FixedUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -381,7 +424,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Initialize" data-uid="ToolkitEngine.Subsystem`1.Initialize">
   Initialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -403,37 +446,11 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="ToolkitEngine_Subsystem_1_Instantiate_" data-uid="ToolkitEngine.Subsystem`1.Instantiate*"></a>
-
-  <h3 id="ToolkitEngine_Subsystem_1_Instantiate" data-uid="ToolkitEngine.Subsystem`1.Instantiate">
-  Instantiate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L63"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Instantiate()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_Subsystem_1_LateUpdate_" data-uid="ToolkitEngine.Subsystem`1.LateUpdate*"></a>
 
   <h3 id="ToolkitEngine_Subsystem_1_LateUpdate" data-uid="ToolkitEngine.Subsystem`1.LateUpdate">
   LateUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -455,11 +472,117 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="ToolkitEngine_Subsystem_1_New_" data-uid="ToolkitEngine.Subsystem`1.New*"></a>
+
+  <h3 id="ToolkitEngine_Subsystem_1_New" data-uid="ToolkitEngine.Subsystem`1.New">
+  New()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void New()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Subsystem_1_SetValue_" data-uid="ToolkitEngine.Subsystem`1.SetValue*"></a>
+
+  <h3 id="ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action_" data-uid="ToolkitEngine.Subsystem`1.SetValue``1(``0@,``0,System.Action)">
+  SetValue&lt;K&gt;(ref K, K, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void SetValue&lt;K&gt;(ref K propValue, K value, Action callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propValue</code> <span class="xref">K</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">K</span></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>K</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Subsystem_1_SetValue_" data-uid="ToolkitEngine.Subsystem`1.SetValue*"></a>
+
+  <h3 id="ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action___0__" data-uid="ToolkitEngine.Subsystem`1.SetValue``1(``0@,``0,System.Action{``0})">
+  SetValue&lt;K&gt;(ref K, K, Action&lt;K&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void SetValue&lt;K&gt;(ref K propValue, K value, Action&lt;K&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propValue</code> <span class="xref">K</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">K</span></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;K&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>K</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Subsystem_1_Terminate_" data-uid="ToolkitEngine.Subsystem`1.Terminate*"></a>
 
   <h3 id="ToolkitEngine_Subsystem_1_Terminate" data-uid="ToolkitEngine.Subsystem`1.Terminate">
   Terminate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -485,7 +608,7 @@ Class Subsystem&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="ToolkitEngine_Subsystem_1_Update" data-uid="ToolkitEngine.Subsystem`1.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/Subsystem.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

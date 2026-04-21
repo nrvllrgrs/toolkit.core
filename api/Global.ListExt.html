@@ -152,10 +152,46 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 </h2>
 
 
+  <a id="Global_ListExt_Clean_" data-uid="Global.ListExt.Clean*"></a>
+
+  <h3 id="Global_ListExt_Clean__1_System_Collections_Generic_ICollection___0__" data-uid="Global.ListExt.Clean``1(System.Collections.Generic.ICollection{``0})">
+  Clean&lt;T&gt;(ICollection&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Clean&lt;T&gt;(this ICollection&lt;T&gt; items) where T : Object</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="Global_ListExt_Random_" data-uid="Global.ListExt.Random*"></a>
 
-  <h3 id="Global_ListExt_Random__1_System_Collections_Generic_IList___0__System_Boolean_" data-uid="Global.ListExt.Random``1(System.Collections.Generic.IList{``0},System.Boolean)">
-  Random&lt;T&gt;(IList&lt;T&gt;, bool)
+  <h3 id="Global_ListExt_Random__1_System_Collections_Generic_IList___0__System_Boolean_System_Random_" data-uid="Global.ListExt.Random``1(System.Collections.Generic.IList{``0},System.Boolean,System.Random)">
+  Random&lt;T&gt;(IList&lt;T&gt;, bool, Random)
   <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -163,7 +199,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this IList&lt;T&gt; list, bool remove = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this IList&lt;T&gt; list, bool remove = false, Random random = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -171,6 +207,8 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
     <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
     <dd></dd>
     <dt><code>remove</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
     <dd></dd>
   </dl>
 
@@ -199,7 +237,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Global_ListExt_RefreshWith__1_System_Collections_Generic_List___0__System_Collections_Generic_IEnumerable___0__" data-uid="Global.ListExt.RefreshWith``1(System.Collections.Generic.List{``0},System.Collections.Generic.IEnumerable{``0})">
   RefreshWith&lt;T&gt;(List&lt;T&gt;, IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -237,7 +275,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Global_ListExt_SetActive_System_Collections_Generic_IEnumerable_GameObject__System_Boolean_" data-uid="Global.ListExt.SetActive(System.Collections.Generic.IEnumerable{GameObject},System.Boolean)">
   SetActive(IEnumerable&lt;GameObject&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -270,7 +308,7 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Global_ListExt_SetEnabled_System_Collections_Generic_IEnumerable_Behaviour__System_Boolean_" data-uid="Global.ListExt.SetEnabled(System.Collections.Generic.IEnumerable{Behaviour},System.Boolean)">
   SetEnabled(IEnumerable&lt;Behaviour&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -301,8 +339,8 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Global_ListExt_Shuffle_" data-uid="Global.ListExt.Shuffle*"></a>
 
-  <h3 id="Global_ListExt_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="Global.ListExt.Shuffle``1(System.Collections.Generic.IList{``0})">
-  Shuffle&lt;T&gt;(IList&lt;T&gt;)
+  <h3 id="Global_ListExt_Shuffle__1_System_Collections_Generic_IList___0__System_Random_" data-uid="Global.ListExt.Shuffle``1(System.Collections.Generic.IList{``0},System.Random)">
+  Shuffle&lt;T&gt;(IList&lt;T&gt;, Random)
   <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -310,12 +348,14 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; Shuffle&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; Shuffle&lt;T&gt;(this IList&lt;T&gt; list, Random random = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
     <dd></dd>
   </dl>
 
@@ -324,6 +364,46 @@ Class ListExt  <a class="header-action link-secondary" title="View source" href=
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_ListExt_Swap_" data-uid="Global.ListExt.Swap*"></a>
+
+  <h3 id="Global_ListExt_Swap__1_System_Collections_Generic_IList___0____0___0_" data-uid="Global.ListExt.Swap``1(System.Collections.Generic.IList{``0},``0,``0)">
+  Swap&lt;T&gt;(IList&lt;T&gt;, T, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/ListExt.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Swap&lt;T&gt;(this IList&lt;T&gt; list, T a, T b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>a</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>b</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">

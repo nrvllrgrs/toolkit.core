@@ -101,7 +101,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TimedCurveEditor : Editor</code></pre>
+    <pre><code class="lang-csharp hljs">public class TimedCurveEditor : BaseToolkitEditor</code></pre>
   </div>
 
 
@@ -111,12 +111,35 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="ToolkitEditor.BaseToolkitEditor.html">BaseToolkitEditor</a></div>
       <div><span class="xref">TimedCurveEditor</span></div>
     </dd>
   </dl>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_knownSerializedPropertyNames">BaseToolkitEditor.knownSerializedPropertyNames</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_OnInspectorGUI">BaseToolkitEditor.OnInspectorGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_InitializeKnownSerializedPropertyNames">BaseToolkitEditor.InitializeKnownSerializedPropertyNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_DrawInspector">BaseToolkitEditor.DrawInspector()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_DrawNestedEvents">BaseToolkitEditor.DrawNestedEvents()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEditor.BaseToolkitEditor.html#ToolkitEditor_BaseToolkitEditor_DrawIDProperty_SerializedProperty_">BaseToolkitEditor.DrawIDProperty(SerializedProperty)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -130,7 +153,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_amplitude" data-uid="ToolkitEditor.TimedCurveEditor.m_amplitude">
   m_amplitude
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -218,9 +241,39 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h3 id="ToolkitEditor_TimedCurveEditor_m_durationFactor" data-uid="ToolkitEditor.TimedCurveEditor.m_durationFactor">
+  m_durationFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty m_durationFactor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SerializedProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onBeginCompleted" data-uid="ToolkitEditor.TimedCurveEditor.m_onBeginCompleted">
   m_onBeginCompleted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -250,7 +303,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onEndCompleted" data-uid="ToolkitEditor.TimedCurveEditor.m_onEndCompleted">
   m_onEndCompleted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -280,7 +333,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onPaused" data-uid="ToolkitEditor.TimedCurveEditor.m_onPaused">
   m_onPaused
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -310,7 +363,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onPlayed" data-uid="ToolkitEditor.TimedCurveEditor.m_onPlayed">
   m_onPlayed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -340,7 +393,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onTimeChanged" data-uid="ToolkitEditor.TimedCurveEditor.m_onTimeChanged">
   m_onTimeChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -370,7 +423,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_onValueChanged" data-uid="ToolkitEditor.TimedCurveEditor.m_onValueChanged">
   m_onValueChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -400,7 +453,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_playOnAwake" data-uid="ToolkitEditor.TimedCurveEditor.m_playOnAwake">
   m_playOnAwake
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -430,7 +483,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_time" data-uid="ToolkitEditor.TimedCurveEditor.m_time">
   m_time
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -490,7 +543,7 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEditor_TimedCurveEditor_m_verticalShift" data-uid="ToolkitEditor.TimedCurveEditor.m_verticalShift">
   m_verticalShift
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -521,18 +574,70 @@ Class TimedCurveEditor  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="ToolkitEditor_TimedCurveEditor_OnInspectorGUI_" data-uid="ToolkitEditor.TimedCurveEditor.OnInspectorGUI*"></a>
+  <a id="ToolkitEditor_TimedCurveEditor_DrawCommands_" data-uid="ToolkitEditor.TimedCurveEditor.DrawCommands*"></a>
 
-  <h3 id="ToolkitEditor_TimedCurveEditor_OnInspectorGUI" data-uid="ToolkitEditor.TimedCurveEditor.OnInspectorGUI">
-  OnInspectorGUI()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEditor_TimedCurveEditor_DrawCommands" data-uid="ToolkitEditor.TimedCurveEditor.DrawCommands">
+  DrawCommands()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnInspectorGUI()</code></pre>
+    <pre><code class="lang-csharp hljs">protected void DrawCommands()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_TimedCurveEditor_DrawEvents_" data-uid="ToolkitEditor.TimedCurveEditor.DrawEvents*"></a>
+
+  <h3 id="ToolkitEditor_TimedCurveEditor_DrawEvents" data-uid="ToolkitEditor.TimedCurveEditor.DrawEvents">
+  DrawEvents()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEditor_TimedCurveEditor_DrawProperties_" data-uid="ToolkitEditor.TimedCurveEditor.DrawProperties*"></a>
+
+  <h3 id="ToolkitEditor_TimedCurveEditor_DrawProperties" data-uid="ToolkitEditor.TimedCurveEditor.DrawProperties">
+  DrawProperties()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Editor/Animation/TimedCurveEditor.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DrawProperties()</code></pre>
   </div>
 
 

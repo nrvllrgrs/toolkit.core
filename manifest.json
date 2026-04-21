@@ -21,17 +21,11 @@
           "relative_path": "api/Global.AddressableUtil.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.BaseEventUnit-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.BaseEventUnit-1.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AddressableUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +35,11 @@
           "relative_path": "api/Global.BaseGenericSetAnimatorParameterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BaseGenericSetAnimatorParameterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +49,11 @@
           "relative_path": "api/Global.BaseSetAnimatorParameter-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BaseSetAnimatorParameter<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +63,11 @@
           "relative_path": "api/Global.BaseSetAnimatorParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BaseSetAnimatorParameter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,17 +77,11 @@
           "relative_path": "api/Global.BaseSetAnimatorParameterEditor.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.BaseSetEventUnit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.BaseSetEventUnit.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BaseSetAnimatorParameterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +91,11 @@
           "relative_path": "api/Global.ComponentExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ComponentExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +105,11 @@
           "relative_path": "api/Global.HumanBodyTargets.Target.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HumanBodyTargets.Target",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +119,81 @@
           "relative_path": "api/Global.HumanBodyTargets.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HumanBodyTargets",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InterfaceArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InterfaceArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InterfaceArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InterfaceReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InterfaceReference-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InterfaceReference<TInterface>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InterfaceReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InterfaceReference-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InterfaceReference<TInterface, TObject>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InterfaceReferenceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InterfaceReferenceDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InterfaceReferenceDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InterfaceReferenceUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InterfaceReferenceUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InterfaceReferenceUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +203,11 @@
           "relative_path": "api/Global.LayerAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LayerAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +217,11 @@
           "relative_path": "api/Global.LayerDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LayerDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +231,25 @@
           "relative_path": "api/Global.ListExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ListExt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LocalizedStringContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LocalizedStringContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LocalizedStringContainer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +259,11 @@
           "relative_path": "api/Global.MaxInfinityAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MaxInfinityAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +273,11 @@
           "relative_path": "api/Global.MaxInfinityDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MaxInfinityDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +287,11 @@
           "relative_path": "api/Global.MemberInfoExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MemberInfoExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +301,11 @@
           "relative_path": "api/Global.MinMaxAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MinMaxAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +315,11 @@
           "relative_path": "api/Global.MinMaxDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MinMaxDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +329,11 @@
           "relative_path": "api/Global.NavMeshAreaMaskAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NavMeshAreaMaskAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -211,7 +343,11 @@
           "relative_path": "api/Global.NavMeshAreaMaskDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NavMeshAreaMaskDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +357,11 @@
           "relative_path": "api/Global.NavMeshPathExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NavMeshPathExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +371,39 @@
           "relative_path": "api/Global.ReflectionUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ReflectionUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RequireInterfaceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RequireInterfaceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RequireInterfaceAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RequireInterfaceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RequireInterfaceDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "RequireInterfaceDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +413,11 @@
           "relative_path": "api/Global.SerializedPropertyExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SerializedPropertyExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +427,11 @@
           "relative_path": "api/Global.SetAnimatorBool.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SetAnimatorBool",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +441,11 @@
           "relative_path": "api/Global.SetAnimatorFloat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SetAnimatorFloat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -271,7 +455,11 @@
           "relative_path": "api/Global.SetAnimatorInt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SetAnimatorInt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -281,7 +469,11 @@
           "relative_path": "api/Global.SetAnimatorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SetAnimatorTrigger",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -291,7 +483,11 @@
           "relative_path": "api/Global.StringExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "StringExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +497,11 @@
           "relative_path": "api/Global.TagAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TagAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +511,11 @@
           "relative_path": "api/Global.TagDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TagDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +525,11 @@
           "relative_path": "api/Global.VectorLabelAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VectorLabelAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +539,11 @@
           "relative_path": "api/Global.VectorLabelDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VectorLabelDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -341,7 +553,11 @@
           "relative_path": "api/Global.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,17 +567,39 @@
           "relative_path": "api/ToolkitEditor.AnimatorPoserEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.AnimatorPoserEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEditor.AssetUtility.yml",
+      "source_relative_path": "api/ToolkitEditor.AssetUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEditor.AssetUtility.html"
+          "relative_path": "api/ToolkitEditor.AssetUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.AssetUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.AudioUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.AudioUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.AudioUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +609,11 @@
           "relative_path": "api/ToolkitEditor.BaseEvaluableDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BaseEvaluableDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +623,11 @@
           "relative_path": "api/ToolkitEditor.BaseEvaluatorDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BaseEvaluatorDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +637,25 @@
           "relative_path": "api/ToolkitEditor.BaseFilterDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BaseFilterDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.BasePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.BasePropertyDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BasePropertyDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -401,7 +665,11 @@
           "relative_path": "api/ToolkitEditor.BaseRemapperEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BaseRemapperEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -411,7 +679,11 @@
           "relative_path": "api/ToolkitEditor.BaseToolkitEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.BaseToolkitEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -421,7 +693,11 @@
           "relative_path": "api/ToolkitEditor.CommentEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.CommentEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -431,7 +707,11 @@
           "relative_path": "api/ToolkitEditor.CommentOverlay.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.CommentOverlay",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -441,7 +721,11 @@
           "relative_path": "api/ToolkitEditor.CommentSystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.CommentSystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -451,7 +735,25 @@
           "relative_path": "api/ToolkitEditor.FacingEventsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.FacingEventsEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.FileUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.FileUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.FileUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -461,7 +763,25 @@
           "relative_path": "api/ToolkitEditor.FloatRemapperEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.FloatRemapperEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.GenericObjectPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.GenericObjectPropertyDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.GenericObjectPropertyDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -471,7 +791,53 @@
           "relative_path": "api/ToolkitEditor.INestableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.INestableEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.LocalizationAuditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.LocalizationAuditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.LocalizationAuditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.LocalizedStringEditorExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.LocalizedStringEditorExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.LocalizedStringEditorExt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.LockableDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.LockableDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.LockableDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -481,7 +847,11 @@
           "relative_path": "api/ToolkitEditor.LookAtCameraEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.LookAtCameraEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -491,7 +861,11 @@
           "relative_path": "api/ToolkitEditor.NestedDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.NestedDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -501,7 +875,11 @@
           "relative_path": "api/ToolkitEditor.ObjectActivationDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ObjectActivationDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -511,7 +889,11 @@
           "relative_path": "api/ToolkitEditor.ObjectSpawnerControlEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ObjectSpawnerControlEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -521,7 +903,11 @@
           "relative_path": "api/ToolkitEditor.ObjectSpawnerEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ObjectSpawnerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -531,7 +917,11 @@
           "relative_path": "api/ToolkitEditor.PoolItemEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.PoolItemEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -541,7 +931,11 @@
           "relative_path": "api/ToolkitEditor.PoolItemManagerEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.PoolItemManagerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -551,7 +945,81 @@
           "relative_path": "api/ToolkitEditor.PoolItemSpawnerDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.PoolItemSpawnerDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ProgressBarUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ProgressBarUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ProgressBarUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.PropertyCollectionDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.PropertyCollectionDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.PropertyCollectionDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ReflectedFloatDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ReflectedFloatDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ReflectedFloatDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ReflectedIntDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ReflectedIntDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ReflectedIntDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.ReflectedValueDrawer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.ReflectedValueDrawer-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.ReflectedValueDrawer<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -561,7 +1029,11 @@
           "relative_path": "api/ToolkitEditor.Rendering.BaseMaterialModifierEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Rendering.BaseMaterialModifierEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -571,7 +1043,25 @@
           "relative_path": "api/ToolkitEditor.Rendering.ColorMaterialModifierEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Rendering.ColorMaterialModifierEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Rendering.IntMaterialModifierEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Rendering.IntMaterialModifierEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Rendering.IntMaterialModifierEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -581,7 +1071,11 @@
           "relative_path": "api/ToolkitEditor.Rendering.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Rendering",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -591,7 +1085,11 @@
           "relative_path": "api/ToolkitEditor.SetEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.SetEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -601,7 +1099,25 @@
           "relative_path": "api/ToolkitEditor.SpawnerDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.SpawnerDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.SubsystemEntryDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.SubsystemEntryDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.SubsystemEntryDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -611,7 +1127,11 @@
           "relative_path": "api/ToolkitEditor.TimedCurveEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.TimedCurveEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -621,7 +1141,11 @@
           "relative_path": "api/ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.TransformShakeEditor.ShakeSettingsEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -631,7 +1155,11 @@
           "relative_path": "api/ToolkitEditor.TransformShakeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.TransformShakeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -641,7 +1169,11 @@
           "relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.MemberType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.UnityConditionArgumenDrawer.MemberType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -651,7 +1183,11 @@
           "relative_path": "api/ToolkitEditor.UnityConditionArgumenDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.UnityConditionArgumenDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -661,7 +1197,11 @@
           "relative_path": "api/ToolkitEditor.UnityConditionDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.UnityConditionDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -671,7 +1211,11 @@
           "relative_path": "api/ToolkitEditor.UnityElectorDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.UnityElectorDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -681,27 +1225,11 @@
           "relative_path": "api/ToolkitEditor.UnityEvaluatorDrawer.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEditor.UnityFloatDrawer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEditor.UnityFloatDrawer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEditor.UnityValueDrawer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEditor.UnityValueDrawer-1.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.UnityEvaluatorDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -711,7 +1239,11 @@
           "relative_path": "api/ToolkitEditor.Vector3RemapperEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Vector3RemapperEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -721,7 +1253,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.BaseMachineStateItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.BaseMachineStateItem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -731,7 +1267,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.MachineStateEventArgumentDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -741,7 +1281,25 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.MachineStateEventDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.MachineStateEventDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.VisualScripting.ScriptGraphPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.VisualScripting.ScriptGraphPropertyDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.ScriptGraphPropertyDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -751,7 +1309,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.Setup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.Setup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -761,7 +1323,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptToolbar.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.VisualScriptToolbar",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -771,7 +1337,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting.VisualScriptingVariablesUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -781,7 +1351,11 @@
           "relative_path": "api/ToolkitEditor.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -791,7 +1365,11 @@
           "relative_path": "api/ToolkitEditor.WaveDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.WaveDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -801,7 +1379,11 @@
           "relative_path": "api/ToolkitEditor.WaveSpawnerEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.WaveSpawnerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -811,27 +1393,81 @@
           "relative_path": "api/ToolkitEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.AngleEvaluator.yml",
+      "source_relative_path": "api/ToolkitEngine.ActivationControl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.AngleEvaluator.html"
+          "relative_path": "api/ToolkitEngine.ActivationControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ActivationControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.AngleFilter.yml",
+      "source_relative_path": "api/ToolkitEngine.ActivationEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.AngleFilter.html"
+          "relative_path": "api/ToolkitEngine.ActivationEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ActivationEvents",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AnimationSet.AnimationClipMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AnimationSet.AnimationClipMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimationSet.AnimationClipMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AnimationSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AnimationSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimationSet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AnimationSetOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AnimationSetOverride.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimationSetOverride",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -841,7 +1477,11 @@
           "relative_path": "api/ToolkitEngine.AnimatorPoser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimatorPoser",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -851,7 +1491,11 @@
           "relative_path": "api/ToolkitEngine.AnimatorStack.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimatorStack",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -861,7 +1505,53 @@
           "relative_path": "api/ToolkitEngine.AnimatorStatePostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AnimatorStatePostSpawnRule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AppBootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AppBootstrapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AppBootstrapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AppBootstrapperConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AppBootstrapperConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AppBootstrapperConfig",
+      "Summary": "<p sourcefile=\"api/ToolkitEngine.AppBootstrapperConfig.yml\" sourcestartlinenumber=\"1\">Holds the list of subsystems the AppBootstrapper should initialize at startup.\nPlace one instance of this asset inside any Resources folder so it can be\nloaded with Resources.Load at both runtime and edit-time.</p>\n<p sourcefile=\"api/ToolkitEngine.AppBootstrapperConfig.yml\" sourcestartlinenumber=\"5\">Recommended path: Assets/Resources/AppBootstrapperConfig.asset</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AttachPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AttachPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AttachPoint",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -871,7 +1561,11 @@
           "relative_path": "api/ToolkitEngine.AttachmentPostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AttachmentPostSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -881,7 +1575,53 @@
           "relative_path": "api/ToolkitEngine.AttachmentRecycler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AttachmentRecycler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AudioMixerGroupProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AudioMixerGroupProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AudioMixerGroupProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AudioResourceProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AudioResourceProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AudioResourceProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.AudioSourceExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.AudioSourceExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AudioSourceExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -891,7 +1631,11 @@
           "relative_path": "api/ToolkitEngine.Axis.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Axis",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -901,37 +1645,11 @@
           "relative_path": "api/ToolkitEngine.AxisUtil.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.BaseCompareFilter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.BaseCompareFilter-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.BaseEvaluator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.BaseEvaluator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.BaseFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.BaseFilter.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.AxisUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -941,7 +1659,11 @@
           "relative_path": "api/ToolkitEngine.BasePostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BasePostSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -951,7 +1673,67 @@
           "relative_path": "api/ToolkitEngine.BasePreSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BasePreSpawnRule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BaseProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BaseProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BaseProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BaseProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BasePropertyList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BasePropertyList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BasePropertyList<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BasePropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BasePropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BasePropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -961,17 +1743,53 @@
           "relative_path": "api/ToolkitEngine.BaseRemapper-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BaseRemapper<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.ColliderAngleFilter.yml",
+      "source_relative_path": "api/ToolkitEngine.BoolProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.ColliderAngleFilter.html"
+          "relative_path": "api/ToolkitEngine.BoolProperty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BoolProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.BoolPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.BoolPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.BoolPropertyList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.CanvasCameraAssigner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.CanvasCameraAssigner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.CanvasCameraAssigner",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -981,7 +1799,39 @@
           "relative_path": "api/ToolkitEngine.CollisionPreSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.CollisionPreSpawnRule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ColorProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ColorProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ColorPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ColorPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ColorPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -991,37 +1841,25 @@
           "relative_path": "api/ToolkitEngine.Comment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Comment",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.ConditionFilter.yml",
+      "source_relative_path": "api/ToolkitEngine.ConditionalEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.ConditionFilter.html"
+          "relative_path": "api/ToolkitEngine.ConditionalEvents.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.ConfigCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.ConfigCollection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.ConfigManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.ConfigManager.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ConditionalEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1031,7 +1869,11 @@
           "relative_path": "api/ToolkitEngine.ConfigurableSubsystem-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ConfigurableSubsystem<T, TConfig>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1041,7 +1883,11 @@
           "relative_path": "api/ToolkitEngine.CoroutineUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.CoroutineUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1051,27 +1897,11 @@
           "relative_path": "api/ToolkitEngine.DestroyHandler.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.DistanceEvaluator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.DistanceEvaluator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.DistanceFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.DistanceFilter.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.DestroyHandler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1081,17 +1911,39 @@
           "relative_path": "api/ToolkitEngine.EvaluableCategoryAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.EvaluableCategoryAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.EvaluatorValue.yml",
+      "source_relative_path": "api/ToolkitEngine.EventSystems.PriorityPhysicsRaycaster.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.EvaluatorValue.html"
+          "relative_path": "api/ToolkitEngine.EventSystems.PriorityPhysicsRaycaster.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.EventSystems.PriorityPhysicsRaycaster",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.EventSystems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.EventSystems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.EventSystems",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1101,7 +1953,39 @@
           "relative_path": "api/ToolkitEngine.FacingEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.FacingEvents",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.FloatProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.FloatProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.FloatProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.FloatPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.FloatPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.FloatPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1111,17 +1995,81 @@
           "relative_path": "api/ToolkitEngine.FloatRemapper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.FloatRemapper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.GameObjectFilter.yml",
+      "source_relative_path": "api/ToolkitEngine.GameMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.GameObjectFilter.html"
+          "relative_path": "api/ToolkitEngine.GameMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GameMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GameObjectProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GameObjectProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GameObjectProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GameObjectPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GameObjectPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GameObjectPropertyList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GenericMenuCategoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GenericMenuCategoryAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GenericMenuCategoryAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.GenericObjectProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.GenericObjectProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GenericObjectProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1131,17 +2079,11 @@
           "relative_path": "api/ToolkitEngine.GizmosUtil.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.IEvaluable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.IEvaluable.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.GizmosUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1151,17 +2093,11 @@
           "relative_path": "api/ToolkitEngine.IInstantiableSubsystem.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.IInstantiableSubsystemConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.IInstantiableSubsystemConfig.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.IInstantiableSubsystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1171,7 +2107,11 @@
           "relative_path": "api/ToolkitEngine.IKillable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.IKillable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1181,7 +2121,11 @@
           "relative_path": "api/ToolkitEngine.IPoolItemRecyclable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.IPoolItemRecyclable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1191,7 +2135,11 @@
           "relative_path": "api/ToolkitEngine.ISubsystem-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ISubsystem<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1201,17 +2149,95 @@
           "relative_path": "api/ToolkitEngine.ISubsystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ISubsystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.InstantiableSubsystem-2.yml",
+      "source_relative_path": "api/ToolkitEngine.InitializationSystem.Stage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.InstantiableSubsystem-2.html"
+          "relative_path": "api/ToolkitEngine.InitializationSystem.Stage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.InitializationSystem.Stage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.InitializationSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.InitializationSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.InitializationSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.InputSystem.InputEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.InputSystem.InputEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.InputSystem.InputEvents",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.InputSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.InputSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.InputSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IntProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IntProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.IntProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.IntPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.IntPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.IntPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1221,27 +2247,11 @@
           "relative_path": "api/ToolkitEngine.KeyedComponent-1.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.LOSFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.LOSFilter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.LabelFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.LabelFilter.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.KeyedComponent<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1251,7 +2261,11 @@
           "relative_path": "api/ToolkitEngine.LabelType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LabelType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1261,7 +2275,25 @@
           "relative_path": "api/ToolkitEngine.Labels.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Labels",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LayoutUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LayoutUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LayoutUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1271,7 +2303,11 @@
           "relative_path": "api/ToolkitEngine.LifecycleSubsystem.Phase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LifecycleSubsystem.Phase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1281,7 +2317,11 @@
           "relative_path": "api/ToolkitEngine.LifecycleSubsystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LifecycleSubsystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1291,7 +2331,25 @@
           "relative_path": "api/ToolkitEngine.Lifetime.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Lifetime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.LockableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.LockableAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LockableAttribute",
+      "Summary": "<p sourcefile=\"api/ToolkitEngine.LockableAttribute.yml\" sourcestartlinenumber=\"1\">Displays a field in the Inspector with a lock toggle button.\nWhen locked (default), the field is read-only. When unlocked, it is editable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1301,7 +2359,11 @@
           "relative_path": "api/ToolkitEngine.LookAtCamera.LookStyle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LookAtCamera.LookStyle",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1311,17 +2373,53 @@
           "relative_path": "api/ToolkitEngine.LookAtCamera.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.LookAtCamera",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.NavMeshPathDistanceEvaluator.yml",
+      "source_relative_path": "api/ToolkitEngine.MaterialProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.NavMeshPathDistanceEvaluator.html"
+          "relative_path": "api/ToolkitEngine.MaterialProperty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.MaterialProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MusicManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MusicManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.MusicManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MusicManagerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MusicManagerConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.MusicManagerConfig",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1331,7 +2429,11 @@
           "relative_path": "api/ToolkitEngine.NavMeshPreSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.NavMeshPreSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1341,7 +2443,11 @@
           "relative_path": "api/ToolkitEngine.NestedAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.NestedAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1351,7 +2457,67 @@
           "relative_path": "api/ToolkitEngine.ObjectActivation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectActivation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectPropertyList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectPropertyList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectPropertyList<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ObjectPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ObjectPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1361,7 +2527,11 @@
           "relative_path": "api/ToolkitEngine.ObjectSpawner.OrderMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectSpawner.OrderMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1371,7 +2541,11 @@
           "relative_path": "api/ToolkitEngine.ObjectSpawner.SpawnSpace.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectSpawner.SpawnSpace",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1381,7 +2555,11 @@
           "relative_path": "api/ToolkitEngine.ObjectSpawner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectSpawner",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1391,7 +2569,11 @@
           "relative_path": "api/ToolkitEngine.ObjectSpawnerControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ObjectSpawnerControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1401,7 +2583,11 @@
           "relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.OverrideRigidbodyPostSpawnRule.OverrideMethod",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1411,7 +2597,11 @@
           "relative_path": "api/ToolkitEngine.OverrideRigidbodyPostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.OverrideRigidbodyPostSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1421,7 +2611,11 @@
           "relative_path": "api/ToolkitEngine.ParentPostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ParentPostSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1431,7 +2625,53 @@
           "relative_path": "api/ToolkitEngine.ParticleSystemStoppedHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ParticleSystemStoppedHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PersistentSubsystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PersistentSubsystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PersistentSubsystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PersistentSubsystemConfig.GameObjectMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PersistentSubsystemConfig.GameObjectMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PersistentSubsystemConfig.GameObjectMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PersistentSubsystemConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PersistentSubsystemConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PersistentSubsystemConfig",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1441,7 +2681,11 @@
           "relative_path": "api/ToolkitEngine.PhysicsUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PhysicsUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1451,7 +2695,39 @@
           "relative_path": "api/ToolkitEngine.PlayerLoopUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PlayerLoopUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PointerActionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PointerActionEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PointerActionEvents",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PointerHoverEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PointerHoverEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PointerHoverEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1461,7 +2737,11 @@
           "relative_path": "api/ToolkitEngine.PoolItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1471,7 +2751,11 @@
           "relative_path": "api/ToolkitEngine.PoolItemManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1481,7 +2765,11 @@
           "relative_path": "api/ToolkitEngine.PoolItemManagerConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemManagerConfig",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1491,7 +2779,11 @@
           "relative_path": "api/ToolkitEngine.PoolItemSpawner-1.CapacityMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemSpawner<T>.CapacityMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1501,7 +2793,11 @@
           "relative_path": "api/ToolkitEngine.PoolItemSpawner-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemSpawner<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1511,7 +2807,11 @@
           "relative_path": "api/ToolkitEngine.PoolItemSpawner.SourceType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemSpawner.SourceType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1521,7 +2821,109 @@
           "relative_path": "api/ToolkitEngine.PoolItemSpawner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PoolItemSpawner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.PropertyCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.PropertyCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.PropertyCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReferenceCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReferenceCounter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReferenceCounter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReflectedFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReflectedFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReflectedFloat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReflectedInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReflectedInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReflectedInt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReflectedValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReflectedValue-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReflectedValue<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReflectedValue.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReflectedValue.ValueType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReflectedValue.ValueType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ReflectedValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ReflectedValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ReflectedValue",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1531,7 +2933,11 @@
           "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.BaseMaterialModifier<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1541,7 +2947,11 @@
           "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.Mode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.BaseMaterialModifier.Mode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1551,7 +2961,25 @@
           "relative_path": "api/ToolkitEngine.Rendering.BaseMaterialModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.BaseMaterialModifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.ColorMaterialModifier.ColorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.ColorMaterialModifier.ColorMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.ColorMaterialModifier.ColorMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1561,7 +2989,11 @@
           "relative_path": "api/ToolkitEngine.Rendering.ColorMaterialModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.ColorMaterialModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1571,7 +3003,53 @@
           "relative_path": "api/ToolkitEngine.Rendering.FloatMaterialModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.FloatMaterialModifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.ISpriteDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.ISpriteDisplay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.ISpriteDisplay",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.ImageAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.ImageAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.ImageAdapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.IntMaterialModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.IntMaterialModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.IntMaterialModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1581,7 +3059,11 @@
           "relative_path": "api/ToolkitEngine.Rendering.MaterialRecycler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.MaterialRecycler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1591,7 +3073,11 @@
           "relative_path": "api/ToolkitEngine.Rendering.RangeMaterialModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.RangeMaterialModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1601,7 +3087,25 @@
           "relative_path": "api/ToolkitEngine.Rendering.RendererLayerControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.RendererLayerControl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Rendering.SpriteRendererAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Rendering.SpriteRendererAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering.SpriteRendererAdapter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1611,7 +3115,347 @@
           "relative_path": "api/ToolkitEngine.Rendering.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.AngleEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.AngleEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.AngleEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.AngleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.AngleFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.AngleFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.BaseCompareFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.BaseCompareFilter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.BaseCompareFilter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.BaseEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.BaseEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.BaseEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.BaseFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.BaseFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.BaseFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.ColliderAngleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.ColliderAngleFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.ColliderAngleFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.ConditionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.ConditionFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.ConditionFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.DistanceEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.DistanceEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.DistanceEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.DistanceFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.DistanceFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.DistanceFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.EvaluatorValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.EvaluatorValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.EvaluatorValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.GameObjectFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.GameObjectFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.GameObjectFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.IEvaluable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.IEvaluable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.IEvaluable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.LOSFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.LOSFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.LOSFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.LabelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.LabelFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.LabelFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.NavMeshPathDistanceEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.NavMeshPathDistanceEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.NavMeshPathDistanceEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.PresetEvaluable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.PresetEvaluable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.PresetEvaluable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.PresetEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.PresetEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.PresetEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.TagFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.TagFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.TagFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.UnityElector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.UnityElector-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.UnityElector<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.UnityElector.RandomnessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.UnityElector.RandomnessMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.UnityElector.RandomnessMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.UnityElector.SelectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.UnityElector.SelectionMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.UnityElector.SelectionMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.UnityElector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.UnityElector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.UnityElector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.UnityEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.UnityEvaluator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring.UnityEvaluator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Scoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Scoring.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Scoring",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1621,7 +3465,11 @@
           "relative_path": "api/ToolkitEngine.ScriptMachinePostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ScriptMachinePostSpawnRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1631,7 +3479,11 @@
           "relative_path": "api/ToolkitEngine.SerializableDictionary-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SerializableDictionary<TKey, TValue>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1641,7 +3493,11 @@
           "relative_path": "api/ToolkitEngine.SerializableDictionaryDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SerializableDictionaryDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1651,7 +3507,25 @@
           "relative_path": "api/ToolkitEngine.Set.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Set",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.ShaderProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.ShaderProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShaderProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1661,7 +3535,11 @@
           "relative_path": "api/ToolkitEngine.ShaderUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShaderUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1671,7 +3549,11 @@
           "relative_path": "api/ToolkitEngine.ShakeTransform.BaseSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShakeTransform.BaseSettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1681,7 +3563,11 @@
           "relative_path": "api/ToolkitEngine.ShakeTransform.PositionSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShakeTransform.PositionSettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1691,7 +3577,11 @@
           "relative_path": "api/ToolkitEngine.ShakeTransform.RotationSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShakeTransform.RotationSettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1701,7 +3591,11 @@
           "relative_path": "api/ToolkitEngine.ShakeTransform.ScaleSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShakeTransform.ScaleSettings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1711,7 +3605,11 @@
           "relative_path": "api/ToolkitEngine.ShakeTransform.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ShakeTransform",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1721,7 +3619,11 @@
           "relative_path": "api/ToolkitEngine.SpawnedAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SpawnedAction",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1731,7 +3633,11 @@
           "relative_path": "api/ToolkitEngine.Spawner.SpawnType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Spawner.SpawnType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1741,7 +3647,11 @@
           "relative_path": "api/ToolkitEngine.Spawner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Spawner",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1751,7 +3661,11 @@
           "relative_path": "api/ToolkitEngine.SpawnerEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SpawnerEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1761,7 +3675,53 @@
           "relative_path": "api/ToolkitEngine.SplineAnimatePostSpawnRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SplineAnimatePostSpawnRule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SpriteProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SpriteProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SpriteProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.StringProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.StringProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.StringProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.StringPropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.StringPropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.StringPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1771,37 +3731,39 @@
           "relative_path": "api/ToolkitEngine.Subsystem-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Subsystem<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.SubsystemBootstrapper.yml",
+      "source_relative_path": "api/ToolkitEngine.SubsystemDependencyAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.SubsystemBootstrapper.html"
+          "relative_path": "api/ToolkitEngine.SubsystemDependencyAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SubsystemDependencyAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.SubsystemInstance-2.yml",
+      "source_relative_path": "api/ToolkitEngine.SubsystemEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.SubsystemInstance-2.html"
+          "relative_path": "api/ToolkitEngine.SubsystemEntry.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.TagFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.TagFilter.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SubsystemEntry",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1811,7 +3773,11 @@
           "relative_path": "api/ToolkitEngine.TargetingPoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.TargetingPoints",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1821,7 +3787,11 @@
           "relative_path": "api/ToolkitEngine.TimedCurve.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.TimedCurve",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1831,7 +3801,39 @@
           "relative_path": "api/ToolkitEngine.ToolkitUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.ToolkitUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UI.TextMeshTicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UI.TextMeshTicker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.UI.TextMeshTicker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.UI",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1841,7 +3843,11 @@
           "relative_path": "api/ToolkitEngine.UnityCondition.CompareOperatorType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.UnityCondition.CompareOperatorType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1851,7 +3857,11 @@
           "relative_path": "api/ToolkitEngine.UnityCondition.ConditionType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.UnityCondition.ConditionType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1861,97 +3871,137 @@
           "relative_path": "api/ToolkitEngine.UnityCondition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.UnityCondition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityElector-1.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector2IntProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityElector-1.html"
+          "relative_path": "api/ToolkitEngine.Vector2IntProperty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector2IntProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityElector.RandomnessMode.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector2IntPropertyList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityElector.RandomnessMode.html"
+          "relative_path": "api/ToolkitEngine.Vector2IntPropertyList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector2IntPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityElector.SelectionMode.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector2Property.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityElector.SelectionMode.html"
+          "relative_path": "api/ToolkitEngine.Vector2Property.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector2Property",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityElector.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector2PropertyList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityElector.html"
+          "relative_path": "api/ToolkitEngine.Vector2PropertyList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector2PropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityEvaluator.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector2Remapper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityEvaluator.html"
+          "relative_path": "api/ToolkitEngine.Vector2Remapper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector2Remapper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityFloat.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector3IntProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityFloat.html"
+          "relative_path": "api/ToolkitEngine.Vector3IntProperty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector3IntProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityValue-1.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector3IntPropertyList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityValue-1.html"
+          "relative_path": "api/ToolkitEngine.Vector3IntPropertyList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector3IntPropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityValue.ValueType.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector3Property.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityValue.ValueType.html"
+          "relative_path": "api/ToolkitEngine.Vector3Property.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector3Property",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.UnityValue.yml",
+      "source_relative_path": "api/ToolkitEngine.Vector3PropertyList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.UnityValue.html"
+          "relative_path": "api/ToolkitEngine.Vector3PropertyList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector3PropertyList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1961,7 +4011,67 @@
           "relative_path": "api/ToolkitEngine.Vector3Remapper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector3Remapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Vector4Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Vector4Property.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector4Property",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Vector4PropertyList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Vector4PropertyList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Vector4PropertyList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseEventUnit-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseEventUnit-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseEventUnit<TArgs>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseInputEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseInputEventUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseInputEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1971,7 +4081,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviour-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseMachineStateBehaviour<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1981,7 +4095,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseMachineStateBehaviourEventUnit<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1991,7 +4109,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseMachineStateContinueUnit<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2001,7 +4123,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItem-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseMachineStateItem<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2011,7 +4137,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseMachineStateItemEventUnit<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2021,7 +4151,25 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BasePoolItemEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BasePoolItemEventUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BaseSetEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BaseSetEventUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseSetEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2031,7 +4179,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseSetMaterialProperty-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseSetMaterialProperty<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2041,7 +4193,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseSpawnerEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseSpawnerEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2051,7 +4207,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BaseTimedCurveEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2061,7 +4221,39 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.BoolOnFlow.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BoolOnFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.BridgeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.BridgeEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.BridgeEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.CallGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.CallGraph.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.CallGraph",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2071,7 +4263,25 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.EventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.EventHooks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.Except.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.Except.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.Except",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2081,7 +4291,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.FilteredManagerEventUnit-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.FilteredManagerEventUnit<TArgs, TFilter>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2091,7 +4305,193 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.FilteredTargetEventUnit-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.FilteredTargetEventUnit<TArgs, TFilter>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetBoolPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetBoolPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetBoolPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetColorPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetColorPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetColorPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetFloatPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetFloatPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetFloatPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetGenericObjectPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetGenericObjectPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetGenericObjectPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetIntPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetIntPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetIntPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetObjectPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetObjectPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetObjectPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetPropertyValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetPropertyValue-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetPropertyValue<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetStringPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetStringPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetStringPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetVector2IntPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetVector2IntPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetVector2IntPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetVector2PropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetVector2PropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetVector2PropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetVector3IntPropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetVector3IntPropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetVector3IntPropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetVector3PropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetVector3PropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetVector3PropertyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetVector4PropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetVector4PropertyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetVector4PropertyValue",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2101,7 +4501,53 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.IMachineState-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.IMachineState<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.IVisualScriptingBridge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.IVisualScriptingBridge.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.IVisualScriptingBridge",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.IndexOf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.IndexOf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.IndexOf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.Intersect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.Intersect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.Intersect",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2111,7 +4557,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.MachineStateEvent-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.MachineStateEvent<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2121,7 +4571,95 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ManagerEventUnit-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ManagerEventUnit<TArgs>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.Negate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.Negate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.Negate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnGraphCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnGraphCall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnGraphCall",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnInputCanceled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnInputCanceled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnInputCanceled",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnInputCanceledMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnInputCanceledMessageListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnInputCanceledMessageListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnInputPerformed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnInputPerformed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnInputPerformed",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.OnInputPerformedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.OnInputPerformedMessageListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnInputPerformedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2131,7 +4669,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnObjectSpawnerDespawned",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2141,7 +4683,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnObjectSpawnerSpawning",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2151,7 +4697,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemGet",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2161,7 +4711,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemGetMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2171,7 +4725,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleased.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemReleased",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2181,7 +4739,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemReleasedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2191,7 +4753,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawned.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemSpawned",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2201,7 +4767,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnPoolItemSpawnedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2211,7 +4781,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmpty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetEmpty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2221,7 +4795,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetEmptyMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetEmptyMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2231,7 +4809,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAdded.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetItemAdded",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2241,7 +4823,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetItemAddedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2251,7 +4837,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemoved.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetItemRemoved",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2261,7 +4851,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSetItemRemovedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2271,7 +4865,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSpawnerDespawnedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2281,7 +4879,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawned.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSpawnerSpawned",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2291,7 +4893,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSpawnerSpawnedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2301,7 +4907,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnSpawnerSpawningMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2311,7 +4921,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveBeginCompleted",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2321,7 +4935,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveBeginCompletedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2331,7 +4949,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveEndCompleted",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2341,7 +4963,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveEndCompletedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2351,7 +4977,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePaused.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurvePaused",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2361,7 +4991,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurvePausedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2371,7 +5005,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurvePlayed",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2381,7 +5019,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurvePlayedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2391,7 +5033,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveTimeChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2401,7 +5047,39 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.OnTimedCurveTimeChangedMessageListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ReturnValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ReturnValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ReturnValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptGraphProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptGraphProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptGraphProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2411,7 +5089,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineEvaluator.EventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2421,7 +5103,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineEvaluator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2431,7 +5117,25 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineEvaluatorEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2441,7 +5145,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineFilter.EventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2451,7 +5159,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2461,7 +5173,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.ScriptMachineFilterEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ScriptMachineFilterEvent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2471,7 +5187,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.SetMaterialColor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.SetMaterialColor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2481,7 +5201,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.SetMaterialFloat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.SetMaterialFloat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2491,7 +5215,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.Data.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.Data",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2501,7 +5229,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.TargetType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>.TargetType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2511,7 +5243,39 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.TargetEventUnit-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.TargetEventUnit<TArgs>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.VisualScriptingBridge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.VisualScriptingBridge-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.VisualScriptingBridge<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.VisualScriptingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.VisualScriptingManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.VisualScriptingManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2521,7 +5285,11 @@
           "relative_path": "api/ToolkitEngine.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2531,7 +5299,11 @@
           "relative_path": "api/ToolkitEngine.WaveSpawner.NextMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.WaveSpawner.NextMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2541,7 +5313,11 @@
           "relative_path": "api/ToolkitEngine.WaveSpawner.Wave.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.WaveSpawner.Wave",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2551,7 +5327,25 @@
           "relative_path": "api/ToolkitEngine.WaveSpawner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.WaveSpawner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.WorldCanvasScaler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.WorldCanvasScaler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.WorldCanvasScaler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2561,7 +5355,39 @@
           "relative_path": "api/ToolkitEngine.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tourbus.VisualScripting.WaitForSeconds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tourbus.VisualScripting.WaitForSeconds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tourbus.VisualScripting.WaitForSeconds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tourbus.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tourbus.VisualScripting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tourbus.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2571,7 +5397,11 @@
           "relative_path": "api/Unity.VisualScripting.Count.Data.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Unity.VisualScripting.Count.Data",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2581,7 +5411,11 @@
           "relative_path": "api/Unity.VisualScripting.Count.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Unity.VisualScripting.Count",
+      "Summary": "<p sourcefile=\"api/Unity.VisualScripting.Count.yml\" sourcestartlinenumber=\"1\">Executes an action only once, and a different action afterwards.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2591,7 +5425,11 @@
           "relative_path": "api/Unity.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Unity.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2601,7 +5439,11 @@
           "relative_path": "api/UnityEditor.EditorGUILayoutUtility.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEditor.EditorGUILayoutUtility",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2611,7 +5453,11 @@
           "relative_path": "api/UnityEditor.EditorGUIRectLayout.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEditor.EditorGUIRectLayout",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2621,7 +5467,11 @@
           "relative_path": "api/UnityEditor.SerializedPropertyUtility.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEditor.SerializedPropertyUtility",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2631,7 +5481,11 @@
           "relative_path": "api/UnityEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2641,7 +5495,11 @@
           "relative_path": "api/UnityEngine.AI.NavMeshAgentExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.AI.NavMeshAgentExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2651,7 +5509,11 @@
           "relative_path": "api/UnityEngine.AI.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.AI",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2661,7 +5523,11 @@
           "relative_path": "api/UnityEngine.DontDestroyOnLoad.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.DontDestroyOnLoad",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2671,7 +5537,11 @@
           "relative_path": "api/UnityEngine.GameObjectExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.GameObjectExt",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2681,7 +5551,11 @@
           "relative_path": "api/UnityEngine.IWeightedItem-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.IWeightedItem<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2691,7 +5565,11 @@
           "relative_path": "api/UnityEngine.InputSystem.InputActionPropertyExt.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.InputSystem.InputActionPropertyExt",
+      "Summary": "<p sourcefile=\"api/UnityEngine.InputSystem.InputActionPropertyExt.yml\" sourcestartlinenumber=\"1\">Extension methods for InputActionProperty.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2701,7 +5579,11 @@
           "relative_path": "api/UnityEngine.InputSystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.InputSystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2711,7 +5593,11 @@
           "relative_path": "api/UnityEngine.MathUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.MathUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2721,7 +5607,11 @@
           "relative_path": "api/UnityEngine.RandomUtil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.RandomUtil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2731,7 +5621,11 @@
           "relative_path": "api/UnityEngine.Singleton-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.Singleton<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2741,7 +5635,11 @@
           "relative_path": "api/UnityEngine.SingletonEventHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.SingletonEventHandler<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2751,7 +5649,11 @@
           "relative_path": "api/UnityEngine.UI.CameraImage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.UI.CameraImage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2761,7 +5663,11 @@
           "relative_path": "api/UnityEngine.UI.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.UI",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2771,7 +5677,11 @@
           "relative_path": "api/UnityEngine.Vector3Ext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine.Vector3Ext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2781,7 +5691,11 @@
           "relative_path": "api/UnityEngine.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnityEngine",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -2797,11 +5711,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -2820,11 +5734,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -2853,31 +5767,111 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/DialogueTypeAndPriority.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/DialogueTypeAndPriority.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/ObjectSpawner.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/ObjectSpawner.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Quest.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Quest.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/SensorFilters.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/SensorFilters.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/StatusEffect.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/StatusEffect.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/StatusEffectControl.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/StatusEffectControl.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/TimedCurve.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/TimedCurve.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Transmissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Transmissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/XP.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/XP.png"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/readme.md",
+      "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/readme.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/scoring.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/scoring.html"
+          "relative_path": "manual/index.html"
         }
       },
       "version": ""
@@ -2886,11 +5880,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

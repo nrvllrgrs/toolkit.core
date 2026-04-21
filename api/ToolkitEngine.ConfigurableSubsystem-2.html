@@ -135,7 +135,8 @@ Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-seco
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
-      <div><a class="xref" href="ToolkitEngine.InstantiableSubsystem-2.html">InstantiableSubsystem&lt;T, TConfig&gt;</a></div>
+      <div><a class="xref" href="ToolkitEngine.MusicManager.html">MusicManager</a></div>
+      <div><a class="xref" href="ToolkitEngine.PersistentSubsystem.html">PersistentSubsystem</a></div>
       <div><a class="xref" href="ToolkitEngine.PoolItemManager.html">PoolItemManager</a></div>
     </dd>
   </dl>
@@ -147,10 +148,13 @@ Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-seco
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instance">Subsystem&lt;T&gt;.Instance</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Exists">Subsystem&lt;T&gt;.Exists</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CastInstance">Subsystem&lt;T&gt;.CastInstance</a>
     </div>
     <div>
-      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Instantiate">Subsystem&lt;T&gt;.Instantiate()</a>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_New">Subsystem&lt;T&gt;.New()</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Initialize">Subsystem&lt;T&gt;.Initialize()</a>
@@ -166,6 +170,15 @@ Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-seco
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_LateUpdate">Subsystem&lt;T&gt;.LateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_CanAssign__1___0_">Subsystem&lt;T&gt;.CanAssign&lt;K&gt;(K)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action_">Subsystem&lt;T&gt;.SetValue&lt;K&gt;(ref K, K, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_SetValue__1___0____0_System_Action___0__">Subsystem&lt;T&gt;.SetValue&lt;K&gt;(ref K, K, Action&lt;K&gt;)</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Subsystem-1.html#ToolkitEngine_Subsystem_1_Dispose">Subsystem&lt;T&gt;.Dispose()</a>
@@ -216,7 +229,7 @@ Class ConfigurableSubsystem&lt;T, TConfig&gt;  <a class="header-action link-seco
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TConfig Config { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static TConfig Config { get; }</code></pre>
   </div>
 
 

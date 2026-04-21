@@ -153,16 +153,50 @@ Class InputActionPropertyExt  <a class="header-action link-secondary" title="Vie
 </h2>
 
 
+  <a id="UnityEngine_InputSystem_InputActionPropertyExt_Disable_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.Disable*"></a>
+
+  <h3 id="UnityEngine_InputSystem_InputActionPropertyExt_Disable_InputActionProperty_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.Disable(InputActionProperty)">
+  Disable(InputActionProperty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Disable the action held on to by the <code class="paramref">property</code> regardless of whether
+it's a direct action or a reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Disable(this InputActionProperty property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <span class="xref">InputActionProperty</span></dt>
+    <dd><p>The property to operate on.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UnityEngine_InputSystem_InputActionPropertyExt_DisableDirectAction_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.DisableDirectAction*"></a>
 
   <h3 id="UnityEngine_InputSystem_InputActionPropertyExt_DisableDirectAction_InputActionProperty_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.DisableDirectAction(InputActionProperty)">
   DisableDirectAction(InputActionProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Disable the action held on to by the <code class="paramref">property</code> only if it represents
 an InputAction directly. In other words, function will do nothing if the action
-has a non-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>InputActionProperty.reference property.</p>
+has a non-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> InputActionProperty.reference property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -193,16 +227,50 @@ elsewhere.</p>
 
 
 
+  <a id="UnityEngine_InputSystem_InputActionPropertyExt_Enable_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.Enable*"></a>
+
+  <h3 id="UnityEngine_InputSystem_InputActionPropertyExt_Enable_InputActionProperty_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.Enable(InputActionProperty)">
+  Enable(InputActionProperty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enable the action held on to by the <code class="paramref">property</code> regardless of whether
+it's a direct action or a reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Enable(this InputActionProperty property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <span class="xref">InputActionProperty</span></dt>
+    <dd><p>The property to operate on.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UnityEngine_InputSystem_InputActionPropertyExt_EnableDirectAction_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.EnableDirectAction*"></a>
 
   <h3 id="UnityEngine_InputSystem_InputActionPropertyExt_EnableDirectAction_InputActionProperty_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.EnableDirectAction(InputActionProperty)">
   EnableDirectAction(InputActionProperty)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Enable the action held on to by the <code class="paramref">property</code> only if it represents
 an InputAction directly. In other words, function will do nothing if the action
-has a non-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>InputActionProperty.reference property.</p>
+has a non-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> InputActionProperty.reference property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -229,6 +297,47 @@ has a non-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/
 a MonoBehaviour to be owned by the behavior itself, but let a reference type be managed
 elsewhere.</p>
 </div>
+
+
+
+
+  <a id="UnityEngine_InputSystem_InputActionPropertyExt_ReadValue_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.ReadValue*"></a>
+
+  <h3 id="UnityEngine_InputSystem_InputActionPropertyExt_ReadValue__1_InputActionProperty_" data-uid="UnityEngine.InputSystem.InputActionPropertyExt.ReadValue``1(InputActionProperty)">
+  ReadValue&lt;T&gt;(InputActionProperty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Extensions/InputActionPropertyExt.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ReadValue&lt;T&gt;(this InputActionProperty property) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <span class="xref">InputActionProperty</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
 

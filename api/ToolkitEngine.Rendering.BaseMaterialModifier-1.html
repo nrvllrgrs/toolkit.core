@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Rendering_BaseMaterialModifier_1" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1" class="text-break">
-Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L67"><i class="bi bi-code-slash"></i></a>
+Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -127,6 +127,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
     <dd>
       <div><a class="xref" href="ToolkitEngine.Rendering.ColorMaterialModifier.html">ColorMaterialModifier</a></div>
       <div><a class="xref" href="ToolkitEngine.Rendering.FloatMaterialModifier.html">FloatMaterialModifier</a></div>
+      <div><a class="xref" href="ToolkitEngine.Rendering.IntMaterialModifier.html">IntMaterialModifier</a></div>
     </dd>
   </dl>
 
@@ -152,6 +153,9 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_materials">BaseMaterialModifier.m_materials</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_graphics">BaseMaterialModifier.m_graphics</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Rendering.BaseMaterialModifier.html#ToolkitEngine_Rendering_BaseMaterialModifier_m_applyOnEnable">BaseMaterialModifier.m_applyOnEnable</a>
     </div>
     <div>
@@ -172,7 +176,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_Awake" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.Awake">
   Awake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -194,11 +198,47 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
 
 
+  <a id="ToolkitEngine_Rendering_BaseMaterialModifier_1_GetGraphicMaterial_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.GetGraphicMaterial*"></a>
+
+  <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_GetGraphicMaterial_Graphic_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.GetGraphicMaterial(Graphic)">
+  GetGraphicMaterial(Graphic)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Material GetGraphicMaterial(Graphic graphic)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>graphic</code> <span class="xref">Graphic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Material</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Rendering_BaseMaterialModifier_1_GetValue_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.GetValue*"></a>
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_GetValue_System_Single_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.GetValue(System.Single)">
   GetValue(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -234,7 +274,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_OnDestroy" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.OnDestroy">
   OnDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -260,7 +300,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_OnEnable" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.OnEnable">
   OnEnable()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,7 +326,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_Set_Material__0_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.Set(Material,`0)">
   Set(Material, T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L283"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -319,7 +359,7 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
 
   <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_Set_System_Single_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.Set(System.Single)">
   Set(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -335,6 +375,48 @@ Class BaseMaterialModifier&lt;T&gt;  <a class="header-action link-secondary" tit
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Rendering_BaseMaterialModifier_1_SetGraphic_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.SetGraphic*"></a>
+
+  <h3 id="ToolkitEngine_Rendering_BaseMaterialModifier_1_SetGraphic_Graphic__0_" data-uid="ToolkitEngine.Rendering.BaseMaterialModifier`1.SetGraphic(Graphic,`0)">
+  SetGraphic(Graphic, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/Rendering/BaseMaterialModifier.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called for each Graphic before falling through to material-level Set.
+Override to handle Graphic subclasses that don't use material properties
+Return true if the value was applied directly to the Graphic,
+false to fall through to the normal material path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SetGraphic(Graphic graphic, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>graphic</code> <span class="xref">Graphic</span></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

@@ -117,6 +117,9 @@ Interface IInstantiableSubsystem  <a class="header-action link-secondary" title=
       <a class="xref" href="ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Instance">ISubsystem.Instance</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Exists">ISubsystem.Exists</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.ISubsystem.html#ToolkitEngine_ISubsystem_Update">ISubsystem.Update()</a>
     </div>
     <div>
@@ -139,10 +142,10 @@ Interface IInstantiableSubsystem  <a class="header-action link-secondary" title=
 </h2>
 
 
-  <a id="ToolkitEngine_IInstantiableSubsystem_GetInstance_" data-uid="ToolkitEngine.IInstantiableSubsystem.GetInstance*"></a>
+  <a id="ToolkitEngine_IInstantiableSubsystem_Instantiate_" data-uid="ToolkitEngine.IInstantiableSubsystem.Instantiate*"></a>
 
-  <h3 id="ToolkitEngine_IInstantiableSubsystem_GetInstance" data-uid="ToolkitEngine.IInstantiableSubsystem.GetInstance">
-  GetInstance()
+  <h3 id="ToolkitEngine_IInstantiableSubsystem_Instantiate" data-uid="ToolkitEngine.IInstantiableSubsystem.Instantiate">
+  Instantiate()
   <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystem.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -150,15 +153,10 @@ Interface IInstantiableSubsystem  <a class="header-action link-secondary" title=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameObject GetInstance()</code></pre>
+    <pre><code class="lang-csharp hljs">void Instantiate()</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">GameObject</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -170,27 +168,37 @@ Interface IInstantiableSubsystem  <a class="header-action link-secondary" title=
 
 
 
-  <a id="ToolkitEngine_IInstantiableSubsystem_SetInstance_" data-uid="ToolkitEngine.IInstantiableSubsystem.SetInstance*"></a>
+  <a id="ToolkitEngine_IInstantiableSubsystem_Instantiate_" data-uid="ToolkitEngine.IInstantiableSubsystem.Instantiate*"></a>
 
-  <h3 id="ToolkitEngine_IInstantiableSubsystem_SetInstance_GameObject_" data-uid="ToolkitEngine.IInstantiableSubsystem.SetInstance(GameObject)">
-  SetInstance(GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystem.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_IInstantiableSubsystem_Instantiate__1___0_" data-uid="ToolkitEngine.IInstantiableSubsystem.Instantiate``1(``0)">
+  Instantiate&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.core/blob/master/Runtime/System/Subsystem/IInstantiableSubsystem.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetInstance(GameObject instance)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Instantiate&lt;T&gt;(T template) where T : Object</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">GameObject</span></dt>
+    <dt><code>template</code> <span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
 
 
