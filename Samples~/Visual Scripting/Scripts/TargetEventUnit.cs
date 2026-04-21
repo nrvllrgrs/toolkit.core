@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 
 namespace ToolkitEngine.VisualScripting
 {
@@ -22,7 +23,7 @@ namespace ToolkitEngine.VisualScripting
 		public TargetType type;
 
 		private TArgs m_eventArgs;
-		private GraphReference m_graph;
+		private readonly HashSet<GraphReference> m_graphs = new();
 
 		#endregion
 
@@ -128,10 +129,14 @@ namespace ToolkitEngine.VisualScripting
 					break;
 
 				case TargetType.Global:
-					if (register && m_graph == null)
+					var reference = stack.AsReference();
+					if (!m_graphs.Contains(reference))
 					{
-						m_graph = stack.AsReference();
-						StartListeningToManager();
+						if (m_graphs.Count == 0)
+						{
+							StartListeningToManager();
+						}
+						m_graphs.Add(reference);
 					}
 					break;
 			}
@@ -151,10 +156,14 @@ namespace ToolkitEngine.VisualScripting
 					break;
 
 				case TargetType.Global:
-					if (register && m_graph != null)
+					if (register)
 					{
-						StopListeningToManager();
-						m_graph = null;
+						var reference = stack.AsReference();
+						m_graphs.Remove(reference);
+						if (m_graphs.Count == 0)
+						{
+							StopListeningToManager(); // unsubscribe only when all machines are gone
+						}
 					}
 					break;
 			}
@@ -163,9 +172,22 @@ namespace ToolkitEngine.VisualScripting
 		protected abstract void StartListeningToManager();
 		protected abstract void StopListeningToManager();
 
+		protected void InvokeTrigger(TArgs e)
+		{
+			var cachedGraphs = new HashSet<GraphReference>(m_graphs);
+			foreach (var graph in cachedGraphs)
+			{
+				Trigger(graph, e);
+			}
+		}
+
 		protected void InvokeTrigger(object sender, TArgs e)
 		{
-			Trigger(m_graph, e);
+			var cachedGraphs = new HashSet<GraphReference>(m_graphs);
+			foreach (var graph in cachedGraphs)
+			{
+				Trigger(graph, e);
+			}
 		}
 
 		protected override void AssignArguments(Flow flow, TArgs args)

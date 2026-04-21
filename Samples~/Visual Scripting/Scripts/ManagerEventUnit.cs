@@ -65,6 +65,11 @@ namespace ToolkitEngine.VisualScripting
 		protected abstract void StartListeningToManager();
 		protected abstract void StopListeningToManager();
 
+		protected void InvokeTrigger(TArgs e)
+		{
+			Trigger(m_graph, e);
+		}
+
 		protected void InvokeTrigger(object sender, TArgs e)
 		{
 			Trigger(m_graph, e);

@@ -37,6 +37,23 @@ namespace ToolkitEditor.VisualScripting
 				typeof(ToolkitEngine.ShaderUtil),
 				typeof(ScriptMachineFilter),
 				typeof(ScriptMachineEvaluator),
+
+				// Property
+				typeof(PropertyCollection),
+				typeof(BaseProperty),
+				typeof(BaseProperty<>),
+				typeof(BoolProperty),
+				typeof(ColorProperty),
+				typeof(FloatProperty),
+				typeof(IntProperty),
+				typeof(ObjectProperty),
+				typeof(ObjectProperty<>),
+				typeof(StringProperty),
+				typeof(Vector2Property),
+				typeof(Vector2IntProperty),
+				typeof(Vector3Property),
+				typeof(Vector3IntProperty),
+				typeof(Vector4Property),
 			};
 
 			Initialize(new[]
