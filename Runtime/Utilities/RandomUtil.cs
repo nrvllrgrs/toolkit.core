@@ -67,10 +67,10 @@ namespace UnityEngine
 				Mathf.Cos(u) * Mathf.Sin(v));
 		}
 
-		public static int WeightedRandomIndex<T>(this IEnumerable<T> items, System.Func<T, float> getWeight)
+		public static int WeightedRandomIndex<T>(this IEnumerable<T> items, System.Func<T, float> getWeight, System.Random random = null)
 		{
 			float totalWeights = items.Select(x => getWeight(x)).Sum();
-			float value = Random.Range(0f, totalWeights);
+			float value = Next(0f, totalWeights, random);
 
 			int count = items.Count();
 			for (int i = 0; i < count - 1; ++i)
@@ -84,32 +84,32 @@ namespace UnityEngine
 			return items.Count() - 1;
 		}
 
-		public static int WeightedRandomIndex(this IEnumerable<float> weights)
+		public static int WeightedRandomIndex(this IEnumerable<float> weights, System.Random random = null)
 		{
-			return WeightedRandomIndex(weights, (x) => x);
+			return WeightedRandomIndex(weights, (x) => x, random);
 		}
 
-		public static T WeightedRandom<T>(this IEnumerable<T> items, Func<T, float> getWeight)
+		public static T WeightedRandom<T>(this IEnumerable<T> items, Func<T, float> getWeight, System.Random random = null)
 		{
-			int index = items.Select(x => getWeight(x)).WeightedRandomIndex();
+			int index = items.Select(x => getWeight(x)).WeightedRandomIndex(random);
 			if (!index.Between(0, items.Count()))
 				return default;
 
 			return items.ElementAt(index);
 		}
 
-		public static T WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items)
+		public static T WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items, System.Random random = null)
 		{
-			return WeightedRandom(items, (x) => x.weight).item;
+			return WeightedRandom(items, (x) => x.weight, random).item;
 		}
 
-		public static T[] WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items, int count)
+		public static T[] WeightedRandom<T>(this IEnumerable<IWeightedItem<T>> items, int count, System.Random random = null)
 		{
 			var result = new List<T>();
 			var modifiedItems = new List<IWeightedItem<T>>(items);
 			for (int i = 0; i < count; ++i)
 			{
-				int index = modifiedItems.Select(x => x.weight).WeightedRandomIndex();
+				int index = modifiedItems.Select(x => x.weight).WeightedRandomIndex(random);
 
 				// Add selected item to result
 				result.Add(modifiedItems[index].item);
