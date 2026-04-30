@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Events;
 using DG.Tweening;
 using DG.Tweening.Core;
@@ -79,15 +79,6 @@ namespace ToolkitEngine
 			{
 				value = Mathf.Clamp(value, 0f, m_duration);
 
-				if (Mathf.Approximately(value, m_duration))
-				{
-					tweener.fullPosition = tweener.endValue;
-				}
-				else if (Mathf.Approximately(value, 0f))
-				{
-					tweener.fullPosition = 0f;
-				}
-
 				// No change, skip
 				if (m_time == value)
 					return;
@@ -98,6 +89,8 @@ namespace ToolkitEngine
 
 				if (Mathf.Approximately(time, m_duration))
 				{
+					tweener.fullPosition = tweener.endValue;
+
 					if (isPlaying && !tweener.isBackwards)
 					{
 						Wrap(m_curve.postWrapMode);
@@ -106,6 +99,8 @@ namespace ToolkitEngine
 				}
 				else if (Mathf.Approximately(time, 0f))
 				{
+					tweener.fullPosition = 0f;
+
 					if (isPlaying && tweener.isBackwards)
 					{
 						Wrap(m_curve.preWrapMode);
