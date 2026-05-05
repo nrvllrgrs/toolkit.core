@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.Localization;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
+
+#if USE_UNITY_LOCALIZATION
+using UnityEditor.Localization;
 
 namespace ToolkitEditor
 {
@@ -572,3 +574,4 @@ namespace ToolkitEditor
 		}
 	}
 }
+#endif
