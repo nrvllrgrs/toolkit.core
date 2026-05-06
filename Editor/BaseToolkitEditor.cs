@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using System.Drawing;
 
 namespace ToolkitEditor
 {
@@ -83,6 +84,11 @@ namespace ToolkitEditor
 				EditorGUI.EndDisabledGroup();
 			}
 			EditorGUILayout.EndHorizontal();
+		}
+
+		public static void DrawIconProperty(SerializedProperty property)
+		{
+			EditorGUILayout.ObjectField(property, typeof(Sprite), GUILayout.Height(64), GUILayout.Width(64 + EditorGUIUtility.labelWidth));
 		}
 
 		#endregion
